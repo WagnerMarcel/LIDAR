@@ -1,0 +1,365 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdftex 2017.8.17)  5 OCT 2018 13:47
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**einstellungen.tex
+(./einstellungen.tex
+./einstellungen.tex:17: Undefined control sequence.
+l.17 \setzesprache
+                  {de} % oder en
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./einstellungen.tex:24: Undefined control sequence.
+l.24 \setzemartrikelnr
+                      {-todo-}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./einstellungen.tex:25: Undefined control sequence.
+l.25 \setzekurs
+               {-todo-}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./einstellungen.tex:26: Undefined control sequence.
+l.26 \setzetitel
+                {-todo-}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./einstellungen.tex:27: Undefined control sequence.
+l.27 \setzedatumAbgabe
+                      {-todo-}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./einstellungen.tex:28: Undefined control sequence.
+l.28 \setzefirma
+                {Robert Bosch GmbH}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./einstellungen.tex:29: Undefined control sequence.
+l.29 \setzefirmenort
+                    {-todo-}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./einstellungen.tex:30: Undefined control sequence.
+l.30 \setzeabgabeort
+                    {Stuttgart}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./einstellungen.tex:32: Undefined control sequence.
+l.32 \setzestudiengang
+                      {-todo-}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./einstellungen.tex:33: Undefined control sequence.
+l.33 \setzedhbw
+               {Stuttgart}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./einstellungen.tex:34: Undefined control sequence.
+l.34 \setzebetreuer
+                   {-todo-}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./einstellungen.tex:35: Undefined control sequence.
+l.35 \setzezeitraum
+                   {-todo-}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./einstellungen.tex:36: Undefined control sequence.
+l.36 \setzearbeit
+                 {Praktikumsarbeit}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./einstellungen.tex:37: Undefined control sequence.
+l.37 \setzeautor
+                {-todo-}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./einstellungen.tex:39: Undefined control sequence.
+l.39 \inhalttrue
+                                 % auskommentieren oder ändern zu \inhaltfal...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./einstellungen.tex:40: Undefined control sequence.
+l.40 \unterschriftenblatttrue
+                                 % auskommentieren oder ändern zu \unterschr...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./einstellungen.tex:41: Undefined control sequence.
+l.41 \selbsterkltrue
+                                 % auskommentieren oder ändern zu \selbsterk...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./einstellungen.tex:42: Undefined control sequence.
+l.42 \sperrvermerktrue
+                                 % auskommentieren oder ändern zu \sperrverm...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./einstellungen.tex:43: Undefined control sequence.
+l.43 \abkverztrue
+                                 % auskommentieren oder ändern zu \abkverzfa...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./einstellungen.tex:44: Undefined control sequence.
+l.44 \abbverztrue
+                                 % auskommentieren oder ändern zu \abbverzfa...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./einstellungen.tex:45: Undefined control sequence.
+l.45 \tableverztrue
+                                 % auskommentieren oder ändern zu \tableverz...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./einstellungen.tex:46: Undefined control sequence.
+l.46 \listverztrue
+                                 % auskommentieren oder ändern zu \listverzf...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./einstellungen.tex:47: Undefined control sequence.
+l.47 \formelverztrue
+                                 % auskommentieren oder ändern zu \formelver...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./einstellungen.tex:48: Undefined control sequence.
+l.48 \abstracttrue
+                                 % auskommentieren oder ändern zu \abstractf...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./einstellungen.tex:49: Undefined control sequence.
+l.49 \bothabstractstrue
+                                 % auskommentieren oder ändern zu \bothabstr...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./einstellungen.tex:50: Undefined control sequence.
+l.50 \appendixtrue
+                                 % auskommentieren oder ändern zu \appendixf...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./einstellungen.tex:51: Undefined control sequence.
+l.51 \literaturtrue
+                                 % auskommentieren oder ändern zu \literatur...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./einstellungen.tex:52: Undefined control sequence.
+l.52 \glossartrue
+                                 % auskommentieren oder ändern zu \glossarfa...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./einstellungen.tex:53: Undefined control sequence.
+l.53 \watermarkfalse
+                                 % auskommentieren oder ändern zu \watermark...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./einstellungen.tex:55: Undefined control sequence.
+l.55 \refWithPagesfalse
+                                 % ändern zu \refWithPagestrue, wenn die Sei...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./einstellungen.tex:61: Undefined control sequence.
+l.61 \yellowdottrue
+                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./einstellungen.tex:69: Undefined control sequence.
+l.69 \newcommand
+                {\ladeliteratur}{%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./einstellungen.tex:69: Undefined control sequence.
+l.69 \newcommand{\ladeliteratur
+                               }{%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./einstellungen.tex:70: Undefined control sequence.
+l.70 \addbibresource
+                    {bibliographie.bib}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./einstellungen.tex:77: Undefined control sequence.
+l.77 \setzezitierstil
+                     {alphabetic}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./einstellungen.tex:83: Undefined control sequence.
+l.83 \setzeschriftart
+                     {lmodern} % palatino oder goudysans, lmodern, libertine
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./einstellungen.tex:86: Undefined control sequence.
+l.86 \setzekapitelabstand
+                         {20pt}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./einstellungen.tex:89: Undefined control sequence.
+l.89 \setzespaltenabstand
+                         {10pt}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./einstellungen.tex:91: Undefined control sequence.
+l.91 \setzezeilenabstand
+                        {1.5}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+)
+! Emergency stop.
+<*> einstellungen.tex
+                     
+*** (job aborted, no legal \end found)
+
+!  ==> Fatal error occurred, no output PDF file produced!
