@@ -1,0 +1,57 @@
+%% Matlab Modell zur Bestimmung von Punkteverteilung eines LIDAR Systems
+
+%% Raumbedingungen
+L_l = 600; % Länge der Wand in cm
+L_h = 300; % Höhe der Wand in cm
+L_b = 500; % Abstand zur Wand in cm
+
+A_ges = 2*(L_l*L_h) + 2*(L_b*L_h) + 2*(L_l*L_b); % Gesamtfläche
+A_wand = L_l*L_h; % Fläche der langen Wand
+Verhaeltnis = A_wand/A_ges; % Verhälnis Fläche der langen Wand zu Gesamtfläche
+
+W_l_l = (2*atan((L_l/2)/(L_b/2))*360)/(2*pi); % Winkel, in welchem die Wand horizontal ist
+W_l_h = (atan((L_h/2)/(L_b/2))*360)/(2*pi); % Winkel, in welchem die Wand vertikal ist
+
+%% Zeitbedingungen
+T_max = 3600; % Maximale Messdauer in Sekunden
+
+%% Sensor-/Mechanikbedingungen
+F_sensor = 50; % Frequenz des Sensors
+Microsteps = 16; % Microsteps des Schrittmotortreibers
+Schrittmotor_winkel = 1.8;
+Schrittmotor_kleinste_Aufloesung = Schrittmotor_winkel/16;
+
+%% Rahmenberechnungen
+P_t = T_max*F_sensor; % Punkte pro maximal Zeit
+
+W_h = Schrittmotor_winkel / Microsteps; % Horizontale Winkelauflösung
+S_h = 360/W_h; % Horizontale Schritte gesamt
+S_h_w = floor(W_l_l/W_h); % Horizontale Schritte auf der Wand
+
+S_v = P_t/S_h; % Vertikale Schritte
+W_v = floor((180/S_v)/Schrittmotor_kleinste_Aufloesung)*Schrittmotor_kleinste_Aufloesung; % Vertikale Winkelauflösung
+S_v_w = floor(W_l_h/W_v); % Vertikale Schritte auf der Wand
+P_w = P_t * Verhaeltnis; % Punkte auf der Wand
+
+
+%% Berechnung
+E_x=zeros(S_h_w/2,S_v_w);
+E_z=zeros(S_h_w/2,S_v_w);
+
+for i = 1:1:(S_h_w/2)
+    for j = 1:1:S_v_w
+        E_x(i,j)=tan(i*W_h)*L_b/2;
+        E_z(i,j)=tan(j*W_v)*(L_b/(2*cos(i*W_h)));
+    end
+end
+
+
+
+%% Plot
+for i = 1:1:(S_h_w/2)
+    for j = 1:1:S_v_w
+        plot(E_z(i,j),E_x(i,j), '*r');
+        hold on;
+        axis([0 L_l/2 0 L_h]);
+    end
+end
