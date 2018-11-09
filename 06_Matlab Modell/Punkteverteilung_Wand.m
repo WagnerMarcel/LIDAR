@@ -33,11 +33,12 @@ S_h_w = floor(W_l_l/W_h); % Horizontale Schritte auf der Wand
 S_v = P_t/S_h; % Vertikale Schritte
 W_v = floor((180/S_v)/Schrittmotor_kleinste_Aufloesung)*Schrittmotor_kleinste_Aufloesung; % Vertikale Winkelauflösung
 S_v_w = floor(W_l_h/W_v); % Vertikale Schritte auf der Wand
-P_w = P_t * Verhaeltnis; % Punkte auf der Wand
+P_w = P_t * Verhaeltnis % Punkte auf der Wand
 
 %% Berechnung
 E_x=zeros(S_h_w,S_v_w); % Initialisieren der Matrix für die X-Werte
 E_z=zeros(S_h_w,S_v_w); % Initialisieren der Matrix für die Z-Werte
+M = zeros(floor(S_v_w*S_h_w),3);
 
 figure();
 hold on; % Festhalten der Werte
@@ -45,8 +46,12 @@ for i = -(S_h_w/2):1:(S_h_w/2)
     for j = 1:1:S_v_w
         E_x(i+1+(S_h_w/2),j)=tan(deg2rad(i*W_h))*L_b/2; % Berechnung der X-Werte
         E_z(i+1+(S_h_w/2),j)=tan(deg2rad(j*W_v))*(L_b/(2*cos(deg2rad(i*W_h)))); % Berechnung der Z-Werte
+        M(S_v_w*(i+(S_h_w/2)) + j, 1) = deg2rad(i*W_h);
+        M(S_v_w*(i+(S_h_w/2)) + j, 2) = deg2rad(j*W_v);
+        M(S_v_w*(i+(S_h_w/2)) + j, 3) = sqrt((L_b/2)*(L_b/2) + E_x(i+1+(S_h_w/2),j)*E_x(i+1+(S_h_w/2),j) + E_z(i+1+(S_h_w/2),j)*E_z(i+1+(S_h_w/2),j));
         plot(E_x(i+1+(S_h_w/2),j),E_z(i+1+(S_h_w/2),j), '*r'); % Zeichnen der Punkte
     end
 end
-axis([-L_l/2 L_l/2 0 L_h]); % Einstellen der Achsen
+csvwrite('file4.txt',M);
+axis([-L_l/2 L_l/2 0 2*L_h]); % Einstellen der Achsen
 

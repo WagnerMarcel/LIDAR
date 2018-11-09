@@ -18,28 +18,105 @@
 
 
 \refsection{0}
-  \sortlist[entry]{anyt/global/}
-    \entry{ToF_TUBerlin}{online}{}
-      \name{author}{1}{}{%
-        {{hash=5a8f343eb8eb81792fd0dc42aa10ba73}{%
-           family={Nikolai\bibnamedelima Kutscher},
-           familyi={N\bibinitperiod\bibinitdelim K\bibinitperiod},
-           given={Beate\bibnamedelima Mielke},
-           giveni={B\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+  \sortlist[entry]{nty/global/}
+    \entry{Tabellenbuch}{book}{}
+      \name{author}{8}{}{%
+        {{hash=0202ff266931ad74f670acc5a8d3a171}{%
+           family={Fischer},
+           familyi={F\bibinitperiod},
+           given={Ulrich},
+           giveni={U\bibinitperiod}}}%
+        {{hash=dadaf882a175567a29237eedcbb45b2f}{%
+           family={Heinzler},
+           familyi={H\bibinitperiod},
+           given={Max},
+           giveni={M\bibinitperiod}}}%
+        {{hash=6435cd0c7dd44de93018986423ee5fe2}{%
+           family={Näher},
+           familyi={N\bibinitperiod},
+           given={Friedrich},
+           giveni={F\bibinitperiod}}}%
+        {{hash=853c646524780267f1f481dd91b992b1}{%
+           family={Paetzold},
+           familyi={P\bibinitperiod},
+           given={Heinz},
+           giveni={H\bibinitperiod}}}%
+        {{hash=4b394b39f6f5d7e666818ceb76d65ea5}{%
+           family={Gomeringer},
+           familyi={G\bibinitperiod},
+           given={Roland},
+           giveni={R\bibinitperiod}}}%
+        {{hash=df01f3949b18a2e3c85b648d711d37e5}{%
+           family={Kilgus},
+           familyi={K\bibinitperiod},
+           given={Roland},
+           giveni={R\bibinitperiod}}}%
+        {{hash=4a755acd67c740436509d484198056da}{%
+           family={Oesterle},
+           familyi={O\bibinitperiod},
+           given={Stefan},
+           giveni={S\bibinitperiod}}}%
+        {{hash=6da9e8321639008a2398eb9bcefc99f5}{%
+           family={Stephan},
+           familyi={S\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod}}}%
       }
-      \strng{namehash}{5a8f343eb8eb81792fd0dc42aa10ba73}
-      \strng{fullhash}{5a8f343eb8eb81792fd0dc42aa10ba73}
-      \strng{authornamehash}{5a8f343eb8eb81792fd0dc42aa10ba73}
-      \strng{authorfullhash}{5a8f343eb8eb81792fd0dc42aa10ba73}
-      \field{labelalpha}{Nik05}
-      \field{sortinit}{N}
-      \field{sortinithash}{1163c28585427c673ad5a010cbf82f52}
+      \list{publisher}{1}{%
+        {Europa Lehrmittel}%
+      }
+      \strng{namehash}{effc051c97ef736c295a9ce837d235e9}
+      \strng{fullhash}{d127fa219b4df90da21529a5198617ac}
+      \strng{authornamehash}{effc051c97ef736c295a9ce837d235e9}
+      \strng{authorfullhash}{d127fa219b4df90da21529a5198617ac}
+      \field{sortinit}{F}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Tabellenbuch Metall}
+      \field{year}{2011}
+    \endentry
+    \entry{ToF_TUBerlin}{online}{}
+      \name{author}{2}{}{%
+        {{hash=44d1bc07bcac4d6bafc71f9e7bac9471}{%
+           family={Kutscher},
+           familyi={K\bibinitperiod},
+           given={Nikolai},
+           giveni={N\bibinitperiod}}}%
+        {{hash=1b702c727870e3bdaec64da70541c5ce}{%
+           family={Mielke},
+           familyi={M\bibinitperiod},
+           given={Beate},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{3f6197fd0e361ee2d7999a08ec1a7332}
+      \strng{fullhash}{3f6197fd0e361ee2d7999a08ec1a7332}
+      \strng{authornamehash}{3f6197fd0e361ee2d7999a08ec1a7332}
+      \strng{authorfullhash}{3f6197fd0e361ee2d7999a08ec1a7332}
+      \field{sortinit}{K}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{3D Kameras – basierend auf Lichtlaufzeitmessung}
       \field{year}{2005}
       \verb{url}
       \verb http://www.inf.fu-berlin.de/lehre/SS05/Autonome_Fahrzeuge/3dKameras.pdf
+      \endverb
+    \endentry
+    \entry{NEMA}{standard}{}
+      \list{institution}{1}{%
+        {National Electrical Manufacturers Association}%
+      }
+      \list{organization}{1}{%
+        {National Electrical Manufacturers Association}%
+      }
+      \field{sortinit}{N}
+      \field{sortinithash}{1163c28585427c673ad5a010cbf82f52}
+      \field{labeltitlesource}{title}
+      \field{title}{NEMA ICS 16}
+      \field{year}{2001}
+      \verb{url}
+      \verb https://www.nema.org/Standards/Pages/Motion-Position-Control-Motors-Controls-and-Feedback-Devices.aspx
       \endverb
     \endentry
   \endsortlist

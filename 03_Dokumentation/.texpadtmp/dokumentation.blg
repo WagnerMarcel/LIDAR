@@ -1,17 +1,17 @@
 [0] Config.pm:354> INFO - This is Biber 2.7
 [1] Config.pm:357> INFO - Logfile is '/Users/Marcel/Documents/DHBW/DH Elektrotechnik Semester 5/LIDAR/03_Dokumentation/.texpadtmp/dokumentation.blg'
-[51] biber-darwin:303> INFO - === Mon Oct 29, 2018, 15:16:41
-[78] Biber.pm:359> INFO - Reading '/Users/Marcel/Documents/DHBW/DH Elektrotechnik Semester 5/LIDAR/03_Dokumentation/.texpadtmp/dokumentation.bcf'
-[201] Biber.pm:835> INFO - Found 1 citekeys in bib section 0
-[220] Biber.pm:3670> INFO - Processing section 0
-[246] Biber.pm:3840> INFO - Looking for bibtex format file '/Users/Marcel/Documents/DHBW/DH Elektrotechnik Semester 5/LIDAR/03_Dokumentation/bibliographie.bib' for section 0
-[247] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
-[254] bibtex.pm:1292> INFO - Found BibTeX data source '/Users/Marcel/Documents/DHBW/DH Elektrotechnik Semester 5/LIDAR/03_Dokumentation/bibliographie.bib'
-[267] Utils.pm:164> WARN - BibTeX subsystem: /var/folders/1z/0ps3lqy550gffr9swt6w8p8c0000gn/T/5_OrNeZaIw/bibliographie.bib_5956.utf8, line 3, warning: 62 characters of junk seen at toplevel
-[283] UCollate.pm:68> INFO - Overriding locale 'de_DE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[283] UCollate.pm:68> INFO - Overriding locale 'de_DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[283] Biber.pm:3499> INFO - Sorting list 'anyt/global/' of type 'entry' with scheme 'anyt' and locale 'de_DE'
-[284] Biber.pm:3505> INFO - No sort tailoring available for locale 'de_DE'
-[287] bbl.pm:608> INFO - Writing '/Users/Marcel/Documents/DHBW/DH Elektrotechnik Semester 5/LIDAR/03_Dokumentation/.texpadtmp/dokumentation.bbl' with encoding 'UTF-8'
-[288] bbl.pm:712> INFO - Output to /Users/Marcel/Documents/DHBW/DH Elektrotechnik Semester 5/LIDAR/03_Dokumentation/.texpadtmp/dokumentation.bbl
-[289] Biber.pm:109> INFO - WARNINGS: 1
+[56] biber-darwin:303> INFO - === Mon Nov  5, 2018, 12:26:57
+[80] Biber.pm:359> INFO - Reading '/Users/Marcel/Documents/DHBW/DH Elektrotechnik Semester 5/LIDAR/03_Dokumentation/.texpadtmp/dokumentation.bcf'
+[206] Biber.pm:835> INFO - Found 3 citekeys in bib section 0
+[221] Biber.pm:3670> INFO - Processing section 0
+[238] Biber.pm:3840> INFO - Looking for bibtex format file '/Users/Marcel/Documents/DHBW/DH Elektrotechnik Semester 5/LIDAR/03_Dokumentation/bibliographie.bib' for section 0
+[240] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
+[245] bibtex.pm:1292> INFO - Found BibTeX data source '/Users/Marcel/Documents/DHBW/DH Elektrotechnik Semester 5/LIDAR/03_Dokumentation/bibliographie.bib'
+[258] Utils.pm:164> WARN - BibTeX subsystem: /var/folders/1z/0ps3lqy550gffr9swt6w8p8c0000gn/T/v1FROXKn_4/bibliographie.bib_13967.utf8, line 3, warning: 62 characters of junk seen at toplevel
+[271] UCollate.pm:68> INFO - Overriding locale 'de_DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[271] UCollate.pm:68> INFO - Overriding locale 'de_DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[272] Biber.pm:3499> INFO - Sorting list 'nty/global/' of type 'entry' with scheme 'nty' and locale 'de_DE'
+[272] Biber.pm:3505> INFO - No sort tailoring available for locale 'de_DE'
+[275] bbl.pm:608> INFO - Writing '/Users/Marcel/Documents/DHBW/DH Elektrotechnik Semester 5/LIDAR/03_Dokumentation/.texpadtmp/dokumentation.bbl' with encoding 'UTF-8'
+[276] bbl.pm:712> INFO - Output to /Users/Marcel/Documents/DHBW/DH Elektrotechnik Semester 5/LIDAR/03_Dokumentation/.texpadtmp/dokumentation.bbl
+[277] Biber.pm:109> INFO - WARNINGS: 1
