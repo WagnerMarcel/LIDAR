@@ -1,0 +1,42 @@
+%!TEX root = ../dokumentation.tex
+
+\chapter{Code}
+Die gewählte Sprache in welcher die Steuerung realisiert ist, ist Python. Python wurde gewählt, da mittels dieser die \acp{GPIO} des Raspberry Pi sehr einfach mittels einer Bibliothek ansteuerbar sind. Zudem ist Python eine sehr schnelle und weit verbreitete hochentwickelte Programmiersprache.\\
+Bei der Erstellung des Codes, welcher das System steuert wurde von Anfang an eine Objektorientierte Vorgehensweiße gewählt, um eine möglichst Reibungslose und fortschrittliche Umsetzung zu realisieren.\\
+Der gesamte Code wurde auf drei Dateien aufgeteilt, dies dient zum einen zur besseren Übersichtlichkeit, zum anderen erhielt jede Klasse eine eigene Datei.
+\section{Motor}
+Die erste Datei und Klasse beschäftigt sich mit der Ansteuerung der Schrittmotoren.\\
+\subsection{Konstruktor} 
+Der Konstruktor der Klasse beschäftigt sich mit der Deklaration von Variablen und dem zuweisen der dem Konstruktor übergebenen Parameter.\\
+Im Falle der Motor Klasse bekommt der Konstruktor sechs Übergabeparameter, wovon allerdings ein Parameter ('self') eine Referenz auf das eigene Objekt ist.\\
+Die restlichen übergebenen Parameter sind die \acp{GPIO}, welche für die Ansteuerung des Motortreibers benötigt werden.\\
+Bei einem Blick auf den Code des Konstruktors (Listing: \ref{motor_contructor}) sieht man die übernahme der Übergabeparameter in Klasseneigene Variablen (Zeile 2-6). Anschließend wird die Kommunikationsrichtung der \acp{GPIO} festgelegt. In diesem Fall werden alle Pins als Ausgang benötigt.\\
+Außerdem wird den \acp{GPIO} direkt ein Zustand zugewiesen, in diesem Fall ist die Konfiguration so, dass der Motor Treiber mit Achtelschritten arbeitet und den Motor gegen den  Uhrzeigersinn drehen lässt.
+\begin{lstlisting}[caption={Konstruktor der Motor Klasse}, language={Python}, label={motor_contructor}, numbers=left]
+def __init__(self, Step, Dir, MS1, MS2, MS3):
+        self.step = Step
+        self.dir = Dir
+        self.MS1 = MS1
+        self.MS2 = MS2
+        self.MS3 = MS3
+        GPIO.setup(self.step, GPIO.OUT)
+        GPIO.setup(self.dir, GPIO.OUT)
+        GPIO.setup(self.MS1, GPIO.OUT)
+        GPIO.setup(self.MS2, GPIO.OUT)
+        GPIO.setup(self.MS3, GPIO.OUT)
+        GPIO.output(self.step, GPIO.LOW)
+        GPIO.output(self.dir, GPIO.LOW)
+        GPIO.output(self.MS1, GPIO.HIGH)
+        GPIO.output(self.MS2, GPIO.HIGH)
+        GPIO.output(self.MS3, GPIO.LOW)
+\end{lstlisting}
+
+\subsection{Bewegen des Motors}
+
+
+
+\section{Lidar}
+Auch der Lidar Sensor hat eine eigene Datei sowie Klasse bekommen, dies soll dazu dienen, um später mehrere verschiedene Sensoren konfigurieren zu können und diese dann schell und einfach auswählen zu können.
+
+\section{Steuerung}
+Die dritte und letzte Datei beschäftigt sich mit der generellen Steuerung des Systems und dem Initialisieren und Aufrufen der Klassen und derer Funktionen.

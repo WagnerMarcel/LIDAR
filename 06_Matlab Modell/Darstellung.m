@@ -1,9 +1,9 @@
+% Anwendung zur Darstellung einer 3D Punktewolke aus einem LIDAR System
+clear all;
+file = 'data2019-01-22_14-36-07.csv';
 
-% for i = 1:1:60049
-%     x(i) = distance(i)*cos(deg2rad(elevation(i)))*cos(deg2rad(azimuth(i)));
-%     y(i) = distance(i)*cos(deg2rad(elevation(i)))*sin(deg2rad(azimuth(i)));
-%     z(i) = distance(i)*sin(deg2rad(elevation(i)));
-% end
+data = importdata(file,';',1); 
+data = data.data;
 
 distance = data(:,2);
 azimuth = data(:,3);
