@@ -10,7 +10,7 @@ azimuth = data(:,3);
 elevation = data(:,4);
 
 
-for i = 1:1:120049
+for i = 1:1:length(data)
     if(distance(i) < 2000)
         x(i) = -distance(i)*cos(deg2rad(elevation(i)))*cos(deg2rad(azimuth(i)));
         y(i) = distance(i)*cos(deg2rad(elevation(i)))*sin(deg2rad(azimuth(i)));
