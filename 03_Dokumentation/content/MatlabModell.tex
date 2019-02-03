@@ -1,0 +1,23 @@
+%!TEX root = ../dokumentation.tex
+
+
+\chapter{Matlab Modell}
+
+Zur Konzeptionierung des Systems und zur Auswahl der benötigten Komponenten müssen einige Vorüberlegungen angestellt werden. Die geforderte Auflösung und Genauigkeit des Lidar-Systems, sowie die Maximalzeit für das Erstellen der Punktewolke sind ausschlaggebende Parameter für die Komponentenauswahl.
+
+Die gefordete Genauigkeit sowie der vordefinierte Standardraum zur späteren Vermessung definieren hauptsächlich die Anforderungen an den Lidar Sensor. Bei gegebener Maximalzeit für einen Scan, muss zusätzlich die Messfrequenz des Sensors dementsprechend hoch sein. \\
+Die Auflösung bestimmt die minimale erreichbare Schrittweite der Schrittmotoren. Dabei muss die nicht gleichmäßige Messpunkteverteilung an einer Wand berücksichtigt werden.
+
+Das mittig im Raum aufgestellte Lidar-System nimmt eine Punktewolke des Raumes auf. Dazu soll sich der Sensor für jede Messung in zwei Achsen um einen vordefinierten Winkel weiterbewegen. Dies führt dazu, dass die Punkteverteilung trotz eines gleichbleibenden Winkels nicht homogen bleibt. 
+
+Dies
+Bsp nur Hotizontal:
+
+
+Um die gefordete Auflösung auch noch an den am weitesten vom Lidar System entfernte Stellen zu erreichn, wird ein Matlab Modell erstellt. Bei diesem können Paramter….. eingestllet werden und man erhält die Punkteverteilung der Messung eximplarisch für eine Wand.
+
+Matlab Modell einer Wand:
+
+Schwierigkeiten:
+Kompromiss finden, Punkte Zentral davor und 
+Eindeutigkeit eines PUnkes, bzw zuordnung zu einer Wand, Decke
