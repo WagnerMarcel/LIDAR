@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.8.17)  23 JAN 2019 17:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.8.17)  3 FEB 2019 18:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2640,7 +2640,7 @@ Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 78.
 Package tocbasic Info: character protrusion at toc deactivated on input line 79.
  (/Users/Marcel/Documents/DHBW/DH_Elektrotechnik_Semester_5/LIDAR/03_Dokumentation/.texpadtmp/dokumentation.toc
-Overfull \hbox (3.22041pt too wide) detected at line 8
+Overfull \hbox (3.22041pt too wide) detected at line 6
  [][][]\T1/lmss/bx/n/12 VIII[][]
  []
 
@@ -2648,6 +2648,8 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <12> on input line 18.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <8> on input line 18.
+Package acronym Info: Label `acro:APD' newly defined as it shall be overridden
+although it is yet undefined on input line 20.
 )
 \tf@toc=\write9
 \openout9 = `dokumentation.toc'.
@@ -2671,6 +2673,23 @@ Package babel Info: Redefining ngerman shorthand "~
  [6
 
 ]
+File: images/dhbw_de.pdf Graphic file (type pdf)
+<use images/dhbw_de.pdf>
+Package pdftex.def Info: images/dhbw_de.pdf  used on input line 80. on input line 80.
+Package pdftex.def Info: Requested size: 57.79497pt x 28.45274pt on input line 80.
+File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
+<use images/Bosch_Logo_DE.pdf>
+Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 80. on input line 80.
+Package pdftex.def Info: Requested size: 96.19223pt x 28.45274pt on input line 80.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 80.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 80.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 80.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 80.
+ [7]
 chapter without number
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 89.
@@ -2693,7 +2712,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 98.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 98.
- [7
+ [8
 
 
 
@@ -2706,7 +2725,7 @@ Package babel Info: Redefining ngerman shorthand "~
 Package tocbasic Info: character protrusion at lof deactivated on input line 99.
  (/Users/Marcel/Documents/DHBW/DH_Elektrotechnik_Semester_5/LIDAR/03_Dokumentation/.texpadtmp/dokumentation.lof
 Package acronym Info: Label `acro:ToF' newly defined as it shall be overridden
-although it is yet undefined on input line 10.
+although it is yet undefined on input line 16.
 )
 \tf@lof=\write10
 \openout10 = `dokumentation.lof'.
@@ -2727,7 +2746,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 104.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 104.
- [8
+ [9
 
 
 
@@ -2757,7 +2776,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 111.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 111.
- [9
+ [10
 
 
 
@@ -2787,7 +2806,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 117.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 117.
- [10
+ [11
 
 
 
@@ -2817,43 +2836,148 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 123.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 123.
- [11
+ [12
 
 
 
-] (./content/01kapitel.tex) (./content/GrundlagenLaserEntfernungsmessung.tex
+] (./content/01kapitel.tex) (./content/GrundlagenElektronik.tex
 chapter 1.
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 2.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 2.
 Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 3.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 3.
+<images/GrundlagenLaserentfernungsmessung/Photodiode.jpg, id=305, 455.7025pt x 380.42125pt>
+File: images/GrundlagenLaserentfernungsmessung/Photodiode.jpg Graphic file (type jpg)
+<use images/GrundlagenLaserentfernungsmessung/Photodiode.jpg>
+Package pdftex.def Info: images/GrundlagenLaserentfernungsmessung/Photodiode.jpg  used on input line 8. on input line 8.
+Package pdftex.def Info: Requested size: 341.43312pt x 285.03659pt on input line 8.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10.95> on input line 9.
+File: images/dhbw_de.pdf Graphic file (type pdf)
+<use images/dhbw_de.pdf>
+Package pdftex.def Info: images/dhbw_de.pdf  used on input line 13. on input line 13.
+Package pdftex.def Info: Requested size: 57.79497pt x 28.45274pt on input line 13.
+File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
+<use images/Bosch_Logo_DE.pdf>
+Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 13. on input line 13.
+Package pdftex.def Info: Requested size: 96.19223pt x 28.45274pt on input line 13.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 13.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 13.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 13.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 13.
+[1
+
+
+
+ <./images/GrundlagenLaserentfernungsmessung/Photodiode.jpg>]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 13.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 13.
+<images/GrundlagenLaserentfernungsmessung/APD.png, id=319, 278.93684pt x 202.86316pt>
+File: images/GrundlagenLaserentfernungsmessung/APD.png Graphic file (type png)
+<use images/GrundlagenLaserentfernungsmessung/APD.png>
+Package pdftex.def Info: images/GrundlagenLaserentfernungsmessung/APD.png  used on input line 17. on input line 17.
+Package pdftex.def Info: Requested size: 341.43312pt x 248.34084pt on input line 17.
+Package acronym Info: Label `acro:SPAD' newly defined as it shall be overridden
+although it is yet undefined on input line 22.
+) (./content/GrundlagenLaserEntfernungsmessung.tex
+File: images/dhbw_de.pdf Graphic file (type pdf)
+<use images/dhbw_de.pdf>
+Package pdftex.def Info: images/dhbw_de.pdf  used on input line 2. on input line 2.
+Package pdftex.def Info: Requested size: 57.79497pt x 28.45274pt on input line 2.
+File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
+<use images/Bosch_Logo_DE.pdf>
+Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 2. on input line 2.
+Package pdftex.def Info: Requested size: 96.19223pt x 28.45274pt on input line 2.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 2.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 2.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 2.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 2.
+ [2 <./images/GrundlagenLaserentfernungsmessung/APD.png>]
+File: images/dhbw_de.pdf Graphic file (type pdf)
+<use images/dhbw_de.pdf>
+Package pdftex.def Info: images/dhbw_de.pdf  used on input line 2. on input line 2.
+Package pdftex.def Info: Requested size: 57.79497pt x 28.45274pt on input line 2.
+File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
+<use images/Bosch_Logo_DE.pdf>
+Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 2. on input line 2.
+Package pdftex.def Info: Requested size: 96.19223pt x 28.45274pt on input line 2.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 2.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 2.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 2.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 2.
+ [3]
+chapter 2.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 2.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 2.
+Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 4.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 4.
-<images/GrundlagenLaserentfernungsmessung/ToF.png, id=261, 1041.8925pt x 407.5225pt>
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 5.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 5.
+<images/GrundlagenLaserentfernungsmessung/ToF.png, id=350, 1041.8925pt x 407.5225pt>
 File: images/GrundlagenLaserentfernungsmessung/ToF.png Graphic file (type png)
 <use images/GrundlagenLaserentfernungsmessung/ToF.png>
-Package pdftex.def Info: images/GrundlagenLaserentfernungsmessung/ToF.png  used on input line 8. on input line 8.
-Package pdftex.def Info: Requested size: 341.43312pt x 133.54387pt on input line 8.
+Package pdftex.def Info: images/GrundlagenLaserentfernungsmessung/ToF.png  used on input line 9. on input line 9.
+Package pdftex.def Info: Requested size: 341.43312pt x 133.54387pt on input line 9.
 
-Underfull \hbox (badness 10000) in paragraph at lines 5--11
-
- []
-
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 12.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 12.
-
-Underfull \hbox (badness 10000) in paragraph at lines 13--14
+Underfull \hbox (badness 10000) in paragraph at lines 6--12
 
  []
 
+File: images/dhbw_de.pdf Graphic file (type pdf)
+<use images/dhbw_de.pdf>
+Package pdftex.def Info: images/dhbw_de.pdf  used on input line 16. on input line 16.
+Package pdftex.def Info: Requested size: 57.79497pt x 28.45274pt on input line 16.
+File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
+<use images/Bosch_Logo_DE.pdf>
+Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 16. on input line 16.
+Package pdftex.def Info: Requested size: 96.19223pt x 28.45274pt on input line 16.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 15.
+(babel)             in language  on input line 16.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 15.
+(babel)             in language  on input line 16.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 16.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 16.
+[4
+
+ <./images/GrundlagenLaserentfernungsmessung/ToF.png>]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 22.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 22.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 28.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 28.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 31.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 31.
 ) (./content/Code.tex
 File: images/dhbw_de.pdf Graphic file (type pdf)
 <use images/dhbw_de.pdf>
@@ -2871,12 +2995,25 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 3.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 3.
- [1
-
-
-
- <./images/GrundlagenLaserentfernungsmessung/ToF.png>]
-chapter 2.
+ [5]
+File: images/dhbw_de.pdf Graphic file (type pdf)
+<use images/dhbw_de.pdf>
+Package pdftex.def Info: images/dhbw_de.pdf  used on input line 3. on input line 3.
+Package pdftex.def Info: Requested size: 57.79497pt x 28.45274pt on input line 3.
+File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
+<use images/Bosch_Logo_DE.pdf>
+Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 3. on input line 3.
+Package pdftex.def Info: Requested size: 96.19223pt x 28.45274pt on input line 3.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 3.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 3.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 3.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 3.
+ [6]
+chapter 3.
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 3.
 Package babel Info: Redefining ngerman shorthand "~
@@ -2915,7 +3052,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 21.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 21.
- [2
+ [7
 
 ]
 Package babel Info: Redefining ngerman shorthand "|
@@ -2938,7 +3075,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 44.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 44.
- [3]
+ [8]
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 59.
 Package babel Info: Redefining ngerman shorthand "~
@@ -2963,7 +3100,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 72.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 72.
- [4]
+ [9]
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 81.
 Package babel Info: Redefining ngerman shorthand "~
@@ -2985,8 +3122,8 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 2.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 2.
- [5]
-chapter 3.
+ [10]
+chapter 4.
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 2.
 Package babel Info: Redefining ngerman shorthand "~
@@ -3005,11 +3142,11 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 10.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 10.
-<images/Mechanik/ObererAufbau.png, id=344, 645.41125pt x 645.41125pt>
+<images/Mechanik/ObererAufbau.png, id=447, 645.41125pt x 645.41125pt>
 File: images/Mechanik/ObererAufbau.png Graphic file (type png)
 <use images/Mechanik/ObererAufbau.png>
 Package pdftex.def Info: images/Mechanik/ObererAufbau.png  used on input line 14. on input line 14.
-Package pdftex.def Info: Requested size: 455.24417pt x 455.24152pt on input line 14.
+Package pdftex.def Info: Requested size: 341.43312pt x 341.42621pt on input line 14.
 File: images/dhbw_de.pdf Graphic file (type pdf)
 <use images/dhbw_de.pdf>
 Package pdftex.def Info: images/dhbw_de.pdf  used on input line 17. on input line 17.
@@ -3026,7 +3163,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 17.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 17.
-[6
+[11
 
 ]
 Package acronym Info: Label `acro:NEMA' newly defined as it shall be overridden
@@ -3047,16 +3184,16 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 21.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 21.
- [7 <./images/Mechanik/ObererAufbau.png>]
+ [12 <./images/Mechanik/ObererAufbau.png>]
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 21.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 21.
-<images/Mechanik/Basis.png, id=368, 640.3925pt x 500.87125pt>
+<images/Mechanik/Basis.png, id=469, 640.3925pt x 500.87125pt>
 File: images/Mechanik/Basis.png Graphic file (type png)
 <use images/Mechanik/Basis.png>
 Package pdftex.def Info: images/Mechanik/Basis.png  used on input line 25. on input line 25.
-Package pdftex.def Info: Requested size: 455.24417pt x 356.06433pt on input line 25.
+Package pdftex.def Info: Requested size: 341.43312pt x 267.05016pt on input line 25.
 File: images/dhbw_de.pdf Graphic file (type pdf)
 <use images/dhbw_de.pdf>
 Package pdftex.def Info: images/dhbw_de.pdf  used on input line 30. on input line 30.
@@ -3073,7 +3210,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 30.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 30.
- [8 <./images/Mechanik/Basis.png>]
+ [13 <./images/Mechanik/Basis.png>]
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 30.
 Package babel Info: Redefining ngerman shorthand "~
@@ -3081,24 +3218,7 @@ Package babel Info: Redefining ngerman shorthand "~
 File: images/Mechanik/Basis.png Graphic file (type png)
 <use images/Mechanik/Basis.png>
 Package pdftex.def Info: images/Mechanik/Basis.png  used on input line 34. on input line 34.
-Package pdftex.def Info: Requested size: 455.24417pt x 356.06433pt on input line 34.
-File: images/dhbw_de.pdf Graphic file (type pdf)
-<use images/dhbw_de.pdf>
-Package pdftex.def Info: images/dhbw_de.pdf  used on input line 38. on input line 38.
-Package pdftex.def Info: Requested size: 57.79497pt x 28.45274pt on input line 38.
-File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
-<use images/Bosch_Logo_DE.pdf>
-Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 38. on input line 38.
-Package pdftex.def Info: Requested size: 96.19223pt x 28.45274pt on input line 38.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 38.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 38.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 38.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 38.
- [9]
+Package pdftex.def Info: Requested size: 341.43312pt x 267.05016pt on input line 34.
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 39.
 Package babel Info: Redefining ngerman shorthand "~
@@ -3106,38 +3226,38 @@ Package babel Info: Redefining ngerman shorthand "~
 )
 File: images/dhbw_de.pdf Graphic file (type pdf)
 <use images/dhbw_de.pdf>
-Package pdftex.def Info: images/dhbw_de.pdf  used on input line 136. on input line 136.
-Package pdftex.def Info: Requested size: 57.79497pt x 28.45274pt on input line 136.
+Package pdftex.def Info: images/dhbw_de.pdf  used on input line 134. on input line 134.
+Package pdftex.def Info: Requested size: 57.79497pt x 28.45274pt on input line 134.
 File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
-Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 136. on input line 136.
-Package pdftex.def Info: Requested size: 96.19223pt x 28.45274pt on input line 136.
+Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 134. on input line 134.
+Package pdftex.def Info: Requested size: 96.19223pt x 28.45274pt on input line 134.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 136.
+(babel)             in language  on input line 134.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 136.
+(babel)             in language  on input line 134.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 136.
+(babel)             in language  on input line 134.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 136.
- [10]
+(babel)             in language  on input line 134.
+ [14]
 File: images/dhbw_de.pdf Graphic file (type pdf)
 <use images/dhbw_de.pdf>
-Package pdftex.def Info: images/dhbw_de.pdf  used on input line 136. on input line 136.
-Package pdftex.def Info: Requested size: 57.79497pt x 28.45274pt on input line 136.
+Package pdftex.def Info: images/dhbw_de.pdf  used on input line 137. on input line 137.
+Package pdftex.def Info: Requested size: 57.79497pt x 28.45274pt on input line 137.
 File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
-Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 136. on input line 136.
-Package pdftex.def Info: Requested size: 96.19223pt x 28.45274pt on input line 136.
+Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 137. on input line 137.
+Package pdftex.def Info: Requested size: 96.19223pt x 28.45274pt on input line 137.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 136.
+(babel)             in language  on input line 137.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 136.
+(babel)             in language  on input line 137.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 136.
+(babel)             in language  on input line 137.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 136.
- [11] (./ads/appendix.tex
+(babel)             in language  on input line 137.
+ [15] (./ads/appendix.tex
 chapter without number
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 9.
@@ -3158,47 +3278,47 @@ Package biblatex Warning: No driver for entry type 'standard'.
 AED: lastpage setting LastPage
 File: images/dhbw_de.pdf Graphic file (type pdf)
 <use images/dhbw_de.pdf>
-Package pdftex.def Info: images/dhbw_de.pdf  used on input line 141. on input line 141.
-Package pdftex.def Info: Requested size: 57.79497pt x 28.45274pt on input line 141.
+Package pdftex.def Info: images/dhbw_de.pdf  used on input line 142. on input line 142.
+Package pdftex.def Info: Requested size: 57.79497pt x 28.45274pt on input line 142.
 File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
-Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 141. on input line 141.
-Package pdftex.def Info: Requested size: 96.19223pt x 28.45274pt on input line 141.
+Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 142. on input line 142.
+Package pdftex.def Info: Requested size: 96.19223pt x 28.45274pt on input line 142.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 141.
+(babel)             in language  on input line 142.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 141.
+(babel)             in language  on input line 142.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 141.
+(babel)             in language  on input line 142.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 141.
+(babel)             in language  on input line 142.
 [1
 
 
 ]
 No complaints by nag.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 141.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 141.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 142.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 142.
 (/Users/Marcel/Documents/DHBW/DH_Elektrotechnik_Semester_5/LIDAR/03_Dokumentation/.texpadtmp/dokumentation.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 141.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 141.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 142.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 142.
 Package logreq Info: Writing requests to 'dokumentation.run.xml'.
 \openout1 = `dokumentation.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 59971 strings out of 492990
- 1228514 string characters out of 6132636
- 2113216 words of memory out of 5000000
- 62300 multiletter control sequences out of 15000+600000
- 601226 words of font info for 111 fonts, out of 8000000 for 9000
+ 60084 strings out of 492990
+ 1230658 string characters out of 6132636
+ 2114972 words of memory out of 5000000
+ 62361 multiletter control sequences out of 15000+600000
+ 609304 words of font info for 128 fonts, out of 8000000 for 9000
  1145 hyphenation exceptions out of 8191
- 66i,21n,88p,10484b,2984s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}</usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmtt10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
-Output written on /Users/Marcel/Documents/DHBW/DH_Elektrotechnik_Semester_5/LIDAR/03_Dokumentation/.texpadtmp/dokumentation.pdf (24 pages, 743059 bytes).
+ 66i,21n,88p,10484b,2986s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}</usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmtt10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
+Output written on /Users/Marcel/Documents/DHBW/DH_Elektrotechnik_Semester_5/LIDAR/03_Dokumentation/.texpadtmp/dokumentation.pdf (29 pages, 821283 bytes).
 PDF statistics:
- 549 PDF objects out of 1000 (max. 8388607)
- 463 compressed objects within 5 object streams
- 119 named destinations out of 1000 (max. 500000)
- 24968 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 697 PDF objects out of 1000 (max. 8388607)
+ 593 compressed objects within 6 object streams
+ 141 named destinations out of 1000 (max. 500000)
+ 27578 words of extra memory for PDF output out of 29859 (max. 10000000)
 

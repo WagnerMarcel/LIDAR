@@ -2143,10 +2143,18 @@
     <bcf:datasource type="file" datatype="bibtex">bibliographie.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="2">ToF_TUBerlin</bcf:citekey>
-    <bcf:citekey order="3">ToF_TUBerlin</bcf:citekey>
-    <bcf:citekey order="4">NEMA</bcf:citekey>
-    <bcf:citekey order="5">Tabellenbuch</bcf:citekey>
+    <bcf:citekey order="4">Photodiode_spektrum</bcf:citekey>
+    <bcf:citekey order="5">Photodiode_spektrum</bcf:citekey>
+    <bcf:citekey order="6">Photodiode_spektrum</bcf:citekey>
+    <bcf:citekey order="7">APD_Scematic</bcf:citekey>
+    <bcf:citekey order="8">APD_Scematic</bcf:citekey>
+    <bcf:citekey order="9">SPAD_mamamatsu</bcf:citekey>
+    <bcf:citekey order="10">SPAD_elmer</bcf:citekey>
+    <bcf:citekey order="11">ToF_TUBerlin</bcf:citekey>
+    <bcf:citekey order="12">ToF_TUBerlin</bcf:citekey>
+    <bcf:citekey order="13">ToF_ST</bcf:citekey>
+    <bcf:citekey order="14">NEMA</bcf:citekey>
+    <bcf:citekey order="15">Tabellenbuch</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="nty/global/" type="entry" sortscheme="nty" sortnamekeyscheme="global" labelprefix="">
   <bcf:sorting>
