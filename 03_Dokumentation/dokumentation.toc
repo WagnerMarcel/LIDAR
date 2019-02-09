@@ -96,6 +96,6 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {9.2}Umwandlung von Kugelkoordinaten zu kartesischen Koordinaten}{26}{section.9.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.3}Darstellung der Messwerte}{26}{section.9.3}% 
+\contentsline {section}{\numberline {9.3}Darstellung der Messwerte}{28}{section.9.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Anhang}{A}{chapter*.23}% 
+\contentsline {chapter}{\nonumberline Anhang}{A}{chapter*.24}% 

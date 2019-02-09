@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.25)  6 FEB 2019 15:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.25)  9 FEB 2019 16:27
 entering extended mode
 **./dokumentation.tex
 (dokumentation.tex
@@ -2847,7 +2847,7 @@ chapter 2.
 LaTeX Warning: Citation 'Photodiode_spektrum' on page 3 undefined on input line
  5.
 
-<images/GrundlagenLaserentfernungsmessung/Photodiode.jpg, id=377, 455.7025pt x 
+<images/GrundlagenLaserentfernungsmessung/Photodiode.jpg, id=383, 455.7025pt x 
 380.42125pt>
 File: images/GrundlagenLaserentfernungsmessung/Photodiode.jpg Graphic file (typ
 e jpg)
@@ -2876,7 +2876,7 @@ Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 13.
 [3
 
  <./images/GrundlagenLaserentfernungsmessung/Photodiode.jpg>]
-<images/GrundlagenLaserentfernungsmessung/APD.png, id=389, 278.93684pt x 202.86
+<images/GrundlagenLaserentfernungsmessung/APD.png, id=395, 278.93684pt x 202.86
 316pt>
 File: images/GrundlagenLaserentfernungsmessung/APD.png Graphic file (type png)
 <use images/GrundlagenLaserentfernungsmessung/APD.png>
@@ -2920,7 +2920,7 @@ Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 2.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
  [5]
 chapter 3.
-<images/GrundlagenLaserentfernungsmessung/ToF.png, id=414, 1041.8925pt x 407.52
+<images/GrundlagenLaserentfernungsmessung/ToF.png, id=420, 1041.8925pt x 407.52
 25pt>
 File: images/GrundlagenLaserentfernungsmessung/ToF.png Graphic file (type png)
 <use images/GrundlagenLaserentfernungsmessung/ToF.png>
@@ -3005,7 +3005,7 @@ Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 2.
 chapter 6.
 Package acronym Info: Label `acro:CAD' newly defined as it shall be overridden
 although it is yet undefined on input line 6.
-<images/Mechanik/ObererAufbau.png, id=446, 645.41125pt x 645.41125pt>
+<images/Mechanik/ObererAufbau.png, id=452, 645.41125pt x 645.41125pt>
 File: images/Mechanik/ObererAufbau.png Graphic file (type png)
 <use images/Mechanik/ObererAufbau.png>
 Package pdftex.def Info: images/Mechanik/ObererAufbau.png  used on input line 1
@@ -3038,7 +3038,7 @@ File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 21.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
 [12 <./images/Mechanik/ObererAufbau.png>]
-<images/Mechanik/Basis.png, id=466, 640.3925pt x 500.87125pt>
+<images/Mechanik/Basis.png, id=472, 640.3925pt x 500.87125pt>
 File: images/Mechanik/Basis.png Graphic file (type png)
 <use images/Mechanik/Basis.png>
 Package pdftex.def Info: images/Mechanik/Basis.png  used on input line 25.
@@ -3085,7 +3085,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--14
 
  []
 
-<images/Hardware/TFmini.png, id=483, 903.375pt x 602.25pt>
+<images/Hardware/TFmini.png, id=489, 903.375pt x 602.25pt>
 File: images/Hardware/TFmini.png Graphic file (type png)
 <use images/Hardware/TFmini.png>
 Package pdftex.def Info: images/Hardware/TFmini.png  used on input line 26.
@@ -3200,15 +3200,39 @@ Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 4.
 chapter 9.
 File: images/dhbw_de.pdf Graphic file (type pdf)
 <use images/dhbw_de.pdf>
-Package pdftex.def Info: images/dhbw_de.pdf  used on input line 29.
+Package pdftex.def Info: images/dhbw_de.pdf  used on input line 21.
 (pdftex.def)             Requested size: 57.79497pt x 28.45274pt.
 File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
-Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 29.
+Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 21.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
 [25
 
-])
+]
+<images/Auswertung/Kugelkoordinaten.png, id=585, 653.44125pt x 597.23125pt>
+File: images/Auswertung/Kugelkoordinaten.png Graphic file (type png)
+<use images/Auswertung/Kugelkoordinaten.png>
+Package pdftex.def Info: images/Auswertung/Kugelkoordinaten.png  used on input 
+line 49.
+(pdftex.def)             Requested size: 341.43312pt x 312.05656pt.
+File: images/dhbw_de.pdf Graphic file (type pdf)
+<use images/dhbw_de.pdf>
+Package pdftex.def Info: images/dhbw_de.pdf  used on input line 53.
+(pdftex.def)             Requested size: 57.79497pt x 28.45274pt.
+File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
+<use images/Bosch_Logo_DE.pdf>
+Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 53.
+(pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
+ [26]
+File: images/dhbw_de.pdf Graphic file (type pdf)
+<use images/dhbw_de.pdf>
+Package pdftex.def Info: images/dhbw_de.pdf  used on input line 77.
+(pdftex.def)             Requested size: 57.79497pt x 28.45274pt.
+File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
+<use images/Bosch_Logo_DE.pdf>
+Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 77.
+(pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
+ [27 <./images/Auswertung/Kugelkoordinaten.png>])
 File: images/dhbw_de.pdf Graphic file (type pdf)
 <use images/dhbw_de.pdf>
 Package pdftex.def Info: images/dhbw_de.pdf  used on input line 146.
@@ -3217,7 +3241,8 @@ File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
 Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 146.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
- [26] (ads/appendix.tex
+ [28]
+(ads/appendix.tex
 chapter without number
 
 LaTeX Warning: Empty bibliography on input line 18.
@@ -3262,10 +3287,10 @@ Package logreq Info: Writing requests to 'dokumentation.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 62042 strings out of 492946
- 1271590 string characters out of 3126266
- 2174699 words of memory out of 3000000
- 64593 multiletter control sequences out of 15000+200000
+ 62055 strings out of 492946
+ 1271902 string characters out of 3126266
+ 2174750 words of memory out of 3000000
+ 64600 multiletter control sequences out of 15000+200000
  611476 words of font info for 130 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
  66i,21n,89p,9113b,3146s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -3291,9 +3316,9 @@ al/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/alexk/AppDa
 ta/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Users/alexk/A
 ppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb><C:/Users/alex
 k/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb>
-Output written on dokumentation.pdf (40 pages, 1057019 bytes).
+Output written on dokumentation.pdf (42 pages, 1093125 bytes).
 PDF statistics:
- 861 PDF objects out of 1000 (max. 8388607)
- 192 named destinations out of 1000 (max. 500000)
- 26199 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 877 PDF objects out of 1000 (max. 8388607)
+ 195 named destinations out of 1000 (max. 500000)
+ 26204 words of extra memory for PDF output out of 29859 (max. 10000000)
 
