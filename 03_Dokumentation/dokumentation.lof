@@ -6,7 +6,15 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.1}{\ignorespaces \ac {ToF} Prinzip \cite {ToF_TUBerlin}\relax }}{1}{figure.caption.11}% 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Schematischer Aufbau einer Photodiode \cite {Photodiode_spektrum} ($p^+$ starke p-Dotierung)\relax }}{3}{figure.caption.12}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Schematischer Aufbau einer \ac {APD} \cite {APD_Scematic} ($p^+$ starke p-Dotierung, $p^- (\pi )$ schwache (intrinsische) p-Dotierung, $n^+$ starke n-Dotierung) (1 - Metallkontakte, 2 - Entspiegelung)\relax }}{4}{figure.caption.13}% 
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.1}{\ignorespaces \ac {ToF} Prinzip \cite {ToF_TUBerlin}\relax }}{6}{figure.caption.15}% 
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
@@ -14,15 +22,15 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Oberer Aufbau der Mechanik\relax }}{5}{figure.caption.13}% 
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Oberer Aufbau der Mechanik\relax }}{12}{figure.caption.17}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Basis der Mechanik\relax }}{6}{figure.caption.15}% 
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Basis der Mechanik\relax }}{13}{figure.caption.19}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Motorhalterung\relax }}{8}{figure.caption.16}% 
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Motorhalterung\relax }}{14}{figure.caption.20}% 
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.1}{\ignorespaces TFmini\relax }}{11}{figure.caption.17}% 
+\contentsline {figure}{\numberline {7.1}{\ignorespaces TFmini\relax }}{17}{figure.caption.21}% 
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 

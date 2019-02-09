@@ -1,6 +1,6 @@
 % Anwendung zur Darstellung einer 3D Punktewolke aus einem LIDAR System
 clear all;
-file = 'data2019-01-22_14-36-07.csv';
+file = 'Messwerte_05_02/Auflösung_hoch.csv';
 
 data = importdata(file,';',1); 
 data = data.data;

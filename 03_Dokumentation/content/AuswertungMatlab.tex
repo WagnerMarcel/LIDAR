@@ -3,5 +3,55 @@
 
 \chapter{Auswertung und Darstellung mit Matlab}
 
+Die Daten werden nach Beendigung eines Scans exportiert und auf einem seperaten PC ausgewertet. Die Auswertung und Darstellung erfolgt mit Matlab. Matlab bietet sich an, da große Datenmengen schnell ausgewertet und dargestellt werden können. Zudem sind bereits Kenntnisse zum Importieren und Darstellen von .csv Dateien vorhanden. 
+
+Die .csv Datei enthält die Rohdaten. Die Rohdaten bestehen pro Datenwert aus der Entfernung vom Messpunkt bis zum Hindernis in Metern. Zudem ist jedem Entfernungswert der Azimuth und die ELevation im Bezug zum jeweils gesetzten Nullpunkt zugeordnet. Die Messwerte sind fortlaufend nummeriert. 
+Diese Werte müssen zuerst aus der .csv Datei in Matlab importiert werden. Anschließend erfolgt die Aufteilung des Datensatzen in die Vektoren Entfernung, Azimuth und Elevation.
+Die beiden Winkelwerte zusammen mit dem Entfernungswert stellen Kugelkoordinaten dar. Diese müssen zur Darstellung in Matlab in kartesische Korrdinaten umgewandelt werden. 
 
 
+
+\section{Importieren und Zuordnen der Messwerte}
+
+\begin{lstlisting}[caption={Importieren und Zuordnen von .csv Dateien},language={Matlab}, label={import_data}, numbers=left]
+% Anwendung zur Darstellung einer 3D Punktewolke aus einem LIDAR System
+clear all;
+
+file = 'Messwerte-05-02/Aufloesung-hoch.csv';
+
+data = importdata(file,';',1); 
+data = data.data;
+
+distance = data(:,2);
+azimuth = data(:,3);
+elevation = data(:,4)
+\end{lstlisting}
+
+
+\section{Umwandlung von Kugelkoordinaten zu kartesischen Koordinaten}
+
+\begin{lstlisting}[caption={Umwandlung von Kugelkoordinaten zu kartesischen Koordinaten},language={Matlab}, label={import_data}, numbers=left]
+for i = 1:1:length(data)
+	if(distance(i) < 2000)
+		x(i) = -distance(i)*cos(deg2rad(elevation(i)))*cos(deg2rad(azimuth(i)));
+		y(i) = distance(i)*cos(deg2rad(elevation(i)))*sin(deg2rad(azimuth(i)));
+		z(i) = distance(i)*sin(deg2rad(elevation(i)));
+	else
+	end
+end
+\end{lstlisting}
+
+
+\section{Darstellung der Messwerte}
+
+\begin{lstlisting}[caption={Darstellung der Messwerte},language={Matlab}, label={import_data}, numbers=left]
+plot3(x,y,z, '.')
+axis([-400 400 -400 400 0 240])
+pbaspect([1 1 0.3])
+\end{lstlisting}
+
+Rote Punkte
+Linien
+Kleine Feine Punkte
+
+Standartisierung der Ansicht
