@@ -14,3 +14,13 @@
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {formel}{\numberline {8.1} Umrechung Kugelkoordinaten in kartesische Koordinaten}{28}{equation.8.2.1}
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }

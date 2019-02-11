@@ -27,7 +27,9 @@ M1 = Motor.MOTOR(31,29,37,35,33)
 M2 = Motor.MOTOR(18,16,36,38,40)
 
 # LIDAR Sensor
-tfMini = Lidar.LIDAR()
+lidar = Lidar.LIDAR('/dev/ttyAMA0', none)
+#lidar = Lidar.LIDAR(None, 0x29)
+
 
 # Funktion um GPIO's zu Initalisieren
 def initGPIO():
@@ -44,11 +46,11 @@ def homeAxis():
     while(GPIO.input(lightGate)==GPIO.HIGH):
         M2.moveMotor(1,1,0.001)
         count += 1
-    M2.moveMotor(0,math.floor(count/2),0.001)
+    M2.moveMotor(1,36,0.001)
 
 initGPIO()
-tfMini.getData()
-tfMini.recievedData = False
+lidar.getData()
+lidar.recievedData = False
 homeAxis()
 time.sleep(2)
 
@@ -58,9 +60,9 @@ stepsQuartRotM1 = 50*4
 M1dir = False
 M2dir = True
 
-print(tfMini.dist)
-tfMini.getData()
-tfMini.recievedData = False
+print(lidar.dist)
+lidar.getData()
+lidar.recievedData = False
 
 data = open("data"+datetime.datetime.fromtimestamp(time.time()).strftime('%Y-%m-%d_%H-%M-%S')+".csv", "w")
 data.write("Nr;Distance;Azimuth;Elevation\n")
@@ -71,20 +73,22 @@ countM2 = 0
 while(countM1 < stepsQuartRotM1):
     if(M2dir):
         while(countM2 < stepsFullRotM2):
-            tfMini.getData()
-            tfMini.recievedData = False
-            data.write(str(valueNr) + ";" + str(tfMini.dist) + ";" + str(360.0*countM2/stepsFullRotM2) + ";" + str(90.0*countM1/stepsQuartRotM1) + "\n")
-            M2.moveMotor(M2dir,4,0.0005)
+            lidar.getData()
+            lidar.recievedData = False
+            data.write(str(valueNr) + ";" + str(lidar.dist) + ";" + str(360.0*countM2/stepsFullRotM2) + ";" + str(90.0*countM1/stepsQuartRotM1) + "\n")
+            M2.moveMotor(M2dir,4,0.00025)
             valueNr += 1
             countM2 += 4
     else:
         while(countM2 >= 0):
-            tfMini.getData()
-            tfMini.recievedData = False
-            data.write(str(valueNr) + ";" + str(tfMini.dist) + ";" + str(360.0*countM2/stepsFullRotM2) + ";" + str(90.0*countM1/stepsQuartRotM1) + "\n")
-            M2.moveMotor(M2dir,4,0.0005)
+            lidar.getData()
+            lidar.recievedData = False
+            data.write(str(valueNr) + ";" + str(lidar.dist) + ";" + str(360.0*countM2/stepsFullRotM2) + ";" + str(90.0*countM1/stepsQuartRotM1) + "\n")
+            M2.moveMotor(M2dir,4,0.00025)
             valueNr += 1
             countM2 -= 4
     M1.moveMotor(M1dir,4,0.0005)
     countM1 += 4
     M2dir = not M2dir
+
+lidar.tof.stop_ranging()

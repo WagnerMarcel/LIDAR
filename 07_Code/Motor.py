@@ -33,4 +33,3 @@ class MOTOR:
             GPIO.output(self.step, GPIO.LOW)
             time.sleep(speed)
             i += 1
-
