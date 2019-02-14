@@ -42,7 +42,7 @@ elevation = data(:,4)
 Die Messpunkte liegen hardwarebedingt als Kugelkoordinaten vor. Dies bedeutet, dass jeder Punkt aus dem Abstand r zum Zentrum O, dem Polarwinkel $\theta$ und dem Azimutwinkel $\phi$ definiert wird.
 
 Der Abstand r wird durch die Distanz des Punktes P von 0 bestimmt. Der Polarwinkel $\theta$ ist der Winkel zwischen Flächennormalen und dem Vektor OP. Das Gegenstück dazu ist die Höhe.  Der Polarwinkel reicht von 0 bis $\pi$. \\
-Der Azimutwinkel ist der Winkel zwischen der x-Achse und der Projektion der Strecke OP auf die xy Ebene. Dieser Winkel reicht je nach Definition von  -$\pi$ - $\pi$ oder von 0 bis 2$\pi$. Für das Lidar System wird die zweite Definition verwendet.
+Der Azimutwinkel ist der Winkel zwischen der x-Achse und der Projektion der Strecke OP auf die xy Ebene. Dieser Winkel reicht je nach Definition von  -$\pi$ bis $\pi$ oder von 0 bis 2$\pi$. Für das Lidar System wird die zweite Definition verwendet.
 
 \begin{figure}[H]
 	\centering
@@ -54,7 +54,11 @@ Der Azimutwinkel ist der Winkel zwischen der x-Achse und der Projektion der Stre
 
 
 Da dass das Darstellen von Kugelkoordinaten in Matlab nicht ohne weiteres möglich ist, werden die Messwerte in kartesische Koordinaten umgerechnet.
-Die Umrechnung erfolgt wie in 
+Die Umrechnung erfolgt mit Formel ....
+
+In Matlab wird jeder einzelne Punkt innerhalb eine For-Schleife mit der oben genannten Formel umgewandelt und die drei Koordinaten x,y und z für kartesische Koordinaten gespeichert. Als Endwert der Schleife wird die Zeilenanzahl des Datensatzes verwendet. Somit ist dieser Wert variabel und muss nicht für jeden Datensatz spezifisch angepasst werden.\\
+Die Berechnung befindet sich zudem in einer If-Abfrage, welche dazu dient, offensichtliche Messfehler zu entfernen. Alle Koordinaten, bei denen die Entfernung höher als 10 Meter ist, werden gelöscht. Die 10 Meter wurden auf experimentieller Basis und aufgrund der Göße des vorher definierten Standardraums festgelegt. Beim Lidar TF Mini werden nicht messbare Entfernungen mit einer Entfernung von 34?? Metern angegeben. Diese werden somit mit dieser Abfrage ebenfalls gefiltert.\\
+Matlab rechnet bei trigonometrischer Funkionen mit dem Radiant. Die Winkel des Lidar Systems sind in Grad angegebn, weshalb sie innerhalb der Berechnung mit der Funktion deg2rad() in Radiant umgerechnet werden müssen.
 
 \begin{equation}\formelentry{Umrechung Kugelkoordinaten in kartesische Koordinaten}
 	\begin{split}
@@ -73,7 +77,7 @@ Die Umrechnung erfolgt wie in
 
 \begin{lstlisting}[caption={Umwandlung von Kugelkoordinaten zu kartesischen Koordinaten},language={Matlab}, label={import_data}, numbers=left]
 for i = 1:1:length(data)
-	if(distance(i) < 2000)
+	if(distance(i) < 1000)
 		x(i) = -distance(i)*cos(deg2rad(elevation(i)))*cos(deg2rad(azimuth(i)));
 		y(i) = distance(i)*cos(deg2rad(elevation(i)))*sin(deg2rad(azimuth(i)));
 		z(i) = distance(i)*sin(deg2rad(elevation(i)));
@@ -85,14 +89,57 @@ end
 
 \section{Darstellung der Messwerte}
 
+Im letzten Teil des Programms werden die kartesischen Koordinatenpunkte in eine 3D-Darstellung umgewandelt. Zudem wird die Skalierung der Achsen festgelegt.
+
+
 \begin{lstlisting}[caption={Darstellung der Messwerte},language={Matlab}, label={import_data}, numbers=left]
-plot3(x,y,z, '.')
+%plot3(x,y,z)			%Darstellung mit Linien
+%plot3(x,y,z, '*')		%Darstellung mit Asteriskus 
+plot3(x,y,z, '.')		%Darstellung mit kleinen Punkten
 axis([-400 400 -400 400 0 240])
 pbaspect([1 1 0.3])
 \end{lstlisting}
 
-Rote Punkte
-Linien
-Kleine Feine Punkte
+Die Darstellung der kartesischen Koordinaten erfolgt über die "plot3()" Funktion. Diese Funktion ermöglicht es rotierbare dreidimensionale Darstellungen anzufertigen. Die ersten drei Argumente der Funktion sind die Vektoren mit den jeweiligen Koordinaten.\\
+Mit dem vierten Argument kann man die Darstellungsart der einzelnen Punkte festlegen. Anhand eines Datensatzes werden drei verschiedene Möglichkeiten auf Vor- und Nachteile überprüft.
 
-Standartisierung der Ansicht
+Übergibt man der Funktion keinen Paramter, werden die Punkte durch schmale Linien verbunden. Dadurch entsteht ein dreidimensionaler Raum, mit sehr deiner Darstellung. Konturen sind dabei sehr gut zu erkennen. Zudem kann man den Verlauf der Messwertaufnahme erkennen. \\
+Nachteil dieser Darstellungsart ist, dass auch Messfehler verbunden werden, wodurch es zu fehlerhaften Darstellungen kommt (Vgl Bild links und rechs oben - mitte)
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\textwidth]{images/Auswertung/Linien}
+	\caption{Darstellung mit Linien}
+	\label{linien}
+\end{figure}
+
+Einen weitere Möglichkeit der Darstellung sind Asterisken. Diese sind relativ zu den Linien sehr groß. Räume werden auch mit weniger Messpunkten erkennbar. Dadurch verschwimmen jedoch Aufnahmen mit höherer Auflösung und Details sind nicht mehr so gut erkennbar. 
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\textwidth]{images/Auswertung/Sternchen}
+	\caption{Darstellung mit Asterisken}
+	\label{asterisken}
+\end{figure}
+
+Die letzte Möglichkeit ist die Darstellung mit kleinen Koordinatenpunkten. Räume können bis ins sehr kleine Detail dargestellt werden und man hat trotz vieler Messpunkte und hoher Auflösung keine Stellen mit überladener Punkteanzahl. 
+
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\textwidth]{images/Auswertung/Punkte}
+	\caption{Darstellung mit Punkten}
+	\label{punkte}
+\end{figure}
+
+Aufgrund der genannten Vor- und Nachteile wird in den meisten Fällen die Darstellung mit Punkten bevorzugt.  
+
+Matlab skaliert die Achsen der Darstellung automatisch, weshalb teilweise schlecht auswertbare Bilder entstehen. Diese sind nur mit manueller Nachbearbeitung passend einstellbar. Um diese zusätzliche Arbeit zu automatisieren und die Darstellung einheitlich zu realisieren, werden die Achsen manuell mit der Funtkion "axis" skaliert. Die ersten beiden Werte geben den x-Achsen in Zentimetern an. Der zweite und dritte den Wert der y-Achse und die letzten beiden Werte den Bereich der z-Achse.
+Mit der Funktion "pbaspect" wird zudem die relative größe der Achse in der späteren Darstellung festgelegt, um Verzerrungen zu vermeiden. 
+
+
+
+
