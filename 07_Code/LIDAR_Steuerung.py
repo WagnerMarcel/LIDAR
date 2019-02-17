@@ -60,11 +60,11 @@ stepsQuartRotM1 = 50*4
 M1dir = False
 M2dir = True
 
-print(lidar.dist)
 lidar.getData()
+print(lidar.dist)
 lidar.recievedData = False
 
-data = open("data"+datetime.datetime.fromtimestamp(time.time()).strftime('%Y-%m-%d_%H-%M-%S')+".csv", "w")
+data = open("data_"+datetime.datetime.fromtimestamp(time.time()).strftime('%Y-%m-%d_%H-%M-%S')+".csv", "w")
 data.write("Nr;Distance;Azimuth;Elevation\n")
 valueNr = 1
 
@@ -91,4 +91,5 @@ while(countM1 < stepsQuartRotM1):
     countM1 += 4
     M2dir = not M2dir
 
+data.stop()
 lidar.tof.stop_ranging()

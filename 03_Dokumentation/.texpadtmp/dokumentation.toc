@@ -85,16 +85,28 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {7.2.1}Konstruktor und Variablen}{21}{subsection.7.2.1}
 \defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.2.2}Aufnehmen von Messdaten}{22}{subsection.7.2.2}
+\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {7.3}Steuerung}{23}{section.7.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {8}Auswertung und Darstellung mit Matlab}{26}{chapter.8}
+\contentsline {subsection}{\numberline {7.3.1}Pin Definitionen und Initialisieren der Klassen}{24}{subsection.7.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.1}Importieren und Zuordnen der Messwerte}{26}{section.8.1}
+\contentsline {subsection}{\numberline {7.3.2}Zus\IeC {\"a}tzliche Funktionen}{25}{subsection.7.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.2}Umwandlung von Kugelkoordinaten zu kartesischen Koordinaten}{27}{section.8.2}
+\contentsline {subsection}{\numberline {7.3.3}Variablen deklaration und aufrufen von Funktionen}{26}{subsection.7.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.3}Darstellung der Messwerte}{29}{section.8.3}
+\contentsline {subsection}{\numberline {7.3.4}Erstellen der Datei zum Speichern der Daten}{27}{subsection.7.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Anhang}{A}{chapter*.27}
+\contentsline {subsection}{\numberline {7.3.5}Schleifen der Steuerung}{28}{subsection.7.3.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\nonumberline Literatur}{A}{section*.28}
+\contentsline {chapter}{\numberline {8}Auswertung und Darstellung mit Matlab}{30}{chapter.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {8.1}Importieren und Zuordnen der Messwerte}{30}{section.8.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {8.2}Umwandlung von Kugelkoordinaten zu kartesischen Koordinaten}{31}{section.8.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {8.3}Darstellung der Messwerte}{33}{section.8.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\nonumberline Anhang}{A}{chapter*.29}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\nonumberline Literatur}{A}{section*.30}
