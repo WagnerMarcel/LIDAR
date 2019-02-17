@@ -2007,6 +2007,9 @@
     <bcf:citekey order="13">ToF_ST</bcf:citekey>
     <bcf:citekey order="14">NEMA</bcf:citekey>
     <bcf:citekey order="15">Tabellenbuch</bcf:citekey>
+    <bcf:citekey order="16">TF MINI</bcf:citekey>
+    <bcf:citekey order="17">VL53L1X</bcf:citekey>
+    <bcf:citekey order="18">VL53L1X_manual</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">
