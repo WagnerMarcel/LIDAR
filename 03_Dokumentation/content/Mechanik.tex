@@ -26,16 +26,33 @@ Die Basis stellt die Verbindung zwischen dem Oberen Aufbau und dem Rahmen dar. D
 	\caption{Basis der Mechanik}
 	\label{basis}
 \end{figure}
-Um die Lagerung herzustellen wird ein großes Kugellager mit einem Innendurchmesser von $22mm$ in die Verbindungsplatte (Abbildung: \ref{basis}) eingepresst. Der große Innendurchmesser des Kugellagers ist erforderlich, damit die Kabel durch dieses Hindurch geführt werden können. Der Antrieb des Oberen Aufbaus wird durch eine Zahnriemenscheibe hergestellt. Diese ist nach DIN 7721-2 T2,5 \cite{Tabellenbuch} entworfen da in dieser Anwendung eine große Anzahl an Zähnen gefordert ist, um eine höhere Winkelauflösung zu erhalten, wird diese Platte 3D gedruckt werden. Um die Zahnriemenscheibe mit dem Kugellager zu verbinden wird eine Adapterplatte verwendet, welche innen in das Kugellager eingepresst wird und anschießend mit Zahnriemenscheibe und Oberem Aufbau verschraubt. Diese Adapterplatte hat ein durchgängiges Loch um die Kabel heraus zu führen. Zudem sitzt die Adapterplatte vertieft in der Zahnriemenscheibe, um die Baugröße kompakt zu halten und einen Formschluss zu erzeugen. 
+Um die Lagerung herzustellen wird ein großes Kugellager mit einem Innendurchmesser von $22mm$ in die Verbindungsplatte (Abbildung: \ref{basis}) eingepresst. Der große Innendurchmesser des Kugellagers ist erforderlich, damit die Kabel durch dieses Hindurch geführt werden können. Der Antrieb des Oberen Aufbaus wird durch eine Zahnriemenscheibe hergestellt. Diese ist nach DIN 7721-2 T2,5 \cite{Tabellenbuch} entworfen da in dieser Anwendung eine große Anzahl an Zähnen gefordert ist, um eine höhere Winkelauflösung zu erhalten, wird diese Platte 3D gedruckt werden. Mit dem gewünschten mindest Druchmesser der Platte ergibt sich ein Umfang des Zahnrades von $66,3mm$ und eine Zahlanzahl von 84 \cite{Tabellenbuch}. Um die Zahnriemenscheibe mit dem Kugellager zu verbinden wird eine Adapterplatte verwendet, welche innen in das Kugellager eingepresst wird und anschießend mit Zahnriemenscheibe und mit dem Oberem Aufbau verschraubt. Diese Adapterplatte hat ein durchgängiges Loch um die Kabel heraus zu führen. Zudem sitzt die Adapterplatte vertieft in der Zahnriemenscheibe, um die Baugröße kompakt zu halten und einen Formschluss zu erzeugen. Das letzte Bauteil der Basis ist die Lichtschranke welche zur Positionierung dient. Diese Lichtschranke sitzt vertieft in der Basisplatte, damit der sich drehende Teil darüber passt. Durch einen Zapfen an der 3D gedruckten Zahnriemenscheibe wird die Lichtschranke ausgelöst. 
 \subsection{Rahmen}
-Die dritte Baugruppe der Mechanik ist der Rahmen. Dieser dient hauptsächlich dazu eine stabile Befestigungsmöglichkeit für die Basis und den oberen Aufbau zu gewähren und die gesamte Elektronik zu ordnen. Zudem dient der Rahmen als Befestigungspunkt für den zweiten Motor. Der zweite Schrittmotor ist nach \ac{NEMA} 17 genormt mit einem Außenmaß von ca $41mm$. Dieser wird über einen Zahnriementrieb den gesamten oberen Aufbau um 360° Drehen. 
+Die dritte Baugruppe der Mechanik ist der Rahmen (Abbildung \ref{rahmen}). Dieser dient hauptsächlich dazu eine stabile Befestigungsmöglichkeit für die Basis und den oberen Aufbau zu gewähren und die gesamte Elektronik zu ordnen. Zudem dient der Rahmen als Befestigungspunkt für den zweiten Motor. Der zweite Schrittmotor ist nach \ac{NEMA} 17 genormt mit einem Außenmaß von ca $41mm$. Dieser wird über einen Zahnriementrieb den gesamten oberen Aufbau um 360° Drehen. 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.75\textwidth]{images/Mechanik/Basis}
-	\caption{Motorhalterung}
-	\label{motorhalterung}
+	\includegraphics[width=0.75\textwidth]{images/Mechanik/Rahmen}
+	\caption{Rahmen}
+	\label{rahmen}
 \end{figure}
-Um das obere Ende der Welle des zweiten Schrittmotors auf die selbe höhe wie die Oberkante der Zahnriemenscheibe zu bringen ist eine weitere Halterung erforderlich (Abbildung \ref{motorhalterung}). Außerdem wird für den gesamten Rahmen ein Aluminiumprofil mit Nutensteinen verwendet. Dies ermöglicht unteranderem das herstellen der benötigten Spannung auf dem Riemen welcher das System dreht. 
+Um das obere Ende der Welle des zweiten Schrittmotors auf die selbe höhe wie die Oberkante der Zahnriemenscheibe zu bringen ist eine weitere Halterung erforderlich. Auf der Motorwelle des \ac{NEMA} 17 Motors sitzt eine weitere Zahnriemenscheibe, allerdings in einem deutlich kleineren Durchmesser ($10,6mm$ Außendurchmesser, 14 Zähne). Durch die beiden Verwendeten Zahnriemenscheiben ergibt sich ein Übersetzungsverhältnis welches im folgenden Berechnet wird:
+\begin{equation}\formelentry{Berechnung Übersetzungsverhältnis \cite{Tabellenbuch}}
+	i = \frac{z_a}{z_e} = \frac{84}{14} = 6
+\end{equation} 
+\begin{flalign*}
+&i = \text{Gesamtübersetzungsverhältnis}&\\
+&z_a = \text{Zähnezahl getriebene Scheibe}&\\
+&z_e = \text{Zähnezahl treibende Scheibe}&
+\end{flalign*}
+Durch das erhöhte Übersetzungsverhältnis wird eine Verlangsamung der Drehbewegung erreicht. Dies ermöglicht eine noch exaktere Auflösung, um eine komplette Drehung des Systems zu erreichen sich der \ac{NEMA} 17 Motor sechs mal Drehen muss, daher werden auch sechs mal so viele Schritte pro Drehung benötigt.\\
+Außerdem wird für den gesamten Rahmen ein Aluminiumprofil mit Nutensteinen verwendet. Dies ermöglicht das herstellen der benötigten Spannung auf dem Riemen welcher das System dreht. Zudem kann durch die Nuten im Aluminiumprofil einfach eine Bodenplatte zur Montage von Platine und Raspberry Pi eingesetzt werden. \\
+ 
 \section{Umsetzung}
-Nachdem die Zeichnungen von allen Bauteilen angefertigt und überprüft wurden, konnte mit der Herstellung der einzelnen Bauteile begonnen werden. Fast alle selbst konstruierten Bauteile wurden aus Aluminium gefertigt, dabei wurde durch Fräsen, Drehen und Bohren die gewünschte Form erreicht. Lediglich eins der konstruierten Bauteile wurde mittels eines 3D-Druckers gefertigt, da ein herkömmlicher Fertigungsprozess sehr Zeitintensiv und kompliziert gewesen wäre. Nach Fertigstellung aller Einzelteile kann die Mechanik Zusammengebaut werden und die Elektronik eingebracht werden.
-\todo{Zusammenbau}
+Nachdem die Zeichnungen von allen Bauteilen angefertigt und überprüft wurden, konnte mit der Herstellung der einzelnen Bauteile begonnen werden. Fast alle selbst konstruierten Bauteile wurden in Handarbeit aus Aluminium gefertigt, dabei wurde durch Fräsen, Drehen und Bohren die gewünschte Form erreicht. Da wie bereits erwähnt die Basisplatte das Komplexeste Bauteil ist, wurde diese extra von einer \ac{CNC} Fräse gefertigt, ebenfalls die Adapterplatte wurde \ac{CNC} Gedreht, damit die Passform des Kugellagers erreicht wird und die Bauteile perfekt eingepresst werden können. Die Zahnriemenscheibe, welche auf der Basis montiert wird, wurde \ac{3D} gedruckt, da ein herkömmliches Fertigungsverfahren mit unseren Mitteln nicht möglich gewesen wäre und dies zudem ohnehin sehr kompliziert und aufwändig ist.\\
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.75\textwidth]{images/Mechanik/Montiert}
+	\caption{Mechanik mit montierter Elektronik}
+	\label{monitert}
+\end{figure}
+Nach Fertigstellung aller Einzelteile kann die Mechanik Zusammengebaut werden und die Elektronik eingebracht werden (Abbildung \ref{monitert}). Dabei wurden noch einige kleinere Teile gefertigt, von welchen kein extra \ac{CAD} Modell erstellt wurde. So wurde eine Halterung für den \ac{LIDAR} Sensor TF-Mini (\todo{Section}) aus einem Blech gebogen und gebohrt und eine Platte zugeschnitten und gebohrt, welche in den unteren Teil des Rahmens eingesetzt werden kann, damit darauf die Platine und der Raspberry Pi montiert werden kann. Nachdem auch diese kleineren Teile gefertigt wurden, konnte die Mechanik final zusammengebaut werden. Dabei wurden die Motoren an ihren vorgesehenen Plätzen montiert und die einzelnen Komponenten zusammengesetzt.
