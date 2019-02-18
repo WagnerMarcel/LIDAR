@@ -53,8 +53,8 @@
            familyi={H\bibinitperiod},
            given={Max},
            giveni={M\bibinitperiod}}}%
-        {{hash=6435cd0c7dd44de93018986423ee5fe2}{%
-           family={Näher},
+        {{hash=2da6dfc31399bb9564c30844af431301}{%
+           family={Naeher},
            familyi={N\bibinitperiod},
            given={Friedrich},
            giveni={F\bibinitperiod}}}%
@@ -88,9 +88,9 @@
         {Europa Lehrmittel}%
       }
       \strng{namehash}{effc051c97ef736c295a9ce837d235e9}
-      \strng{fullhash}{d127fa219b4df90da21529a5198617ac}
+      \strng{fullhash}{046fd498851e1197cf546649e6ab03df}
       \strng{authornamehash}{effc051c97ef736c295a9ce837d235e9}
-      \strng{authorfullhash}{d127fa219b4df90da21529a5198617ac}
+      \strng{authorfullhash}{046fd498851e1197cf546649e6ab03df}
       \field{sortinit}{F}
       \field{sortinithash}{276475738cc058478c1677046f857703}
       \field{labelnamesource}{author}
@@ -145,6 +145,15 @@
       \field{year}{2017}
       \verb{url}
       \verb https://www.st.com/content/dam/technology-tour-2017/session-1_track-4_time-of-flight-technology.pdf
+      \endverb
+    \endentry
+    \entry{VL53L1X}{online}{}
+      \field{sortinit}{L}
+      \field{sortinithash}{7bba64db83423e3c29ad597f3b682cf3}
+      \field{labeltitlesource}{title}
+      \field{title}{Long-distance ranging sensor expansion board based on VL53L1X for STM32 Nucleo}
+      \verb{url}
+      \verb https://www.st.com/en/ecosystems/x-nucleo-53l1a1.html
       \endverb
     \endentry
     \entry{SPAD_mamamatsu}{online}{}
@@ -204,6 +213,15 @@
       \verb http://www.perkinelmer.com/CMSResources/Images/44-6538APP_AvalanchePhotodiodesUsersGuide.pdf
       \endverb
     \endentry
+    \entry{TFMINI}{online}{}
+      \field{sortinit}{S}
+      \field{sortinithash}{3c1547c63380458f8ca90e40ed14b83e}
+      \field{labeltitlesource}{title}
+      \field{title}{Seeedstudio Grove - TF Mini LiDAR Datasheet}
+      \verb{url}
+      \verb https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&ved=2ahUKEwiu1ef2_MLgAhUCbFAKHRp7DaQQFjABegQIAxAC&url=http%3A%2F%2Fstatics3.seeedstudio.com%2Fassets%2Ffile%2Fbazaar%2Fproduct%2FLiDAR_TF_mini_Datasheet.docx&usg=AOvVaw2Td3zuc0AlicOQ23PnxB2-
+      \endverb
+    \endentry
     \entry{Photodiode_spektrum}{online}{}
       \name{author}{1}{}{%
         {{hash=2d44349af1a57cb92ea97ac880ad86a7}{%
@@ -222,6 +240,15 @@
       \field{year}{1998}
       \verb{url}
       \verb https://www.spektrum.de/lexikon/physik/photodiode/11179
+      \endverb
+    \endentry
+    \entry{VL53L1X_manual}{online}{}
+      \field{sortinit}{V}
+      \field{sortinithash}{555737dafdcf1396ebfeae5822e5bde2}
+      \field{labeltitlesource}{title}
+      \field{title}{VL53L1X}
+      \verb{url}
+      \verb https://www.st.com/resource/en/datasheet/vl53l1x.pdf
       \endverb
     \endentry
   \endsortlist

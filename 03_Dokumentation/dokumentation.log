@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.25)  14 FEB 2019 17:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.25)  18 FEB 2019 08:52
 entering extended mode
 **./dokumentation.tex
 (dokumentation.tex
@@ -2329,6 +2329,9 @@ LaTeX Warning: Label `import_data' multiply defined.
 
 LaTeX Warning: Label `import_data' multiply defined.
 
+
+LaTeX Warning: Label `hoch' multiply defined.
+
 )
 \openout1 = `dokumentation.aux'.
 
@@ -2499,7 +2502,15 @@ Package biblatex Info: Data encoding 'utf8' specified.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'dokumentation.bbl' found.
- (dokumentation.bbl)
+ (dokumentation.bbl
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                TF MINI
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+)
 Package biblatex Info: Reference section=0 on input line 22.
 Package biblatex Info: Reference segment=0 on input line 22.
 Package nag Info: Command \hc@caption not defined, skipping amendment on input 
@@ -2690,6 +2701,11 @@ Overfull \hbox (3.22041pt too wide) detected at line 5
  [][][]\T1/lmss/bx/n/12 VIII[][]
  []
 
+
+Overfull \hbox (3.22041pt too wide) detected at line 13
+ [][][]\T1/lmss/bx/n/12 XIII[][]
+ []
+
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <12> on input line 17.
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -2738,11 +2754,6 @@ Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 98.
 Package tocbasic Info: character protrusion at lof deactivated on input line 99
 .
  (dokumentation.lof
-Overfull \hbox (5.81201pt too wide) in paragraph at lines 11--11
- [][] [][][]\T1/lmr/m/n/12 (-20) Schematischer Auf-bau ei-ner [][] [[]] ($\OML/
-lmm/m/it/12 p[]$ \T1/lmr/m/n/12 (-20) star-ke p-Dotierung, 
- []
-
 Package acronym Info: Label `acro:ToF' newly defined as it shall be overridden
 although it is yet undefined on input line 15.
 )
@@ -2762,6 +2773,15 @@ Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 104.
 
 
 ]
+File: images/dhbw_de.pdf Graphic file (type pdf)
+<use images/dhbw_de.pdf>
+Package pdftex.def Info: images/dhbw_de.pdf  used on input line 104.
+(pdftex.def)             Requested size: 57.79497pt x 28.45274pt.
+File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
+<use images/Bosch_Logo_DE.pdf>
+Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 104.
+(pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
+ [10]
 Package tocbasic Info: character protrusion at lot deactivated on input line 10
 5.
  (dokumentation.lot)
@@ -2776,7 +2796,8 @@ File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
 Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 111.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
- [10
+
+[11
 
 
 
@@ -2795,7 +2816,7 @@ File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
 Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 117.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
- [11
+ [12
 
 
 
@@ -2814,18 +2835,14 @@ File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
 Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 123.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
-
-[12
-
+ [13
 
 
-] (content/01kapitel.tex) (content/GrundlagenElektronik.tex
+
+] (content/01kapitel.tex)
+(content/GrundlagenElektronik.tex
 chapter 1.
-
-LaTeX Warning: Citation 'Photodiode_spektrum' on page 1 undefined on input line
- 5.
-
-<images/GrundlagenLaserentfernungsmessung/Photodiode.jpg, id=438, 455.7025pt x 
+<images/GrundlagenLaserentfernungsmessung/Photodiode.jpg, id=486, 455.7025pt x 
 380.42125pt>
 File: images/GrundlagenLaserentfernungsmessung/Photodiode.jpg Graphic file (typ
 e jpg)
@@ -2833,16 +2850,8 @@ e jpg)
 Package pdftex.def Info: images/GrundlagenLaserentfernungsmessung/Photodiode.jp
 g  used on input line 8.
 (pdftex.def)             Requested size: 341.43312pt x 285.03659pt.
-
-LaTeX Warning: Citation 'Photodiode_spektrum' on page 1 undefined on input line
- 9.
-
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10.95> on input line 9.
-
-LaTeX Warning: Citation 'Photodiode_spektrum' on page 1 undefined on input line
- 9.
-
 File: images/dhbw_de.pdf Graphic file (type pdf)
 <use images/dhbw_de.pdf>
 Package pdftex.def Info: images/dhbw_de.pdf  used on input line 13.
@@ -2856,30 +2865,18 @@ Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 13.
 
 
  <./images/GrundlagenLaserentfernungsmessung/Photodiode.jpg>]
-<images/GrundlagenLaserentfernungsmessung/APD.png, id=450, 278.93684pt x 202.86
+<images/GrundlagenLaserentfernungsmessung/APD.png, id=499, 278.93684pt x 202.86
 316pt>
 File: images/GrundlagenLaserentfernungsmessung/APD.png Graphic file (type png)
 <use images/GrundlagenLaserentfernungsmessung/APD.png>
 Package pdftex.def Info: images/GrundlagenLaserentfernungsmessung/APD.png  used
  on input line 17.
 (pdftex.def)             Requested size: 341.43312pt x 248.34084pt.
-
-
-LaTeX Warning: Citation 'APD_Scematic' on page 2 undefined on input line 18.
-
-
-LaTeX Warning: Citation 'APD_Scematic' on page 2 undefined on input line 18.
-
-
-LaTeX Warning: Citation 'SPAD_mamamatsu' on page 2 undefined on input line 21.
-
 Package acronym Info: Label `acro:SPAD' newly defined as it shall be overridden
 
 although it is yet undefined on input line 22.
-
-LaTeX Warning: Citation 'SPAD_elmer' on page 2 undefined on input line 22.
-
-) (content/GrundlagenLaserEntfernungsmessung.tex
+)
+(content/GrundlagenLaserEntfernungsmessung.tex
 File: images/dhbw_de.pdf Graphic file (type pdf)
 <use images/dhbw_de.pdf>
 Package pdftex.def Info: images/dhbw_de.pdf  used on input line 2.
@@ -2899,7 +2896,7 @@ Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 2.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
  [3]
 chapter 2.
-<images/GrundlagenLaserentfernungsmessung/ToF.png, id=475, 1041.8925pt x 407.52
+<images/GrundlagenLaserentfernungsmessung/ToF.png, id=530, 1041.8925pt x 407.52
 25pt>
 File: images/GrundlagenLaserentfernungsmessung/ToF.png Graphic file (type png)
 <use images/GrundlagenLaserentfernungsmessung/ToF.png>
@@ -2907,18 +2904,9 @@ Package pdftex.def Info: images/GrundlagenLaserentfernungsmessung/ToF.png  used
  on input line 9.
 (pdftex.def)             Requested size: 341.43312pt x 133.54387pt.
 
-LaTeX Warning: Citation 'ToF_TUBerlin' on page 4 undefined on input line 10.
-
-
-LaTeX Warning: Citation 'ToF_TUBerlin' on page 4 undefined on input line 10.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 6--12
 
  []
-
-
-LaTeX Warning: Citation 'ToF_ST' on page 4 undefined on input line 13.
 
 File: images/dhbw_de.pdf Graphic file (type pdf)
 <use images/dhbw_de.pdf>
@@ -2984,7 +2972,7 @@ Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 2.
 chapter 5.
 Package acronym Info: Label `acro:CAD' newly defined as it shall be overridden
 although it is yet undefined on input line 6.
-<images/Mechanik/ObererAufbau.png, id=507, 645.41125pt x 645.41125pt>
+<images/Mechanik/ObererAufbau.png, id=566, 645.41125pt x 645.41125pt>
 File: images/Mechanik/ObererAufbau.png Graphic file (type png)
 <use images/Mechanik/ObererAufbau.png>
 Package pdftex.def Info: images/Mechanik/ObererAufbau.png  used on input line 1
@@ -3004,10 +2992,6 @@ Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 17.
 Package acronym Info: Label `acro:NEMA' newly defined as it shall be overridden
 
 although it is yet undefined on input line 18.
-
-
-LaTeX Warning: Citation 'NEMA' on page 10 undefined on input line 18.
-
 File: images/dhbw_de.pdf Graphic file (type pdf)
 <use images/dhbw_de.pdf>
 Package pdftex.def Info: images/dhbw_de.pdf  used on input line 21.
@@ -3016,16 +3000,12 @@ File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
 Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 21.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
-[10 <./images/Mechanik/ObererAufbau.png>]
-<images/Mechanik/Basis.png, id=526, 640.3925pt x 500.87125pt>
+ [10 <./images/Mechanik/ObererAufbau.png>]
+<images/Mechanik/Basis.png, id=587, 640.3925pt x 500.87125pt>
 File: images/Mechanik/Basis.png Graphic file (type png)
 <use images/Mechanik/Basis.png>
 Package pdftex.def Info: images/Mechanik/Basis.png  used on input line 25.
 (pdftex.def)             Requested size: 341.43312pt x 267.05016pt.
-
-
-LaTeX Warning: Citation 'Tabellenbuch' on page 11 undefined on input line 29.
-
 File: images/dhbw_de.pdf Graphic file (type pdf)
 <use images/dhbw_de.pdf>
 Package pdftex.def Info: images/dhbw_de.pdf  used on input line 30.
@@ -3034,7 +3014,7 @@ File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
 Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 30.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
-[11 <./images/Mechanik/Basis.png>]
+ [11 <./images/Mechanik/Basis.png>]
 File: images/Mechanik/Basis.png Graphic file (type png)
 <use images/Mechanik/Basis.png>
 Package pdftex.def Info: images/Mechanik/Basis.png  used on input line 34.
@@ -3059,63 +3039,134 @@ Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 3.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
  [13]
 chapter 6.
+Package acronym Info: Label `acro:GPIO' newly defined as it shall be overridden
 
-Underfull \hbox (badness 10000) in paragraph at lines 13--14
+although it is yet undefined on input line 12.
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--13
 
  []
 
-<images/Hardware/TFmini.png, id=544, 903.375pt x 602.25pt>
+<images/Hardware/TFmini.png, id=611, 903.375pt x 602.25pt>
 File: images/Hardware/TFmini.png Graphic file (type png)
 <use images/Hardware/TFmini.png>
-Package pdftex.def Info: images/Hardware/TFmini.png  used on input line 26.
+Package pdftex.def Info: images/Hardware/TFmini.png  used on input line 25.
 (pdftex.def)             Requested size: 113.81102pt x 75.86919pt.
 File: images/dhbw_de.pdf Graphic file (type pdf)
 <use images/dhbw_de.pdf>
-Package pdftex.def Info: images/dhbw_de.pdf  used on input line 32.
+Package pdftex.def Info: images/dhbw_de.pdf  used on input line 31.
 (pdftex.def)             Requested size: 57.79497pt x 28.45274pt.
 File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
-Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 32.
+Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 31.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
 [14
 
 ]
+Package acronym Info: Label `acro:UART' newly defined as it shall be overridden
+
+although it is yet undefined on input line 33.
+Package acronym Info: Label `acro:I$^{2}$C' newly defined as it shall be overri
+dden
+although it is yet undefined on input line 41.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 55.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (47.68265pt too wide) in paragraph at lines 47--55
+ [] 
+ []
+
 File: images/dhbw_de.pdf Graphic file (type pdf)
 <use images/dhbw_de.pdf>
-Package pdftex.def Info: images/dhbw_de.pdf  used on input line 53.
+Package pdftex.def Info: images/dhbw_de.pdf  used on input line 55.
 (pdftex.def)             Requested size: 57.79497pt x 28.45274pt.
 File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
-Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 53.
+Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 55.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
- [15 <./images/Hardware/TFmini.png>]
+[15 <./images/Hardware/TFmini.png>]
+
+Package nag Warning: `center' environment in table.
+(nag)                Maybe you want \centering instead on input line 57.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 61--63
+
+ []
+
+<images/Hardware/VL53L1X_Messfrequenz.png, id=635, 1105.88156pt x 813.79031pt>
+File: images/Hardware/VL53L1X_Messfrequenz.png Graphic file (type png)
+<use images/Hardware/VL53L1X_Messfrequenz.png>
+Package pdftex.def Info: images/Hardware/VL53L1X_Messfrequenz.png  used on inpu
+t line 68.
+(pdftex.def)             Requested size: 341.43312pt x 251.24174pt.
+File: images/dhbw_de.pdf Graphic file (type pdf)
+<use images/dhbw_de.pdf>
+Package pdftex.def Info: images/dhbw_de.pdf  used on input line 72.
+(pdftex.def)             Requested size: 57.79497pt x 28.45274pt.
+File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
+<use images/Bosch_Logo_DE.pdf>
+Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 72.
+(pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
+[16]
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 86.
+(caption)                particular \caption on input line 101.
 See the caption package documentation for explanation.
 
 File: images/dhbw_de.pdf Graphic file (type pdf)
 <use images/dhbw_de.pdf>
-Package pdftex.def Info: images/dhbw_de.pdf  used on input line 86.
+Package pdftex.def Info: images/dhbw_de.pdf  used on input line 101.
 (pdftex.def)             Requested size: 57.79497pt x 28.45274pt.
 File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
-Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 86.
+Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 101.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
-[16]
+[17 <./images/Hardware/VL53L1X_Messfrequenz.png>]
 
 Package nag Warning: `center' environment in table.
-(nag)                Maybe you want \centering instead on input line 88.
+(nag)                Maybe you want \centering instead on input line 103.
 
 File: images/dhbw_de.pdf Graphic file (type pdf)
 <use images/dhbw_de.pdf>
-Package pdftex.def Info: images/dhbw_de.pdf  used on input line 121.
+Package pdftex.def Info: images/dhbw_de.pdf  used on input line 122.
 (pdftex.def)             Requested size: 57.79497pt x 28.45274pt.
 File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
-Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 121.
+Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 122.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
-[17]) (content/Code.tex
+[18]
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 152.
+See the caption package documentation for explanation.
+
+File: images/dhbw_de.pdf Graphic file (type pdf)
+<use images/dhbw_de.pdf>
+Package pdftex.def Info: images/dhbw_de.pdf  used on input line 152.
+(pdftex.def)             Requested size: 57.79497pt x 28.45274pt.
+File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
+<use images/Bosch_Logo_DE.pdf>
+Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 152.
+(pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
+[19]
+
+Package nag Warning: `center' environment in table.
+(nag)                Maybe you want \centering instead on input line 154.
+
+File: images/dhbw_de.pdf Graphic file (type pdf)
+<use images/dhbw_de.pdf>
+Package pdftex.def Info: images/dhbw_de.pdf  used on input line 187.
+(pdftex.def)             Requested size: 57.79497pt x 28.45274pt.
+File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
+<use images/Bosch_Logo_DE.pdf>
+Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 187.
+(pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
+[20]) (content/Code.tex
 File: images/dhbw_de.pdf Graphic file (type pdf)
 <use images/dhbw_de.pdf>
 Package pdftex.def Info: images/dhbw_de.pdf  used on input line 3.
@@ -3124,11 +3175,8 @@ File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
 Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 3.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
- [18]
+ [21]
 chapter 7.
-Package acronym Info: Label `acro:GPIO' newly defined as it shall be overridden
-
-although it is yet undefined on input line 4.
 LaTeX Font Info:    Try loading font information for T1+lmtt on input line 10.
 ("C:\Users\alexk\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\t1lmtt.fd"
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -3146,7 +3194,7 @@ File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 21.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
 
-[19
+[22
 
 ]
 File: images/dhbw_de.pdf Graphic file (type pdf)
@@ -3157,19 +3205,10 @@ File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
 Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 44.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
- [20]
-Package acronym Info: Label `acro:UART' newly defined as it shall be overridden
-
-although it is yet undefined on input line 71.
-
-
-Package acronym Warning: Acronym `UART' is not defined on input line 71.
-
-
-Package acronym Warning: Acronym `UART' is not defined on input line 71.
-
+ [23]
 Package acronym Info: Label `acro:I2C' newly defined as it shall be overridden
 although it is yet undefined on input line 71.
+
 
 Package acronym Warning: Acronym `I2C' is not defined on input line 71.
 
@@ -3184,13 +3223,7 @@ File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
 Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 72.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
-[21]
-
-Package acronym Warning: Acronym `UART' is not defined on input line 106.
-
-
-Package acronym Warning: Acronym `UART' is not defined on input line 106.
-
+[24]
 File: images/dhbw_de.pdf Graphic file (type pdf)
 <use images/dhbw_de.pdf>
 Package pdftex.def Info: images/dhbw_de.pdf  used on input line 108.
@@ -3199,7 +3232,7 @@ File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
 Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 108.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
-[22]
+ [25]
 File: images/dhbw_de.pdf Graphic file (type pdf)
 <use images/dhbw_de.pdf>
 Package pdftex.def Info: images/dhbw_de.pdf  used on input line 128.
@@ -3208,7 +3241,7 @@ File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
 Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 128.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
- [23]
+ [26]
 Package acronym Info: Label `acro:SPI' newly defined as it shall be overridden
 although it is yet undefined on input line 144.
 
@@ -3219,13 +3252,10 @@ Package acronym Warning: Acronym `SPI' is not defined on input line 144.
 Package acronym Warning: Acronym `SPI' is not defined on input line 144.
 
 
-Package acronym Warning: Acronym `UART' is not defined on input line 146.
-
-
 Package acronym Warning: Acronym `I2C' is not defined on input line 146.
 
 
-LaTeX Warning: Reference `' on page 24 undefined on input line 147.
+LaTeX Warning: Reference `' on page 27 undefined on input line 147.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 144--148
@@ -3240,7 +3270,7 @@ File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
 Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 151.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
-[24]) (content/AuswertungMatlab.tex
+[27]) (content/AuswertungMatlab.tex
 File: images/dhbw_de.pdf Graphic file (type pdf)
 <use images/dhbw_de.pdf>
 Package pdftex.def Info: images/dhbw_de.pdf  used on input line 4.
@@ -3249,7 +3279,7 @@ File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
 Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 4.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
- [25]
+ [28]
 chapter 8.
 File: images/dhbw_de.pdf Graphic file (type pdf)
 <use images/dhbw_de.pdf>
@@ -3259,10 +3289,10 @@ File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
 Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 21.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
-[26
+[29
 
 ]
-<images/Auswertung/Kugelkoordinaten.png, id=734, 653.44125pt x 597.23125pt>
+<images/Auswertung/Kugelkoordinaten.png, id=837, 653.44125pt x 597.23125pt>
 File: images/Auswertung/Kugelkoordinaten.png Graphic file (type png)
 <use images/Auswertung/Kugelkoordinaten.png>
 Package pdftex.def Info: images/Auswertung/Kugelkoordinaten.png  used on input 
@@ -3276,7 +3306,7 @@ File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
 Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 53.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
- [27]
+ [30]
 File: images/dhbw_de.pdf Graphic file (type pdf)
 <use images/dhbw_de.pdf>
 Package pdftex.def Info: images/dhbw_de.pdf  used on input line 69.
@@ -3285,7 +3315,7 @@ File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
 Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 69.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
- [28 <./images/Auswertung/Kugelkoordinaten.png>]
+ [31 <./images/Auswertung/Kugelkoordinaten.png>]
 File: images/dhbw_de.pdf Graphic file (type pdf)
 <use images/dhbw_de.pdf>
 Package pdftex.def Info: images/dhbw_de.pdf  used on input line 103.
@@ -3294,13 +3324,13 @@ File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
 Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 103.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
- [29]
-<images/Auswertung/Linien.png, id=773, 422.32782pt x 301.8778pt>
+ [32]
+<images/Auswertung/Linien.png, id=876, 422.32782pt x 301.8778pt>
 File: images/Auswertung/Linien.png Graphic file (type png)
 <use images/Auswertung/Linien.png>
 Package pdftex.def Info: images/Auswertung/Linien.png  used on input line 112.
 (pdftex.def)             Requested size: 318.66953pt x 227.78967pt.
-<images/Auswertung/Sternchen.png, id=774, 460.34485pt x 299.61937pt>
+<images/Auswertung/Sternchen.png, id=877, 460.34485pt x 299.61937pt>
 File: images/Auswertung/Sternchen.png Graphic file (type png)
 <use images/Auswertung/Sternchen.png>
 Package pdftex.def Info: images/Auswertung/Sternchen.png  used on input line 12
@@ -3314,8 +3344,8 @@ File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
 Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 126.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
- [30 <./images/Auswertung/Linien.png>]
-<images/Auswertung/Punkte.png, id=781, 449.80547pt x 288.7036pt>
+ [33 <./images/Auswertung/Linien.png>]
+<images/Auswertung/Punkte.png, id=883, 449.80547pt x 288.7036pt>
 File: images/Auswertung/Punkte.png Graphic file (type png)
 <use images/Auswertung/Punkte.png>
 Package pdftex.def Info: images/Auswertung/Punkte.png  used on input line 133.
@@ -3328,7 +3358,7 @@ File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
 Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 142.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
- [31 <./images/Auswertung/Sternchen.png> <./images/Auswertung/Punkte.png>]) (co
+ [34 <./images/Auswertung/Sternchen.png> <./images/Auswertung/Punkte.png>]) (co
 ntent/Validierung.tex
 File: images/dhbw_de.pdf Graphic file (type pdf)
 <use images/dhbw_de.pdf>
@@ -3338,9 +3368,9 @@ File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
 Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 4.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
- [32]
+ [35]
 chapter 9.
-<images/Validierung/Grundriss.png, id=792, 593.96906pt x 487.8225pt>
+<images/Validierung/Grundriss.png, id=895, 593.96906pt x 487.8225pt>
 File: images/Validierung/Grundriss.png Graphic file (type png)
 <use images/Validierung/Grundriss.png>
 Package pdftex.def Info: images/Validierung/Grundriss.png  used on input line 1
@@ -3354,10 +3384,10 @@ File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
 Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 20.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
-[33
+[36
 
 ]
-<images/Validierung/MitSchatten.png, id=797, 672.26157pt x 539.76656pt>
+<images/Validierung/MitSchatten.png, id=900, 672.26157pt x 539.76656pt>
 File: images/Validierung/MitSchatten.png Graphic file (type png)
 <use images/Validierung/MitSchatten.png>
 Package pdftex.def Info: images/Validierung/MitSchatten.png  used on input line
@@ -3371,14 +3401,14 @@ File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
 Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 30.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
- [34 <./images/Validierung/Grundriss.png>]
-<images/Validierung/Vogelperspektive.png, id=803, 697.10437pt x 513.41812pt>
+ [37 <./images/Validierung/Grundriss.png>]
+<images/Validierung/Vogelperspektive.png, id=906, 697.10437pt x 513.41812pt>
 File: images/Validierung/Vogelperspektive.png Graphic file (type png)
 <use images/Validierung/Vogelperspektive.png>
 Package pdftex.def Info: images/Validierung/Vogelperspektive.png  used on input
  line 36.
 (pdftex.def)             Requested size: 318.66953pt x 234.70238pt.
-<images/Validierung/uebereinander.png, id=804, 713.66624pt x 607.51968pt>
+<images/Validierung/uebereinander.png, id=907, 713.66624pt x 607.51968pt>
 File: images/Validierung/uebereinander.png Graphic file (type png)
 <use images/Validierung/uebereinander.png>
 Package pdftex.def Info: images/Validierung/uebereinander.png  used on input li
@@ -3392,7 +3422,7 @@ File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
 Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 49.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
- [35 <./images/Validierung/MitSchatten.png> <./images/Validierung/Vogelperspekt
+ [38 <./images/Validierung/MitSchatten.png> <./images/Validierung/Vogelperspekt
 ive.png>]
 File: images/dhbw_de.pdf Graphic file (type pdf)
 <use images/dhbw_de.pdf>
@@ -3402,7 +3432,7 @@ File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
 Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 70.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
- [36 <./images/Validierung/uebereinander.png>]
+ [39 <./images/Validierung/uebereinander.png>]
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 104.
@@ -3421,31 +3451,139 @@ File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
 Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 104.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
-[37]
+[40]
 
 Package nag Warning: `center' environment in table.
 (nag)                Maybe you want \centering instead on input line 106.
 
-<images/Validierung/Aufloesungen/niedrig.png, id=821, 1273.75874pt x 653.44125p
+<images/Validierung/Aufloesungen/niedrig.png, id=923, 1273.75874pt x 653.44125p
 t>
 File: images/Validierung/Aufloesungen/niedrig.png Graphic file (type png)
 <use images/Validierung/Aufloesungen/niedrig.png>
 Package pdftex.def Info: images/Validierung/Aufloesungen/niedrig.png  used on i
-nput line 119.
-(pdftex.def)             Requested size: 245.82954pt x 126.10938pt.
+nput line 124.
+(pdftex.def)             Requested size: 409.71696pt x 210.1823pt.
+File: images/dhbw_de.pdf Graphic file (type pdf)
+<use images/dhbw_de.pdf>
+Package pdftex.def Info: images/dhbw_de.pdf  used on input line 128.
+(pdftex.def)             Requested size: 57.79497pt x 28.45274pt.
+File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
+<use images/Bosch_Logo_DE.pdf>
+Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 128.
+(pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
+[41]
+<images/Validierung/Aufloesungen/mittel.png, id=929, 1291.82625pt x 668.4975pt>
 
-Overfull \hbox (40.97107pt too wide) in paragraph at lines 119--120
- [][] 
- []
-
-<images/Validierung/Aufloesungen/hoch.png, id=822, 1266.23062pt x 654.94687pt>
+File: images/Validierung/Aufloesungen/mittel.png Graphic file (type png)
+<use images/Validierung/Aufloesungen/mittel.png>
+Package pdftex.def Info: images/Validierung/Aufloesungen/mittel.png  used on in
+put line 137.
+(pdftex.def)             Requested size: 409.71696pt x 212.01608pt.
+File: images/dhbw_de.pdf Graphic file (type pdf)
+<use images/dhbw_de.pdf>
+Package pdftex.def Info: images/dhbw_de.pdf  used on input line 143.
+(pdftex.def)             Requested size: 57.79497pt x 28.45274pt.
+File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
+<use images/Bosch_Logo_DE.pdf>
+Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 143.
+(pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
+ [42 <./images/Validierung/Aufloesungen/niedrig.png> <./images/Validierung/Aufl
+oesungen/mittel.png>]
+<images/Validierung/Aufloesungen/hoch.png, id=934, 1266.23062pt x 654.94687pt>
 File: images/Validierung/Aufloesungen/hoch.png Graphic file (type png)
 <use images/Validierung/Aufloesungen/hoch.png>
 Package pdftex.def Info: images/Validierung/Aufloesungen/hoch.png  used on inpu
-t line 125.
-(pdftex.def)             Requested size: 245.82954pt x 127.14948pt.
+t line 148.
+(pdftex.def)             Requested size: 409.71696pt x 211.9158pt.
+<images/Validierung/Aufloesungen/niedrig_vogel.png, id=935, 883.80188pt x 882.2
+9625pt>
+File: images/Validierung/Aufloesungen/niedrig_vogel.png Graphic file (type png)
 
-Overfull \hbox (40.97107pt too wide) in paragraph at lines 125--126
+<use images/Validierung/Aufloesungen/niedrig_vogel.png>
+Package pdftex.def Info: images/Validierung/Aufloesungen/niedrig_vogel.png  use
+d on input line 166.
+(pdftex.def)             Requested size: 245.82954pt x 245.3988pt.
+
+Overfull \hbox (40.97107pt too wide) in paragraph at lines 166--167
+ [][] 
+ []
+
+<images/Validierung/Aufloesungen/hoch_vogel.png, id=936, 861.9703pt x 854.44218
+pt>
+File: images/Validierung/Aufloesungen/hoch_vogel.png Graphic file (type png)
+<use images/Validierung/Aufloesungen/hoch_vogel.png>
+Package pdftex.def Info: images/Validierung/Aufloesungen/hoch_vogel.png  used o
+n input line 172.
+(pdftex.def)             Requested size: 245.82954pt x 243.675pt.
+
+Overfull \hbox (40.97107pt too wide) in paragraph at lines 172--173
+ [][] 
+ []
+
+File: images/dhbw_de.pdf Graphic file (type pdf)
+<use images/dhbw_de.pdf>
+Package pdftex.def Info: images/dhbw_de.pdf  used on input line 183.
+(pdftex.def)             Requested size: 57.79497pt x 28.45274pt.
+File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
+<use images/Bosch_Logo_DE.pdf>
+Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 183.
+(pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
+[43 <./images/Validierung/Aufloesungen/hoch.png>]
+File: images/Validierung/Aufloesungen/mittel.png Graphic file (type png)
+<use images/Validierung/Aufloesungen/mittel.png>
+Package pdftex.def Info: images/Validierung/Aufloesungen/mittel.png  used on in
+put line 191.
+(pdftex.def)             Requested size: 409.71696pt x 212.01608pt.
+File: images/dhbw_de.pdf Graphic file (type pdf)
+<use images/dhbw_de.pdf>
+Package pdftex.def Info: images/dhbw_de.pdf  used on input line 195.
+(pdftex.def)             Requested size: 57.79497pt x 28.45274pt.
+File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
+<use images/Bosch_Logo_DE.pdf>
+Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 195.
+(pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
+ [44 <./images/Validierung/Aufloesungen/niedrig_vogel.png> <./images/Validierun
+g/Aufloesungen/hoch_vogel.png>]
+<images/Validierung/VLX_gerade.png, id=945, 858.20625pt x 479.54156pt>
+File: images/Validierung/VLX_gerade.png Graphic file (type png)
+<use images/Validierung/VLX_gerade.png>
+Package pdftex.def Info: images/Validierung/VLX_gerade.png  used on input line 
+198.
+(pdftex.def)             Requested size: 409.71696pt x 228.94072pt.
+<images/Validierung/VLX.png, id=946, 837.88031pt x 474.27188pt>
+File: images/Validierung/VLX.png Graphic file (type png)
+<use images/Validierung/VLX.png>
+Package pdftex.def Info: images/Validierung/VLX.png  used on input line 205.
+(pdftex.def)             Requested size: 409.71696pt x 231.91039pt.
+File: images/dhbw_de.pdf Graphic file (type pdf)
+<use images/dhbw_de.pdf>
+Package pdftex.def Info: images/dhbw_de.pdf  used on input line 209.
+(pdftex.def)             Requested size: 57.79497pt x 28.45274pt.
+File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
+<use images/Bosch_Logo_DE.pdf>
+Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 209.
+(pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
+ [45 <./images/Validierung/VLX_gerade.png>]
+<images/Validierung/Aufloesungen/mittel_vogel.png, id=951, 863.47594pt x 859.71
+187pt>
+File: images/Validierung/Aufloesungen/mittel_vogel.png Graphic file (type png)
+<use images/Validierung/Aufloesungen/mittel_vogel.png>
+Package pdftex.def Info: images/Validierung/Aufloesungen/mittel_vogel.png  used
+ on input line 216.
+(pdftex.def)             Requested size: 245.82954pt x 244.75806pt.
+
+Overfull \hbox (40.97107pt too wide) in paragraph at lines 216--217
+ [][] 
+ []
+
+<images/Validierung/VLX_vogel.png, id=952, 962.09438pt x 989.19562pt>
+File: images/Validierung/VLX_vogel.png Graphic file (type png)
+<use images/Validierung/VLX_vogel.png>
+Package pdftex.def Info: images/Validierung/VLX_vogel.png  used on input line 2
+22.
+(pdftex.def)             Requested size: 245.82954pt x 252.7472pt.
+
+Overfull \hbox (40.97107pt too wide) in paragraph at lines 222--223
  [][] 
  []
 
@@ -3458,11 +3596,15 @@ File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
 Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 143.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
- [38 <./images/Validierung/Aufloesungen/niedrig.png> <./images/Validierung/Aufl
-oesungen/hoch.png>] (ads/appendix.tex
+ [46 <./images/Validierung/VLX.png> <./images/Validierung/Aufloesungen/mittel_v
+ogel.png> <./images/Validierung/VLX_vogel.png (PNG copy)>] (ads/appendix.tex
 chapter without number
+Package microtype Info: Character `029' is missing
+(microtype)             in font `T1/lmr/m/sc/12'.
+(microtype)             Ignoring protrusion settings for this character.
 
-LaTeX Warning: Empty bibliography on input line 18.
+Package biblatex Warning: No driver for entry type 'standard'.
+(biblatex)                Using fallback driver on input line 18.
 
 No file dokumentation.gls.
 ) 
@@ -3480,7 +3622,7 @@ Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 148.
 
 ]
 
-Package nag Warning: 2 complaints in total.
+Package nag Warning: 4 complaints in total.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 148.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 148.
@@ -3494,23 +3636,18 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                dokumentation
-(biblatex)                and rerun LaTeX afterwards.
-
 Package logreq Info: Writing requests to 'dokumentation.run.xml'.
 \openout1 = `dokumentation.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 62279 strings out of 492946
- 1275892 string characters out of 3126266
- 2213603 words of memory out of 3000000
- 64705 multiletter control sequences out of 15000+200000
- 611620 words of font info for 132 fonts, out of 3000000 for 9000
+ 62432 strings out of 492946
+ 1279662 string characters out of 3126266
+ 2214368 words of memory out of 3000000
+ 64799 multiletter control sequences out of 15000+200000
+ 612376 words of font info for 140 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
- 66i,21n,89p,9113b,3146s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 66i,21n,89p,9113b,3184s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/alexk/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.en
 c}{C:/Users/alexk/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ts1.e
 nc}{C:/Users/alexk/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-math
@@ -3518,24 +3655,25 @@ ex.enc}{C:/Users/alexk/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-
 mathit.enc}{C:/Users/alexk/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm
 /lm-mathsy.enc}{C:/Users/alexk/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvip
 s/lm/lm-rm.enc}<C:/Users/alexk/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
-blic/lm/lmbx10.pfb><C:/Users/alexk/AppData/Local/Programs/MiKTeX 2.9/fonts/type
-1/public/lm/lmbx12.pfb><C:/Users/alexk/AppData/Local/Programs/MiKTeX 2.9/fonts/
-type1/public/lm/lmex10.pfb><C:/Users/alexk/AppData/Local/Programs/MiKTeX 2.9/fo
-nts/type1/public/lm/lmmi10.pfb><C:/Users/alexk/AppData/Local/Programs/MiKTeX 2.
-9/fonts/type1/public/lm/lmmi12.pfb><C:/Users/alexk/AppData/Local/Programs/MiKTe
-X 2.9/fonts/type1/public/lm/lmmi8.pfb><C:/Users/alexk/AppData/Local/Programs/Mi
-KTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Users/alexk/AppData/Local/Programs
-/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Users/alexk/AppData/Local/Progr
-ams/MiKTeX 2.9/fonts/type1/public/lm/lmr6.pfb><C:/Users/alexk/AppData/Local/Pro
-grams/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Users/alexk/AppData/Local/P
-rograms/MiKTeX 2.9/fonts/type1/public/lm/lmri12.pfb><C:/Users/alexk/AppData/Loc
-al/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/alexk/AppDa
-ta/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Users/alexk/A
-ppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb><C:/Users/alex
-k/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb>
-Output written on dokumentation.pdf (52 pages, 4017518 bytes).
+blic/lm/lmbx12.pfb><C:/Users/alexk/AppData/Local/Programs/MiKTeX 2.9/fonts/type
+1/public/lm/lmcsc10.pfb><C:/Users/alexk/AppData/Local/Programs/MiKTeX 2.9/fonts
+/type1/public/lm/lmex10.pfb><C:/Users/alexk/AppData/Local/Programs/MiKTeX 2.9/f
+onts/type1/public/lm/lmmi10.pfb><C:/Users/alexk/AppData/Local/Programs/MiKTeX 2
+.9/fonts/type1/public/lm/lmmi12.pfb><C:/Users/alexk/AppData/Local/Programs/MiKT
+eX 2.9/fonts/type1/public/lm/lmmi8.pfb><C:/Users/alexk/AppData/Local/Programs/M
+iKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Users/alexk/AppData/Local/Program
+s/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Users/alexk/AppData/Local/Prog
+rams/MiKTeX 2.9/fonts/type1/public/lm/lmr6.pfb><C:/Users/alexk/AppData/Local/Pr
+ograms/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Users/alexk/AppData/Local/
+Programs/MiKTeX 2.9/fonts/type1/public/lm/lmri12.pfb><C:/Users/alexk/AppData/Lo
+cal/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/alexk/AppD
+ata/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Users/alexk/
+AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb><C:/Users/ale
+xk/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb><C:/Users
+/alexk/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmtt12.pfb>
+Output written on dokumentation.pdf (61 pages, 5370511 bytes).
 PDF statistics:
- 1119 PDF objects out of 1200 (max. 8388607)
- 295 named destinations out of 1000 (max. 500000)
- 26289 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 1286 PDF objects out of 1440 (max. 8388607)
+ 329 named destinations out of 1000 (max. 500000)
+ 27881 words of extra memory for PDF output out of 29859 (max. 10000000)
 
