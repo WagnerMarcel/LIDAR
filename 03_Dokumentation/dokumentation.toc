@@ -111,3 +111,5 @@
 \contentsline {section}{\numberline {9.3}Vergleich der Sensoren}{44}{section.9.3}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\nonumberline Anhang}{A}{chapter*.44}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\nonumberline Literatur}{A}{section*.45}% 

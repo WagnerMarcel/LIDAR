@@ -1,0 +1,290 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.0 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{APD_Scematic}{online}{}
+      \name{author}{1}{}{%
+        {{hash=8a170749a5dc7f4bad5b429019dacfc2}{%
+           family={E.},
+           familyi={E\bibinitperiod},
+           given={Mikhantiev},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{8a170749a5dc7f4bad5b429019dacfc2}
+      \strng{fullhash}{8a170749a5dc7f4bad5b429019dacfc2}
+      \strng{bibnamehash}{8a170749a5dc7f4bad5b429019dacfc2}
+      \strng{authorbibnamehash}{8a170749a5dc7f4bad5b429019dacfc2}
+      \strng{authornamehash}{8a170749a5dc7f4bad5b429019dacfc2}
+      \strng{authorfullhash}{8a170749a5dc7f4bad5b429019dacfc2}
+      \field{sortinit}{E}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Structure of the silicon APD}
+      \field{year}{2009}
+      \verb{urlraw}
+      \verb https://de.wikipedia.org/wiki/Datei:APD.png
+      \endverb
+      \verb{url}
+      \verb https://de.wikipedia.org/wiki/Datei:APD.png
+      \endverb
+    \endentry
+    \entry{Tabellenbuch}{book}{}
+      \name{author}{8}{}{%
+        {{hash=0202ff266931ad74f670acc5a8d3a171}{%
+           family={Fischer},
+           familyi={F\bibinitperiod},
+           given={Ulrich},
+           giveni={U\bibinitperiod}}}%
+        {{hash=dadaf882a175567a29237eedcbb45b2f}{%
+           family={Heinzler},
+           familyi={H\bibinitperiod},
+           given={Max},
+           giveni={M\bibinitperiod}}}%
+        {{hash=2da6dfc31399bb9564c30844af431301}{%
+           family={Naeher},
+           familyi={N\bibinitperiod},
+           given={Friedrich},
+           giveni={F\bibinitperiod}}}%
+        {{hash=853c646524780267f1f481dd91b992b1}{%
+           family={Paetzold},
+           familyi={P\bibinitperiod},
+           given={Heinz},
+           giveni={H\bibinitperiod}}}%
+        {{hash=4b394b39f6f5d7e666818ceb76d65ea5}{%
+           family={Gomeringer},
+           familyi={G\bibinitperiod},
+           given={Roland},
+           giveni={R\bibinitperiod}}}%
+        {{hash=df01f3949b18a2e3c85b648d711d37e5}{%
+           family={Kilgus},
+           familyi={K\bibinitperiod},
+           given={Roland},
+           giveni={R\bibinitperiod}}}%
+        {{hash=4a755acd67c740436509d484198056da}{%
+           family={Oesterle},
+           familyi={O\bibinitperiod},
+           given={Stefan},
+           giveni={S\bibinitperiod}}}%
+        {{hash=6da9e8321639008a2398eb9bcefc99f5}{%
+           family={Stephan},
+           familyi={S\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Europa Lehrmittel}%
+      }
+      \strng{namehash}{effc051c97ef736c295a9ce837d235e9}
+      \strng{fullhash}{046fd498851e1197cf546649e6ab03df}
+      \strng{bibnamehash}{effc051c97ef736c295a9ce837d235e9}
+      \strng{authorbibnamehash}{effc051c97ef736c295a9ce837d235e9}
+      \strng{authornamehash}{effc051c97ef736c295a9ce837d235e9}
+      \strng{authorfullhash}{046fd498851e1197cf546649e6ab03df}
+      \field{sortinit}{F}
+      \field{sortinithash}{669c706c6f1fbf3b5a83d26f1d9e9e72}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Tabellenbuch Metall}
+      \field{year}{2011}
+    \endentry
+    \entry{ToF_TUBerlin}{online}{}
+      \name{author}{2}{}{%
+        {{hash=44d1bc07bcac4d6bafc71f9e7bac9471}{%
+           family={Kutscher},
+           familyi={K\bibinitperiod},
+           given={Nikolai},
+           giveni={N\bibinitperiod}}}%
+        {{hash=1b702c727870e3bdaec64da70541c5ce}{%
+           family={Mielke},
+           familyi={M\bibinitperiod},
+           given={Beate},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{3f6197fd0e361ee2d7999a08ec1a7332}
+      \strng{fullhash}{3f6197fd0e361ee2d7999a08ec1a7332}
+      \strng{bibnamehash}{3f6197fd0e361ee2d7999a08ec1a7332}
+      \strng{authorbibnamehash}{3f6197fd0e361ee2d7999a08ec1a7332}
+      \strng{authornamehash}{3f6197fd0e361ee2d7999a08ec1a7332}
+      \strng{authorfullhash}{3f6197fd0e361ee2d7999a08ec1a7332}
+      \field{sortinit}{K}
+      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{3D Kameras – basierend auf Lichtlaufzeitmessung}
+      \field{year}{2005}
+      \verb{urlraw}
+      \verb http://www.inf.fu-berlin.de/lehre/SS05/Autonome_Fahrzeuge/3dKameras.pdf
+      \endverb
+      \verb{url}
+      \verb http://www.inf.fu-berlin.de/lehre/SS05/Autonome_Fahrzeuge/3dKameras.pdf
+      \endverb
+    \endentry
+    \entry{ToF_ST}{online}{}
+      \name{author}{1}{}{%
+        {{hash=9edae755af5532e9204a798a23b5be70}{%
+           family={Kvam},
+           familyi={K\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{9edae755af5532e9204a798a23b5be70}
+      \strng{fullhash}{9edae755af5532e9204a798a23b5be70}
+      \strng{bibnamehash}{9edae755af5532e9204a798a23b5be70}
+      \strng{authorbibnamehash}{9edae755af5532e9204a798a23b5be70}
+      \strng{authornamehash}{9edae755af5532e9204a798a23b5be70}
+      \strng{authorfullhash}{9edae755af5532e9204a798a23b5be70}
+      \field{sortinit}{K}
+      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Time of Flight: Principles, Challenges and Performance}
+      \field{year}{2017}
+      \verb{urlraw}
+      \verb https://www.st.com/content/dam/technology-tour-2017/session-1_track-4_time-of-flight-technology.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.st.com/content/dam/technology-tour-2017/session-1_track-4_time-of-flight-technology.pdf
+      \endverb
+    \endentry
+    \entry{VL53L1X}{online}{}
+      \field{sortinit}{L}
+      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
+      \field{labeltitlesource}{title}
+      \field{title}{Long-distance ranging sensor expansion board based on VL53L1X for STM32 Nucleo}
+      \verb{urlraw}
+      \verb https://www.st.com/en/ecosystems/x-nucleo-53l1a1.html
+      \endverb
+      \verb{url}
+      \verb https://www.st.com/en/ecosystems/x-nucleo-53l1a1.html
+      \endverb
+    \endentry
+    \entry{SPAD_mamamatsu}{online}{}
+      \name{author}{1}{}{%
+        {{hash=f88ebac9a21ad0751b3bc8a5b4ade9b3}{%
+           family={Mamamatsu},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{f88ebac9a21ad0751b3bc8a5b4ade9b3}
+      \strng{fullhash}{f88ebac9a21ad0751b3bc8a5b4ade9b3}
+      \strng{bibnamehash}{f88ebac9a21ad0751b3bc8a5b4ade9b3}
+      \strng{authorbibnamehash}{f88ebac9a21ad0751b3bc8a5b4ade9b3}
+      \strng{authornamehash}{f88ebac9a21ad0751b3bc8a5b4ade9b3}
+      \strng{authorfullhash}{f88ebac9a21ad0751b3bc8a5b4ade9b3}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{5}
+      \field{title}{Characteristics and use of Si APD}
+      \field{year}{2004}
+      \verb{urlraw}
+      \verb http://neutron.physics.ucsb.edu/docs/Avalanche_photodiodes_info.pdf
+      \endverb
+      \verb{url}
+      \verb http://neutron.physics.ucsb.edu/docs/Avalanche_photodiodes_info.pdf
+      \endverb
+    \endentry
+    \entry{NEMA}{standard}{}
+      \list{institution}{1}{%
+        {National Electrical Manufacturers Association}%
+      }
+      \list{organization}{1}{%
+        {National Electrical Manufacturers Association}%
+      }
+      \field{sortinit}{N}
+      \field{sortinithash}{f7242c3ed3dc50029fca1be76c497c7c}
+      \field{labeltitlesource}{title}
+      \field{title}{NEMA ICS 16}
+      \field{year}{2001}
+      \verb{urlraw}
+      \verb https://www.nema.org/Standards/Pages/Motion-Position-Control-Motors-Controls-and-Feedback-Devices.aspx
+      \endverb
+      \verb{url}
+      \verb https://www.nema.org/Standards/Pages/Motion-Position-Control-Motors-Controls-and-Feedback-Devices.aspx
+      \endverb
+    \endentry
+    \entry{SPAD_elmer}{online}{}
+      \name{author}{1}{}{%
+        {{hash=8911c868a715912fcb573bdcefc0b0dd}{%
+           family={PerkinElmer},
+           familyi={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{8911c868a715912fcb573bdcefc0b0dd}
+      \strng{fullhash}{8911c868a715912fcb573bdcefc0b0dd}
+      \strng{bibnamehash}{8911c868a715912fcb573bdcefc0b0dd}
+      \strng{authorbibnamehash}{8911c868a715912fcb573bdcefc0b0dd}
+      \strng{authornamehash}{8911c868a715912fcb573bdcefc0b0dd}
+      \strng{authorfullhash}{8911c868a715912fcb573bdcefc0b0dd}
+      \field{sortinit}{P}
+      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Avalanche photodiode - a user guide}
+      \field{year}{2010}
+      \verb{urlraw}
+      \verb http://www.perkinelmer.com/CMSResources/Images/44-6538APP_AvalanchePhotodiodesUsersGuide.pdf
+      \endverb
+      \verb{url}
+      \verb http://www.perkinelmer.com/CMSResources/Images/44-6538APP_AvalanchePhotodiodesUsersGuide.pdf
+      \endverb
+    \endentry
+    \entry{Photodiode_spektrum}{online}{}
+      \name{author}{1}{}{%
+        {{hash=2d44349af1a57cb92ea97ac880ad86a7}{%
+           family={Spektrum},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{2d44349af1a57cb92ea97ac880ad86a7}
+      \strng{fullhash}{2d44349af1a57cb92ea97ac880ad86a7}
+      \strng{bibnamehash}{2d44349af1a57cb92ea97ac880ad86a7}
+      \strng{authorbibnamehash}{2d44349af1a57cb92ea97ac880ad86a7}
+      \strng{authornamehash}{2d44349af1a57cb92ea97ac880ad86a7}
+      \strng{authorfullhash}{2d44349af1a57cb92ea97ac880ad86a7}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Photodiode}
+      \field{year}{1998}
+      \verb{urlraw}
+      \verb https://www.spektrum.de/lexikon/physik/photodiode/11179
+      \endverb
+      \verb{url}
+      \verb https://www.spektrum.de/lexikon/physik/photodiode/11179
+      \endverb
+    \endentry
+    \entry{VL53L1X_manual}{online}{}
+      \field{sortinit}{V}
+      \field{sortinithash}{75dd7385c90b2252c3ae853a80ca853b}
+      \field{labeltitlesource}{title}
+      \field{title}{VL53L1X}
+      \verb{urlraw}
+      \verb https://www.st.com/resource/en/datasheet/vl53l1x.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.st.com/resource/en/datasheet/vl53l1x.pdf
+      \endverb
+    \endentry
+  \enddatalist
+  \missing{TF MINI}
+\endrefsection
+\endinput
+
