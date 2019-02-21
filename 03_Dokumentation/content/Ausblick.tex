@@ -1,0 +1,88 @@
+%!TEX root = ../dokumentation.tex
+\chapter{Ausblick}
+Im folgenden sollen Aspekte aufgeführt und erläutert werden, welche am \ac{LIDAR} System noch verbessert oder erweitert werden können. Teilweise sind für die Aspekte bereits Materialien vorhanden oder es wurden Verschiedene Methoden recherchiert. Alle unterlagen, welche mit dem Projekt verknüpft sind, sind im Github zu finden.\\
+Die Verbesserungen werden in zwei Verschiedene Bereiche geteilt. Im Hardware Teil wird darauf eingegangen, welche Punkte an der Mechanik und/oder den Elektrischen Komponenten verbessert werden kann. Im zweiten Teil, der Software wird dann darauf eingegangen, wie man das System nutzerfreundlicher gestalten könnte.  
+\section{Hardware}
+\subsection{Platine}
+Da beim Entwurf der Platine einige Fehler passiert sind, diese sind bereits im Layout behoben und die Platine muss neu gefräst werden. Bevor dies allerdings geschieht sollte diese auch neu gelayoutet werden, da es verschiedene Optimierungsmöglichkeiten gibt. \\
+Die erste Optimierungsmöglichkeit für das neue Platinenlayout ist, dass ein Zusätzlicher Pin für die Lichtschranke heraus geführt wird, damit ist die Platine wieder so flexibel einsetzbar wie gedacht. Da dann auch ein Sensor welcher mittels \ac{SPI} angesteuert wird wieder einsetzbar ist.\\
+Ein größerer Aspekt welcher im neuen Platinenlayout beachtet werden sollte ist, dass der Flachbandkabelstecker zum Raspberry Pi an den Rand zum Raspberry Pi hin umpositioniert wird. Dies erleichtert die Montage / Demontage der Platine oder des Raspberry Pi's. Zudem hat der Motortreiber des Motors 1 dann ausreichend Platz nach oben um entstehende Hitze abzuführen. Außerdem sind die gesamten Pins, welche vom Flachbandkabel verdeckt werden dann einfacher zu erreichen, dies bedeutet eine einfachere Wartung des \ac{LIDAR} Systems.
+\subsection{Gyrosensor}
+Im Ursprünglichen Konzept des \ac{LIDAR} Systems war vorgesehen, dass sich sowohl die Horizontal- als auch die Vertikalachse selbstständig Kalibrieren können. Für die Horizontalachse hat dies durch die Verwendung reibungslos geklappt, die Vertikalachse sollte sich mittels eines Gyrosensors in Nulllage, oder jede beliebige andere Lage, bringen können. Allerdings konnte dies im Rahmen der Studienarbeit nichtmehr implementiert werden. Der Sensor \todo{Name Sensor} ist bereits vorhanden und muss lediglich getestet und implementiert werden.
+\subsection{Schleifring}
+Ebenfalls war im Konzept und der \ac{CAD} Zeichnung des \ac{LIDAR} Systems die Verwendung eines Schleifrings geplant, da bei Verwendung kein umdrehen nach 360° nötig ist, sondern sich das System kontinuierlich in eine Richtung drehen kann.\\
+Da es bei dem Schleifring allerdings zu Lieferschwierigkeiten kam, konnte dieser im Rahmen der Studienarbeit nicht verbaut werden. Die Bauteile sind allerdings so konstruiert, dass der vorgesehene Schleifring lediglich eingebaut werden müsste. 
+\subsection{Motortreiber}
+Die Motortreiber welche im Rahmen der Studienarbeit verwendet wurden können maximal achtel Schritte tätigen. Wenn ein weiteres erhöhen der Messauflösung des Systems gewünscht ist, könnte man bessere Motortreiber verwenden, welche in der Lage sind sechzehntel Schritte zu tätigen. Außerdem sollte der Motortreiber des Motors 1 also der Vertikalen Achse kontrolliert werden, da wie bereits erwähnt dieser bei korrekter Ansteuerung lediglich viertel Schritte tätigt. 
+\subsection{Bedienfeld}
+Ein weiterer Aspekt welcher bereits teilweise vorbereitet ist, ist die anbringung eines Bedienfelds an der front des \ac{LIDAR} Systems. Die bringt den Vorteil, dass die Messung nichtmehr über einen Computer gestartet werden muss, sondern das \ac{LIDAR} System alleinstehend verwendbar ist.\\
+Mögliche Elemente, welche sowohl in Hard- als auch in Software erstellt werden müssen sind:
+\begin{itemize}
+	\item LCD Panel zur Ausgabe der Menüoptionen und des Fortschritts
+	\item Drehencoder zur navigation im Menü
+	\item Anbringen der Status LED's
+	\item Anbringen des Ein- \& Ausschalters des \ac{LIDAR} Systems
+\end{itemize}
+Zum anbringen des Bedienfelds wurden bereits Nutensteine im vorderen Teil des Rahmens eingebracht, so dass man das Bedienfeld einfach anbringen kann.  
+
+\section{Software}
+Damit einige der erwähnten Hardware Implementationen möglich sind müssen auch Anpassungen an der Software vorgenommen werden.
+\subsection{Steuerung mit Übergabeparameter}
+\begin{lstlisting}[caption={Beispiel Aufruf einer Python Funktion mit Übergabeparametern}, language={bash}, label={variables_calling}, numbers=left]
+python LIDAR_Bewegen.py 1 -400
+\end{lstlisting}
+
+\begin{lstlisting}[caption={Python Beispiel Funktion welche Übergabeparamenter akzeptiert und ausführt}, language={python}, label={variables_function}, numbers=left]
+## Programm zum Bewegen eines Motors
+
+#Bibliotheken
+import sys
+
+#Eigene Dateien
+import Motor
+
+
+# Motor 1, Nema 11
+M1 = Motor.MOTOR(31,29,37,35,33)
+
+# Motor 2, Nema 17
+M2 = Motor.MOTOR(18,16,36,38,40)
+
+if(len(sys.argv) < 3):
+    print("""Aufruf wie folgt:
+    python LIDAR_Bewegen.py <nummerMotor> <Schritte>
+    <nummerMotor> = 1 oder 2
+    <Schritte> = positiv fuer Uhrzeigersinn, negativ fuer gegen den Uhrzeigersinn
+    """)
+else:
+    m = sys.argv[1]
+    s = sys.argv[2]
+    dir = True
+    if(s > 0):
+        dir = True
+    else if(s < 0):
+        dir = False
+        s = s * -1
+    else:
+        print("Bitte Schritte angeben")
+
+    if(m == 1):
+        M1.moveMotor(dir, s, 0.001)
+    else if(m == 2):
+        M2.moveMotor(dir, s, 0.001)
+    else:
+        print("Bitte Motor angeben")
+
+\end{lstlisting}
+
+\todo{Erklären Aufrufen der Klasse / Funktion}
+\subsection{Bedienfeld Statusausgabe und Steuerung}
+\todo{Pseudocode / Erklärung}
+
+\subsection{Webinterface}
+\todo{Pi hostet WLAN}
+\todo{NodeJS, Flask, Python}
+
+\todo{Ausblick}
+
+
