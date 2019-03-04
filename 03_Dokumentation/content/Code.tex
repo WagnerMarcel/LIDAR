@@ -215,7 +215,6 @@ Die \ac{csv} Datei in welcher die Daten gespeichert werden ist nach folgendem Sc
 	\end{tabular}
 \end{table}
 Jeder Wert welcher in die Datei gespeichert wird bekommt einen Index, somit kann man einen Überblick behalten, wie viele Messwerte aufgezeichnet wurden. Die Zweite Spalte, welche in der Datei steht, ist für die Distanz vorgesehen, welche vom \ac{LIDAR} Sensor ermittelt wird. Die beiden letzten Spalten der dienen der Speicherung des Winkels welcher aus der Position der Schrittmotoren ermittelt wird. Die Distanz wird in $cm$ gespeichert und die beiden Winkel in Grad.
-\todo{Tabelle bsp Daten}
 
 \subsection{Schleifen der Steuerung}
 \begin{lstlisting}[caption={Messen und Aufzeichnen der Entfernungen}, language={Python}, label={main_loop}, numbers=left]
@@ -250,4 +249,3 @@ Die äußere Schleife wird nur so oft durchlaufen, bis der Motor 1, welcher für
 Nachdem die Werte gespeichert wurden, wird der Motor bewegt, in diesem Fall um vier schritte, was auch zeigt, dass das System in diesem Codebeispiel nur mit einem viertel der Auflösung in Horizontaler Richtung arbeitet. Anschließend wird der Index sowie der Schleifenzähler erhöht. Beim Schleifenzähler besteht der große Unterschied Zwischen den beiden 'while' Schleifen, da einmal die Schleife von 'vorne' und einmal von 'hinten' durchlaufen wird. Die Schrittweite vier ergibt sich aus der Anzahl der Schritte welche auch dem Motor übergeben wurden.\\
 Wenn die innere Schleife eine volle 360° Drehung also eine komplette Rotation durchlaufen hat, wird der Motor 1, welcher für den Polarwinkel zuständig ist ebenfalls bewegt, in diesem Fall auch um vier Schritte was ein viertel der Vertikalen Auflösung bedeutet. Ebenfalls der zweite Schleifenzähler wird um vier erhöht, und die Richtung des Motors für die Horizontale Drehung wird umgekehrt, bevor die innere Schleife aufs neue durchlaufen wird.\\
 Wenn die gesamte Messung abgeschlossen ist wird die Datei welche die Daten enthält geschlossen und die Messung gestoppt. Die Datei kann nun weiterverwendet und ausgewertet werden.
-\todo{Hauptklasse}

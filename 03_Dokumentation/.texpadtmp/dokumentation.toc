@@ -3,15 +3,15 @@
 \defcounter {refsection}{0}\relax 
 \select@language {ngerman}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Abk\"urzungsverzeichnis}{IX}{chapter*.6}
+\contentsline {chapter}{\nonumberline Abk\"urzungsverzeichnis}{VII}{chapter*.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Abbildungsverzeichnis}{X}{chapter*.7}
+\contentsline {chapter}{\nonumberline Abbildungsverzeichnis}{VIII}{chapter*.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Tabellenverzeichnis}{XII}{chapter*.10}
+\contentsline {chapter}{\nonumberline Tabellenverzeichnis}{X}{chapter*.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Formelverzeichnis}{XIII}{chapter*.11}
+\contentsline {chapter}{\nonumberline Formelverzeichnis}{XI}{chapter*.10}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Listings}{XIV}{chapter*.12}
+\contentsline {chapter}{\nonumberline Listings}{XII}{chapter*.11}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {1}Einleitung}{1}{chapter.1}
 \defcounter {refsection}{0}\relax 
@@ -159,10 +159,16 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {13.2.1}Steuerung mit \IeC {\"U}bergabeparameter}{64}{subsection.13.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {13.2.2}Bedienfeld Statusausgabe und Steuerung}{65}{subsection.13.2.2}
+\contentsline {subsection}{\numberline {13.2.2}Bedienfeld Statusausgabe und Steuerung}{66}{subsection.13.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {13.2.3}Webinterface}{65}{subsection.13.2.3}
+\contentsline {subsection}{\numberline {13.2.3}Webinterface}{66}{subsection.13.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Anhang}{A}{chapter*.54}
+\contentsline {subsubsection}{\nonumberline \ac {WLAN} auf dem Raspberry Pi einrichten}{67}{section*.55}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\nonumberline Literatur}{A}{section*.55}
+\contentsline {subsubsection}{\nonumberline NodeJS Server auf dem Raspberry Pi einrichten}{67}{section*.56}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\nonumberline Flask in javascript und Python verwenden}{67}{section*.57}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\nonumberline Anhang}{A}{chapter*.58}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\nonumberline Literatur}{A}{section*.59}

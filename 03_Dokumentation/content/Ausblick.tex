@@ -23,15 +23,17 @@ Mögliche Elemente, welche sowohl in Hard- als auch in Software erstellt werden 
 	\item Anbringen der Status LED's
 	\item Anbringen des Ein- \& Ausschalters des \ac{LIDAR} Systems
 \end{itemize}
-Zum anbringen des Bedienfelds wurden bereits Nutensteine im vorderen Teil des Rahmens eingebracht, so dass man das Bedienfeld einfach anbringen kann.  
+Zum anbringen des Bedienfelds wurden bereits Nutensteine im vorderen Teil des Rahmens eingebracht, so dass man das Bedienfeld einfach anbringen kann.
 
 \section{Software}
 Damit einige der erwähnten Hardware Implementationen möglich sind müssen auch Anpassungen an der Software vorgenommen werden.
 \subsection{Steuerung mit Übergabeparameter}
+Um eine noch einfachere Steuerung des Systems zu ermöglichen können in Zukunft die Klassen so umgeschrieben werden, dass die Übergabe von Parametern möglich ist.\\
+Eine möglicher aufruf eines Programms könnte dann wie folgt aussehen (Listing \ref{variables_calling}). Diese Funktion soll den Motor, welcher durch den ersten Übergabeparameter festgelegt wird um die Anzahl Schritte welche vom zweiten Übergabeparameter festgelegt werden drehen. Die Richtung soll dabei durch das Vorzeichen des zweiten Übergabeparameters bestimmt werden. Dabei soll ein positives Vorzeichen eine Drehung mit dem Uhrzeigersinn und ein negatives Vorzeichen eine Drehung gegen den Uhrzeigersinn bewirken.
 \begin{lstlisting}[caption={Beispiel Aufruf einer Python Funktion mit Übergabeparametern}, language={bash}, label={variables_calling}, numbers=left]
 python LIDAR_Bewegen.py 1 -400
 \end{lstlisting}
-
+Um diese Funktion zu implementieren müssen allerdings die Bestehenden Funktionen überarbeitet werden. In Listing \ref{variables_function} ist ein Code Beispiel für ein Programm welches über Übergabeparameter die Motoren steuern kann. Dieses Beispiel ist allerdings noch nicht am System selbst getestet worden. 
 \begin{lstlisting}[caption={Python Beispiel Funktion welche Übergabeparamenter akzeptiert und ausführt}, language={python}, label={variables_function}, numbers=left]
 ## Programm zum Bewegen eines Motors
 
@@ -74,14 +76,22 @@ else:
         print("Bitte Motor angeben")
 
 \end{lstlisting}
+Um die gewünschte Funktion zu implementieren ist die Bibliothek 'sys' sehr wichtig, denn diese Stellt die übergebenen Werte in einem Array zur Verfügung. Danach ist das Programm recht einfach aufgebaut, da in Zeile 7 - 14 die Motorklasse importiert und die beiden Motoren Initialisiert werden. Bevor mit dem eigentlichen ausführen des Programms, bzw. der Bewegung des Motors begonnen wird, wird überprüft ob mindestens 2 Werte übergeben wurden. Falls nicht wird eine Ausgabe darauf hinweißen und die Verwendung erläutern. \\
+Anschließend wird ab Zeile 23 damit begonnen die übergebenen Werte in lokale Variablen zu übernehmen und die angegebene Richtung, welche beim Aufrufen durch das Vorzeichen des zweiten Parameters festgelegt wird, zu prüfen. Danach wird nur noch die Bekannte Funktion der Motor Klasse zum bewegen des Motors aufgerufen.
 
-\todo{Erklären Aufrufen der Klasse / Funktion}
 \subsection{Bedienfeld Statusausgabe und Steuerung}
-\todo{Pseudocode / Erklärung}
+Um ein Bedienfeld zu realisieren muss gegebenenfalls ein Komplettes Menü erstellt werden, durch welches die verschiedenen Funktionen aufrufbar sind. Bei der Implementierung gilt es darauf zu achten, dass die Objektorientierte Programmierung beibehalten wird und die Möglichkeit weitere Funktionen zu implementieren erhalten bleibt.\\
+Um heraus zu finden wie weit eine Messung fortgeschritten ist, muss lediglich im Programmablauf beobachtet werden, wie viele der Festgelegten Messpunkte bereits aufgenommen wurden. Dies Kann relativ einfach über die beiden Zähler Variablen der while Schleifen realisiert werden. 
+\todo{Recherche Python console Ladebalken und Pseudocode erstellen} 
 
 \subsection{Webinterface}
+Die selbe Steuerung welche über das Bedienfeld direkt am System möglich ist, kann auch am PC in einem ansprechenden \ac{GUI} möglich sein. Dazu ist die Idee, dies mittels einem Webinterface zu realisieren. Der Raspberry Pi könnte dazu ein eigenständiges \ac{WLAN} verwalten. Für die Darstellung der Website kann beispielsweiße ein NodeJS Server auf dem Raspberry Pi aufgesetzt werden. Um von javascript anfragen an den Server, bzw. Python zu senden kann die Bibliothek Flask verwendet werden. Im folgenden wird auf die Ideen zu den einzelnen Komponenten näher eingegangen. 
+\subsubsection{\ac{WLAN} auf dem Raspberry Pi einrichten}
 \todo{Pi hostet WLAN}
-\todo{NodeJS, Flask, Python}
+\subsubsection{NodeJS Server auf dem Raspberry Pi einrichten}
+
+\subsubsection{Flask in javascript und Python verwenden}
+\todo{NodeJS, Flask, Python recherche}
 
 \todo{Ausblick}
 
