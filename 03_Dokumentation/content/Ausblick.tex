@@ -87,12 +87,162 @@ Um heraus zu finden wie weit eine Messung fortgeschritten ist, muss lediglich im
 \subsection{Webinterface}
 Die selbe Steuerung welche über das Bedienfeld direkt am System möglich ist, kann auch am PC in einem ansprechenden \ac{GUI} möglich sein. Dazu ist die Idee, dies mittels einem Webinterface zu realisieren. Der Raspberry Pi könnte dazu ein eigenständiges \ac{WLAN} verwalten. Für die Darstellung der Website kann beispielsweiße ein NodeJS Server auf dem Raspberry Pi aufgesetzt werden. Um von javascript anfragen an den Server, bzw. Python zu senden kann die Bibliothek Flask verwendet werden. Im folgenden wird auf die Ideen zu den einzelnen Komponenten näher eingegangen. 
 \subsubsection{\ac{WLAN} auf dem Raspberry Pi einrichten}
-\todo{Pi hostet WLAN}
+Da im Projekt ein Raspberry Pi der dritten Generation verwendet wurde, besitzt dieser durch den verbauten \ac{WLAN}-Chip die Möglichkeit ein eigenes \ac{WLAN}-Netzwerk zu erstellen und verwalten. https://www.raspberrypi.org/products/raspberry-pi-3-model-b/ 
+Durch einige Änderungen in den Netzwerkeinstellungen lässt sich diese Funktion nutzen.
+Zunächst müssen dafür die Packages zur Verwaltung der Zugriffe auf das Netzwerk installiert werden.
+\begin{lstlisting}[caption={Installation dnsmasq hostapd}, language={bash}, numbers=left]
+sudo apt-get install dnsmasq hostapd
+\end{lstlisting}
+Diese neu installierten Packages müssen anschließend auch konfiguriert werden. Dazu wird folgende Datei aufgerufen und durch eine Zeile ergänzt.
+\begin{lstlisting}[caption={Konfiguration DHCP Server}, language={bash}, numbers=left]
+Sudo nano /etc/dhcpcd.conf
+\end{lstlisting}
+Wird ergänzt durch
+\begin{lstlisting}[caption={Konfiguration DHCP Server}, language={bash}, numbers=left]
+Denyinterfaces wlan0
+\end{lstlisting}
+Damit der Raspberry Pi dann auch als Bereitsteller eines Netzwerks erkannt werden kann und immer wieder wird bekommt der Raspberry Pi eine Statische \ac{IP}-Adresse. 
+\begin{lstlisting}[caption={Konfiguration Interfaces}, language={bash}, numbers=left]
+Sudo nano /etc/network/interfaces
+\end{lstlisting}
+Wird dabei um mehrere Zeilen, welche zum Einstellen der Statischen \ac{IP}-Adresse dienen ergänzt.
+\begin{lstlisting}[caption={Konfiguration Interfaces}, language={bash}, numbers=left]
+allow-hotplug wlan0
+iface wlan0 inet static
+address 192.168.0.1
+netmask 255.255.255.0
+network 192.168.0.0
+broadcast 192.168.0.255
+\end{lstlisting}
+Anschließend muss der dhcpcd client und der \ac{WLAN}-Chip neugestartet werden.
+\begin{lstlisting}[caption={Konfiguration Interfaces}, language={bash}, numbers=left]
+Sudo service dhcpcd restart
+sudo ifdown wlan0; sudo ifup wlan0
+\end{lstlisting}
+Danach kann das Package, hostapt ebenfalls konfiguriert werden. 
+\begin{lstlisting}[caption={Konfiguration Hostapd}, language={bash}, numbers=left]
+Sudo nano /etc/hostapd/hostapd.conf
+\end{lstlisting}
+Dazu müssen folgende Zeilen in diese Datei geschrieben werden.
+\begin{lstlisting}[caption={Konfiguration Hostapd}, language={bash}, numbers=left]
+# Schnittstelle und Treiber
+interface=wlan0
+driver=nl80211
+# WLAN-Konfiguration
+ssid=LIDAR_WLAN
+channel=1
+hw_mode=g
+ieee80211n=1
+ieee80211d=1
+country_code=DE
+wmm_enabled=1
+# WLAN-Verschluesselung
+auth_algs=1
+wpa=2
+wpa_key_mgmt=WPA-PSK
+rsn_pairwise=CCMP
+wpa_passphrase=
+\end{lstlisting}
+Anschließend muss lediglich eine weitere Zeile ergänzt werden, damit die Konfiguration vollständig ist.
+\begin{lstlisting}[caption={Konfiguration Hostapd}, language={bash}, numbers=left]
+Sudo nano /etc/default/hostapd
+\end{lstlisting}
+Dort muss folgende Zeile ergänzt werden
+\begin{lstlisting}[caption={Konfiguration Hostapd}, language={bash}, numbers=left]
+DAEMON_CONF="/etc/hostapd/hostapd.conf"
+\end{lstlisting}
+Dann kann das letzte Package dnsmasq eingerichtet werden. Dieses Package ist dafür zuständig, die \ac{IP}-Adressen an die Nutzer des \ac{WLAN} zu verteilen.
+Da die Grundkonfiguration von dnsmasq sehr viele Einstellungen beinhaltet sollte diese abgespeichert werden bevor eine neue eigene Konfigurationsdatei erstellt wird.
+\begin{lstlisting}[caption={Konfiguration dnsmasq}, language={bash}, numbers=left]
+sudo mv /etc/dnsmasq.conf /etc/dnsmasq.conf_alt
+sudo nano /etc/dnsmasq.conf
+\end{lstlisting}
+Anschließend können folgende Zeilen in die neue Konfigurationsdatei eingetragen werden.
+\begin{lstlisting}[caption={Konfiguration dnsmasq}, language={bash}, numbers=left]
+Interface=wlan0
+no-dhcp-interface=eth0
+listen-address=192.168.0.1
+bind-interfaces
+server=8.8.8.8
+dhcp-range=192.168.0.50,192.168.0.150,240h
+\end{lstlisting}
+Damit wenn der Raspberry Pi über \ac{LAN} an ein Netzwerk angeschlossen ist auch ein Internetzugriff stattfinden kann müssen die Pakete auch weitergeleitet werden, dazu sind weitere Einstellungen notwendig.
+\begin{lstlisting}[caption={Konfiguration IPV4}, language={bash}, numbers=left]
+Sudo nano /etc/sysctl.conf
+\end{lstlisting}
+Muss dazu mit der zeile
+\begin{lstlisting}[caption={Konfiguration IPV4}, language={bash}, numbers=left]
+Net.ipv4.ip_forward=1
+\end{lstlisting}
+Danach muss der Raspberry Pi Neu gestartet werden.
+Anschließend müssen folgende Zeilen für die Weiterleitung Ausgeführt werden.
+\begin{lstlisting}[caption={Konfiguration IPV4}, language={bash}, numbers=left]
+sudo iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
+sudo iptables -A FORWARD -i eth0 -o wlan0 -m state -state RELATED,ESTABLISHED -j ACCEPT
+sudo iptables -A FORWARD -i wlan0 -o eth0 -j ACCEPT
+sudo sh -c "iptables-save > /etc/iptables.ipv4.nat"
+\end{lstlisting}
+Zuletzt muss noch eine Datei geändert werden.
+\begin{lstlisting}[caption={Konfiguration IPV4}, language={bash}, numbers=left]
+Sudo nano /etc/rc.local
+\end{lstlisting}
+Und folgende Zeile eingefügt werden
+\begin{lstlisting}[caption={Konfiguration IPV4}, language={bash}, numbers=left]
+Iptables-restore < /etc/iptables.ipv4.nat
+\end{lstlisting}
+Dann kann final der Hostapd und die dnsmasq gestartet werden.
+\begin{lstlisting}[caption={Starten der neu installierten Packages}, language={bash}, numbers=left]
+Sudo service hostapd start
+sudo service dnsmasq start
+Suod reboot
+\end{lstlisting}
+Nach dem Neustart des Raspberry Pi sollte ein \ac{WLAN} sichtbar sein um man sollte sich mit diesem Verbinden können. https://www.elektronik-kompendium.de/sites/raspberry-pi/2002171.htm https://www.randombrick.de/raspberry-pi-als-wlan-access-point-nutzen/ 
+
+
 \subsubsection{NodeJS Server auf dem Raspberry Pi einrichten}
+Um einen Webserver auf dem Raspberry Pi einrichten zu können wird NodeJS verwendet. Auch dies muss erst installiert und eingerichtet werden. 
+\begin{lstlisting}[caption={Installation NodeJS}, language={bash}, numbers=left]
+curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
+sudo apt-get install -y nodejs
+\end{lstlisting}
+Ob die Installation erfolgreich war lässt sich mit folgendem Befehl überprüfen.
+\begin{lstlisting}[caption={Installation NodeJS}, language={bash}, numbers=left]
+node -v
+\end{lstlisting}
+%https://www.w3schools.com/nodejs/nodejs_raspberrypi.asp 
 
-\subsubsection{Flask in javascript und Python verwenden}
-\todo{NodeJS, Flask, Python recherche}
+\subsubsection{Flask in Javascript und Python verwenden}
+Flask ist ein Python Microframework, welches es ermöglicht verschiedene Routen direkt in Python über einen Webserver anzusprechen. Dies gibt in diesem Fall die Möglichkeit aus dem NodeJS Server heraus Python Programme zu starten. 
+Um Flask zu verwenden muss dieses Natürlich zunächst Installiert werden. Dazu muss ein Ordner angelegt sein und in diesem Ordner eine Virtuelle Umgebung erstellt werden. 
+\begin{lstlisting}[caption={Installation Flask}, language={bash}, numbers=left]
+mkdir LIDAR
+cd LIDAR
+python3 -m venv venv
+. venv/bin/activate
+\end{lstlisting}
+Anschließend kann Flask Installiert werden.
+\begin{lstlisting}[caption={Installation Flask}, language={bash}, numbers=left]
+Sudo pip install Flask
+\end{lstlisting}
+Nun kann eine Rote hinzugefügt werden, welche man dann, wenn der Flask Server gestartet ist über eine Route aufrufen kann. 
+Im Fall dieses Projektes eignet sich Flask dazu die bereits vorhandenen Dateien aufrufen zu lassen. Die zugehörige Datei dazu könnte wie Folgt aussehen.
+\begin{lstlisting}[caption={Flask Beispielprogram}, language={python}, numbers=left]
+From flask import Flask
+import subprocess
+app=Flask(__name__)
 
-\todo{Ausblick}
+@app.route('/movemotor1/<int: steps>')
+def moveMotor1(steps):
+	subprocess.run(["python", "LIDAR_Bewegen.py", "1", str(steps)])
+	return;
+@app.route('/movemotor2/<int: steps>')
+def moveMotor2(steps):
+	subprocess.run(["python", "LIDAR_Bewegen.py", "2", str(steps)])
+	return;
+
+\end{lstlisting}
+Dies ist ein ungetesteter Beispielcode um die neu entworfene Funktion zum Bewegen der Motoren aufzurufen. Dabei ist es möglich über zwei verschiedene Routen die beiden Motoren anzusprechen und über einen Zusatz in der Route kann die Anzahl der Schritte angegeben werden. 
+http://flask.pocoo.org 
+
 
 

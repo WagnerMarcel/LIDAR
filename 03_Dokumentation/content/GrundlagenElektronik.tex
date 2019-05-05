@@ -1,6 +1,6 @@
 %!TEX root = ../dokumentation.tex
-\chapter{Grundlagen Elektronik}
-\section{Photodioden}
+\chapter{Grundlagen Elektronik}\label{chapter:grundlagenet}
+\section{Photodioden}\label{sec:photodioden}
 Um Licht zu detektieren werden meist Photodioden verwendet. Diese arbeiten nach einem relativ einfachen Prinzip.
 Eine p-n-Diode wird in Sperrrichtung betrieben, durch die Angelegte Spannung entsteht eine Sperrschicht. Wenn nun Photonen auf die offene, starke p-Dotierung treffen werden dort durch den Photoeffekt Ladungsträger erzeugt (Abbildung: \ref{photodiode}). Wenn diese nun durch Diffusion bis zur Sperrschicht gelangen, driften die Ladungsträger entgegen der Sperrspannung in die jeweiligen Raumladungszonen, dies ist als Strom messbar. \cite{Photodiode_spektrum}
 \begin{figure}[H]
@@ -10,7 +10,7 @@ Eine p-n-Diode wird in Sperrrichtung betrieben, durch die Angelegte Spannung ent
 	\label{photodiode}
 \end{figure}
 Dieser Effekt tritt allerdings nur auf, wenn die Photonen eine Energie großer als die des Bandabstandes des verwendeten Halbleiters aufweisen. Hierbei ist zudem pro eintreffendem Photon nur ein sehr geringer Stromimpuls messbar, daher ist diese Art von Diode für \ac{LIDAR} Anwendungen nicht brauchbar.
-\subsection{\acf{APD}}
+\subsection{\acf{APD}}\label{subsec:apd}
 Um einzelne Photonen detektieren zu können wird eine spezielle Form der Photodiode verwendet. Die sogenannte \ac{APD}. Die \ac{APD} hat im Gegensatz zur herkömmlichen Photodiode zweit weitere Schichten. Hinzu zur n-Dotierten und stark p-Dotierten Schicht kommen nun eine schwach p-Dotierte (oder intrinsische) und eine "normal" p-Dotierte Schicht (Abbildung: \ref{apd}). 
 \begin{figure}[H]
 	\centering
