@@ -33,7 +33,9 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {formel}{\numberline {7.1} Berechnung \IeC {\"U}bersetzungsverh\IeC {\"a}ltnis \cite {Tabellenbuch}}{22}{equation.7.2.1}
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {formel}{\numberline {8.1} Berechnung \IeC {\"U}bersetzungsverh\IeC {\"a}ltnis \cite {Tabellenbuch}}{28}{equation.8.2.1}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
@@ -41,13 +43,13 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {formel}{\numberline {10.1} Umrechung Kugelkoordinaten in kartesische Koordinaten}{46}{equation.10.2.1}
+\contentsline {formel}{\numberline {11.1} Umrechung Kugelkoordinaten in kartesische Koordinaten}{52}{equation.11.2.1}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {formel}{\numberline {11.1} Berechnung horizontiale Aufl\IeC {\"o}sung}{54}{equation.11.2.1}
+\contentsline {formel}{\numberline {12.1} Berechnung horizontiale Aufl\IeC {\"o}sung}{60}{equation.12.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {formel}{\numberline {11.2} Berechnung vertikale Aufl\IeC {\"o}sung}{54}{equation.11.2.2}
+\contentsline {formel}{\numberline {12.2} Berechnung vertikale Aufl\IeC {\"o}sung}{60}{equation.12.2.2}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 

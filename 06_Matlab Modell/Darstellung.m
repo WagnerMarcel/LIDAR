@@ -1,7 +1,7 @@
 % Anwendung zur Darstellung einer 3D Punktewolke aus einem LIDAR System
 clear all;
-%file = 'Messwerte_05_02/Auflösung_hoch.csv';
-file = 'data_Vlx.csv';
+%file = 'Messwerte_05_02/Auflï¿½sung_hoch.csv';
+file = 'data2019-02-26_16-21-03.csv';
 
 data = importdata(file,';',1); 
 data = data.data;
@@ -22,5 +22,5 @@ end
 
 
 plot3(x,y,z, '.')
-axis([-400 400 -400 400 0 240])
+axis([-600 600 -600 600 0 240])
 pbaspect([1 1 0.3])
