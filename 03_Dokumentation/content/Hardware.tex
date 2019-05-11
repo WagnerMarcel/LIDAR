@@ -30,10 +30,10 @@ Bei der Auswahl des \ac{LIDAR}-Sensors spielen Preis, Verfügbarkeit, Messfreque
 
 Als Hauptsensor wird ein „TF Mini \ac{LIDAR}“ von dem Hersteller „Seeedstudio“ verwendet. Dieser misst Entfernungen mit auf dem Prinzip der Phasendifferenz wie in Kapitel \ref{sec:phasenverschiebung} beschrieben.\\
 Der Arbeitsbereich ist zwischen 30 cm und 1200 cm mit einer Auflösung von 1 cm. Bei Entfernungen kleiner als 600 cm beträgt die Messungenauigkeit 1\%. Zwischen 600 cm und 1200 cm 2\%. Die Messfrequenz beträgt maximale 100 Hz.\\
-Der Sensor arbeitet mit einer Versorgungsspannung von 4,5 V – 6 V bei einem durchschnittlichen Stromverbrauch von 120 mA. Das Kommunikation läuft über eine \ac{UART} Schnittstelle mit einer Logikspannung von 3,3 V
+Der Sensor arbeitet mit einer Versorgungsspannung von 4,5 V – 6 V bei einem durchschnittlichen Stromverbrauch von 120 mA. Das Kommunikation läuft über eine \ac{UART} Schnittstelle mit einer Logikspannung von 3,3 V. \cite{TFMINI}
 
 Dieser Sensor wurde ausgewählt, da das Preis-Leistung Verhältnis und die Verfügbarkeit sehr gut ist. Zudem reicht der messbare Bereich für den zuvor definierten Standardraum aus. Die Kommunikation über \ac{UART} ist mit dem Raspberry Pi realisierbar. Sensoren mit einer deutlich höheren Messfrequenz sind um ein vielfaches teurer, weshalb aufgrund der Anforderung eines kostengünstigen Systems die Messfrequenz von 100 Hz  ausreichend sein muss. Zusätzlich wird dadurch nicht die Qualität des Ergebnisses beeinflusst. Die niedrigere Messfrequenz beeinträchtigt nur die Geschwindigkeit, mit der ein Raum vermessen werden kann. \\
-Der Sensor ist 42 x 15 x 16 mm groß, wodurch er sehr gut auf der dafür vorgesehenen Aluminiumhalterung montiert werden kann. \cite{TFMINI}
+Der Sensor ist 42 x 15 x 16 mm groß, wodurch er sehr gut auf der dafür vorgesehenen Aluminiumhalterung montiert werden kann. 
 
 
 \subsection{VL53L1X} \label{sec:VL53L1X}
@@ -59,9 +59,8 @@ Der Arbeitsbereich ist von dem eingestellten Distanzmodus abhängig. Man kann wi
 In der späteren Anwendung wird der Modus für große Distanzen benötigt. Daher sollten während der Messung potentielle Fehlerquellen durch Umgebungslicht vermieden werden.
 
 Die Genauigkeit der Messung hängt wie in Abbildung \ref{VL53L1X} zu sehen von der Messfrequenz ab. Die Abbildung zeigt das Verhalten bei unterschiedlichen Frequenzen. Dabei wird auf die Genauigkeit des Sensors, die maximal messbare Entfernung und die Replizierbarkeit der Messwerte eingegangen. ''Timing Budget'' ist dabei die Zeit, die benötigt wird, um einen Messwert aufzunehmen. Die Frequenz lässt sich daraus mit dem Kehrbruch berechnen.
-STDEV steht für "standard deviation" oder auch Standardabweichung. Dieser Wert gibt die Streubreite der gemessenen Werten um den tatsächlichen Wert an. Je höher dieser Wert, desto geringer ist die Genauigkeit des Sensors. \\ 
+''STDEV'' steht für ''standard deviation'' oder auch Standardabweichung. Dieser Wert gibt die Streubreite der gemessenen Werten um den tatsächlichen Wert an. Je höher dieser Wert, desto geringer ist die Genauigkeit des Sensors. \\ 
  
-Das obere Diagramm zeigt das Verhalten des Sensors bei einer Messfrequenz von 30,3 Hz. Bei dieser Frequenz kann unter perfekten äußeren Bedingungen nur eine maximale Distanz von 310 cm erreicht werden. Zudem ist die Genauigkeit des Sensors am schlechtesten. Mit kleiner werdender Messfrequenz nimmt die Genauigkeit zu und der maximal Messbare Distanz beträgt bei entsprechenden Messverhältnissen 400 cm. Gute Messverhältnisse sind möglichst wenig Umgebungslicht und gut reflektierende Gegenstände. \cite{VL53L1X_manual}
 
 \begin{figure}[H]
 	\centering
@@ -70,15 +69,17 @@ Das obere Diagramm zeigt das Verhalten des Sensors bei einer Messfrequenz von 30
 	\label{VL53L1X}
 \end{figure}
 
+Das obere Diagramm zeigt das Verhalten des Sensors bei einer Messfrequenz von 30,3 Hz. Bei dieser Frequenz kann unter perfekten äußeren Bedingungen nur eine maximale Distanz von 310 cm erreicht werden. Zudem ist die Genauigkeit des Sensors am schlechtesten. Mit kleiner werdender Messfrequenz nimmt die Genauigkeit zu und der maximal Messbare Distanz beträgt bei entsprechenden Messverhältnissen 400 cm. Gute Messverhältnisse sind möglichst wenig Umgebungslicht und gut reflektierende Gegenstände. \cite{VL53L1X_manual}
 
-Der Sensor ist mit 4,9 x 2.5 x 1.56 mm sehr klein. Zudem müssen 12 Pins auf der Unterseite verlötet werden. Mangelnder Ausrüstung zum Löten solchen Chips, wird ein bereits verbauter Sensor auf einer Platine verwendet. Auf der Platine sind zudem benötigte Widerstände und Kondensatoren verbaut. Werden die 12 herausgeführten Pins der Platine verwendet, ist der Sensor um 90 Grad vertikal verdreht und kann nicht auf der dafür vorgesehenen Adapterplatte der Mechanik montiert werden. Deshalb wird eine weiter Adapterplatine entworfen, auf welche die Platine mit dem Sensor aufgesteckt werden kann und somit um 90 Grad gedreht wird.
+
+Der Sensor ist mit 4,9 x 2.5 x 1.56 mm sehr klein. Zudem müssen 12 Pins auf der Unterseite verlötet werden. Aufgrund mangelnder Ausrüstung zum Löten solchen Chips wird ein bereits verbauter Sensor auf einer Platine verwendet. Auf der Platine sind zudem benötigte Widerstände und Kondensatoren verbaut. Werden die 12 herausgeführten Pins der Platine verwendet, ist der Sensor um 90 Grad vertikal verdreht und kann nicht auf der dafür vorgesehenen Adapterplatte der Mechanik montiert werden. Deshalb wird eine weiter Adapterplatine entworfen, auf welche die Platine mit dem Sensor aufgesteckt werden kann und somit um 90 Grad gedreht wird.
 
 
 
 -- BILD, Schaltplan, Board...
 
 
-Fazit: Sensor nicht so gut, aufpassen bei Messen wegen äußeren Bedingungen
+Im Vergleich zum ''TF Mini LIDAR'' Sensor muss beim ''VL53L1X'' auf äußere Einflüsse wie Umgebungslicht oder Reflexionsverhalten der Oberflächen geachtet werden. Zudem ist die maximal messbare Entfernung laut Spezifikation zu gering. Da jedoch ein möglichst Kostengünstiges System entwickelt werden soll, wird der Sensor trotzdem für Tests verwendet, da es der kostengünstigste Sensor auf dem Markt ist, welcher den Anforderungen annähern entspricht.
 
 
 
@@ -112,16 +113,16 @@ Der Sensor wird durch je einen Schrittmotor in der Horizontalen als auch Vertika
 Die horizontale Ausrichtung erfolgt zusätzlich über einen Zahnriementrieb zur Kraftübertragung. Das Übersetzungsverhältnis entspricht 6:1.  
 
 \subsection{Schrittmotoren}
-Das drehen der Basis übernimmt ein bipolarer Hybrid-Schrittmotor der Bauform \ac{NEMA} 17 und einem Vollschrittwinkel von 1.8°. Der Maximalstrom beträgt 1.2 A pro Phase bei einer Spannung von 4V.\\ 
+Das Drehen der Basis übernimmt ein bipolarer Hybrid-Schrittmotor der Bauform \ac{NEMA} 17 und einem Vollschrittwinkel von 1.8°. Der Maximalstrom beträgt 1.2 A pro Phase bei einer Spannung von 4V.\\ 
 Dieser Motor wurde gewählt, da er genug Drehmoment aufbringt, um die gesamte Basis drehen zu können. Das hohe Haltemoment von 3,2 $\frac{kg}{cm}$ verhindert ungewolltes Verdrehen der Basis während der Messung. Dadurch ist das System fehlerresistenter auf äußere Einflüsse. \cite{NEMA17} 
 
 
-Zum Kippen des Lidar-Sensors wird ebenfalls ein bipolarer Hybrid-Schrittmotor verwendet. Dieser Motor befindet sich auf der sich drehenden Basis. Der Schwerpunkt des Motors befindet sich dabei unumgänglich einige Zentimeter neben der Drehachse. Deswegen sollte der Motor möglichst wenig Gewicht aufweisen, um die Unwucht so klein wie möglich zu halten.
+Zum Kippen des Lidar-Sensors wird ebenfalls ein bipolarer Hybrid-Schrittmotor verwendet. Dieser Motor befindet sich auf der sich drehenden Basis. Der Schwerpunkt des Motors befindet sich dabei unumgänglich einige Zentimeter neben der Drehachse. Deswegen sollte der Motor möglichst wenig Gewicht aufweisen, um die bei Drehung entstehende Unwucht so klein wie möglich zu halten.
 Zum vertikalen Kippen des Sensor wird nicht so viel Kraft benötigt, als für das Drehen der gesamten Basis. Auf Grund dessen reicht die Bauform Nema 11. Diese Bauform ist deutlich kleiner und dadurch leichter.
 Das Haltemoment reicht aus, um ungewolltes vertikales Verdrehen zu vermeiden.
 
 
-\subsection{Schrittmotortreiber}
+\subsection{Schrittmotortreiber} \label{sec:Schrittmotortreiber}
 Zur Ansteuerung der Schrittmotoren wird der Schrittmotortreiber A4988 verwendet. Dieser ist bereits auf einer Trägerplatine mit Teilen der äußeren Beschaltung verbaut.\\
 Der Motortreiber ermöglicht es, bipolar Schrittmotoren mit eine Motorspannung von 8 V - 35 V mit einem maximalen Phasenstrom von 2 A anzusteuern. \cite{A4988}\\ 
 Mit dem Motortreiber sind Mikroschritte realisierbar. Dabei sind halb, viertel, achtel und sechzehntel Schritte möglich. Der maximale Ausgangsstrom ist über einen Potentiometer auf der Trägerplatine stufenlos einstellbar. 
@@ -136,8 +137,8 @@ Mit dem Motortreiber sind Mikroschritte realisierbar. Dabei sind halb, viertel, 
 
 
 Der Motor wird spulenweise an den Motortreiber angeschlossen. Dabei wird Pin 1A und 1B sowie 2A und 2B über jeweils eine Spule des Schrittmotors verbunden.
-Die Versorgungsspannung wird über ein 12 V Tischnetzteil bereitgestellt. Diese wird zusätzlich mit einem Stützkondensatoren geglättet, um Spannungsspitzen auszugleichen.
-Als Kontrolleinheit für den Motortreiber dient ein Rapsberry Pi. Die Logikspannungsversorgung des Treibers wird mit 5 V gespeist.\\ 
+Die Versorgungsspannung wird über ein 12 V Tischnetzteil bereitgestellt. Die Versorgungsspannung wird zusätzlich mit einem Stützkondensatoren geglättet. Der Kondensator hat eine Kapazität von 150 $\mu$F.
+Als Kontrolleinheit für den Motortreiber dient ein Raspberry Pi. Die Logikspannungsversorgung des Treibers wird mit 5 V gespeist.\\ 
 Die Anschlüsse ''STEP'', ''DIR'', sowie ''MS1-MS3'' werden mit \ac{GPIO}’s verbunden. Der Logikpegel an dem DIR-Pin legt die Bewegungsrichtung des Motors fest. Ein toggelndes Signal am STEP-Pin führt zur Rotation des Motors. Pro steigende Flanke dreht sich der Motor um die mit MS1-MS3 eingestellte Schrittweite weiter. \\  
 MS1-MS3 dienen zum Einstellen der Schrittweite. Die Kombination der Logiklevel entscheidet dabei über die Schrittweite. Theoretisch wären somit $2^{3}$ Kombinationen möglich. Es werden jedoch nur fünf Einstellungen benötigt. Die verfügbaren Kombinationen sind in Tabelle \ref{Mikrostepping} aufgelistet. In der Tabelle ist der Zusammenhang von Schrittweite und Logiklevel an MS1-MS3 dargestellt. 
 
@@ -169,7 +170,7 @@ I_{max} = U_{Ref} \cdot 2
 &U_{Ref} = \text{Referenzspannung zwischen Potentiometer und Masse [V]}& 
 \end{flalign*} 
 
-wird der maximale Strom bei gegebener Spannung berechnet. Durch verändern des Widerstandes des Potentiometer verändert sich die Referenzspannug und der maximale Strom kann verändert werden. \\ 
+wird der maximale Strom bei gegebener Spannung berechnet. Durch verändern des Widerstandes des Potentiometer verändert sich die Referenzspannung und der Wert des maximalen Stroms ändert sich. \\ 
 Unterschiedliche Bauweisen der Bauteile führen oftmals dazu, dass die Formel nur als grober Richtwert gewertet werden kann. Nach der groben Einstellung des Stromlimits mithilfe der Formel sollte der Strom bei aktivem Motor gemessen und gegebenenfalls noch angepasst werden.\\ 
 Das Verändern der Schrittweiten hat ebenfalls einen Einfluss auf den maximalen Strom. Deshalb sollte der Treiber auf die Schrittweite eingestellt werden, bei der der maximale Strom fließt.\\ 
 Pro Motor wird ein Motortreiber verwendet. 
@@ -178,7 +179,7 @@ Pro Motor wird ein Motortreiber verwendet.
 
 \section{Funktionseinheit Kalibrierung}
 
-Sowohl die horizontale als auch vertikale Ausgangsposition soll beim Starten einer Messung vom System selbständig gefunden werden. Dabei wird der Sensor möglichst parallel zum Rahmen und zum Boden ausgerichtet. Dadurch wird spätere Nachbearbeitung der Daten überflüssig, was Zeit und Aufwand spart. Wird die Anfangskalibrierung der Achsen nicht oder nur ungenau vorgenommen, ist die spätere 3D Darstellung um einen bestimmten Winkel verdreht.
+Sowohl die horizontale als auch vertikale Ausgangsposition soll beim Starten einer Messung vom System selbständig gefunden werden. Dabei wird der Sensor möglichst parallel zum Rahmen und dem Boden ausgerichtet. Dadurch wird spätere Nachbearbeitung der Daten hinsichtlich Ausrichtung überflüssig, was Zeit und Aufwand spart. Wird die Anfangskalibrierung der Achsen nicht oder nur ungenau vorgenommen, ist die spätere 3D Darstellung um einen bestimmten Winkel verdreht.
 
 \subsection{Lichtschranke}
 Zum automatischen Positionieren der Basis wird eine Infrarot Lichtschranke verwendet. Diese befindet sich unter der Zahnriemenscheibe und detektiert das Durchlaufen des daran befestigten Kalibrierzapfens. Lichtschranke und Zapfen sind so zueinander ausgerichtet, dass beim Detektieren des Zapfens der Sensor parallel zum Rahmen steht.\\ 
@@ -191,24 +192,78 @@ Auf dem Lichtschrankenmodul ist LM393 Komparator \ac{IC} verbaut. Das Modul ben�
 
 
 Die Kalibrierung in vertikaler Richtung soll über eine Gyroskop realisiert werden. Dieses muss die absolute Ausrichtung in der vertikalen Richtung detektieren können. \\ 
-Als Sensor wird der Beschleunigungssensor MPU 6050 verwendet. Dieser benötigt eine Versorgungsspannung von 3,3 V. Die Messwerte werden über \ac{I$^{2}$C} ausgegeben. Sowohl Spannungsversorgung als auch Takt- und Datenleitung werden direkt mit dem Raspberry Pi verbunden. \\ 
-Das Auslesen der Rohdaten des Sensors ist über Pyhton mit     
-
-
---ToDo-- 
-
+Als Sensor wird der Beschleunigungssensor MPU 6050 verwendet. Dieser benötigt eine Versorgungsspannung von 3,3 V. Die Messwerte werden über \ac{I$^{2}$C} ausgegeben \cite{MPU-6050}. Sowohl Spannungsversorgung als auch Takt- und Datenleitung werden direkt mit dem Raspberry Pi verbunden. \\ 
+Der Sensor wird vor dem Befestigen an der Unterseite der Adapterplatte auf seine Funktion überprüft. Dabei wird festgestellt, dass der Sensor nicht die benötigte Genauigkeit liefert, um die genaue Positionierung des Sensors in vertikaler Richtung zu gewährleisten. \\
+Die vertikale Ausrichtung erfolgt während der Tests manuell.
 
 
 \section{Platinen}
 
+Um einen Wechsel der Rechen- und Steuereinheit zu ermöglichen, wird eine Platine entworfen, die über ein 40 adriges Flachbandkabel direkt mit allen Pins des Raspberry Pi's verbunden werden kann. Auf der Platine sind zudem Motortreiber und Spannungsversorgung verbaut. Alle benötigten Schnittstellen und zusätzliche \ac{GPIO}’s sind durch die Platine mit Stiftleisten verbunden.\\
+Für die Schaltplan- und Layouterstellung wird die Software ''EAGLE'' von Autodesk verwendet.
 
 
-\subsection{Spannungsversorgung / Abwärtswandler} 
+\subsection{Abwärtswandler} 
 
-Da für einige Komponenten eine Spannung von 5V benötigt wird, muss die Versorgungsspannung von 12 V verkleinert werden. Dazu wird ein Abwärtswandler verwendet. Über ein Potentiometer auf der oberseite des Moduls kann die Ausgangsspannung eingestellt werden. (MINI-360) 
+Einige Komponenten benötigen eine Spannung von 5V. Die Versorgungsspannung von 12 V muss somit verringert werden. Dazu wird ein Abwärtswandler des Typs MH-Mini-360 verwendet. Über ein Potentiometer auf der Oberseite des Moduls kann die Ausgangsspannung stufenlos eingestellt werden.
 
-\subsection{Schaltplan} 
+\subsection{Schaltplan} \label{sec:Schaltplan} 
+Abbildung \ref{spannung} zeigt die Beschaltung der Spannungsversorgung und Spannungswandlung. Über den Hohlstecker (links) wird die Platine mit 12 V versorgt. Der 150 $\mu$F Kondensator dient zur Glättung der Eingangsspannung. Der Abwärtswandler wird mit den 12 V Eingangsspannung verbunden. Der Ausgang wird auf 5 V eingestellt. \\
+Sowohl die 12 V als auch die 5 V können über Kurzschlussbrücken bzw. Schalter von der nachfolgenden Schaltung getrennt oder verbunden werden.    
 
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.6\textwidth]{images/Hardware/Schaltplan/Spannung}
+	\caption{Schaltplan: Spannungsversorgung}
+	\label{spannung}
+\end{figure}
+
+Abbildung \ref{driver} zeigt die Beschaltung der Motortreiber wie in Kapitel \ref{sec:Schrittmotortreiber} beschrieben. Die vier Anschlüsse für die Motorspulen werden mit Stiftleisten realisiert, an denen man den Motor später anstecken kann.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.6\textwidth]{images/Hardware/Schaltplan/Driver}
+	\caption{Schaltplan: Motortreiber}
+	\label{driver}
+\end{figure}
+
+Abbildung \ref{schnittstellen} zeigt die Verbindung zum Raspberry Pi und die verschiedenen Schnittstellen. An den 40 Pins (links) kann ein Raspberry Pi über ein Flachbandkabel verbunden werden. \\
+Die benötigten Schnittstellen werden über Stiftleisten zugänglich gemacht. Es werden eine \ac{UART}-, eine \ac{SPI}- und drei \ac{I$^{2}$C}- Schnittstelle verbunden. Es werden mehr Schnittstellen zugänglich gemacht, als benötigt. Dies garantiert Flexibilität für Weiterentwicklungen. \\
+Ein Weiterer Anschluss ist mit den verschiedenen Spannungen der Platine verbunden. 
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.6\textwidth]{images/Hardware/Schaltplan/Schnittstellen}
+	\caption{Schaltplan: Schnittstellen}
+	\label{schnittstellen}
+\end{figure}
+
+Abbildung \ref{leds} zeigt die Schaltungen für den optionalen Anschluss von Status Led's und einem Luftkühler über Pins. Eine Statusled kann über einen strombegrenzenden Widerstand mit 5 V verbunden werden. Steht das System unter Spannung, leuchtet die Led. Eine weitere Led kann mit dem Raspberry Pi über einen Transistor angesteuert werden. Die Funktion der Led kann im Code direkt definiert werden.\\
+An zwei weiteren Pins kann ein Luftkühler an 12 V angeschlossen werden. Die Steuerung des Kühlers ist über einen Transistor mit dem Raspberry Pi möglich.
+  
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.6\textwidth]{images/Hardware/Schaltplan/Leds}
+	\caption{Schaltplan: Leds und Kühler}
+	\label{leds}
+\end{figure}
+
+
+
+\subsection{Layout}
+
+Die in Kapitel \ref{sec:Schaltplan} gezeigten Schaltpläne werden in ''EAGLE'' zu einem Layout verarbeitet. Dabei wird vor allem auf eine praktische Anordnung der Komponenten und sinnvolle Leiterbahnführung geachtet.\\
+Die Leiterbahnen für die 12 V Spannungsversorgung haben eine Breite von 1,78 mm. Die 5 V Leiterbahnen eine Breite von 1,27 mm. Für restlichen Leiterbahnen reicht eine Breite von 0,82 mm. \\
+Die roten Verbindungen in Abbildung \ref{layout} sind Verbindungen, die nach der Fertigung der Platine mit Drahtbrücken hergestellt werden müssen. \\
+Die Platine hat eine Größe von 7,5 mm auf 10 mm und wird gefräst. Um die Übersichtlichkeit über die vielen Anschlussmöglichkeiten zu behalten, werden die jeweiligen Anschlüsse beschriftet. 
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.6\textwidth]{images/Hardware/Layout}
+	\caption{Platinenlayout}
+	\label{layout}
+\end{figure}
 
 
 

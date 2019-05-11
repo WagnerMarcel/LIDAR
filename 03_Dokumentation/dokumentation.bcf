@@ -2030,6 +2030,7 @@
     <bcf:citekey order="39">NEMA17</bcf:citekey>
     <bcf:citekey order="40">A4988</bcf:citekey>
     <bcf:citekey order="41">LM393</bcf:citekey>
+    <bcf:citekey order="42">MPU-6050</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

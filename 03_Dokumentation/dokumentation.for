@@ -45,13 +45,13 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {formel}{\numberline {11.1} Umrechung Kugelkoordinaten in kartesische Koordinaten}{53}{equation.11.2.1}% 
+\contentsline {formel}{\numberline {11.1} Umrechung Kugelkoordinaten in kartesische Koordinaten}{56}{equation.11.2.1}% 
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {formel}{\numberline {12.1} Berechnung horizontiale Aufl\IeC {\"o}sung}{61}{equation.12.2.1}% 
+\contentsline {formel}{\numberline {12.1} Berechnung horizontiale Aufl\IeC {\"o}sung}{64}{equation.12.2.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {formel}{\numberline {12.2} Berechnung vertikale Aufl\IeC {\"o}sung}{61}{equation.12.2.2}% 
+\contentsline {formel}{\numberline {12.2} Berechnung vertikale Aufl\IeC {\"o}sung}{64}{equation.12.2.2}% 
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
