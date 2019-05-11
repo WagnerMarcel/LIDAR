@@ -174,41 +174,41 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {12.2}Vergleich verschiedener Aufl\IeC {\"o}sungen}{63}{section.12.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {12.2.1}\IeC {\"U}bersicht \IeC {\"u}ber die Dauer, Aufl\IeC {\"o}sung und Anzahl an Messpunkten}{64}{subsection.12.2.1}% 
+\contentsline {subsection}{\numberline {12.2.1}\IeC {\"U}bersicht \IeC {\"u}ber die Dauer, Aufl\IeC {\"o}sung und Anzahl an Messpunkten}{63}{subsection.12.2.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {12.2.2}Vergleich der unterschiedlichen Aufl\IeC {\"o}sungen}{65}{subsection.12.2.2}% 
+\contentsline {subsection}{\numberline {12.2.2}Vergleich der unterschiedlichen Aufl\IeC {\"o}sungen}{64}{subsection.12.2.2}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {12.3}Vergleich der Sensoren}{68}{section.12.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {13}Fazit}{71}{chapter.13}% 
+\contentsline {chapter}{\numberline {13}Fazit}{70}{chapter.13}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {14}Ausblick}{72}{chapter.14}% 
+\contentsline {chapter}{\numberline {14}Ausblick}{71}{chapter.14}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {14.1}Hardware}{72}{section.14.1}% 
+\contentsline {section}{\numberline {14.1}Hardware}{71}{section.14.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {14.1.1}Platine}{72}{subsection.14.1.1}% 
+\contentsline {subsection}{\numberline {14.1.1}Platine}{71}{subsection.14.1.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {14.1.2}Gyrosensor}{73}{subsection.14.1.2}% 
+\contentsline {subsection}{\numberline {14.1.2}Gyrosensor}{72}{subsection.14.1.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {14.1.3}Schleifring}{73}{subsection.14.1.3}% 
+\contentsline {subsection}{\numberline {14.1.3}Schleifring}{72}{subsection.14.1.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {14.1.4}Motortreiber}{73}{subsection.14.1.4}% 
+\contentsline {subsection}{\numberline {14.1.4}Motortreiber}{72}{subsection.14.1.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {14.1.5}Bedienfeld}{73}{subsection.14.1.5}% 
+\contentsline {subsection}{\numberline {14.1.5}Bedienfeld}{72}{subsection.14.1.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {14.2}Software}{74}{section.14.2}% 
+\contentsline {section}{\numberline {14.2}Software}{73}{section.14.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {14.2.1}Steuerung mit \IeC {\"U}bergabeparameter}{74}{subsection.14.2.1}% 
+\contentsline {subsection}{\numberline {14.2.1}Steuerung mit \IeC {\"U}bergabeparameter}{73}{subsection.14.2.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {14.2.2}Bedienfeld Statusausgabe und Steuerung}{76}{subsection.14.2.2}% 
+\contentsline {subsection}{\numberline {14.2.2}Bedienfeld Statusausgabe und Steuerung}{75}{subsection.14.2.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {14.2.3}Webinterface}{76}{subsection.14.2.3}% 
+\contentsline {subsection}{\numberline {14.2.3}Webinterface}{75}{subsection.14.2.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline \ac {WLAN} auf dem Raspberry Pi einrichten}{77}{section*.75}% 
+\contentsline {subsubsection}{\nonumberline \ac {WLAN} auf dem Raspberry Pi einrichten}{76}{section*.75}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline NodeJS Server auf dem Raspberry Pi einrichten}{80}{section*.78}% 
+\contentsline {subsubsection}{\nonumberline NodeJS Server auf dem Raspberry Pi einrichten}{79}{section*.78}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Flask in Javascript und Python verwenden}{81}{section*.79}% 
+\contentsline {subsubsection}{\nonumberline Flask in Javascript und Python verwenden}{80}{section*.79}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\nonumberline Anhang}{A}{chapter*.80}% 
 \defcounter {refsection}{0}\relax 

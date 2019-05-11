@@ -8,18 +8,18 @@ Nachdem das Aufnehmen und Darstellen von Räumen funktioniert, wird die Genauigk
 
 \section{Genauigkeit des Systems}
 
-Um die Genauigkeit des Systems zu überprüfen, wird ein Raum mit dem Lidar-System vermessen. Zudem wird der Raum händisch vermessen und der Grundriss mit der Software "Sweet Home 3D" erstellt. Anschließend wird die 3D-Darstellung mit dem Grundriss des Raumes und weiterer markanter Gegenstände verglichen.
-Bei dem Raum handelt es sich um einen Flur mit vielen Ecken, Türen und Gegenständen. Dadurch erhält man viele verschiedene Maße, die überprüft werden können. Der Grundriss des Raumes ist in Bild ... dargestellt. Alle weiteren Maße des Raumes können direkt in der Software abgerufen werden.
+Um die Genauigkeit des Systems zu überprüfen, wird ein Raum mit dem Lidar-System vermessen. Zudem wird der Raum händisch vermessen und der Grundriss mit der Software ''Sweet Home 3D'' erstellt. Anschließend wird die 3D-Darstellung mit dem Grundriss des Raumes und weiterer markanter Gegenstände verglichen.
+Bei dem Raum handelt es sich um einen Flur mit vielen Ecken, Türen und Gegenständen. Dadurch erhält man viele verschiedene Maße, die überprüft werden können. Der Grundriss des Raumes ist in Abbildung \ref{grundriss} dargestellt. Alle weiteren Maße des Raumes können direkt in der Software abgerufen werden.
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.7\textwidth]{images/Validierung/Grundriss}
+	\includegraphics[width=0.6\textwidth]{images/Validierung/Grundriss}
 	\caption{Grundriss des Testraums}
 	\label{grundriss}
 \end{figure}
 
 
-Das Lidar-System wird im Raum aufgestellt, die Position ist annähernd mittig und wird zudem ausgemessen und in der Software eingetragen. Durch die Funktionsweise von Lidar Sensoren entstehen Schatten. So können beispielsweise Konturen hinter einer Wand, die die Lichtstraheln reflektiert nicht detektiert werden. Diese Schatten werden ebenfalls im Grundriss eingezeichnet, um den Vergleich besser durchführen zu können. Die weißen Stellen innerhalb des Grundrisses in Abbildung ... stellen diese Schatten dar.
+Das Lidar-System wird im Raum aufgestellt. Die Position ist annähernd mittig und wird zudem bestimmt und in der Software eingetragen. Durch die Funktionsweise von Lidar Sensoren entstehen Schatten. So können beispielsweise Konturen hinter einer Wand, die die Lichtstrahlen reflektiert nicht detektiert werden. Diese Schatten werden ebenfalls im Grundriss eingezeichnet, um den Vergleich besser durchführen zu können. Die weißen Stellen innerhalb des Grundrisses in Abbildung \ref{grundrssmitschatte} stellen diese Schatten dar.
 
 \begin{figure}[H]
 	\centering
@@ -29,7 +29,7 @@ Das Lidar-System wird im Raum aufgestellt, die Position ist annähernd mittig un
 \end{figure}
 
 
-Zum Vergleich wird nun der Grundriss benötigt, den das Lidar-System erstellt hat. Dazu wird die 3D Darstellung nur in z-Richtung betrachtet. Man erhält eine Vogelperpektive des Raumes, bei dem der Grundriss auszumachen ist. 
+Zum Vergleich wird nun der Grundriss benötigt, den das Lidar-System erstellt hat. Dazu wird die 3D Darstellung nur in z-Richtung betrachtet. Man erhält die Vogelperspektive des Raumes, bei dem der Grundriss auszumachen ist. 
 
 \begin{figure}[H]
 	\centering
@@ -48,48 +48,53 @@ Zum grafischen Vergleich werden manuell erstellter Grundriss und die Vogelperspe
 	\label{uebereinander}
 \end{figure}
 
-
--- Was kann man sehn?
---nur 2 Linien nehemn
+--ToDo Auswertung beschreiben, was kann man sehen?
 
 -- Linien an Seite raus weil Glas
 
 -- Höhe wird überprüft
-Schrank, Bild usw
-
-Messen mit Cursor
+-- Schrank, Bild usw
+--Messen mit Cursor
 
 
 
 \section{Vergleich verschiedener Auflösungen}
 
-Durch das Einstellen verschiedener Schrittweiten der Schrittmotoren können unterschiedliche Auflösungen und Punkteverteilungen eingestellt werden. Derselbe Raum wird unter den gleichen Randbedingungen mit drei unterschiedlichen Einstellungen vermessen. Dabei bleibt sowohl die Position des Lidar-Sensors als auch der Sensor selbst gleich. Verändert wird sowohl die horizontale Schrittweite als auch die vertikale Schrittweite. Dies kann im Code durch das Ändern weniger Parameter realisiert werden.
+Durch das Einstellen verschiedener Schrittweiten der Schrittmotoren können unterschiedliche Auflösungen und Punkteverteilungen eingestellt werden. Derselbe Raum wird unter den gleichen Randbedingungen mit drei unterschiedlichen Einstellungen vermessen. Dabei bleibt sowohl die Position des Lidar-Sensors als auch der Sensor selbst gleich. Verändert wird sowohl die horizontale- als auch die vertikale Schrittweite. Dies kann im Code durch das Ändern weniger Parameter realisiert werden.
 
 Bei den verschiedenen Auflösungen werden vor allem das Ergebnis und die benötigte Zeit zum Aufnehmen der Messdaten verglichen. Zudem soll dadurch eine Einstellung gefunden werden, die einen guten Kompromiss zwischen Auflösung und benötigter Zeit darstellt. 
 
-Als Sensor wird immer der TF Mini Lidar verwendet.
+Als Sensor wird der ''TF Mini Lidar'' verwendet.
 
 
 \subsection{Übersicht über die Dauer, Auflösung und Anzahl an Messpunkten}
 
-Die horizontale Auflösung wird im Code in achtel Schritten des Schrittmotors angegeben. Der Motor läuft im Achtelschrittbetrieb. Für eine gesamte Umdrehung des Motors werden 200 Vollschritte benötigt. Zudem entspricht die Übersetzung von Schrittmotor zur drehbaren Basis des Lidar-Systems 1:6. Es werden also 9600 Achtelschritte benötigt, um die Basis einmal um 360 Grad zu drehen. Die Auflösung in Grad bezogen auf die angabe im Code kann mit Formel... berechnet werden. 
+Die horizontale Auflösung wird im Code in achtel Schritten des Schrittmotors angegeben. Der Motor läuft im Achtelschrittbetrieb. Für eine gesamte Umdrehung des Motors werden 200 Vollschritte benötigt. Zudem entspricht die Übersetzung von Schrittmotor zur drehbaren Basis des Lidar-Systems 1:6. Es werden also 9600 Achtelschritte benötigt, um die Basis einmal um 360 Grad zu drehen. Die Auflösung in Grad bezogen auf die Angabe im Code kann mit Formel \ref{horizontialeAuflösung} berechnet werden. 
 
 \begin{equation}\formelentry{Berechnung horizontiale Auflösung}
 d = \frac{360}{200 \cdot 8 \cdot 6} \cdot x
+\label{horizontialeAuflösung}
 \end{equation}
+\begin{flalign*}
+&x = \text{Anzahl Achtelschritte des Motors (in Software)} \left[^{\circ} \right]&\\
+&d = \text{reale Drehung des Sensors in horizontaler Richtung}\left[^{\circ} \right]&\\
+\end{flalign*}
 
-Die vertikale Grundeinheit sind viertelschritte. Um den Sensor um die maximalen 90 Grad drehen zu können, werden 50 Vollschritte benötigt. Der Sensor ist direkt mit der Welle des Motors verbunden, wodurch keine Konstante für eine Übersetzung benötigt wird.
+Die vertikale Grundeinheit sind Viertelschritte. Um den Sensor um die maximalen 90 Grad drehen zu können, werden 50 Vollschritte benötigt. Der Sensor ist direkt mit der Welle des Motors verbunden, wodurch keine Konstante für eine Übersetzung benötigt wird.
 
 \begin{equation}\formelentry{Berechnung vertikale Auflösung}
 d = \frac{360}{50 \cdot 4} \cdot x
+\label{vertikaleAuflösung}
 \end{equation}
+\begin{flalign*}
+&x = \text{Anzahl Viertelschritte des Motors (in Software)} \left[^{\circ} \right]&\\
+&d = \text{reale Drehung des Sensors in horizontaler Richtung}\left[^{\circ} \right]&\\
+\end{flalign*}
 
 
-Die Anzahl der Messpunkte lässt sich über die Anzahl der horizontalen Messpunkte * Anzahl der vertikalen Reihen berechnen.
+Die Menge der Messpunkte lässt sich über die Anzahl der horizontalen Messpunkte multipliziert mit der Anzahl der vertikalen Reihen berechnen.
 
-
-
-Die Berechnung der Zeit hängt ...
+Die benötigte Zeit ist linear zu der Anzahl der Messpunkte.
 
 \begin{center}
 	\begin{tabular} [H] {|c|c|c|c|}
@@ -98,7 +103,7 @@ Die Berechnung der Zeit hängt ...
 		\textbf{Auflösung horizontial [$^{\circ} $]}	 & 1,2 	& 0,15 	 & 0,15			\\  \hline
 		\textbf{Auflösung vertikal [$ ^{\circ} $]}		 & 14,4 & 7,2 	 & 3,6  		\\ \hline
 		\textbf{Anzahl Messpunkte}						 & 7524 & 120049 & 240099 		\\ \hline
-		\textbf{Dauer [min]}							 & 4    & ?	 & ? 		 	\\ \hline
+		\textbf{Dauer [min]}							 & 2    & 31	 & 62 		 	\\ \hline
 		
 		\end {tabular}
 		\captionof{table}{Übersicht verschiedene Auflösungen}
@@ -106,15 +111,13 @@ Die Berechnung der Zeit hängt ...
 	\end{center}
 
 
- 
 
 
 \subsection{Vergleich der unterschiedlichen Auflösungen}
 
-Im Anschluss werden die 3D-Darstellungen verglichen. Dabei werden die Bilder grafisch verglichen und beurteilt. Vor allem die Darstellung von Details und die Richtigkeit der Maße wird überprüft. 
+Im Anschluss werden die 3D-Darstellungen grafisch verglichen und beurteilt.Vor allem die Darstellung von Details und die Richtigkeit der Maße wird überprüft. 
 
-Um Vergleich zu erleichtern, werden Bilder aus der jeweils gleichen Perspektive erstellt und verglichen. Der Maßstab ist bei jeder Darstellung identisch.
- 
+Um den Vergleich zu erleichtern, werden Bilder aus der jeweils gleichen Perspektive erstellt und verglichen. Der Maßstab ist bei jeder Darstellung identisch.
  
 Die Aufnahme mit niedriger Auflösung besteht aus rund 7500 Bildpunkten. Die horizontale Auflösung ist mit 1,2 Grad Abstand zwischen zwei Punkten für nicht weit entfernte Gegenstände ausreichend. Bei größerer Entfernung wie z.B. in den Ecken des Raumes wird diese Auflösung an der Wand jedoch relativ schlecht und Details werden nicht mehr erkannt.
 Die vertikale Auflösung von 14,4 Grad ist deutlich zu gering, um Details erkennen zu können. Türrahmen oder ähnliche größere Unebenheiten an der Wand sind nur grob auszumachen.   
@@ -127,9 +130,9 @@ Die vertikale Auflösung von 14,4 Grad ist deutlich zu gering, um Details erkenn
 \end{figure}
 
 
-Bei der mittleren Auflösung werden etwa 16 mal so viele Bildpunkte aufgenommen wie bei der Messung mit geringer Auflösung. Die vertikale Schrittweite wird im verglich zur ersten Messung halbiert, die horizontale beträgt mit 0,15 Grad ein Achtel der ursprünglichen Schrittweite. 
+Bei der mittleren Auflösung werden etwa 16 mal so viele Bildpunkte aufgenommen wie bei der Messung mit geringer Auflösung. Die vertikale Schrittweite wird im Verglich zur ersten Messung halbiert, die horizontale beträgt mit 0,15 Grad ein Achtel der ursprünglichen Schrittweite. 
 
-Die horizontalen Punkte verschmelzen zu einer Linie. Dies ist ein Zeichen dafür, dass die horizontle Auflösung von 0,15 Grad für den Testraum vollkommen Ausreicht. Durch die geringere vertikale Schrittweite erhält man doppelt so viele Messebenen. Dadruch werden Details wie beispielsweise Türrahmen, Lampen und weitere Gegenstände besser erkennbar. 
+Die horizontalen Punkte verschmelzen zu einer Linie. Dies ist ein Zeichen dafür, dass die horizontale Auflösung von 0,15 Grad für den Testraum ausreichend ist. Durch die geringere vertikale Schrittweite erhält man doppelt so viele Messebenen. Dadurch werden Details wie beispielsweise Türrahmen, Lampen und weitere Gegenstände besser erkennbar. 
 
 
 \begin{figure}[H]
@@ -139,7 +142,7 @@ Die horizontalen Punkte verschmelzen zu einer Linie. Dies ist ein Zeichen dafür
 	\label{mittel}
 \end{figure}
 
-Wie die Messung mit mittlerer Auflösung bereits gezeigt hat, reicht eine horizontale Schrittweite von 0,15 Grad bei der Größe des Testraums aus. Für den Test mit hoher Auflösung wird daher nur noch die vertikale Schrittweite halbiert. Dadurch verdoppelt sich die Anzahl der Bildpunkte. Die Messung benötigt jedoch ungefährt doppelt so lange.
+Wie die Messung mit mittlerer Auflösung bereits gezeigt hat, reicht eine horizontale Schrittweite von 0,15 Grad bei der Größe des Testraums aus. Für den Test mit hoher Auflösung wird daher nur noch die vertikale Schrittweite halbiert. Dadurch verdoppelt sich die Anzahl der Bildpunkte. Die Messung benötigt jedoch ungefähr doppelt so lange.
 
 Das Ergebnis ist eine 3D-Aufnahme, bei der sowohl horizontale als auch vertikale Auflösung gut ausreicht, um Details erkennen zu können.
 
@@ -155,27 +158,28 @@ Weiter werden die erstellten Grundrisse mit niedriger, mittlere und hoher Auflö
 
 Der Vergleich zeigt, dass die Maße immer bis auch geringe Abweichungen mit dem tatsächlichen Grundriss übereinstimmten. Dabei macht die Auflösung keinen Unterschied. 
 
-Deutlich erkennbar ist jedoch, wie in Bild .-- zu sehen, dass bei niedriger Auflösung Details wie Türrahmen verschwimmen. Zudem sind die einzelnen Linienebenen leicht zueinander verschoben und nicht eindeutig zuordenbar.
-Im Vergleich dazu sind bei der hohen Auslösung klare Grundrisslinien erkennbar.
-
+Deutlich erkennbar ist jedoch, wie in Abbildung \ref{vogel niedrigeAuflösung} zu sehen ist, dass bei niedriger Auflösung Details wie Türrahmen verschwimmen. Zudem sind die einzelnen Linienebenen leicht zueinander verschoben und nicht eindeutig zuordenbar.
+Im Vergleich dazu sind bei der hohen Auslösung (Abbildung \ref{vogel hoheAuflösung}) klare Grundrisslinien erkennbar.
 
 \begin{figure}[htb]
 	\centering
 	\begin{minipage}[t]{0.45\linewidth}
 		\centering
 		\includegraphics[width=1.2\linewidth]{images/Validierung/Aufloesungen/niedrig_vogel.png}
-		\caption{Beispielbild}
+		\caption{Vogelperspektive niedrige Auflösung}
+		\label{vogel niedrigeAuflösung}
 	\end{minipage}
 	\hfill
 	\begin{minipage}[t]{0.45\linewidth}
 		\centering
 		\includegraphics[width=1.2\linewidth]{images/Validierung/Aufloesungen/hoch_vogel.png}
-		\caption{Beispielbild}
+		\caption{Vogelperspektive hohe Auflösung}
+		\label{vogel hoheAuflösung}
 	\end{minipage}
 \end{figure}
 
 
-Im Großen und Ganzen lässt sich sagen, dass je nach Anforderung an das System die Parameter dementsprechend eingestellt werden müssen. Möchte man nur einen groben Überblick über den Raum, reicht ein schneller Scan mit niedriger Auflösung vollkommen aus. Möchte man hingegen eine detailreiche Darstellung, bei der man auch Details virtuell vermessen kann, wird die hohe Auflösung benötigt. Dafür dauert solch eine Messung im Vergleich zu schnellen Messung recht lange.
+Im Großen und Ganzen lässt sich sagen, dass je nach Anforderung an das System die Parameter dementsprechend eingestellt werden müssen. Möchte man nur einen groben Überblick über den Raum, reicht ein schneller Scan mit niedriger Auflösung vollkommen aus. Möchte man hingegen eine detailreiche Darstellung, bei der man auch Details virtuell vermessen kann, wird eine hohe Auflösung benötigt. Dafür dauert solch eine Messung im Vergleich zur schnellen Messung recht lange.
 Man sollte somit immer einen Kompromiss zwischen benötigter Auflösung und der Zeit für die Messung finden.
 
 

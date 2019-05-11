@@ -49,7 +49,7 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {formel}{\numberline {12.1} Berechnung horizontiale Aufl\IeC {\"o}sung}{64}{equation.12.2.1}% 
+\contentsline {formel}{\numberline {12.1} Berechnung horizontiale Aufl\IeC {\"o}sung}{63}{equation.12.2.1}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {formel}{\numberline {12.2} Berechnung vertikale Aufl\IeC {\"o}sung}{64}{equation.12.2.2}% 
 \defcounter {refsection}{0}\relax 
