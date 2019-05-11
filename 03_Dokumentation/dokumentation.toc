@@ -2,114 +2,210 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {ngerman}{}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Abk\"urzungsverzeichnis}{VIII}{chapter*.6}% 
+\contentsline {chapter}{\nonumberline Abk\"urzungsverzeichnis}{VII}{chapter*.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Abbildungsverzeichnis}{IX}{chapter*.7}% 
+\contentsline {chapter}{\nonumberline Abbildungsverzeichnis}{VIII}{chapter*.6}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Tabellenverzeichnis}{XI}{chapter*.9}% 
+\contentsline {chapter}{\nonumberline Tabellenverzeichnis}{X}{chapter*.9}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Formelverzeichnis}{XII}{chapter*.10}% 
+\contentsline {chapter}{\nonumberline Formelverzeichnis}{XI}{chapter*.10}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Listings}{XIII}{chapter*.11}% 
+\contentsline {chapter}{\nonumberline Listings}{XII}{chapter*.11}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {1}Grundlagen Elektronik}{1}{chapter.1}% 
+\contentsline {chapter}{\numberline {1}Einleitung}{1}{chapter.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.1}Photodioden}{1}{section.1.1}% 
+\contentsline {chapter}{\numberline {2}Grundlagen Elektronik}{2}{chapter.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1.1}\acf {APD}}{2}{subsection.1.1.1}% 
+\contentsline {section}{\numberline {2.1}Photodioden}{2}{section.2.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {2}Grundlagen Laserentferungsmessung}{4}{chapter.2}% 
+\contentsline {subsection}{\numberline {2.1.1}\acf {APD}}{3}{subsection.2.1.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}Lichtlaufzeitmessung}{4}{section.2.1}% 
+\contentsline {subsection}{\numberline {2.1.2}Lateral aufl\IeC {\"o}sende Photodiode}{4}{subsection.2.1.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.1}Grundprinzip}{4}{subsection.2.1.1}% 
+\contentsline {chapter}{\numberline {3}Grundlagen Laserentferungsmessung}{6}{chapter.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.2}Herrausvorderungen}{5}{subsection.2.1.2}% 
+\contentsline {section}{\numberline {3.1}Lichtlaufzeitmessung}{6}{section.3.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}Phasenverschiebung}{5}{section.2.2}% 
+\contentsline {subsection}{\numberline {3.1.1}Grundprinzip}{6}{subsection.3.1.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}Triangulation}{6}{section.2.3}% 
+\contentsline {subsection}{\numberline {3.1.2}Herausvorderungen}{7}{subsection.3.1.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Grundlagen}{7}{chapter.3}% 
+\contentsline {section}{\numberline {3.2}Phasenverschiebung / Phasenmodulation}{8}{section.3.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Schrittmotoren}{7}{section.3.1}% 
+\contentsline {subsection}{\numberline {3.2.1}Grundprinzip}{9}{subsection.3.2.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Matlab Modell}{8}{chapter.4}% 
+\contentsline {subsection}{\numberline {3.2.2}Herausforderungen}{11}{subsection.3.2.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Mechanik}{9}{chapter.5}% 
+\contentsline {section}{\numberline {3.3}Triangulation}{12}{section.3.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}Anforderungen}{9}{section.5.1}% 
+\contentsline {subsection}{\numberline {3.3.1}Grundprinzip}{12}{subsection.3.3.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Entwurf}{9}{section.5.2}% 
+\contentsline {subsection}{\numberline {3.3.2}Herausforderungen}{14}{subsection.3.3.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.1}Oberer Aufbau}{9}{subsection.5.2.1}% 
+\contentsline {chapter}{\numberline {4}Grundlagen}{15}{chapter.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.2}Basis}{11}{subsection.5.2.2}% 
+\contentsline {section}{\numberline {4.1}Schrittmotoren}{15}{section.4.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.3}Rahmen}{12}{subsection.5.2.3}% 
+\contentsline {chapter}{\numberline {5}Stand der Technik}{16}{chapter.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.3}Umsetzung}{13}{section.5.3}% 
+\contentsline {chapter}{\numberline {6}Machbarkeitsstudie}{17}{chapter.6}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Hardware}{14}{chapter.6}% 
+\contentsline {section}{\numberline {6.1}Versuch 1: Test handels\IeC {\"u}blicher Photodioden}{17}{section.6.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.1}Funktionseinheit Distanzbestimmung}{14}{section.6.1}% 
+\contentsline {subsection}{\numberline {6.1.1}Versuchsaufbau}{17}{subsection.6.1.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.1.1}TF Mini \ac {LIDAR}}{14}{subsection.6.1.1}% 
+\contentsline {subsubsection}{\nonumberline Verwendete Bauteile}{17}{section*.22}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.1.2}VL53L1X}{15}{subsection.6.1.2}% 
+\contentsline {subsubsection}{\nonumberline Verwendete Messger\IeC {\"a}te}{18}{section*.24}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.1.3}Tabellarischer Vergleich der Sensoren}{17}{subsection.6.1.3}% 
+\contentsline {subsubsection}{\nonumberline Aufbau}{18}{section*.26}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.2}Funktionseinheit Ausrichtung des Sensors}{18}{section.6.2}% 
+\contentsline {subsubsection}{\nonumberline Messungen}{18}{section*.28}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.2.1}Schrittmotoren}{18}{subsection.6.2.1}% 
+\contentsline {subsection}{\numberline {6.1.2}Beobachtung}{19}{subsection.6.1.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.2.2}Schrittmotortreiber}{19}{subsection.6.2.2}% 
+\contentsline {subsection}{\numberline {6.1.3}Erkenntnis}{19}{subsection.6.1.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.3}Funktionseinheit Kalibrierung}{20}{section.6.3}% 
+\contentsline {section}{\numberline {6.2}Versuch 2: Weiterer Test handels\IeC {\"u}blicher Photodioden}{20}{section.6.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.3.1}Lichtschranke}{20}{subsection.6.3.1}% 
+\contentsline {subsection}{\numberline {6.2.1}Versuchsaufbau}{20}{subsection.6.2.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.3.2}Gyroensor}{21}{subsection.6.3.2}% 
+\contentsline {subsubsection}{\nonumberline Verwendete Bauteile}{20}{section*.29}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.4}Platinen}{21}{section.6.4}% 
+\contentsline {subsubsection}{\nonumberline Verwendete Messger\IeC {\"a}te}{20}{section*.31}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.5}Abw\IeC {\"a}rtswandler}{21}{section.6.5}% 
+\contentsline {subsubsection}{\nonumberline Aufbau}{21}{section*.33}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Code}{22}{chapter.7}% 
+\contentsline {subsubsection}{\nonumberline Messungen}{21}{section*.34}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.1}Motor}{22}{section.7.1}% 
+\contentsline {subsection}{\numberline {6.2.2}Beobachtung}{21}{subsection.6.2.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.1.1}Konstruktor}{22}{subsection.7.1.1}% 
+\contentsline {subsection}{\numberline {6.2.3}Erkenntnis}{22}{subsection.6.2.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.1.2}Bewegen des Motors}{23}{subsection.7.1.2}% 
+\contentsline {section}{\numberline {6.3}Weiteres Vorgehen}{22}{section.6.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.2}Lidar}{24}{section.7.2}% 
+\contentsline {subsection}{\numberline {6.3.1}Recherche}{22}{subsection.6.3.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.2.1}Konstruktor und Variablen}{24}{subsection.7.2.1}% 
+\contentsline {chapter}{\numberline {7}Matlab Modell}{23}{chapter.7}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.3}Steuerung}{26}{section.7.3}% 
+\contentsline {chapter}{\numberline {8}Mechanik}{24}{chapter.8}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {8}Auswertung und Darstellung mit Matlab}{29}{chapter.8}% 
+\contentsline {section}{\numberline {8.1}Anforderungen}{24}{section.8.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.1}Importieren und Zuordnen der Messwerte}{29}{section.8.1}% 
+\contentsline {section}{\numberline {8.2}Entwurf}{24}{section.8.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.2}Umwandlung von Kugelkoordinaten zu kartesischen Koordinaten}{30}{section.8.2}% 
+\contentsline {subsection}{\numberline {8.2.1}Oberer Aufbau}{24}{subsection.8.2.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.3}Darstellung der Messwerte}{32}{section.8.3}% 
+\contentsline {subsection}{\numberline {8.2.2}Basis}{26}{subsection.8.2.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {9}Validierung des Systems}{36}{chapter.9}% 
+\contentsline {subsection}{\numberline {8.2.3}Rahmen}{27}{subsection.8.2.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.1}Genauigkeit des Systems}{36}{section.9.1}% 
+\contentsline {subsection}{\numberline {8.2.4}Materialliste}{28}{subsection.8.2.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.2}Vergleich verschiedener Aufl\IeC {\"o}sungen}{39}{section.9.2}% 
+\contentsline {section}{\numberline {8.3}Umsetzung}{28}{section.8.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.2.1}\IeC {\"U}bersicht \IeC {\"u}ber die Dauer, Aufl\IeC {\"o}sung und Anzahl an Messpunkten}{40}{subsection.9.2.1}% 
+\contentsline {chapter}{\numberline {9}Hardware}{30}{chapter.9}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.2.2}Vergleich der unterschiedlichen Aufl\IeC {\"o}sungen}{41}{subsection.9.2.2}% 
+\contentsline {section}{\numberline {9.1}Funktionseinheit Distanzbestimmung}{30}{section.9.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.3}Vergleich der Sensoren}{44}{section.9.3}% 
+\contentsline {subsection}{\numberline {9.1.1}TF Mini \ac {LIDAR}}{30}{subsection.9.1.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Anhang}{A}{chapter*.44}% 
+\contentsline {subsection}{\numberline {9.1.2}VL53L1X}{31}{subsection.9.1.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\nonumberline Literatur}{A}{section*.45}% 
+\contentsline {subsection}{\numberline {9.1.3}Tabellarischer Vergleich der Sensoren}{33}{subsection.9.1.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {9.2}Funktionseinheit Ausrichtung des Sensors}{34}{section.9.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {9.2.1}Schrittmotoren}{34}{subsection.9.2.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {9.2.2}Schrittmotortreiber}{35}{subsection.9.2.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {9.3}Funktionseinheit Kalibrierung}{36}{section.9.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {9.3.1}Lichtschranke}{36}{subsection.9.3.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {9.3.2}Gyroensor}{37}{subsection.9.3.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {9.4}Platinen}{37}{section.9.4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {9.5}Abw\IeC {\"a}rtswandler}{37}{section.9.5}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {10}Code}{38}{chapter.10}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {10.1}Motor}{38}{section.10.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {10.1.1}Konstruktor}{38}{subsection.10.1.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {10.1.2}Bewegen des Motors}{39}{subsection.10.1.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {10.2}Lidar}{40}{section.10.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {10.2.1}Konstruktor und Variablen}{40}{subsection.10.2.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {10.2.2}Aufnehmen von Messdaten}{41}{subsection.10.2.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {10.3}Steuerung}{42}{section.10.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {10.3.1}Pin Definitionen und Initialisieren der Klassen}{43}{subsection.10.3.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {10.3.2}Zus\IeC {\"a}tzliche Funktionen}{44}{subsection.10.3.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {10.3.3}Variablen deklaration und aufrufen von Funktionen}{45}{subsection.10.3.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {10.3.4}Erstellen der Datei zum Speichern der Daten}{46}{subsection.10.3.4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {10.3.5}Schleifen der Steuerung}{47}{subsection.10.3.5}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {11}Auswertung und Darstellung mit Matlab}{49}{chapter.11}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {11.1}Importieren und Zuordnen der Messwerte}{49}{section.11.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {11.2}Umwandlung von Kugelkoordinaten zu kartesischen Koordinaten}{50}{section.11.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {11.3}Darstellung der Messwerte}{52}{section.11.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {12}Validierung des Systems}{56}{chapter.12}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {12.1}Genauigkeit des Systems}{56}{section.12.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {12.2}Vergleich verschiedener Aufl\IeC {\"o}sungen}{59}{section.12.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {12.2.1}\IeC {\"U}bersicht \IeC {\"u}ber die Dauer, Aufl\IeC {\"o}sung und Anzahl an Messpunkten}{60}{subsection.12.2.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {12.2.2}Vergleich der unterschiedlichen Aufl\IeC {\"o}sungen}{61}{subsection.12.2.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {12.3}Vergleich der Sensoren}{64}{section.12.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {13}Fazit}{67}{chapter.13}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {14}Ausblick}{68}{chapter.14}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {14.1}Hardware}{68}{section.14.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {14.1.1}Platine}{68}{subsection.14.1.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {14.1.2}Gyrosensor}{69}{subsection.14.1.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {14.1.3}Schleifring}{69}{subsection.14.1.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {14.1.4}Motortreiber}{69}{subsection.14.1.4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {14.1.5}Bedienfeld}{69}{subsection.14.1.5}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {14.2}Software}{70}{section.14.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {14.2.1}Steuerung mit \IeC {\"U}bergabeparameter}{70}{subsection.14.2.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {14.2.2}Bedienfeld Statusausgabe und Steuerung}{72}{subsection.14.2.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {14.2.3}Webinterface}{72}{subsection.14.2.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\nonumberline \ac {WLAN} auf dem Raspberry Pi einrichten}{73}{section*.68}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\nonumberline NodeJS Server auf dem Raspberry Pi einrichten}{76}{section*.71}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\nonumberline Flask in Javascript und Python verwenden}{77}{section*.72}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\nonumberline Anhang}{A}{chapter*.73}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\nonumberline Literatur}{A}{section*.74}% 

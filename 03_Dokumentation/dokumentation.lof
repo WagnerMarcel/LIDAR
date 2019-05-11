@@ -6,72 +6,94 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Schematischer Aufbau einer Photodiode \cite {Photodiode_spektrum} ($p^+$ starke p-Dotierung)\relax }}{1}{figure.caption.12}% 
+\addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.2}{\ignorespaces Schematischer Aufbau einer \ac {APD} \cite {APD_Scematic} ($p^+$ starke p-Dotierung, $p^- (\pi )$ schwache (intrinsische) p-Dotierung, $n^+$ starke n-Dotierung) (1 - Metallkontakte, 2 - Entspiegelung)\relax }}{2}{figure.caption.13}% 
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Schematischer Aufbau einer Photodiode \cite {Photodiode_spektrum} ($p^+$ starke p-Dotierung)\relax }}{2}{figure.caption.12}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Schematischer Aufbau einer \ac {APD} \cite {APD_Scematic} ($p^+$ starke p-Dotierung, $p^- (\pi )$ schwache (intrinsische) p-Dotierung, $n^+$ starke n-Dotierung) (1 - Metallkontakte, 2 - Entspiegelung)\relax }}{3}{figure.caption.13}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Aufbau einer \ac {PSD} \cite {APD_Scematic}\relax }}{4}{figure.caption.15}% 
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.1}{\ignorespaces \ac {ToF} Prinzip \cite {ToF_TUBerlin}\relax }}{4}{figure.caption.15}% 
+\contentsline {figure}{\numberline {3.1}{\ignorespaces \ac {ToF} Prinzip \cite {ToF_TUBerlin}\relax }}{6}{figure.caption.16}% 
 \defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Versuchsaufbau Phasenverschiebungsentfernungsmessung \cite {lichtabstandsmessung}\relax }}{9}{figure.caption.18}% 
 \defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Phasendifferenz einer Welle \cite {frauenhoferipm}\relax }}{10}{figure.caption.19}% 
 \defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Oberer Aufbau der Mechanik\relax }}{10}{figure.caption.17}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Basis der Mechanik\relax }}{11}{figure.caption.19}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Motorhalterung\relax }}{12}{figure.caption.20}% 
-\defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6.1}{\ignorespaces TF Mini\relax }}{15}{figure.caption.22}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Abh\IeC {\"a}ngigkeit der Genauigkeit des VL53L1X Sensors von der Messfrequenz\relax }}{17}{figure.caption.25}% 
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Beispiel Triangulation\relax }}{12}{figure.caption.20}% 
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {8.1}{\ignorespaces Kugelkoordinaten\relax }}{31}{figure.caption.28}% 
+\addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {8.2}{\ignorespaces Darstellung mit Linien\relax }}{33}{figure.caption.29}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {8.3}{\ignorespaces Darstellung mit Asterisken\relax }}{34}{figure.caption.30}% 
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {8.4}{\ignorespaces Darstellung mit Punkten\relax }}{34}{figure.caption.31}% 
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Versuchsaufbau\relax }}{18}{figure.caption.27}% 
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {9.1}{\ignorespaces Grundriss des Testraums\relax }}{37}{figure.caption.32}% 
+\addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {9.2}{\ignorespaces Grundriss des Testraums\relax }}{38}{figure.caption.33}% 
+\contentsline {figure}{\numberline {8.1}{\ignorespaces Oberer Aufbau der Mechanik\relax }}{25}{figure.caption.36}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {9.3}{\ignorespaces Vogelperspektive des Testraums\relax }}{38}{figure.caption.34}% 
+\contentsline {figure}{\numberline {8.2}{\ignorespaces Basis der Mechanik\relax }}{26}{figure.caption.38}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {9.4}{\ignorespaces Grafischer Vergleich der Grundrisse\relax }}{39}{figure.caption.35}% 
+\contentsline {figure}{\numberline {8.3}{\ignorespaces Rahmen\relax }}{27}{figure.caption.39}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {9.5}{\ignorespaces Niedrige Aufl\IeC {\"o}sung\relax }}{42}{figure.caption.36}% 
+\contentsline {figure}{\numberline {8.4}{\ignorespaces Mechanik mit montierter Elektronik\relax }}{29}{figure.caption.42}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {9.6}{\ignorespaces Mittlere Aufl\IeC {\"o}sung\relax }}{42}{figure.caption.37}% 
+\addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {9.7}{\ignorespaces Hohe Aufl\IeC {\"o}sung\relax }}{43}{figure.caption.38}% 
+\contentsline {figure}{\numberline {9.1}{\ignorespaces TF Mini\relax }}{31}{figure.caption.44}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {9.8}{\ignorespaces Beispielbild\relax }}{44}{figure.caption.39}% 
+\contentsline {figure}{\numberline {9.2}{\ignorespaces Abh\IeC {\"a}ngigkeit der Genauigkeit des VL53L1X Sensors von der Messfrequenz\relax }}{33}{figure.caption.46}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {9.9}{\ignorespaces Beispielbild\relax }}{44}{figure.caption.39}% 
+\addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {9.10}{\ignorespaces TF MINI\relax }}{45}{figure.caption.40}% 
+\addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {9.11}{\ignorespaces Sensor VLX\relax }}{45}{figure.caption.41}% 
+\contentsline {figure}{\numberline {11.1}{\ignorespaces Kugelkoordinaten\relax }}{51}{figure.caption.50}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {9.12}{\ignorespaces Sensor VLX\relax }}{46}{figure.caption.42}% 
+\contentsline {figure}{\numberline {11.2}{\ignorespaces Darstellung mit Linien\relax }}{53}{figure.caption.51}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {9.13}{\ignorespaces Beispielbild\relax }}{46}{figure.caption.43}% 
+\contentsline {figure}{\numberline {11.3}{\ignorespaces Darstellung mit Asterisken\relax }}{54}{figure.caption.52}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {9.14}{\ignorespaces Beispielbild\relax }}{46}{figure.caption.43}% 
+\contentsline {figure}{\numberline {11.4}{\ignorespaces Darstellung mit Punkten\relax }}{54}{figure.caption.53}% 
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {12.1}{\ignorespaces Grundriss des Testraums\relax }}{57}{figure.caption.54}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {12.2}{\ignorespaces Grundriss des Testraums\relax }}{58}{figure.caption.55}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {12.3}{\ignorespaces Vogelperspektive des Testraums\relax }}{58}{figure.caption.56}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {12.4}{\ignorespaces Grafischer Vergleich der Grundrisse\relax }}{59}{figure.caption.57}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {12.5}{\ignorespaces Niedrige Aufl\IeC {\"o}sung\relax }}{62}{figure.caption.58}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {12.6}{\ignorespaces Mittlere Aufl\IeC {\"o}sung\relax }}{62}{figure.caption.59}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {12.7}{\ignorespaces Hohe Aufl\IeC {\"o}sung\relax }}{63}{figure.caption.60}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {12.8}{\ignorespaces Beispielbild\relax }}{64}{figure.caption.61}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {12.9}{\ignorespaces Beispielbild\relax }}{64}{figure.caption.61}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {12.10}{\ignorespaces TF MINI\relax }}{65}{figure.caption.62}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {12.11}{\ignorespaces Sensor VLX\relax }}{65}{figure.caption.63}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {12.12}{\ignorespaces Sensor VLX\relax }}{66}{figure.caption.64}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {12.13}{\ignorespaces Beispielbild\relax }}{66}{figure.caption.65}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {12.14}{\ignorespaces Beispielbild\relax }}{66}{figure.caption.65}% 
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
