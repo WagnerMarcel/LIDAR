@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.25)  11 MAY 2019 16:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.25)  11 MAY 2019 17:15
 entering extended mode
 **./dokumentation.tex
 (dokumentation.tex
@@ -3644,54 +3644,54 @@ Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 53.
  [54]
 File: images/dhbw_de.pdf Graphic file (type pdf)
 <use images/dhbw_de.pdf>
-Package pdftex.def Info: images/dhbw_de.pdf  used on input line 69.
+Package pdftex.def Info: images/dhbw_de.pdf  used on input line 76.
 (pdftex.def)             Requested size: 57.79497pt x 28.45274pt.
 File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
-Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 69.
+Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 76.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
  [55 <./images/Auswertung/Kugelkoordinaten.png>]
 File: images/dhbw_de.pdf Graphic file (type pdf)
 <use images/dhbw_de.pdf>
-Package pdftex.def Info: images/dhbw_de.pdf  used on input line 103.
+Package pdftex.def Info: images/dhbw_de.pdf  used on input line 104.
 (pdftex.def)             Requested size: 57.79497pt x 28.45274pt.
 File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
-Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 103.
+Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 104.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
  [56]
 <images/Auswertung/Linien.png, id=1453, 422.32782pt x 301.8778pt>
 File: images/Auswertung/Linien.png Graphic file (type png)
 <use images/Auswertung/Linien.png>
-Package pdftex.def Info: images/Auswertung/Linien.png  used on input line 112.
+Package pdftex.def Info: images/Auswertung/Linien.png  used on input line 111.
 (pdftex.def)             Requested size: 318.66953pt x 227.78967pt.
 <images/Auswertung/Sternchen.png, id=1454, 460.34485pt x 299.61937pt>
 File: images/Auswertung/Sternchen.png Graphic file (type png)
 <use images/Auswertung/Sternchen.png>
 Package pdftex.def Info: images/Auswertung/Sternchen.png  used on input line 12
-2.
+1.
 (pdftex.def)             Requested size: 318.66953pt x 207.41878pt.
 File: images/dhbw_de.pdf Graphic file (type pdf)
 <use images/dhbw_de.pdf>
-Package pdftex.def Info: images/dhbw_de.pdf  used on input line 126.
+Package pdftex.def Info: images/dhbw_de.pdf  used on input line 125.
 (pdftex.def)             Requested size: 57.79497pt x 28.45274pt.
 File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
-Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 126.
+Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 125.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
  [57 <./images/Auswertung/Linien.png>]
 <images/Auswertung/Punkte.png, id=1460, 449.80547pt x 288.7036pt>
 File: images/Auswertung/Punkte.png Graphic file (type png)
 <use images/Auswertung/Punkte.png>
-Package pdftex.def Info: images/Auswertung/Punkte.png  used on input line 133.
+Package pdftex.def Info: images/Auswertung/Punkte.png  used on input line 132.
 (pdftex.def)             Requested size: 318.66953pt x 204.54486pt.
 File: images/dhbw_de.pdf Graphic file (type pdf)
 <use images/dhbw_de.pdf>
-Package pdftex.def Info: images/dhbw_de.pdf  used on input line 142.
+Package pdftex.def Info: images/dhbw_de.pdf  used on input line 141.
 (pdftex.def)             Requested size: 57.79497pt x 28.45274pt.
 File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
-Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 142.
+Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 141.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
  [58 <./images/Auswertung/Sternchen.png> <./images/Auswertung/Punkte.png>]) (co
 ntent/Validierung.tex
@@ -3705,7 +3705,7 @@ Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 4.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
  [59]
 chapter 12.
-<images/Validierung/Grundriss.png, id=1472, 593.96906pt x 487.8225pt>
+<images/Validierung/Grundriss.png, id=1475, 593.96906pt x 487.8225pt>
 File: images/Validierung/Grundriss.png Graphic file (type png)
 <use images/Validierung/Grundriss.png>
 Package pdftex.def Info: images/Validierung/Grundriss.png  used on input line 1
@@ -3722,7 +3722,7 @@ Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 20.
 [60
 
 ]
-<images/Validierung/MitSchatten.png, id=1477, 672.26157pt x 539.76656pt>
+<images/Validierung/MitSchatten.png, id=1480, 672.26157pt x 539.76656pt>
 File: images/Validierung/MitSchatten.png Graphic file (type png)
 <use images/Validierung/MitSchatten.png>
 Package pdftex.def Info: images/Validierung/MitSchatten.png  used on input line
@@ -3737,13 +3737,13 @@ File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 30.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
  [61 <./images/Validierung/Grundriss.png>]
-<images/Validierung/Vogelperspektive.png, id=1483, 697.10437pt x 513.41812pt>
+<images/Validierung/Vogelperspektive.png, id=1486, 697.10437pt x 513.41812pt>
 File: images/Validierung/Vogelperspektive.png Graphic file (type png)
 <use images/Validierung/Vogelperspektive.png>
 Package pdftex.def Info: images/Validierung/Vogelperspektive.png  used on input
  line 36.
 (pdftex.def)             Requested size: 318.66953pt x 234.70238pt.
-<images/Validierung/uebereinander.png, id=1484, 713.66624pt x 607.51968pt>
+<images/Validierung/uebereinander.png, id=1487, 713.66624pt x 607.51968pt>
 File: images/Validierung/uebereinander.png Graphic file (type png)
 <use images/Validierung/uebereinander.png>
 Package pdftex.def Info: images/Validierung/uebereinander.png  used on input li
@@ -3791,7 +3791,7 @@ Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 104.
 Package nag Warning: `center' environment in table.
 (nag)                Maybe you want \centering instead on input line 106.
 
-<images/Validierung/Aufloesungen/niedrig.png, id=1500, 1273.75874pt x 653.44125
+<images/Validierung/Aufloesungen/niedrig.png, id=1503, 1273.75874pt x 653.44125
 pt>
 File: images/Validierung/Aufloesungen/niedrig.png Graphic file (type png)
 <use images/Validierung/Aufloesungen/niedrig.png>
@@ -3807,7 +3807,7 @@ File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 128.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
 [65]
-<images/Validierung/Aufloesungen/mittel.png, id=1506, 1291.82625pt x 668.4975pt
+<images/Validierung/Aufloesungen/mittel.png, id=1509, 1291.82625pt x 668.4975pt
 >
 File: images/Validierung/Aufloesungen/mittel.png Graphic file (type png)
 <use images/Validierung/Aufloesungen/mittel.png>
@@ -3824,14 +3824,14 @@ Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 143.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
  [66 <./images/Validierung/Aufloesungen/niedrig.png> <./images/Validierung/Aufl
 oesungen/mittel.png>]
-<images/Validierung/Aufloesungen/hoch.png, id=1511, 1266.23062pt x 654.94687pt>
+<images/Validierung/Aufloesungen/hoch.png, id=1514, 1266.23062pt x 654.94687pt>
 
 File: images/Validierung/Aufloesungen/hoch.png Graphic file (type png)
 <use images/Validierung/Aufloesungen/hoch.png>
 Package pdftex.def Info: images/Validierung/Aufloesungen/hoch.png  used on inpu
 t line 148.
 (pdftex.def)             Requested size: 409.71696pt x 211.9158pt.
-<images/Validierung/Aufloesungen/niedrig_vogel.png, id=1512, 883.80188pt x 882.
+<images/Validierung/Aufloesungen/niedrig_vogel.png, id=1515, 883.80188pt x 882.
 29625pt>
 File: images/Validierung/Aufloesungen/niedrig_vogel.png Graphic file (type png)
 
@@ -3844,7 +3844,7 @@ Overfull \hbox (40.97107pt too wide) in paragraph at lines 166--167
  [][] 
  []
 
-<images/Validierung/Aufloesungen/hoch_vogel.png, id=1513, 861.9703pt x 854.4421
+<images/Validierung/Aufloesungen/hoch_vogel.png, id=1516, 861.9703pt x 854.4421
 8pt>
 File: images/Validierung/Aufloesungen/hoch_vogel.png Graphic file (type png)
 <use images/Validierung/Aufloesungen/hoch_vogel.png>
@@ -3880,13 +3880,13 @@ Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 195.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
  [68 <./images/Validierung/Aufloesungen/niedrig_vogel.png> <./images/Validierun
 g/Aufloesungen/hoch_vogel.png>]
-<images/Validierung/VLX_gerade.png, id=1522, 858.20625pt x 479.54156pt>
+<images/Validierung/VLX_gerade.png, id=1525, 858.20625pt x 479.54156pt>
 File: images/Validierung/VLX_gerade.png Graphic file (type png)
 <use images/Validierung/VLX_gerade.png>
 Package pdftex.def Info: images/Validierung/VLX_gerade.png  used on input line 
 198.
 (pdftex.def)             Requested size: 409.71696pt x 228.94072pt.
-<images/Validierung/VLX.png, id=1523, 837.88031pt x 474.27188pt>
+<images/Validierung/VLX.png, id=1526, 837.88031pt x 474.27188pt>
 File: images/Validierung/VLX.png Graphic file (type png)
 <use images/Validierung/VLX.png>
 Package pdftex.def Info: images/Validierung/VLX.png  used on input line 205.
@@ -3900,7 +3900,7 @@ File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 209.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
  [69 <./images/Validierung/VLX_gerade.png>]
-<images/Validierung/Aufloesungen/mittel_vogel.png, id=1528, 863.47594pt x 859.7
+<images/Validierung/Aufloesungen/mittel_vogel.png, id=1531, 863.47594pt x 859.7
 1187pt>
 File: images/Validierung/Aufloesungen/mittel_vogel.png Graphic file (type png)
 <use images/Validierung/Aufloesungen/mittel_vogel.png>
@@ -3912,7 +3912,7 @@ Overfull \hbox (40.97107pt too wide) in paragraph at lines 216--217
  [][] 
  []
 
-<images/Validierung/VLX_vogel.png, id=1529, 962.09438pt x 989.19562pt>
+<images/Validierung/VLX_vogel.png, id=1532, 962.09438pt x 989.19562pt>
 File: images/Validierung/VLX_vogel.png Graphic file (type png)
 <use images/Validierung/VLX_vogel.png>
 Package pdftex.def Info: images/Validierung/VLX_vogel.png  used on input line 2
@@ -4143,9 +4143,9 @@ Package logreq Info: Writing requests to 'dokumentation.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 63227 strings out of 492946
- 1292553 string characters out of 3126266
- 2235842 words of memory out of 3000000
+ 63228 strings out of 492946
+ 1292564 string characters out of 3126266
+ 2235934 words of memory out of 3000000
  65182 multiletter control sequences out of 15000+200000
  614683 words of font info for 161 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
@@ -4173,9 +4173,9 @@ ata/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Users/alexk/
 AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb><C:/Users/ale
 xk/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb><C:/Users
 /alexk/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmtt12.pfb>
-Output written on dokumentation.pdf (98 pages, 17119845 bytes).
+Output written on dokumentation.pdf (98 pages, 17120694 bytes).
 PDF statistics:
- 2265 PDF objects out of 2487 (max. 8388607)
- 670 named destinations out of 1000 (max. 500000)
+ 2268 PDF objects out of 2487 (max. 8388607)
+ 671 named destinations out of 1000 (max. 500000)
  28208 words of extra memory for PDF output out of 29859 (max. 10000000)
 

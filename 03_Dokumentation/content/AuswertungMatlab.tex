@@ -15,11 +15,11 @@ Die beiden Winkelwerte zusammen mit dem Entfernungswert stellen Kugelkoordinaten
 
 Im ersten Teil des Auswertungs- und Darstellungsprogramms wird die .csv-Datei als gesamtes in Matlab importiert. Anschließend werden die einzelnen Spalten dementsprechenden Variablen zugeordnet, um die spätere Auswerung zu erleichtern.
 
-Das Importieren der Daten erfolgt über die importdata Funktion von Matlab, die es ermöglicht, Datensätze aus einer seperaten Datei zu lesen. Das erste Argument der Funktion ist der relaitve Dateipfad zu der einzulesenden Datei. Dieser wird in Zeile .. festgelegt. Das zweite Argument steht für das Trennzeichen, mit dem einzelne Elemente in Daten abgetrennt werden. Bei .csv-Dateien ist dies ein Semikolon. Der letzte Übergabeparameter gibt an, wie viele Kopfzeilen importiert werden sollen.
+Das Importieren der Daten erfolgt über die ''importdata'' Funktion von Matlab, die es ermöglicht, Datensätze aus einer seperaten Datei zu lesen. Das erste Argument der Funktion ist der relative Dateipfad zu der einzulesenden Datei. Dieser wird in Zeile 5 festgelegt. Das zweite Argument steht für das Trennzeichen, mit dem einzelne Elemente in Daten abgetrennt werden. Bei .csv-Dateien ist dies ein Semikolon. Der letzte Übergabeparameter gibt an, wie viele Kopfzeilen importiert werden sollen.
 
-Die Importierte Daten liegen anschließend als struct in der Variable "data" vor. Diese Struct enthält zum einen die Kopfzeile als Feld und zum andern die Messwerte ohne Kopfzeiel. Für die weitere Verwendung der Daten, werden nur die Messwerte benötigt. Diese werden mit Zeile... extrahiert. 
+Die Importierte Daten liegen anschließend als Struct in der Variable "data" vor. Diese Struct enthält zum einen die Kopfzeile als Feld und zum andern die Messwerte ohne Kopfzeile. Für die weitere Verwendung der Daten, werden nur die Messwerte benötigt. Diese werden mit Zeile 8 extrahiert. 
 
-Anschließend werden in Zeile .. bis... die einzelnen Spalten separiert und einer passenden Variablen zugeordent. 
+Anschließend werden in Zeile 10 bis 12 die einzelnen Spalten separiert und einer passenden Variablen zugeordnet. 
 
 \begin{lstlisting}[caption={Importieren und Zuordnen von .csv Dateien},language={Matlab}, label={import_data}, numbers=left]
 % Anwendung zur Darstellung einer 3D Punktewolke aus einem LIDAR System
@@ -32,7 +32,7 @@ data = importdata(file,';',1);
 data = data.data;
 
 distance = data(:,2);
-azimuth = data(:,3);
+azimut = data(:,3);
 elevation = data(:,4)
 \end{lstlisting}
 
@@ -54,18 +54,15 @@ Der Azimutwinkel ist der Winkel zwischen der x-Achse und der Projektion der Stre
 
 
 Da dass das Darstellen von Kugelkoordinaten in Matlab nicht ohne weiteres möglich ist, werden die Messwerte in kartesische Koordinaten umgerechnet.
-Die Umrechnung erfolgt mit Formel ....
+Die Umrechnung erfolgt mit Formel \ref{umrechnung}:
 
-In Matlab wird jeder einzelne Punkt innerhalb eine For-Schleife mit der oben genannten Formel umgewandelt und die drei Koordinaten x,y und z für kartesische Koordinaten gespeichert. Als Endwert der Schleife wird die Zeilenanzahl des Datensatzes verwendet. Somit ist dieser Wert variabel und muss nicht für jeden Datensatz spezifisch angepasst werden.\\
-Die Berechnung befindet sich zudem in einer If-Abfrage, welche dazu dient, offensichtliche Messfehler zu entfernen. Alle Koordinaten, bei denen die Entfernung höher als 10 Meter ist, werden gelöscht. Die 10 Meter wurden auf experimentieller Basis und aufgrund der Göße des vorher definierten Standardraums festgelegt. Beim Lidar TF Mini werden nicht messbare Entfernungen mit einer Entfernung von 34?? Metern angegeben. Diese werden somit mit dieser Abfrage ebenfalls gefiltert.\\
-Matlab rechnet bei trigonometrischer Funkionen mit dem Radiant. Die Winkel des Lidar Systems sind in Grad angegebn, weshalb sie innerhalb der Berechnung mit der Funktion deg2rad() in Radiant umgerechnet werden müssen.
-
-\begin{equation}\formelentry{Umrechung Kugelkoordinaten in kartesische Koordinaten}
-	\begin{split}
-		&x = r \cdot \cos(\theta) \cdot \cos(\phi) \\
-		&y = r \cdot \cos(\theta) \cdot \sin(\phi) \\
-		&z = r \cdot \sin(\theta)
-	\end{split}
+\begin{equation}\formelentry{Umrechnung Kugelkoordinaten in kartesische Koordinaten}
+\begin{split}
+&x = r \cdot \cos(\theta) \cdot \cos(\phi) \\
+&y = r \cdot \cos(\theta) \cdot \sin(\phi) \\
+&z = r \cdot \sin(\theta)
+\end{split}
+\label{umrechnung}
 \end{equation} 
 \begin{flalign*}
 &r = \text{Abstand des Punktes zum Zentrum} \left[m \right]&\\
@@ -73,13 +70,17 @@ Matlab rechnet bei trigonometrischer Funkionen mit dem Radiant. Die Winkel des L
 &\phi = \text{Azimutwinkel}\left[^{\circ} \right]&
 \end{flalign*}
 
+In Matlab wird jeder einzelne Punkt innerhalb eine For-Schleife mit der oben genannten Formel umgewandelt und die drei Koordinaten x,y und z für kartesische Koordinaten gespeichert. Als Endwert der Schleife wird die Zeilenanzahl des Datensatzes verwendet. Somit ist dieser Wert variabel und muss nicht für jeden Datensatz spezifisch angepasst werden.\\
+Die Berechnung befindet sich zudem in einer If-Abfrage, welche dazu dient, offensichtliche Messfehler zu entfernen. Alle Koordinaten, bei denen die Entfernung höher als 10 Meter ist, werden gelöscht. Die 10 Meter wurden auf experimenteller Basis und aufgrund der Größe des vorher definierten Standardraums festgelegt. Beim Lidar TF Mini werden nicht messbare Entfernungen mit einer Entfernung von 34999 Metern angegeben. Diese werden somit mit dieser Abfrage ebenfalls gefiltert.\\
+Matlab rechnet bei trigonometrischer Funkionen mit dem Radiant. Die Winkel des Lidar Systems sind in Grad angegeben, weshalb sie innerhalb der Berechnung mit der Funktion deg2rad() in Radiant umgerechnet werden müssen.
+
 
 
 \begin{lstlisting}[caption={Umwandlung von Kugelkoordinaten zu kartesischen Koordinaten},language={Matlab}, label={import_data}, numbers=left]
 for i = 1:1:length(data)
 	if(distance(i) < 1000)
-		x(i) = -distance(i)*cos(deg2rad(elevation(i)))*cos(deg2rad(azimuth(i)));
-		y(i) = distance(i)*cos(deg2rad(elevation(i)))*sin(deg2rad(azimuth(i)));
+		x(i) = -distance(i)*cos(deg2rad(elevation(i)))*cos(deg2rad(azimut(i)));
+		y(i) = distance(i)*cos(deg2rad(elevation(i)))*sin(deg2rad(azimut(i)));
 		z(i) = distance(i)*sin(deg2rad(elevation(i)));
 	else
 	end
@@ -96,15 +97,13 @@ Im letzten Teil des Programms werden die kartesischen Koordinatenpunkte in eine 
 %plot3(x,y,z)			%Darstellung mit Linien
 %plot3(x,y,z, '*')		%Darstellung mit Asteriskus 
 plot3(x,y,z, '.')		%Darstellung mit kleinen Punkten
-axis([-400 400 -400 400 0 240])
-pbaspect([1 1 0.3])
 \end{lstlisting}
 
-Die Darstellung der kartesischen Koordinaten erfolgt über die "plot3()" Funktion. Diese Funktion ermöglicht es rotierbare dreidimensionale Darstellungen anzufertigen. Die ersten drei Argumente der Funktion sind die Vektoren mit den jeweiligen Koordinaten.\\
+Die Darstellung der kartesischen Koordinaten erfolgt über die ''plot3()'' Funktion. Diese Funktion ermöglicht es, rotierbare, dreidimensionale Darstellungen anzufertigen. Die ersten drei Argumente der Funktion sind die Vektoren mit den jeweiligen Koordinaten.\\
 Mit dem vierten Argument kann man die Darstellungsart der einzelnen Punkte festlegen. Anhand eines Datensatzes werden drei verschiedene Möglichkeiten auf Vor- und Nachteile überprüft.
 
-Übergibt man der Funktion keinen Paramter, werden die Punkte durch schmale Linien verbunden. Dadurch entsteht ein dreidimensionaler Raum, mit sehr deiner Darstellung. Konturen sind dabei sehr gut zu erkennen. Zudem kann man den Verlauf der Messwertaufnahme erkennen. \\
-Nachteil dieser Darstellungsart ist, dass auch Messfehler verbunden werden, wodurch es zu fehlerhaften Darstellungen kommt (Vgl Bild links und rechs oben - mitte)
+Übergibt man der Funktion keinen Parameter, werden die Punkte durch schmale Linien verbunden. Dadurch entsteht ein dreidimensionaler Raum, mit sehr feiner Darstellung. Konturen sind dabei sehr gut zu erkennen. Zudem kann man den Verlauf der Messwertaufnahme erkennen. \\
+Nachteil dieser Darstellungsart ist, dass auch Messfehler verbunden werden, wodurch es zu fehlerhaften Darstellungen kommt. Dies ist beispielsweise in Abbildung \ref{linien} zu erkennen.
 
 
 \begin{figure}[H]
@@ -137,8 +136,13 @@ Die letzte Möglichkeit ist die Darstellung mit kleinen Koordinatenpunkten. Räu
 
 Aufgrund der genannten Vor- und Nachteile wird in den meisten Fällen die Darstellung mit Punkten bevorzugt.  
 
-Matlab skaliert die Achsen der Darstellung automatisch, weshalb teilweise schlecht auswertbare Bilder entstehen. Diese sind nur mit manueller Nachbearbeitung passend einstellbar. Um diese zusätzliche Arbeit zu automatisieren und die Darstellung einheitlich zu realisieren, werden die Achsen manuell mit der Funtkion "axis" skaliert. Die ersten beiden Werte geben den x-Achsen in Zentimetern an. Der zweite und dritte den Wert der y-Achse und die letzten beiden Werte den Bereich der z-Achse.
-Mit der Funktion "pbaspect" wird zudem die relative größe der Achse in der späteren Darstellung festgelegt, um Verzerrungen zu vermeiden. 
+Matlab skaliert die Achsen der Darstellung automatisch, weshalb teilweise schlecht auswertbare Bilder entstehen. Diese sind nur mit manueller Nachbearbeitung passend einstellbar. Um diese zusätzliche Arbeit zu automatisieren und die Darstellung einheitlich zu realisieren, werden die Achsen manuell mit der Funktion ''axis'' skaliert. Die ersten beiden Werte geben die Skala der x-Achse in Zentimetern an. Der zweite und dritte den Wert der y-Achse. Die letzten beiden Werte den Bereich der z-Achse.
+Mit der Funktion ''pbaspect'' wird zudem die relative Größe der Achse in der späteren Darstellung festgelegt, um Verzerrungen zu vermeiden. 
+
+\begin{lstlisting}[caption={Skalieren der Achsen},language={Matlab}, label={import_data}, numbers=left]
+axis([-400 400 -400 400 0 240])
+pbaspect([1 1 0.3])
+\end{lstlisting}
 
 
 

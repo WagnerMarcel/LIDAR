@@ -55,6 +55,8 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {lstlisting}{\numberline {11.3}Darstellung der Messwerte}{56}{lstlisting.11.3}% 
 \defcounter {refsection}{0}\relax 
+\contentsline {lstlisting}{\numberline {11.4}Skalieren der Achsen}{59}{lstlisting.11.4}% 
+\defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }

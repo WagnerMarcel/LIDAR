@@ -45,7 +45,7 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {formel}{\numberline {11.1} Umrechung Kugelkoordinaten in kartesische Koordinaten}{56}{equation.11.2.1}% 
+\contentsline {formel}{\numberline {11.1} Umrechnung Kugelkoordinaten in kartesische Koordinaten}{55}{equation.11.2.1}% 
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
