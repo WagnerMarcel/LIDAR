@@ -19,58 +19,6 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
-    \entry{LM393}{online}{}
-      \field{sortinit}{1}
-      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
-      \field{labeltitlesource}{title}
-      \field{title}{10mm Lichtschranke Photoelectric Infrarot Zähler Counter Sensor Modul, lalaal}
-      \verb{urlraw}
-      \verb https://eckstein-shop.de/10mm-Lichtschranke-Photoelectric-Infrarot-Zaehler-Counter-Sensor-Modul
-      \endverb
-      \verb{url}
-      \verb https://eckstein-shop.de/10mm-Lichtschranke-Photoelectric-Infrarot-Zaehler-Counter-Sensor-Modul
-      \endverb
-    \endentry
-    \entry{A4988}{online}{}
-      \field{sortinit}{D}
-      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
-      \field{labeltitlesource}{title}
-      \field{title}{DMOS Microstepping Driver with Translator And Overcurrent Protection}
-      \verb{urlraw}
-      \verb https://www.pololu.com/file/0J450/A4988.pdf
-      \endverb
-      \verb{url}
-      \verb https://www.pololu.com/file/0J450/A4988.pdf
-      \endverb
-    \endentry
-    \entry{triangulation}{online}{}
-      \name{author}{1}{}{%
-        {{hash=f532eb3e4041a85113de93118b9d627d}{%
-           family={Dresden},
-           familyi={D\bibinitperiod},
-           given={TU},
-           giveni={T\bibinitperiod}}}%
-      }
-      \strng{namehash}{f532eb3e4041a85113de93118b9d627d}
-      \strng{fullhash}{f532eb3e4041a85113de93118b9d627d}
-      \strng{bibnamehash}{f532eb3e4041a85113de93118b9d627d}
-      \strng{authorbibnamehash}{f532eb3e4041a85113de93118b9d627d}
-      \strng{authornamehash}{f532eb3e4041a85113de93118b9d627d}
-      \strng{authorfullhash}{f532eb3e4041a85113de93118b9d627d}
-      \field{sortinit}{D}
-      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{month}{10}
-      \field{title}{Optische Triangulation zur Distanzmessung}
-      \field{year}{2014}
-      \verb{urlraw}
-      \verb https://tu-dresden.de/ing/elektrotechnik/ressourcen/dateien/iee/old2_pmp/studium/lehre/MST/dl/Pr/triangulation?lang=en
-      \endverb
-      \verb{url}
-      \verb https://tu-dresden.de/ing/elektrotechnik/ressourcen/dateien/iee/old2_pmp/studium/lehre/MST/dl/Pr/triangulation?lang=en
-      \endverb
-    \endentry
     \entry{APD_Scematic}{online}{}
       \name{author}{1}{}{%
         {{hash=8a170749a5dc7f4bad5b429019dacfc2}{%
@@ -157,62 +105,6 @@
       \field{title}{Tabellenbuch Metall}
       \field{year}{2011}
     \endentry
-    \entry{phasenverschiebung}{online}{}
-      \name{author}{1}{}{%
-        {{hash=8f9d9be2813a160d6685a338c17dd319}{%
-           family={Ilmenau},
-           familyi={I\bibinitperiod},
-           given={TU},
-           giveni={T\bibinitperiod}}}%
-      }
-      \strng{namehash}{8f9d9be2813a160d6685a338c17dd319}
-      \strng{fullhash}{8f9d9be2813a160d6685a338c17dd319}
-      \strng{bibnamehash}{8f9d9be2813a160d6685a338c17dd319}
-      \strng{authorbibnamehash}{8f9d9be2813a160d6685a338c17dd319}
-      \strng{authornamehash}{8f9d9be2813a160d6685a338c17dd319}
-      \strng{authorfullhash}{8f9d9be2813a160d6685a338c17dd319}
-      \field{sortinit}{I}
-      \field{sortinithash}{320bc8fe8101b9376f9f21cd507de0e8}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{month}{9}
-      \field{title}{Lichtgeschwindigkeit}
-      \field{year}{2018}
-      \verb{urlraw}
-      \verb https://www.tu-ilmenau.de/fileadmin/media/exphys1/Physikpraktikum/Anleitungen/O7.pdf
-      \endverb
-      \verb{url}
-      \verb https://www.tu-ilmenau.de/fileadmin/media/exphys1/Physikpraktikum/Anleitungen/O7.pdf
-      \endverb
-    \endentry
-    \entry{frauenhoferipm}{online}{}
-      \name{author}{1}{}{%
-        {{hash=c0e79b14d2a4f3a730c0046123efc1de}{%
-           family={IPM},
-           familyi={I\bibinitperiod},
-           given={Frauenhofer},
-           giveni={F\bibinitperiod}}}%
-      }
-      \strng{namehash}{c0e79b14d2a4f3a730c0046123efc1de}
-      \strng{fullhash}{c0e79b14d2a4f3a730c0046123efc1de}
-      \strng{bibnamehash}{c0e79b14d2a4f3a730c0046123efc1de}
-      \strng{authorbibnamehash}{c0e79b14d2a4f3a730c0046123efc1de}
-      \strng{authornamehash}{c0e79b14d2a4f3a730c0046123efc1de}
-      \strng{authorfullhash}{c0e79b14d2a4f3a730c0046123efc1de}
-      \field{sortinit}{I}
-      \field{sortinithash}{320bc8fe8101b9376f9f21cd507de0e8}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{month}{2}
-      \field{title}{Optische Entfernungsmessung}
-      \field{year}{2918}
-      \verb{urlraw}
-      \verb https://www.ipm.fraunhofer.de/de/gf/objekterfassung-laserscanning/komp/abstandsmessung.html
-      \endverb
-      \verb{url}
-      \verb https://www.ipm.fraunhofer.de/de/gf/objekterfassung-laserscanning/komp/abstandsmessung.html
-      \endverb
-    \endentry
     \entry{ToF_TUBerlin}{online}{}
       \name{author}{2}{}{%
         {{hash=44d1bc07bcac4d6bafc71f9e7bac9471}{%
@@ -272,27 +164,6 @@
       \verb https://www.st.com/content/dam/technology-tour-2017/session-1_track-4_time-of-flight-technology.pdf
       \endverb
     \endentry
-    \entry{psd}{article}{}
-      \name{author}{1}{}{%
-        {{hash=f2e81a24c3917588bca6bb758db34561}{%
-           family={Lasercomponents},
-           familyi={L\bibinitperiod}}}%
-      }
-      \strng{namehash}{f2e81a24c3917588bca6bb758db34561}
-      \strng{fullhash}{f2e81a24c3917588bca6bb758db34561}
-      \strng{bibnamehash}{f2e81a24c3917588bca6bb758db34561}
-      \strng{authorbibnamehash}{f2e81a24c3917588bca6bb758db34561}
-      \strng{authornamehash}{f2e81a24c3917588bca6bb758db34561}
-      \strng{authorfullhash}{f2e81a24c3917588bca6bb758db34561}
-      \field{sortinit}{L}
-      \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Applicationsreport}
-      \field{month}{1}
-      \field{title}{Positionsmessung PSD oder CCD}
-      \field{year}{2012}
-    \endentry
     \entry{VL53L1X}{online}{}
       \field{sortinit}{L}
       \field{sortinithash}{2c7981aaabc885868aba60f0c09ee20f}
@@ -329,34 +200,6 @@
       \endverb
       \verb{url}
       \verb http://neutron.physics.ucsb.edu/docs/Avalanche_photodiodes_info.pdf
-      \endverb
-    \endentry
-    \entry{inferometrie}{online}{}
-      \name{author}{1}{}{%
-        {{hash=95d4a8b2d689e8de342d5bb1e0b16466}{%
-           family={München},
-           familyi={M\bibinitperiod},
-           given={TU},
-           giveni={T\bibinitperiod}}}%
-      }
-      \strng{namehash}{95d4a8b2d689e8de342d5bb1e0b16466}
-      \strng{fullhash}{95d4a8b2d689e8de342d5bb1e0b16466}
-      \strng{bibnamehash}{95d4a8b2d689e8de342d5bb1e0b16466}
-      \strng{authorbibnamehash}{95d4a8b2d689e8de342d5bb1e0b16466}
-      \strng{authornamehash}{95d4a8b2d689e8de342d5bb1e0b16466}
-      \strng{authorfullhash}{95d4a8b2d689e8de342d5bb1e0b16466}
-      \field{sortinit}{M}
-      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{month}{2}
-      \field{title}{Inferometrie}
-      \field{year}{2019}
-      \verb{urlraw}
-      \verb https://www.ph.tum.de/academics/org/labs/mw/INT.pdf
-      \endverb
-      \verb{url}
-      \verb https://www.ph.tum.de/academics/org/labs/mw/INT.pdf
       \endverb
     \endentry
     \entry{NEMA}{standard}{}
@@ -403,66 +246,6 @@
       \verb http://www.perkinelmer.com/CMSResources/Images/44-6538APP_AvalanchePhotodiodesUsersGuide.pdf
       \endverb
     \endentry
-    \entry{NEMA11}{online}{}
-      \field{sortinit}{P}
-      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
-      \field{labeltitlesource}{title}
-      \field{title}{Pololu Stepper Motor NEMA 11}
-      \verb{urlraw}
-      \verb https://eckstein-shop.de/Pololu-Stepper-Motor-NEMA-11-Bipolar-200-Steps-Rev-2832mm-38V-067-A-Phase
-      \endverb
-      \verb{url}
-      \verb https://eckstein-shop.de/Pololu-Stepper-Motor-NEMA-11-Bipolar-200-Steps-Rev-2832mm-38V-067-A-Phase
-      \endverb
-    \endentry
-    \entry{NEMA17}{online}{}
-      \field{sortinit}{P}
-      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
-      \field{labeltitlesource}{title}
-      \field{title}{Pololu Stepper Motor NEMA 17}
-      \verb{urlraw}
-      \verb https://eckstein-shop.de/Pololu-Stepper-Motor-NEMA-17-Unipolar-Bipolar-200-Steps-Rev-4248mm-4V-12-A-Phase
-      \endverb
-      \verb{url}
-      \verb https://eckstein-shop.de/Pololu-Stepper-Motor-NEMA-17-Unipolar-Bipolar-200-Steps-Rev-4248mm-4V-12-A-Phase
-      \endverb
-    \endentry
-    \entry{frauenhofer}{article}{}
-      \name{author}{1}{}{%
-        {{hash=9392ebbfbfd4f158e0641bc3bbe25cb5}{%
-           family={Sackewitz},
-           familyi={S\bibinitperiod},
-           given={Michael},
-           giveni={M\bibinitperiod}}}%
-      }
-      \strng{namehash}{9392ebbfbfd4f158e0641bc3bbe25cb5}
-      \strng{fullhash}{9392ebbfbfd4f158e0641bc3bbe25cb5}
-      \strng{bibnamehash}{9392ebbfbfd4f158e0641bc3bbe25cb5}
-      \strng{authorbibnamehash}{9392ebbfbfd4f158e0641bc3bbe25cb5}
-      \strng{authornamehash}{9392ebbfbfd4f158e0641bc3bbe25cb5}
-      \strng{authorfullhash}{9392ebbfbfd4f158e0641bc3bbe25cb5}
-      \field{sortinit}{S}
-      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Frauenhofer Leitfaden 14}
-      \field{title}{Leitfaden zur optischen 3D-Messtechnik}
-      \field{year}{2014}
-      \field{pages}{33\bibrangedash 34}
-      \range{pages}{2}
-    \endentry
-    \entry{TFMINI}{online}{}
-      \field{sortinit}{S}
-      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
-      \field{labeltitlesource}{title}
-      \field{title}{Seeedstudio Grove - TF Mini LiDAR Datasheet}
-      \verb{urlraw}
-      \verb https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&ved=2ahUKEwiu1ef2_MLgAhUCbFAKHRp7DaQQFjABegQIAxAC&url=http%3A%2F%2Fstatics3.seeedstudio.com%2Fassets%2Ffile%2Fbazaar%2Fproduct%2FLiDAR_TF_mini_Datasheet.docx&usg=AOvVaw2Td3zuc0AlicOQ23PnxB2-
-      \endverb
-      \verb{url}
-      \verb https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&ved=2ahUKEwiu1ef2_MLgAhUCbFAKHRp7DaQQFjABegQIAxAC&url=http%3A%2F%2Fstatics3.seeedstudio.com%2Fassets%2Ffile%2Fbazaar%2Fproduct%2FLiDAR_TF_mini_Datasheet.docx&usg=AOvVaw2Td3zuc0AlicOQ23PnxB2-
-      \endverb
-    \endentry
     \entry{Photodiode_spektrum}{online}{}
       \name{author}{1}{}{%
         {{hash=2d44349af1a57cb92ea97ac880ad86a7}{%
@@ -500,61 +283,8 @@
       \verb https://www.st.com/resource/en/datasheet/vl53l1x.pdf
       \endverb
     \endentry
-    \entry{lichtabstandsmessung}{online}{}
-      \name{author}{1}{}{%
-        {{hash=b0f868f149ff9924f771a3cf19e375fa}{%
-           family={Zhang},
-           familyi={Z\bibinitperiod},
-           given={Prof.\bibnamedelimi J.},
-           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-      }
-      \strng{namehash}{b0f868f149ff9924f771a3cf19e375fa}
-      \strng{fullhash}{b0f868f149ff9924f771a3cf19e375fa}
-      \strng{bibnamehash}{b0f868f149ff9924f771a3cf19e375fa}
-      \strng{authorbibnamehash}{b0f868f149ff9924f771a3cf19e375fa}
-      \strng{authornamehash}{b0f868f149ff9924f771a3cf19e375fa}
-      \strng{authorfullhash}{b0f868f149ff9924f771a3cf19e375fa}
-      \field{sortinit}{Z}
-      \field{sortinithash}{156173bd08b075d7295bc3e0f4735a04}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{month}{12}
-      \field{title}{Angewandte Sensorik}
-      \field{year}{2003}
-      \verb{urlraw}
-      \verb https://tams.informatik.uni-hamburg.de/lehre/2003ws/vorlesung/angewandte_sensorik/vorlesung_06.pdf
-      \endverb
-      \verb{url}
-      \verb https://tams.informatik.uni-hamburg.de/lehre/2003ws/vorlesung/angewandte_sensorik/vorlesung_06.pdf
-      \endverb
-    \endentry
-    \entry{phasenmodulation}{online}{}
-      \name{author}{1}{}{%
-        {{hash=4f0aa2c9dc1ef5e9bff4751b9e5b0449}{%
-           family={Zürich},
-           familyi={Z\bibinitperiod},
-           given={ETH},
-           giveni={E\bibinitperiod}}}%
-      }
-      \strng{namehash}{4f0aa2c9dc1ef5e9bff4751b9e5b0449}
-      \strng{fullhash}{4f0aa2c9dc1ef5e9bff4751b9e5b0449}
-      \strng{bibnamehash}{4f0aa2c9dc1ef5e9bff4751b9e5b0449}
-      \strng{authorbibnamehash}{4f0aa2c9dc1ef5e9bff4751b9e5b0449}
-      \strng{authornamehash}{4f0aa2c9dc1ef5e9bff4751b9e5b0449}
-      \strng{authorfullhash}{4f0aa2c9dc1ef5e9bff4751b9e5b0449}
-      \field{sortinit}{Z}
-      \field{sortinithash}{156173bd08b075d7295bc3e0f4735a04}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Elektronische Distanzmessung}
-      \verb{urlraw}
-      \verb http://webarchiv.ethz.ch/geometh-data/student/sensorik/200506_Vorlesungen/04_EDM.pdf
-      \endverb
-      \verb{url}
-      \verb http://webarchiv.ethz.ch/geometh-data/student/sensorik/200506_Vorlesungen/04_EDM.pdf
-      \endverb
-    \endentry
   \enddatalist
+  \missing{TF MINI}
 \endrefsection
 \endinput
 
