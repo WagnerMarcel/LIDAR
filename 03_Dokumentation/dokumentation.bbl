@@ -19,6 +19,30 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
+    \entry{LM393}{online}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labeltitlesource}{title}
+      \field{title}{10mm Lichtschranke Photoelectric Infrarot Zähler Counter Sensor Modul, lalaal}
+      \verb{urlraw}
+      \verb https://eckstein-shop.de/10mm-Lichtschranke-Photoelectric-Infrarot-Zaehler-Counter-Sensor-Modul
+      \endverb
+      \verb{url}
+      \verb https://eckstein-shop.de/10mm-Lichtschranke-Photoelectric-Infrarot-Zaehler-Counter-Sensor-Modul
+      \endverb
+    \endentry
+    \entry{A4988}{online}{}
+      \field{sortinit}{D}
+      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
+      \field{labeltitlesource}{title}
+      \field{title}{DMOS Microstepping Driver with Translator And Overcurrent Protection}
+      \verb{urlraw}
+      \verb https://www.pololu.com/file/0J450/A4988.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.pololu.com/file/0J450/A4988.pdf
+      \endverb
+    \endentry
     \entry{triangulation}{online}{}
       \name{author}{1}{}{%
         {{hash=f532eb3e4041a85113de93118b9d627d}{%
@@ -377,6 +401,18 @@
       \endverb
       \verb{url}
       \verb http://www.perkinelmer.com/CMSResources/Images/44-6538APP_AvalanchePhotodiodesUsersGuide.pdf
+      \endverb
+    \endentry
+    \entry{NEMA17}{online}{}
+      \field{sortinit}{P}
+      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
+      \field{labeltitlesource}{title}
+      \field{title}{Pololu Stepper Motor NEMA 17}
+      \verb{urlraw}
+      \verb https://eckstein-shop.de/Pololu-Stepper-Motor-NEMA-17-Unipolar-Bipolar-200-Steps-Rev-4248mm-4V-12-A-Phase
+      \endverb
+      \verb{url}
+      \verb https://eckstein-shop.de/Pololu-Stepper-Motor-NEMA-17-Unipolar-Bipolar-200-Steps-Rev-4248mm-4V-12-A-Phase
       \endverb
     \endentry
     \entry{frauenhofer}{article}{}
