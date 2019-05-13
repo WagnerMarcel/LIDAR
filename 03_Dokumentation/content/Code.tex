@@ -67,7 +67,7 @@ import VL53L1X
 
 \subsection{Konstruktor und Variablen}
 Die \ac{LIDAR} klasse besitzt zwei Variablen. Die Variable "dist" wird verwendet, um die gemessene Entfernung zu speichern und auf diese Zugreifen zu können.\\
-Die zweite Variable wird als Flag bei Verwendung des \ac{LIDAR} Sensors 'TFMini' \todo{Referenz TFMINI} benötigt (Listing \ref{lidar_constructor}).\\
+Die zweite Variable wird als Flag bei Verwendung des \ac{LIDAR} Sensors 'TFMini' (Kapitel \ref{tf_mini}) benötigt (Listing \ref{lidar_constructor}).\\
 Der Konstruktor der Klasse ist zudem in der Lage je nachdem, welche Parameter angegeben werden, die korrekte Verbindung herzustellen. Je nachdem welche Werte angegeben und welche als "None"  definiert werden, stellt der Konstruktor entweder eine Verbindung über \ac{UART} (Zeile 9) oder \ac{I$^{2}$C} (Zeile 11 - 13) her. 
 \begin{lstlisting}[caption={Kostruktor der Lidar Klasse}, language={Python}, label={lidar_constructor}, numbers=left]
 class LIDAR():

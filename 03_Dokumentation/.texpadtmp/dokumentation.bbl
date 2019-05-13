@@ -19,6 +19,24 @@
 
 \refsection{0}
   \sortlist[entry]{nty/global/}
+    \entry{LM393}{online}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{labeltitlesource}{title}
+      \field{title}{10mm Lichtschranke Photoelectric Infrarot Zähler Counter Sensor Modul, lalaal}
+      \verb{url}
+      \verb https://eckstein-shop.de/10mm-Lichtschranke-Photoelectric-Infrarot-Zaehler-Counter-Sensor-Modul
+      \endverb
+    \endentry
+    \entry{A4988}{online}{}
+      \field{sortinit}{D}
+      \field{sortinithash}{d10b5413de1f3d197b20897dd0d565bb}
+      \field{labeltitlesource}{title}
+      \field{title}{DMOS Microstepping Driver with Translator And Overcurrent Protection}
+      \verb{url}
+      \verb https://www.pololu.com/file/0J450/A4988.pdf
+      \endverb
+    \endentry
     \entry{triangulation}{online}{}
       \name{author}{1}{}{%
         {{hash=f532eb3e4041a85113de93118b9d627d}{%
@@ -265,6 +283,15 @@
       \verb http://neutron.physics.ucsb.edu/docs/Avalanche_photodiodes_info.pdf
       \endverb
     \endentry
+    \entry{MPU-6050}{online}{}
+      \field{sortinit}{M}
+      \field{sortinithash}{c26a05ef03e4429073ed5c825140fac3}
+      \field{labeltitlesource}{title}
+      \field{title}{MPU-6000and MPU-6050Product SpecificationRevision 3.4}
+      \verb{url}
+      \verb https://store.invensense.com/datasheets/invensense/MPU-6050_DataSheet_V3%204.pdf
+      \endverb
+    \endentry
     \entry{inferometrie}{online}{}
       \name{author}{1}{}{%
         {{hash=95d4a8b2d689e8de342d5bb1e0b16466}{%
@@ -322,6 +349,15 @@
       \field{year}{2010}
       \verb{url}
       \verb http://www.perkinelmer.com/CMSResources/Images/44-6538APP_AvalanchePhotodiodesUsersGuide.pdf
+      \endverb
+    \endentry
+    \entry{NEMA17}{online}{}
+      \field{sortinit}{P}
+      \field{sortinithash}{24100cef455d7974167575052c29146e}
+      \field{labeltitlesource}{title}
+      \field{title}{Pololu Stepper Motor NEMA 17}
+      \verb{url}
+      \verb https://eckstein-shop.de/Pololu-Stepper-Motor-NEMA-17-Unipolar-Bipolar-200-Steps-Rev-4248mm-4V-12-A-Phase
       \endverb
     \endentry
     \entry{frauenhofer}{article}{}
