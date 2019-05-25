@@ -1,3 +1,20 @@
 %!TEX root = ../dokumentation.tex
-\chapter{Fazit}
-\todo{Kapitel: Fazit}
+\chapter{Fazit/Zusammenfassung}
+
+Ziel dieser Arbeit war es, ein kostengünstiges System zu entwickeln, welches nach einem Scan einen Raum als 3D Punktewolke darstellen kann. Die Handhabung soll möglichst benutzerfreundlich sein. Zudem wurde eine Machbarkeitsstudie zum Entwickeln eines eigenen Sensors durchgeführt.
+
+Das Ergebnis der Machbarkeitsstudie ist, dass der Eigenbau eines \ac{LIDAR}-Sensors mittels Laserdiode und einfacher Photodiode nicht realisierbar ist. Nach wenigen Experimenten und Gesprächen mit Experten ist klar, dass ein Sensor ausgewählt und gekauft werden muss.
+
+Im Großen und Ganzen funktioniert das im Rahmen dieser Studienarbeit entwickelte und gebaute \ac{LIDAR}-System. Nach einem Scan des Raums können die Daten mithilfe eines Matlab Programms als 3D Punktewolke dargestellt werden. Das Drehen, Zoomen und Durchfliegen des Raumes funktioniert. Messungen jeglicher Distanzen direkt am Modell sind ebenfalls möglich. Auch die Auflösung entspricht und übertrifft die vorher definierten Anforderungen.
+
+\todo{Werte angeben?}
+
+Die Anforderung der Benutzerfreundlichkeit konnte aus Zeitgründen nicht optimiert werden. Das Starten des Programms muss über einen Konsolenbefehl direkt am Raspberry Pi durchgeführt werden. Änderungen der Auflösung sowie anderer Parameter müssen direkt im Code angepasst werden.\\
+Da die Visualisierung über Matlab realisiert wird, müssen die Rohdaten per USB-Stick manuell exportiert werden. Zudem funktioniert die automatische Kalibraton der horizontalen Achse nicht.
+
+Ein weitere Punkt, der gegen die Benutzerfreundlichkeit spricht, ist die benötigte Zeit für den Scan eines Raumes. Bei sehr hoher Auflösung dauert ein Scan ca. eine Stunde. Der limitierende Faktor an dieser Stelle ist die Aufnahmefrequenz des verwendeten Sensors. Sensoren mit höherer Messfrequenz sind deutlich kostenintensiver.
+
+Im folgenden Kapitel sind zahlreiche Verbesserungsmöglichkeiten des Systems aufgeführt. Diese dienen zum hauptsächlich dazu,die Benutzerfreundlichkeit verbessern.
+
+
+\todo{Kapitel: Fazit überarbeiten}

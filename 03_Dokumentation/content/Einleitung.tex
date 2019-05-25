@@ -1,3 +1,21 @@
 %!TEX root = ../dokumentation.tex
 \chapter{Einleitung}
-\todo{Kapitel: Einleitung}
+
+
+Auf Baustellen und in der Innenarchitektur müssen ständig Räume vermessen werden. Herkömmliche Methoden, wie manuelle Laserentfernungsmesser sind teils ungenau und beanspruchen viel Zeit. Zudem werden dabei nur einzelne Raummaße ermittelt und 2D Grundrisse erstellt. Die für viele Planungsschritte notwendigen 3D Raumpläne werden aus Zeit- und Kostengründen nur selten erstellt. Dadurch ist die Bearbeitung ortsferner Projekte nur schwer oder gar nicht umsetzbar und häufig mit Planungsfehlern verbunden. \\
+Geräte, die das Erstellen von 3D Raumkarten ermöglichen, sind sehr kostenintensiv und meist komplex in der Anwendung. Daher werden meist Dienstleistungsunternehmen benötigt, die die 3D Raumkarten erstellen. Die damit verbundenen enormen Kosten führen dazu, dass diese Methodik für kleine bis mittelgroße Bauprojekte nicht wirtschaftlich ist.
+
+Im Rahmen dieser Studienarbeit soll ein System entstehen, welches das Erstellen von 3D Raumkarten ermöglicht. Ziel ist es, ein möglichst kostengünstiges und benutzerfreundliches Gerät zu entwickeln. Dieses soll in einem Raum aufgestellt werden und nach abgeschlossenem Messvorgang den Raum durch eine Punktewolke in 3D abbilden. Zusätzliche Anforderungen an das System sind eine hohe Genauigkeit und eine berührungslose Messung mittels eines \ac{LIDAR}-Sensors.
+
+Diese entstanden Punktewolke soll dazu dienen, ortsferne Planung zu erleichtern. In dem 3D Modell des Raums können beliebige Maße direkt abgelesen werden. Das Modell ist drehbar, stellt komplexe Konturen dar und ermöglicht jegliche Ansicht.
+Die 3D-Modellierung kann durch die frei wählbare Ansichten zusätzlich für virtuelle Immobilienpräsentationen und weitere Animationen verwendet werden.      
+
+
+Der erste Teil dieser Studienarbeit beschäftigt sich mit den Grundlagen der Laserentfernungsmessung. Im Anschluss daran folgt eine Machbarkeitsstudie, einen \ac{LIDAR} Sensor mittels kostengünstiger Komponenten selbst entwerfen und zu bauen. Das Resultat dieser Machbarkeitsstudie bestimmt den verwendeten Sensor für das Projekt. Ist ein kostengünstiger Selbstbau eines Sensors möglich, der den Anforderungen entspricht, wird dieser verwendet. Ist dies nicht möglich, werden passende Sensoren ausgewählt und zugekauft. Der direkte Vergleich der Sensoren erfolgt mit dem fertigen System.\\
+
+Der Hauptteil der Arbeit beschäftigt sich mit der Konzipierung, dem Bau und den Tests des eigentlichen Systems. Während der Konzipierung und des Baus, wird das Projekt in drei Kategorien aufgeteilt.\\
+Der Erste Teil ist die Mechanik, welche den Sensor in zwei Achsen drehen kann um einen kompletten dreidimensionalen Raum abtasten zu können. Der zweite Teil beschäftigt sich mit den elektronischen Komponenten und deren Verbindungen untereinander. Der dritte Teil beschäftigt sich mit der Programmierung sowohl der Ansteuerung der Komponenten aus Teil 2, als auch der Auswertung und Visualisierung der Daten.
+
+Im Anschluss daran wird das System getestet und verschiedene Auflösungen, Darstellungsarten und Sensoren verglichen.
+
+\todo{Überarbeiten, Ablauf genauer beschrieben, z.b. Genau Auflösung?}
