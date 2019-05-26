@@ -1,6 +1,6 @@
 %!TEX root = ../dokumentation.tex
 
-\chapter{Hardware}
+\chapter{Hardware}\label{chap:hardware}
 
 Im folgenden Kapitel werden die elektronischen Hardwarekomponenten, sowie deren Verbindungen untereinander vorgestellt. 
 
@@ -43,8 +43,10 @@ Die Versorgungsspannung beträgt zwischen 2,6 und 3,5 V. Sowohl der Erfassungswi
 
 Der Arbeitsbereich ist von dem eingestellten Distanzmodus abhängig. Man kann wie in Tabelle \ref{distanzmodi} dargestellt zwischen drei Modi auswählen. Die Tabelle zeigt zudem die maximal messbare Distanz für den jeweiligen Modus in Abhängigkeit von dem Umgebungslicht. Der Modus für kurze Distanzen ist  Umgebungslicht unempfindlich. Bei den Modi für mittlere bis hohe Distanzen reagiert der Sensor sehr stark auf Umgebungslicht. Die maximal zu messende Distanz beträgt bei hohem Umgebungslicht nur noch ca. 75 cm. 
 
-\begin{center}
-	\begin{tabular} [H] {|c|c|c|}
+\begin{table}[H]
+	\centering
+	\caption{Distanzmodi VL53L1X}
+	\begin{tabular}{|c|c|c|}
 		\hline
 		\textbf{Distanz Modus} 
 		& \begin{tabular}[x]{@{}c@{}}\textbf{max. Distanz}\\\textbf{(abgedunkelt)}\end{tabular}
@@ -54,9 +56,9 @@ Der Arbeitsbereich ist von dem eingestellten Distanzmodus abhängig. Man kann wi
 		Lang 	&  360 cm		& 73 cm	\\ \hline
 				
 		\end {tabular}
-		\captionof{table}{Distanzmodi VL53L1X}
-		\label{distanzmodi}
-	\end{center}
+	
+	\label{distanzmodi}
+\end{table}
 
 In der späteren Anwendung wird der Modus für große Distanzen benötigt. Daher sollten während der Messung potentielle Fehlerquellen durch Umgebungslicht vermieden werden.
 
@@ -89,8 +91,10 @@ Im Vergleich zum ''TF Mini LIDAR'' Sensor muss beim ''VL53L1X'' auf äußere Ein
 
 Eine tabellarischer Auflistung der relevanten Daten der beiden ausgewählten Sensoren vereinfacht den direkten Vergleich für spätere Auswertungen. Neben vor allem technischen Daten wird auch der Preis in Tabelle \ref{vergleich} aufgenommen.
 
-\begin{center}
-	\begin{tabular} [H] {|c|c|c|}
+\begin{table}[H]
+	\centering
+	\caption{Tabellarischer Vergleich TF Mini und VL53L1X}
+	\begin{tabular}{|c|c|c|}
 		\hline
 		\textbf{} 				& \textbf{Tf Mini LIDAR}	& \textbf{VL53L1X} 	 \\ \hline
 		Preis [€]				&  35-40					& 10			\\ \hline
@@ -98,12 +102,10 @@ Eine tabellarischer Auflistung der relevanten Daten der beiden ausgewählten Sen
 		max. Messfrequenz [Hz]	&  100						& 50 			\\ \hline
 		Messungenauigkeit [\%]	&  1-2 						& <1			\\ \hline
 		Schnittstelle 			&  \ac{UART}				& \ac{I$^{2}$C}\\ \hline
-		Versorgungsspannung [V] &  4,5 - 6 					& 2,6 - 3,5		\\ \hline
-		
-		\end {tabular}
-		\captionof{table}{Tabellarischer Vergleich TF Mini und VL53L1X}
-		\label{vergleich}
-	\end{center}
+ 		
+	\end {tabular}
+	\label{vergleich}
+\end{table}
 
 Es gilt zu beachten, dass sich beim Sensor VL53L1X einige Werte gegenseitig ausschließen. So ist bei einer Messfrequenz von 50 Hz beispielsweise keine Entfernung von 400 cm messbar. Diese gegenseitigen Einschränkungen sind in Kapitel \ref{sec:VL53L1X} aufgeführt und erklärt
 
@@ -145,7 +147,9 @@ Die Anschlüsse ''STEP'', ''DIR'', sowie ''MS1-MS3'' werden mit \ac{GPIO}’s ve
 MS1-MS3 dienen zum Einstellen der Schrittweite. Die Kombination der Logiklevel entscheidet dabei über die Schrittweite. Theoretisch wären somit $2^{3}$ Kombinationen möglich. Es werden jedoch nur fünf Einstellungen benötigt. Die verfügbaren Kombinationen sind in Tabelle \ref{Mikrostepping} aufgelistet. In der Tabelle ist der Zusammenhang von Schrittweite und Logiklevel an MS1-MS3 dargestellt. 
 
 
-\begin{center}
+\begin{table}
+	\centering
+	\caption{Schrittweite}
 	\begin{tabular} [H] {|c|c|c|c|}
 		\hline
 		\textbf{MS1} & \textbf{MS2}	& \textbf{MS3} 		& \textbf{Auflösung} \\ \hline
@@ -155,10 +159,9 @@ MS1-MS3 dienen zum Einstellen der Schrittweite. Die Kombination der Logiklevel e
 		High & High	& Low 		& achtel Schritt 	\\ \hline
 		High & High	 &  High	& sechzehntel Schritt	\\\hline
 	
-		\end {tabular}
-		\captionof{table}{Schrittweite}
-		\label{Mikrostepping}
-	\end{center}
+	\end {tabular}
+	\label{Mikrostepping}
+\end{table}
 
 
 
