@@ -202,12 +202,16 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {13.2.3}Webinterface}{79}{subsection.13.2.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline \ac {WLAN} auf dem Raspberry Pi einrichten}{80}{section*.79}% 
+\contentsline {subsubsection}{\nonumberline \ac {WLAN} auf dem Raspberry Pi einrichten}{80}{section*.83}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline NodeJS Server auf dem Raspberry Pi einrichten}{83}{section*.82}% 
+\contentsline {subsubsection}{\nonumberline NodeJS Server auf dem Raspberry Pi einrichten}{83}{section*.86}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Flask in Javascript und Python verwenden}{84}{section*.83}% 
+\contentsline {subsubsection}{\nonumberline Flask in Javascript und Python verwenden}{84}{section*.87}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Anhang}{A}{chapter*.84}% 
+\contentsline {chapter}{\nonumberline Anhang}{A}{chapter*.88}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\nonumberline Literatur}{A}{section*.85}% 
+\contentsline {section}{\nonumberline Literatur}{A}{section*.89}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\nonumberline Aufteilung der Kapitel}{C}{section*.90}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\nonumberline Github Repository}{D}{section*.92}% 
