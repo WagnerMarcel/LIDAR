@@ -1,6 +1,6 @@
 %!TEX root = ../dokumentation.tex
 
-\chapter{Code}
+\chapter{Code}\label{chap:code}
 Die gewählte Sprache in welcher die Steuerung realisiert ist, ist Python. Python wurde gewählt, da mittels dieser die \acp{GPIO} des Raspberry Pi sehr einfach mittels einer Bibliothek ansteuerbar sind. Zudem ist Python eine sehr schnelle und weit verbreitete hochentwickelte Programmiersprache.\\
 Bei der Erstellung des Codes, welcher das System steuert wurde von Anfang an eine Objektorientierte Vorgehensweiße gewählt, um eine möglichst Reibungslose und fortschrittliche Umsetzung zu realisieren.\\
 Der gesamte Code wurde auf drei Dateien aufgeteilt, dies dient zum einen zur besseren Übersichtlichkeit, zum anderen erhielt jede Klasse eine eigene Datei.
@@ -206,12 +206,12 @@ Die \ac{csv} Datei in welcher die Daten gespeichert werden ist nach folgendem Sc
 \begin{table}[H]
 	\centering
 	\caption{Beispieldatei}
-	\begin{tabular}{l|l|l|l}
-		Nr & Distance & Azimuth & Elevation \\
+	\begin{tabular}{|l|l|l|l|}
 		\hline
-		1  & 105      & 0       & 0         \\
-		2  & 105      & 0       & 0.18      \\
-		3  & 106      & 0       & 0.36        
+		\textbf{Nr} & \textbf{Distance} & \textbf{Azimuth} & \textbf{Elevation} \\\hline
+		1  & 105      & 0       & 0         \\\hline
+		2  & 105      & 0       & 0.18      \\\hline
+		3  & 106      & 0       & 0.36      \\\hline
 	\end{tabular}
 \end{table}
 Jeder Wert welcher in die Datei gespeichert wird bekommt einen Index, somit kann man einen Überblick behalten, wie viele Messwerte aufgezeichnet wurden. Die Zweite Spalte, welche in der Datei steht, ist für die Distanz vorgesehen, welche vom \ac{LIDAR} Sensor ermittelt wird. Die beiden letzten Spalten der dienen der Speicherung des Winkels welcher aus der Position der Schrittmotoren ermittelt wird. Die Distanz wird in $cm$ gespeichert und die beiden Winkel in Grad.
