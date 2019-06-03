@@ -1,0 +1,127 @@
+<<<<<<< Updated upstream
+=======
+\select@language {ngerman}
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\select@language {ngerman}
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Schematischer Aufbau einer Photodiode \cite {Photodiode_spektrum} ($p^+$ starke p-Dotierung)\relax }}{3}{figure.caption.13}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Schematischer Aufbau einer \ac {APD} \cite {APD_Scematic} ($p^+$ starke p-Dotierung, $p^- (\pi )$ schwache (intrinsische) p-Dotierung, $n^+$ starke n-Dotierung) (1 - Metallkontakte, 2 - Entspiegelung)\relax }}{4}{figure.caption.14}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Aufbau einer \ac {PSD} \cite {APD_Scematic}\relax }}{5}{figure.caption.16}
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.1}{\ignorespaces \ac {ToF} Prinzip \cite {ToF_TUBerlin}\relax }}{7}{figure.caption.17}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Versuchsaufbau Phasenverschiebungsentfernungsmessung \cite {lichtabstandsmessung}\relax }}{10}{figure.caption.19}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Phasendifferenz einer Welle \cite {frauenhoferipm}\relax }}{11}{figure.caption.20}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Beispiel Triangulation\relax }}{13}{figure.caption.21}
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Versuchsaufbau\relax }}{21}{figure.caption.29}
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Oberer Aufbau der Mechanik\relax }}{28}{figure.caption.38}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Basis der Mechanik\relax }}{29}{figure.caption.40}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Rahmen\relax }}{30}{figure.caption.41}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {7.4}{\ignorespaces Mechanik mit montierter Elektronik\relax }}{32}{figure.caption.43}
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {8.1}{\ignorespaces TF Mini\relax }}{34}{figure.caption.45}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {8.2}{\ignorespaces Abh\IeC {\"a}ngigkeit der Genauigkeit des VL53L1X Sensors von der Messfrequenz\relax }}{35}{figure.caption.48}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {8.3}{\ignorespaces Schematische Beschaltung der A4988 Tr\IeC {\"a}gerplatine\relax }}{38}{figure.caption.50}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {8.4}{\ignorespaces Schaltplan: Spannungsversorgung\relax }}{42}{figure.caption.53}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {8.5}{\ignorespaces Schaltplan: Motortreiber\relax }}{42}{figure.caption.54}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {8.6}{\ignorespaces Schaltplan: Schnittstellen\relax }}{43}{figure.caption.56}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {8.7}{\ignorespaces Schaltplan: Leds und K\IeC {\"u}hler\relax }}{43}{figure.caption.57}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {8.8}{\ignorespaces Platinenlayout\relax }}{44}{figure.caption.58}
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {10.1}{\ignorespaces Kugelkoordinaten\relax }}{58}{figure.caption.61}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {10.2}{\ignorespaces Darstellung mit Linien\relax }}{60}{figure.caption.62}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {10.3}{\ignorespaces Darstellung mit Asterisken\relax }}{61}{figure.caption.63}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {10.4}{\ignorespaces Darstellung mit Punkten\relax }}{61}{figure.caption.64}
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {11.1}{\ignorespaces Grundriss des Testraums\relax }}{63}{figure.caption.65}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {11.2}{\ignorespaces Grundriss des Testraums\relax }}{64}{figure.caption.66}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {11.3}{\ignorespaces Vogelperspektive des Testraums\relax }}{65}{figure.caption.67}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {11.4}{\ignorespaces Grafischer Vergleich der Grundrisse\relax }}{65}{figure.caption.68}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {11.5}{\ignorespaces Messwerte \IeC {\"u}ber Data Coursor\relax }}{66}{figure.caption.69}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {11.6}{\ignorespaces Vogelperspektive niedrige Aufl\IeC {\"o}sung\relax }}{67}{figure.caption.70}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {11.7}{\ignorespaces Vogelperspektive hohe Aufl\IeC {\"o}sung\relax }}{67}{figure.caption.70}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {11.8}{\ignorespaces Grafischer Vergleich der Grundrisse\relax }}{67}{figure.caption.71}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {11.9}{\ignorespaces Niedrige Aufl\IeC {\"o}sung\relax }}{70}{figure.caption.73}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {11.10}{\ignorespaces Mittlere Aufl\IeC {\"o}sung\relax }}{70}{figure.caption.74}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {11.11}{\ignorespaces Hohe Aufl\IeC {\"o}sung\relax }}{71}{figure.caption.75}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {11.12}{\ignorespaces Vogelperspektive niedrige Aufl\IeC {\"o}sung\relax }}{71}{figure.caption.76}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {11.13}{\ignorespaces Vogelperspektive hohe Aufl\IeC {\"o}sung\relax }}{71}{figure.caption.76}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {11.14}{\ignorespaces Vogelperspektive niedrige Aufl\IeC {\"o}sung\relax }}{72}{figure.caption.77}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {11.15}{\ignorespaces Vogelperspektive hohe Aufl\IeC {\"o}sung\relax }}{72}{figure.caption.77}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {11.16}{\ignorespaces Vogelperspektive niedrige Aufl\IeC {\"o}sung\relax }}{72}{figure.caption.78}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {11.17}{\ignorespaces Vogelperspektive hohe Aufl\IeC {\"o}sung\relax }}{72}{figure.caption.78}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {11.18}{\ignorespaces Sensorvergleich: TF MINI\relax }}{73}{figure.caption.79}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {11.19}{\ignorespaces Sensorvergleich: VL53L1X\relax }}{74}{figure.caption.80}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {11.20}{\ignorespaces TF MINI - Vogelperspektive\relax }}{75}{figure.caption.81}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {11.21}{\ignorespaces Sensor VL53L1X - Vogelperspektive\relax }}{75}{figure.caption.81}
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+>>>>>>> Stashed changes

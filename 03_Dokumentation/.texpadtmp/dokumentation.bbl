@@ -28,6 +28,29 @@
       \verb https://eckstein-shop.de/10mm-Lichtschranke-Photoelectric-Infrarot-Zaehler-Counter-Sensor-Modul
       \endverb
     \endentry
+    \entry{artec}{online}{}
+      \name{author}{1}{}{%
+        {{hash=7376e3b151f73a068e6dc00cb3faf896}{%
+           family={3D},
+           familyi={3\bibinitperiod},
+           given={Artec},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{7376e3b151f73a068e6dc00cb3faf896}
+      \strng{fullhash}{7376e3b151f73a068e6dc00cb3faf896}
+      \strng{authornamehash}{7376e3b151f73a068e6dc00cb3faf896}
+      \strng{authorfullhash}{7376e3b151f73a068e6dc00cb3faf896}
+      \field{sortinit}{3}
+      \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{5}
+      \field{title}{Artec Ray}
+      \field{year}{2019}
+      \verb{url}
+      \verb https://www.artec3d.com/de/portable-3d-scanners/laser-ray#specifications
+      \endverb
+    \endentry
     \entry{A4988}{online}{}
       \field{sortinit}{D}
       \field{sortinithash}{d10b5413de1f3d197b20897dd0d565bb}
@@ -138,6 +161,29 @@
       \field{labeltitlesource}{title}
       \field{title}{Tabellenbuch Metall}
       \field{year}{2011}
+    \endentry
+    \entry{leica}{online}{}
+      \name{author}{1}{}{%
+        {{hash=544cc5bc20c519f14f9611a2316cb2cd}{%
+           family={Geosystems},
+           familyi={G\bibinitperiod},
+           given={Leica},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{544cc5bc20c519f14f9611a2316cb2cd}
+      \strng{fullhash}{544cc5bc20c519f14f9611a2316cb2cd}
+      \strng{authornamehash}{544cc5bc20c519f14f9611a2316cb2cd}
+      \strng{authorfullhash}{544cc5bc20c519f14f9611a2316cb2cd}
+      \field{sortinit}{G}
+      \field{sortinithash}{618d986594b7198ba52cf8b00d348f3f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{5}
+      \field{title}{P50}
+      \field{year}{2019}
+      \verb{url}
+      \verb https://leica-geosystems.com/-/media/files/leicageosystems/products/datasheets/scan/leica%20scanstation%20p50%20ds%20869145%200119%20en%20lr.ashx?la=de-de%5C&hash=5F74F22ADBCFF8A78904CC452F709DFD
+      \endverb
     \endentry
     \entry{phasenverschiebung}{online}{}
       \name{author}{1}{}{%
@@ -360,6 +406,29 @@
       \verb https://eckstein-shop.de/Pololu-Stepper-Motor-NEMA-17-Unipolar-Bipolar-200-Steps-Rev-4248mm-4V-12-A-Phase
       \endverb
     \endentry
+    \entry{ocular}{online}{}
+      \name{author}{1}{}{%
+        {{hash=ae0f8d1799792d4d944f38bd433adcec}{%
+           family={Robotics},
+           familyi={R\bibinitperiod},
+           given={Ocular},
+           giveni={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{ae0f8d1799792d4d944f38bd433adcec}
+      \strng{fullhash}{ae0f8d1799792d4d944f38bd433adcec}
+      \strng{authornamehash}{ae0f8d1799792d4d944f38bd433adcec}
+      \strng{authorfullhash}{ae0f8d1799792d4d944f38bd433adcec}
+      \field{sortinit}{R}
+      \field{sortinithash}{c15bc8eb6936bc6b3c8baa9e8575af53}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{5}
+      \field{title}{RE05}
+      \field{year}{2019}
+      \verb{url}
+      \verb http://www.ocularrobotics.com/wp/wp-content/uploads/2015/12/RobotEye-RE05-3D-LIDAR-Datasheet.pdf
+      \endverb
+    \endentry
     \entry{frauenhofer}{article}{}
       \name{author}{1}{}{%
         {{hash=9392ebbfbfd4f158e0641bc3bbe25cb5}{%
@@ -389,6 +458,27 @@
       \field{title}{Seeedstudio Grove - TF Mini LiDAR Datasheet}
       \verb{url}
       \verb https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&ved=2ahUKEwiu1ef2_MLgAhUCbFAKHRp7DaQQFjABegQIAxAC&url=http%3A%2F%2Fstatics3.seeedstudio.com%2Fassets%2Ffile%2Fbazaar%2Fproduct%2FLiDAR_TF_mini_Datasheet.docx&usg=AOvVaw2Td3zuc0AlicOQ23PnxB2-
+      \endverb
+    \endentry
+    \entry{sick}{online}{}
+      \name{author}{1}{}{%
+        {{hash=cdc7145d2df7912ad942e1de2f0f8132}{%
+           family={Sick},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{cdc7145d2df7912ad942e1de2f0f8132}
+      \strng{fullhash}{cdc7145d2df7912ad942e1de2f0f8132}
+      \strng{authornamehash}{cdc7145d2df7912ad942e1de2f0f8132}
+      \strng{authorfullhash}{cdc7145d2df7912ad942e1de2f0f8132}
+      \field{sortinit}{S}
+      \field{sortinithash}{3c1547c63380458f8ca90e40ed14b83e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{5}
+      \field{title}{MRS6000}
+      \field{year}{2019}
+      \verb{url}
+      \verb https://cdn.sick.com/media/docs/9/39/539/Operating_instructions_MRS6000_de_IM0076539.PDF
       \endverb
     \endentry
     \entry{Photodiode_spektrum}{online}{}

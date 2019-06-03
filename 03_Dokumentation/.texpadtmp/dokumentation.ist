@@ -1,5 +1,9 @@
 % makeindex style file created by the glossaries package
+<<<<<<< Updated upstream
 % for document 'dokumentation' on 2019-6-3
+=======
+% for document 'dokumentation' on 2019-6-1
+>>>>>>> Stashed changes
 actual '?'
 encap '|'
 level '!'

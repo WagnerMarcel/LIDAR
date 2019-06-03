@@ -1,3 +1,71 @@
 %!TEX root = ../dokumentation.tex
 \chapter{Stand der Technik}\label{chap:stand_der_technik}
-\todo{Kapitel: Stand der Technik}
+\todo{Meeeehr Text}\\
+Im folgenden Kapitel sollen bereits vorhandene \ac{LIDAR} Systeme betrachtet werden.\\
+Dabei wird ein vergleich verschiedener Systeme, sowie die Analyse deren Funktionen und die mögliche Übertragung dieser Funktionen auf das in dieser Arbeit entstehende System erfolgen.\\
+Die Systeme, welche Verglichen werden, sind meist für die Anwendung im Bereich der Geodäsie entwickelt, und ermöglichen ein schnelles Präzises dreidimensionales vermessen von Landschaften oder Baustellen. Zusätzlich werden auch Systeme welche für Logistik oder Raumvermessung entwickelt worden sind verglichen. \\
+
+\section{Vergleich der Sensoren}
+Bei Betrachtung der Tabelle \ref{vergleich_sensoren} kann beobachtet werden, dass je nach Anwendungsgebiet des Sensors unterschiedliche Parameter Ausschlag gebend für den Entwurf des Systems sind. Zudem kann betrachtet werden, dass Systeme in dieser Kategorie sehr Preisintensiv sind. \\
+Vor allem sticht die maximale Messrate der Verschiedenen Sensoren besonders hervor und ist dabei stark vom Einsatzgebiet abhängig. Gerade bei Systemen, welche für den Außenraum konzipiert sind, ist eine hohe Messrate gefordert, damit in einer annehmbaren Zeit ein möglichst genaues Abbild der Umgebung erstellt werden kann. Auch ist eine große Reichweite von Vorteil, damit auch Objekte in großer Entfernung noch Aufgezeichnet werden können. \\
+Zudem kann beobachtet werden, dass die meisten der Systeme das \ac{ToF} Prinzip verwenden. Dadurch werden zum einen hohe Messfrequenzen möglich, zum anderen lassen sich auch Zusatzfunktionen wie z.B. die Multi-Echo Auswertung implementieren. \\
+Die großen Unterschiede der Auflösung sind ebenfalls auf die Anforderungen aus den verschiedenen Anwendungsgebieten zurückzuführen. Da beim Vermessen von Gebäuden oder Landschaften eine hohe Auflösung gerade für die Planung sehr wichtig ist. Bei der Logistik kommt es allerdings eher auf einen geringen Preis an, als eine Millimeter genaue Auflösung, da ohnehin immer ein Abstand zum Hindernis gewahrt werden muss.\\
+Die große Preisspanne der Verschiedenen Systeme ist den verschiedenen Anwendungsgebieten geschuldet, da die Sensoren dort unterschiedlich oft eingesetzt werden. So müssen für die Automatisierung einer Logistikzentrale beispielsweiße viele der Systeme verbaut werden, während für das Erfassen der Außenumgebung ein ein einzelnes System vollkommen ausreichend ist.
+
+\begin{landscape}
+	\begin{table}[H]
+		\centering
+		\caption{Vergleich verschiedener \ac{3D} \ac{LIDAR} Systeme}\label{vergleich_sensoren}
+		\begin{tabular}{|c|c|c|c|c|}
+			\hline
+			& \textbf{Sick MRS6000 \cite{sick}} & \textbf{\begin{tabular}{@{}c@{}}Ocular\\Robotics RE05\end{tabular} \cite{ocular}} & \textbf{\begin{tabular}{@{}c@{}}Leica Scan\\Station P50\end{tabular} \cite{leica}} & \textbf{Artec Ray \cite{artec}}\\
+			\hline
+			\textbf{Anwendungsgebiet} & Logistik & Innenraum & Außenraum & Außenraum \\
+			\hline
+			\textbf{Reichweite [m]} &  200 & 160 & >1000 & 110   \\
+			\hline
+			\textbf{Messrate [Hz]} &  10 & 30000 & 1000000 & 208000   \\
+			\hline
+			\textbf{Auflösung [mm]} & 125 & 50 & 3 & 0.9   \\
+			\hline
+			\textbf{Verfahren} &  
+				\begin{tabular}{@{}c@{}} 
+					\ac{ToF} \& \\ Bewegende Polygonspiegel 
+				\end{tabular} &  
+				- &  
+				\begin{tabular}{@{}c@{}} 
+					\ac{ToF} \& \\
+					Rotierender \\ 
+					Sender/Empfänger
+				\end{tabular} & 
+				\begin{tabular}{@{}c@{}} 
+					Phasenverschiebung \& \\ 
+					Rotierender \\
+					Sender/Empfänger
+				\end{tabular} 
+				 \\
+			\hline
+			\textbf{Zusatzfunktionen} & 
+				\begin{tabular}{@{}c@{}} 
+					Multi-Echo \\
+					Auswertung
+				\end{tabular} &
+				\begin{tabular}{@{}c@{}} 
+					Horizontales einstellen \\ des Messbereichs
+				\end{tabular} &  
+				\begin{tabular}{@{}c@{}} 
+					Farbkamera \\
+					
+				\end{tabular} &  
+				
+			\\
+			\hline
+			\textbf{Preis [Euro]} & 7000 & - & 125500 & 50000
+			\\\hline
+		\end{tabular}
+	\end{table}
+\end{landscape}
+
+\section{Erkenntnisse}
+Die größte Erkenntnis aus den Ergebnissen des Vergleichs ist, dass man immer Kompromisse bei der Auslegung eines Systems eingehen muss. Vor allem ist der Kostenpunkt der größte Limitierende Faktor, da dieser vorgibt, welche Methode verwendet wird und welche Messraten möglich wird. 
+
