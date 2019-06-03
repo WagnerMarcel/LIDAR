@@ -110,12 +110,6 @@ Diese Abweichung kann zum Einen durch die Auswahl des Messpunktes kommen, da die
 \end{figure}
 
 
-
-\todo{Überarbeiten, Fazit?}
-
-
-
-
 \section{Vergleich verschiedener Auflösungen}
 
 Durch das Einstellen verschiedener Schrittweiten der Schrittmotoren können unterschiedliche Auflösungen und Punkteverteilungen eingestellt werden. Derselbe Raum wird unter den gleichen Randbedingungen mit drei unterschiedlichen Einstellungen vermessen. Dabei bleibt sowohl die Position des Lidar-Sensors als auch der Sensor selbst gleich. Verändert wird sowohl die horizontale- als auch die vertikale Schrittweite. Dies kann im Code durch das Ändern weniger Parameter realisiert werden.
@@ -261,7 +255,7 @@ d = tan(0,15) \cdot 168,8 cm
 \label{realeAuflösung_formel}
 \end{equation}
 \begin{flalign*}
-&x = \text{Reale Distanz zweier Punkte in [cm] )}&
+&d = \text{Reale Distanz zweier Punkte in [cm]}&
 \end{flalign*}
 
 Dieser Wert ist allerdings nur eine Annäherung, da man mit der Formel davon ausgeht, dass die beiden Messpunkte mit dem Sensor ein rechtwinkliges Dreieck bilde. Zudem geht man davon aus, dass sich die beiden Messpunkte auf der gleichen z-Höhe wie der Sensor befinden.\\
@@ -332,7 +326,7 @@ Nachdem sowohl die Mechanik als auch der erste Lidar Sensor getestet und validie
 	\label{vlx}
 \end{figure}
 
-Bei den Aufnahmen der Sensoren sind trotz selber Einstellungen sehr deutliche Unterschiede erkennbar. Während die Aufnahme mit dem "TF MINI" Sensor sehr deutliche Konturen erkennen lässt, verschwimmen diese bei dem zweiten Sensor. Es ist Auffallend, dass vor allem weiter entfernte Punkte nicht sauber aufgezeichnet werden können. So ist die Wand links oben beispielsweise nicht als solche zu erkenne. Die Punkte streuen zu sehr. Dies liegt vermutlich an der maximalen messbaren Distanz von 4 Metern bei optimalen Umgebungsbedingungen. Diese Bedingungen und Abhängigkeiten sind in Kapitel \ref{VL53L1X} genauer aufgeführt. Es kann davon ausgegangen werden, dass die Bedingungen bei der Messung nicht optimal waren und dewegen die maximal messbare Distanz kleiner war, als die Distaz, in der sich die Wand von dem Sensor befunden hat. 
+Bei den Aufnahmen der Sensoren sind trotz selber Einstellungen sehr deutliche Unterschiede erkennbar. Während die Aufnahme mit dem ''TF MINI'' Sensor sehr deutliche Konturen erkennen lässt, verschwimmen diese bei dem zweiten Sensor. Es ist Auffallend, dass vor allem weiter entfernte Punkte nicht sauber aufgezeichnet werden können. So ist die Wand links oben beispielsweise nicht als solche zu erkenne. Die Punkte streuen zu sehr. Dies liegt vermutlich an der maximalen messbaren Distanz von 4 Metern bei optimalen Umgebungsbedingungen. Diese Bedingungen und Abhängigkeiten sind in Kapitel \ref{VL53L1X} genauer aufgeführt. Es kann davon ausgegangen werden, dass die Bedingungen bei der Messung nicht optimal waren und dewegen die maximal messbare Distanz kleiner war, als die Distaz, in der sich die Wand von dem Sensor befunden hat. 
 
 Die folgenden beiden Abbildungen zeigen noch die jeweilige Vogelperspektive. \\
 
@@ -356,11 +350,9 @@ Die folgenden beiden Abbildungen zeigen noch die jeweilige Vogelperspektive. \\
 
 Auch bei dieser Abbildung ist zu erkennen, dass der erste Sensor viel deutlichere Konturen abbildet und die Messungenauigkeit deutlich geringer ist. Sowohl nahe als auch weiter entfernte Wände werden zuverlässig erkannt. Beim zweiten Sensor wird wieder deutlich, dass alle Punkte, die etwas weiter vom Messpunkt entfernt sind, nur sehr ungenau oder gar nicht aufgenommen werden. 
 
-Der Vergleich zeigt, dass der kostengünstigere Sensor "VL53L1X" unbrauchbar für das System ist. Die maximal messbare Distanz ist mit 4 Metern nur knapp über der Anforderung. Diese Distanz ist jedoch nur bei optimalen Umgebungsbedingungen realisierbar. Weichen diese Bedinungen beispielsweise durch schlecht Reflektierende Wände oder Umgebungslicht ab, sinkt die maximal messbare Distanz und die Messungenauigkeit steigt.  Dadurch entstehende fehlerhafte Abbildungen wie beispielsweise Abbildung \ref*{vlx}. Um dies zu verhindern, müssten die Umgebungsbedingungen dauerhaft angepasst und überwacht werden, was im Konflikt zu der Anforderung der Benutzerfreundlichkeit steht.\\
+Der Vergleich zeigt, dass der kostengünstigere Sensor ''VL53L1X'' unbrauchbar für das System ist. Die maximal messbare Distanz ist mit 4 Metern nur knapp über der Anforderung. Diese Distanz ist jedoch nur bei optimalen Umgebungsbedingungen realisierbar. Weichen diese Bedinungen beispielsweise durch schlecht Reflektierende Wände oder Umgebungslicht ab, sinkt die maximal messbare Distanz und die Messungenauigkeit steigt.  Dadurch entstehende fehlerhafte Abbildungen wie beispielsweise Abbildung \ref*{vlx}. Um dies zu verhindern, müssten die Umgebungsbedingungen dauerhaft angepasst und überwacht werden, was im Konflikt zu der Anforderung der Benutzerfreundlichkeit steht.\\
 
-Der etwas teurere Sensor "TF MINI" hat in diesem Vergleich klar überzeugt. Unabhängig von Umgebungslicht, Reflexionseigenschaften der Wand und weiterer Parameter werden die Messwerte zuverlässig aufgenommen. 
-
-\todo{Ausführlicher?}
+Der etwas teurere Sensor ''TF MINI'' hat in diesem Vergleich klar überzeugt. Unabhängig von Umgebungslicht, Reflexionseigenschaften der Wand und weiterer Parameter werden die Messwerte zuverlässig aufgenommen. 
 
 
 

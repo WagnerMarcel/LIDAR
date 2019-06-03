@@ -162,6 +162,15 @@
       \field{title}{Tabellenbuch Metall}
       \field{year}{2011}
     \endentry
+    \entry{Schrittmotor}{online}{}
+      \field{sortinit}{F}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{labeltitlesource}{title}
+      \field{title}{FUNKTIONSWEISE EINES SCHRITTMOTORS}
+      \verb{url}
+      \verb https://de.nanotec.com/knowledge-base/knowledge-base-pages/funktionsweise-eines-schrittmotors/
+      \endverb
+    \endentry
     \entry{leica}{online}{}
       \name{author}{1}{}{%
         {{hash=544cc5bc20c519f14f9611a2316cb2cd}{%
@@ -450,6 +459,15 @@
       \field{year}{2014}
       \field{pages}{33\bibrangedash 34}
       \range{pages}{2}
+    \endentry
+    \entry{Schrittmotor_Bauformen}{online}{}
+      \field{sortinit}{S}
+      \field{sortinithash}{3c1547c63380458f8ca90e40ed14b83e}
+      \field{labeltitlesource}{title}
+      \field{title}{Schrittmotor kurz erklärt - Deltron AG}
+      \verb{url}
+      \verb https://wiki.ntb.ch/infoportal/_media/hardware/sysp/bauteile/schrittmotor_kurz_erklaert_d.pdf
+      \endverb
     \endentry
     \entry{TFMINI}{online}{}
       \field{sortinit}{S}

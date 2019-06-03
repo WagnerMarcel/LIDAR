@@ -2,21 +2,21 @@
 
 \chapter{Code}\label{chap:code}
 Die gewählte Sprache in welcher die Steuerung realisiert ist, ist Python. Python wurde gewählt, da mittels dieser die \acp{GPIO} des Raspberry Pi sehr einfach mittels einer Bibliothek ansteuerbar sind. Zudem ist Python eine sehr schnelle und weit verbreitete hochentwickelte Programmiersprache.\\
-Bei der Erstellung des Codes, welcher das System steuert wurde von Anfang an eine Objektorientierte Vorgehensweiße gewählt, um eine möglichst Reibungslose und fortschrittliche Umsetzung zu realisieren.\\
-Der gesamte Code wurde auf drei Dateien aufgeteilt, dies dient zum einen zur besseren Übersichtlichkeit, zum anderen erhielt jede Klasse eine eigene Datei.
+Bei der Erstellung des Codes, welcher das System steuert wurde von Anfang an eine Objektorientierte Vorgehensweiße gewählt, um eine möglichst reibungslose und fortschrittliche Umsetzung zu realisieren.\\
+Der gesamte Code wurde auf drei Dateien aufgeteilt. Dies dient zum Einen zur besseren Übersichtlichkeit, zum Anderen erhielt jede Klasse eine eigene Datei.
 \section{Motor}
 Die erste Datei und Klasse beschäftigt sich mit der Ansteuerung der Schrittmotoren.\\
-Sie benötigt zwei extra Bibliotheken (Listing \ref{motor_bib}). Die 'time' Bibliothek wird benötigt, um zwischen verschiedenen Befehlen 'schlafen' zu können, sprich das Programm pausieren zu können. Die 'RPI.GPIO' Bibliothek wird benötigt um die \acp{GPIO} des Raspberry PI ansteuern zu können. 
+Sie benötigt zwei extra Bibliotheken (Listing \ref{motor_bib}). Die 'time' Bibliothek wird benötigt, um zwischen verschiedenen Befehlen 'schlafen' zu können, sprich das Programm pausieren zu können. Die 'RPI.GPIO' Bibliothek wird benötigt, um die \acp{GPIO} des Raspberry PI ansteuern zu können. 
 \begin{lstlisting}[caption={Bibliotheken der Motor Klasse}, language={Python}, label={motor_bib}, numbers=left]
 import time
 import RPi.GPIO as GPIO	
 \end{lstlisting}
 
 \subsection{Konstruktor} 
-Der Konstruktor der Klasse beschäftigt sich mit der Deklaration von Variablen und dem zuweisen der dem Konstruktor übergebenen Parameter.\\
+Der Konstruktor der Klasse beschäftigt sich mit der Deklaration von Variablen und dem Zuweisen der dem Konstruktor übergebenen Parameter.\\
 Im Falle der Motor Klasse bekommt der Konstruktor sechs Übergabeparameter, wovon allerdings ein Parameter ('self') eine Referenz auf das eigene Objekt ist.\\
 Die restlichen übergebenen Parameter sind die \acp{GPIO}, welche für die Ansteuerung des Motortreibers benötigt werden.\\
-Bei einem Blick auf den Code des Konstruktors (Listing \ref{motor_contructor}) sieht man die übernahme der Übergabeparameter in Klasseneigene Variablen (Zeile 2-6). Anschließend wird die Kommunikationsrichtung der \acp{GPIO} festgelegt (Zeile 7 - 11). In diesem Fall werden alle Pins als Ausgang benötigt.\\
+Bei einem Blick auf den Code des Konstruktors (Listing \ref{motor_contructor}) sieht man die Übernahme der Übergabeparameter in klasseneigene Variablen (Zeile 2-6). Anschließend wird die Kommunikationsrichtung der \acp{GPIO} festgelegt (Zeile 7 - 11). In diesem Fall werden alle Pins als Ausgang benötigt.\\
 Außerdem wird den \acp{GPIO} direkt ein Zustand zugewiesen (Zeile 12 - 16), in diesem Fall ist die Konfiguration so, dass der Motor Treiber mit Achtelschritten arbeitet und den Motor gegen den  Uhrzeigersinn drehen lässt.
 \begin{lstlisting}[caption={Konstruktor der Motor Klasse}, language={Python}, label={motor_contructor}, numbers=left]
 def __init__(self, Step, Dir, MS1, MS2, MS3):
@@ -38,7 +38,7 @@ def __init__(self, Step, Dir, MS1, MS2, MS3):
 \end{lstlisting}
 
 \subsection{Bewegen des Motors}
-Die Motor Klasse besitzt zudem noch eine Funktion, mittels welcher sich der jeweilige Motor bewegen lässt (Listing \ref{motor_move}). In der Funktion wird zunächst die Drehrichtung je nach übergabeparameter gesetzt (Zeile 2 - 5), und anschließend ein bzw. je nachdem wie viele Schritte gefordert werden ausführt. Um einen kompletten Schritt zu vollenden, wird der dafür vorgesehene Pin des Motortreibers Ein und wieder Aus geschaltet. Die Zeit zwischen diesen beiden Vorgängen kann über einen Übergabeparameter der Funktion eingestellt werden (Zeile 8 - 13). Dies bestimmt direkt die Drehgeschwindigkeit des Motors. Wobei allerdings eine kleinere übergebene Zeit eine schnellere Drehung des Motors produziert. 
+Die Motor Klasse besitzt zudem noch eine Funktion, mittels welcher sich der jeweilige Motor bewegen lässt (Listing \ref{motor_move}). In der Funktion wird zunächst die Drehrichtung je nach Übergabeparameter gesetzt (Zeile 2 - 5), und anschließend ein bzw. je nachdem wie viele Schritte gefordert werden ausführt. Um einen kompletten Schritt zu vollenden, wird der dafür vorgesehene Pin des Motortreibers Ein und wieder Aus geschaltet. Die Zeit zwischen diesen beiden Vorgängen kann über einen Übergabeparameter der Funktion eingestellt werden (Zeile 8 - 13). Dies bestimmt direkt die Drehgeschwindigkeit des Motors. Wobei allerdings eine kleinere übergebene Zeit eine schnellere Drehung des Motors produziert. 
 \begin{lstlisting}[caption={Funktion zum Bewegen des Motors}, language={Python}, label={motor_move}, numbers=left]
 def moveMotor(self, dir, step, speed):
     if(dir):
@@ -58,15 +58,15 @@ def moveMotor(self, dir, step, speed):
 
 \section{Lidar}
 Auch der \ac{LIDAR} Sensor hat eine eigene Datei sowie Klasse bekommen, dies soll dazu dienen, um mehrere verschiedene Sensoren konfigurieren zu können und diese dann schell und einfach mit denselben Funktionen auswählen zu können.\\
-Die Klasse ist in ihrer jetzigen From bereits in der Lage zwei Verschiedene \ac{LIDAR} Sensoren zu bedienen.
-Die Lidar Klasse benötigt zwei Bibliotheken (Listing \ref{lidar_bib}), mit der ersten kann eine Serielle Verbindung erstellt werden. Die Zweite Bibliothek wird benötigt, um einen der zwei Möglichen \ac{LIDAR} Sensoren anzusteuern \todo{Referenz VL53L1X}. 
+Die Klasse ist in ihrer jetzigen Form bereits in der Lage zwei verschiedene \ac{LIDAR} Sensoren zu bedienen.
+Die Lidar Klasse benötigt zwei Bibliotheken (Listing \ref{lidar_bib}), mit der ersten kann eine Serielle Verbindung erstellt werden. Die Zweite Bibliothek wird benötigt, um einen der zwei Möglichen \ac{LIDAR} Sensoren anzusteuern. 
 \begin{lstlisting}[caption={Bibliotheken der Lidar Klasse}, language={Python}, label={lidar_bib}, numbers=left]
 import serial
 import VL53L1X
 \end{lstlisting}
 
 \subsection{Konstruktor und Variablen}
-Die \ac{LIDAR} klasse besitzt zwei Variablen. Die Variable "dist" wird verwendet, um die gemessene Entfernung zu speichern und auf diese Zugreifen zu können.\\
+Die Lidar Klasse besitzt zwei Variablen. Die Variable 'dist' wird verwendet, um die gemessene Entfernung zu speichern und auf diese Zugreifen zu können.\\
 Die zweite Variable wird als Flag bei Verwendung des \ac{LIDAR} Sensors 'TFMini' (Kapitel \ref{tf_mini}) benötigt (Listing \ref{lidar_constructor}).\\
 Der Konstruktor der Klasse ist zudem in der Lage je nachdem, welche Parameter angegeben werden, die korrekte Verbindung herzustellen. Je nachdem welche Werte angegeben und welche als "None"  definiert werden, stellt der Konstruktor entweder eine Verbindung über \ac{UART} (Zeile 9) oder \ac{I$^{2}$C} (Zeile 11 - 13) her. 
 \begin{lstlisting}[caption={Kostruktor der Lidar Klasse}, language={Python}, label={lidar_constructor}, numbers=left]
@@ -104,7 +104,7 @@ Die Funktion um anschließend Daten vom \ac{LIDAR} Sensor zu bekommen ist auch 
             self.dist = self.tof.get_distance() # Entfernung in mm
             self.dist = self.dist/10.0
 \end{lstlisting}
-In Listing \ref{lidar_getData} kann man sehen, dass ähnlich wie im Konstruktor je nachdem welcher Sensor 'ausgewählt' wurde unterschiedliche Methoden verwendet werden um Daten zu bekommen. Der erste Abschnitt in Zeile 3 - 13 ist für die Verwendung eines Sensors mittels \ac{UART} gedacht. Da \ac{UART} ein Serieller Bus ist, auf welchen vom Slave konstant Daten geschickt werden, wartet diese Funktion so lange, bis neue Daten ankommen. Die neuen Daten werden durch zwei aufeinander folgende 'Y' gekennzeichnet. Anschließend werden die Zwei bit für die Entfernung gespeichert (Zeile 7 \& 8) und zur Gesamtdistanz zusammengefügt (Zeile 9). Anschließend wird die bereits erwähnte Flag der Klasse gesetzt, damit nur ein einzelner Wert aufgenommen wird.\\
+In Listing \ref{lidar_getData} kann man sehen, dass ähnlich wie im Konstruktor je nachdem welcher Sensor 'ausgewählt' wurde unterschiedliche Methoden verwendet werden um Daten zu bekommen. Der erste Abschnitt in Zeile 3 - 13 ist für die Verwendung eines Sensors mittels \ac{UART} gedacht. Da \ac{UART} ein Serieller Bus ist, auf welchen vom Slave konstant Daten geschickt werden, wartet diese Funktion so lange, bis neue Daten ankommen. Die neuen Daten werden durch zwei aufeinander folgende 'Y' gekennzeichnet. Anschließend werden die zwei byte für die Entfernung gespeichert (Zeile 7 \& 8) und zur Gesamtdistanz zusammengefügt (Zeile 9). Anschließend wird die bereits erwähnte Flag der Klasse gesetzt, damit nur ein einzelner Wert aufgenommen wird.\\
 Die Zweite Methode in Zeile 15 - 16 ist deutlich einfacher, da hierbei eine Bibliothek verwendet werden kann und die Distanz lediglich in die richtige Größe konvertiert werden muss (Zeile 15 - 16).
 \section{Steuerung}
 Die dritte und letzte Datei beschäftigt sich mit der generellen Steuerung des Systems und dem Initialisieren und Aufrufen der Klassen und derer Funktionen.\\
@@ -126,7 +126,7 @@ GPIO.setwarnings(False)
 \end{lstlisting}
 Die Bibliotheken in Zeile 2 \& 3 (Listing \ref{main_bibliotheken})werden für die Benennung der Dateien, welche Produziert werden benötigt. Die 'math' Bibliothek wird für einige Berechnungen benötigt und die 'RPi.GPIO' wird wie bereits erwähnt benötigt und die \acp{GPIO} des Raspberry Pi möglichst einfach anzusteuern. Anschließend werden dann noch die zwei Klassen importiert welche in den vorangegangenen Abschnitten erklärt wurden. Zudem wird noch der Modus der \ac{GPIO} Nummerierung festgelegt. In diesem Fall ist der Modus gleich der Nummerierung der Pins auf dem Board. \todo{Bild GPIO pinout}\\
 \subsection{Pin Definitionen und Initialisieren der Klassen}
-Da wie in den Vorangegangenen Kapiteln erläutert wurde Klassen für Motor und Lidar erstellt wurden müssen diese nun auch aufgerufen und initialisiert werden. Zudem sind weitere \acp{GPIO} nötig um das gesamte System zu Steuern.
+Da wie in den vorangegangenen Kapiteln erläutert wurden Klassen für Motor und Lidar erstellt wurden müssen diese nun auch aufgerufen und initialisiert werden. Zudem sind weitere \acp{GPIO} nötig um das gesamte System zu Steuern.
 \begin{lstlisting}[caption={Initialisieren von Variablen und Klassen}, language={Python}, label={main_classes}, numbers=left]
 # Pins & Definitionen
 workingLED = 11
@@ -168,7 +168,7 @@ def homeAxis():
 \end{lstlisting}
 Die erste Funktion (Zeile 2 - 7) dient dazu, um die übrigen \acp{GPIO} zu initialisieren und diesen einen Startwert zu geben. Hier werden die \acp{GPIO} welche für die LED und den Lüfter vorgesehen sind als Ausgang deklariert und als 'LOW' initialisiert. Der \ac{GPIO} Pin welcher für die Lichtschranke vorgesehen ist wird als Eingang deklariert.\\
 Die zweite Funktion wird benötigt, um das System in horizontaler Richtung in die Ausgangslage zu bringen. Dazu wird der Motor 2, welcher für den Polarwinkel zuständig ist, so lange gedreht, bis dieser die Lichtschranke erreicht, und diese wieder verlässt. Da die Lichtschranke nicht zu 100\% am Kreisscheitelpunkt positioniert ist, wird nach verlassen der Lichtschranke mit einem Manuellen Kalibrationswert (Zeile 16) der Polarwinkel in Nulllage gebracht.\\
-\subsection{Variablen deklaration und aufrufen von Funktionen}
+\subsection{Variablendeklaration und aufrufen von Funktionen}
 Bevor mit dem eigentlichen Messen begonnen werden kann müssen noch einige Variablen definiert und Funktionen aufgerufen werden.
 \begin{lstlisting}[caption={Aufrufen von Funktionen und Variablen deklaration}, language={Python}, label={main_setup}, numbers=left]
 initGPIO()
@@ -191,12 +191,12 @@ data = open("data_"+datetime.datetime.fromtimestamp(time.time()).strftime('%Y-%m
 data.write("Nr;Distance;Azimuth;Elevation\n")
 valueNr = 1
 \end{lstlisting}
-In Zeile 1 (Listing \ref{main_setup}) werden zuerst die \acp{GPIO} initialisiert. Anschließend wird ein Wert vom \ac{LIDAR} ausgelesen  und die Flag des \acp{LIDAR} wieder auf 'False' gesetzt, damit dieser anschließend wieder Messwerte aufnehmen kann. Dies dient zum Funktionstest, bevor das System bewegt wurde. Wenn der Sensor beispielsweiße nicht korrekt verbunden wurde würde das System abbrechen bevor etwas Bewegt wurde. Danach wird das System in die Ausgangslage positioniert und eine kurze Zeit gewartet, bevor es mit dem eigentlichen Messvorgang losgeht.\\
-Wie in Zeile 7 \& 8 zu sehen werden anschließend noch die Anzahl der benötigten Schritte für eine ganze Umdrehung und eine Viertelumdrehung berechnet. Diese Werte werden benötigt, um die grenzen für die Schleifen der Messung festzulegen. Ein Schrittmotor macht pro Umdrehung 200 ganze Schritte, da eine möglichst hohe Auflösung gewünscht ist, wird die größtmögliche Mikroschritt Zahl der Motortreiber verwendet. Im Fall der verwendeten Motortreiber sind das Achtelschritte, allerdings hat der Motortreiber 1, welcher für die Vertikale Achse zuständig ist einen Fehler, wodurch nur viertel Schritte möglich sind.\\
+In Zeile 1 (Listing \ref{main_setup}) werden zuerst die \acp{GPIO} initialisiert. Anschließend wird ein Wert vom \ac{LIDAR} ausgelesen  und die Flag des \acp{LIDAR} wieder auf 'False' gesetzt, damit dieser anschließend wieder Messwerte aufnehmen kann. Dies dient zum Funktionstest, bevor das System bewegt wurde. Wenn der Sensor beispielsweise nicht korrekt verbunden wurde würde das System abbrechen bevor etwas Bewegt wurde. Danach wird das System in die Ausgangslage positioniert und eine kurze Zeit gewartet, bevor es mit dem eigentlichen Messvorgang losgeht.\\
+Wie in Zeile 7 \& 8 zu sehen werden anschließend noch die Anzahl der benötigten Schritte für eine ganze Umdrehung und eine Viertelumdrehung berechnet. Diese Werte werden benötigt, um die grenzen für die Schleifen der Messung festzulegen. Ein Schrittmotor macht pro Umdrehung 200 ganze Schritte, da eine möglichst hohe Auflösung gewünscht ist, wird die größtmögliche Mikroschritt Zahl der Motortreiber verwendet. Im Fall der verwendeten Motortreiber wurden Achtelschritte gewählt, allerdings hat der Motortreiber 1, welcher für die Vertikale Achse zuständig ist einen Fehler, wodurch nur viertel Schritte möglich sind.\\
 In Zeile 10 \& 11 werden die Startrichtungen für die Motoren festgelegt.\\
 Anschließend wird ein Messwert in die Konsole ausgegeben, um dem Bediener eine Rückmeldung zu geben, dass das System Ordnungsgemäß funktioniert.\\
 \subsection{Erstellen der Datei zum Speichern der Daten}
-Ein letzter Schritt ist noch nötig, bevor mit der Messung begonnen werden kann (Listing \ref{main_data}). Dabei wird die Datei in welcher die Messwerte abgespeichert werden erstellt. Die Datei wird dabei immer mit "data" und dem Aktuellen Datum sowie Timestamp versehen. Als letzte Aktion vor der Messung wird der Index des ersten Messwertes gleich 1 gesetzt.\\
+Ein letzter Schritt ist noch nötig, bevor mit der Messung begonnen werden kann (Listing \ref{main_data}). Dabei wird die Datei in welcher die Messwerte abgespeichert werden erstellt. Die Datei wird dabei immer mit 'data' und dem aktuellen Datum sowie Timestamp versehen. Als letzte Aktion vor der Messung wird der Index des ersten Messwertes gleich 1 gesetzt.\\
 \begin{lstlisting}[caption={Erstellen der Datei zum Speichern der Daten}, language={Python}, label={main_data}, numbers=left]
 data = open("data_"+datetime.datetime.fromtimestamp(time.time()).strftime('%Y-%m-%d_%H-%M-%S')+".csv", "w")
 data.write("Nr;Distance;Azimuth;Elevation\n")
@@ -214,7 +214,7 @@ Die \ac{csv} Datei in welcher die Daten gespeichert werden ist nach folgendem Sc
 		3  & 106      & 0       & 0.36      \\\hline
 	\end{tabular}
 \end{table}
-Jeder Wert welcher in die Datei gespeichert wird bekommt einen Index, somit kann man einen Überblick behalten, wie viele Messwerte aufgezeichnet wurden. Die Zweite Spalte, welche in der Datei steht, ist für die Distanz vorgesehen, welche vom \ac{LIDAR} Sensor ermittelt wird. Die beiden letzten Spalten der dienen der Speicherung des Winkels welcher aus der Position der Schrittmotoren ermittelt wird. Die Distanz wird in $cm$ gespeichert und die beiden Winkel in Grad.
+Jeder Wert welcher in die Datei gespeichert wird bekommt einen Index, somit kann man einen Überblick behalten, wie viele Messwerte aufgezeichnet wurden. Die zweite Spalte, welche in der Datei steht, ist für die Distanz vorgesehen, welche vom \ac{LIDAR} Sensor ermittelt wird. Die beiden letzten Spalten der dienen der Speicherung des Winkels welcher aus der Position der Schrittmotoren ermittelt wird. Die Distanz wird in $cm$ gespeichert und die beiden Winkel in Grad.
 
 \subsection{Schleifen der Steuerung}
 \begin{lstlisting}[caption={Messen und Aufzeichnen der Entfernungen}, language={Python}, label={main_loop}, numbers=left]
@@ -246,6 +246,6 @@ lidar.tof.stop_ranging()
 \end{lstlisting}
 Da in Python keine konventionellen 'for' Schleifen möglich sind, müssen 'while' Schleifen verwendet werden. Dazu wird eine extra Variable benötigt (Zeile 1 \& 2 Listing \ref{main_loop}), um zu Überwachen wie oft die Schleife schon durchlaufen wurde. Da in diesem Fall zwei 'while' Schleifen ineinander Verschachtelt wurden, werden auch zwei Variablen benötigt um die Anzahl der Durchläufe zu überwachen. \\
 Die äußere Schleife wird nur so oft durchlaufen, bis der Motor 1, welcher für die Neigung des Polarwinkles zuständig ist, 90° erreicht. Im inneren dieser Schleife gibt es eine Besonderheit. Da sich die Kabel des oberen Aufbaus nur endlich oft Drehen können bis diese Verschleißen, muss das System nach jeden 360° die Richtung umkehren. Dafür werden 2 verschiedene Schleifen benötigt, da später der Winkel anhand des Counters der Schleifendurchläufe berechnet wird. Prinzipiell passiert in den Schleifen in Zeile 5 - 11 und Zeile 13 - 19 aber exakt das selbe. Zuerst werden neue Daten vom \ac{LIDAR} Sensor angefragt, und die Flag des Sensors gesetzt. Anschließend wird der ermittelte Wert zusammen mit den aktuellen Winkeln und einem Index in die '.csv' Datei gespeichert. Die Winkel werden dabei in Grad angegeben (Zeile 8 \& 16).\\
-Nachdem die Werte gespeichert wurden, wird der Motor bewegt, in diesem Fall um vier schritte, was auch zeigt, dass das System in diesem Codebeispiel nur mit einem viertel der Auflösung in Horizontaler Richtung arbeitet. Anschließend wird der Index sowie der Schleifenzähler erhöht. Beim Schleifenzähler besteht der große Unterschied Zwischen den beiden 'while' Schleifen, da einmal die Schleife von 'vorne' und einmal von 'hinten' durchlaufen wird. Die Schrittweite vier ergibt sich aus der Anzahl der Schritte welche auch dem Motor übergeben wurden.\\
-Wenn die innere Schleife eine volle 360° Drehung also eine komplette Rotation durchlaufen hat, wird der Motor 1, welcher für den Polarwinkel zuständig ist ebenfalls bewegt, in diesem Fall auch um vier Schritte was ein viertel der Vertikalen Auflösung bedeutet. Ebenfalls der zweite Schleifenzähler wird um vier erhöht, und die Richtung des Motors für die Horizontale Drehung wird umgekehrt, bevor die innere Schleife aufs neue durchlaufen wird.\\
+Nachdem die Werte gespeichert wurden, wird der Motor bewegt, in diesem Fall um vier Schritte, was auch zeigt, dass das System in diesem Codebeispiel nur mit einem viertel der Auflösung in horizontaler Richtung arbeitet. Anschließend wird der Index sowie der Schleifenzähler erhöht. Beim Schleifenzähler besteht der große Unterschied zwischen den beiden 'while' Schleifen, da einmal die Schleife von 'vorne' und einmal von 'hinten' durchlaufen wird. Die Schrittweite vier ergibt sich aus der Anzahl der Schritte welche auch dem Motor übergeben wurden.\\
+Wenn die innere Schleife eine volle 360° Drehung also eine komplette Rotation durchlaufen hat, wird der Motor 1, welcher für den Polarwinkel zuständig ist ebenfalls bewegt, in diesem Fall auch um vier Schritte was ein Viertel der vertikalen Auflösung bedeutet. Ebenfalls der zweite Schleifenzähler wird um vier erhöht, und die Richtung des Motors für die Horizontale Drehung wird umgekehrt, bevor die innere Schleife aufs neue durchlaufen wird.\\
 Wenn die gesamte Messung abgeschlossen ist wird die Datei welche die Daten enthält geschlossen und die Messung gestoppt. Die Datei kann nun weiterverwendet und ausgewertet werden.

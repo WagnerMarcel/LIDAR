@@ -2133,9 +2133,6 @@
         <bcf:field>urldate</bcf:field>
       </bcf:constraint>
       <bcf:constraint type="data" datatype="pattern" pattern="(?:sf|sm|sn|pf|pm|pn|pp)">
-<<<<<<< Updated upstream
-        <bcf:field>ge
-=======
         <bcf:field>gender</bcf:field>
       </bcf:constraint>
     </bcf:constraints>
@@ -2158,34 +2155,37 @@
     <bcf:citekey order="16">APD_Scematic</bcf:citekey>
     <bcf:citekey order="17">APD_Scematic</bcf:citekey>
     <bcf:citekey order="18">psd</bcf:citekey>
-    <bcf:citekey order="19">ToF_TUBerlin</bcf:citekey>
-    <bcf:citekey order="20">ToF_TUBerlin</bcf:citekey>
-    <bcf:citekey order="21">ToF_ST</bcf:citekey>
-    <bcf:citekey order="22">phasenverschiebung</bcf:citekey>
-    <bcf:citekey order="23">inferometrie</bcf:citekey>
-    <bcf:citekey order="24">lichtabstandsmessung</bcf:citekey>
-    <bcf:citekey order="25">lichtabstandsmessung</bcf:citekey>
-    <bcf:citekey order="26">frauenhoferipm</bcf:citekey>
-    <bcf:citekey order="27">frauenhoferipm</bcf:citekey>
+    <bcf:citekey order="19">Schrittmotor</bcf:citekey>
+    <bcf:citekey order="20">Schrittmotor_Bauformen</bcf:citekey>
+    <bcf:citekey order="21">Schrittmotor_Bauformen</bcf:citekey>
+    <bcf:citekey order="22">ToF_TUBerlin</bcf:citekey>
+    <bcf:citekey order="23">ToF_TUBerlin</bcf:citekey>
+    <bcf:citekey order="24">ToF_ST</bcf:citekey>
+    <bcf:citekey order="25">phasenverschiebung</bcf:citekey>
+    <bcf:citekey order="26">inferometrie</bcf:citekey>
+    <bcf:citekey order="27">lichtabstandsmessung</bcf:citekey>
     <bcf:citekey order="28">lichtabstandsmessung</bcf:citekey>
-    <bcf:citekey order="29">phasenmodulation</bcf:citekey>
-    <bcf:citekey order="30">frauenhofer</bcf:citekey>
-    <bcf:citekey order="31">triangulation</bcf:citekey>
-    <bcf:citekey order="32">psd</bcf:citekey>
-    <bcf:citekey order="33">sick</bcf:citekey>
-    <bcf:citekey order="34">ocular</bcf:citekey>
-    <bcf:citekey order="35">leica</bcf:citekey>
-    <bcf:citekey order="36">artec</bcf:citekey>
-    <bcf:citekey order="37">NEMA</bcf:citekey>
-    <bcf:citekey order="38">Tabellenbuch</bcf:citekey>
-    <bcf:citekey order="39">Tabellenbuch</bcf:citekey>
-    <bcf:citekey order="40">TFMINI</bcf:citekey>
-    <bcf:citekey order="41">VL53L1X</bcf:citekey>
-    <bcf:citekey order="42">VL53L1X_manual</bcf:citekey>
-    <bcf:citekey order="43">NEMA17</bcf:citekey>
-    <bcf:citekey order="44">A4988</bcf:citekey>
-    <bcf:citekey order="45">LM393</bcf:citekey>
-    <bcf:citekey order="46">MPU-6050</bcf:citekey>
+    <bcf:citekey order="29">frauenhoferipm</bcf:citekey>
+    <bcf:citekey order="30">frauenhoferipm</bcf:citekey>
+    <bcf:citekey order="31">lichtabstandsmessung</bcf:citekey>
+    <bcf:citekey order="32">phasenmodulation</bcf:citekey>
+    <bcf:citekey order="33">frauenhofer</bcf:citekey>
+    <bcf:citekey order="34">triangulation</bcf:citekey>
+    <bcf:citekey order="35">psd</bcf:citekey>
+    <bcf:citekey order="36">sick</bcf:citekey>
+    <bcf:citekey order="37">ocular</bcf:citekey>
+    <bcf:citekey order="38">leica</bcf:citekey>
+    <bcf:citekey order="39">artec</bcf:citekey>
+    <bcf:citekey order="40">NEMA</bcf:citekey>
+    <bcf:citekey order="41">Tabellenbuch</bcf:citekey>
+    <bcf:citekey order="42">Tabellenbuch</bcf:citekey>
+    <bcf:citekey order="43">TFMINI</bcf:citekey>
+    <bcf:citekey order="44">VL53L1X</bcf:citekey>
+    <bcf:citekey order="45">VL53L1X_manual</bcf:citekey>
+    <bcf:citekey order="46">NEMA17</bcf:citekey>
+    <bcf:citekey order="47">A4988</bcf:citekey>
+    <bcf:citekey order="48">LM393</bcf:citekey>
+    <bcf:citekey order="49">MPU-6050</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="nty/global/" type="entry" sortscheme="nty" sortnamekeyscheme="global" labelprefix="">
   <bcf:sorting>
@@ -2218,4 +2218,3 @@
   </bcf:sorting>
   </bcf:sortlist>
 </bcf:controlfile>
->>>>>>> Stashed changes

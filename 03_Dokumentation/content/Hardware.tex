@@ -5,7 +5,7 @@
 Im folgenden Kapitel werden die elektronischen Hardwarekomponenten, sowie deren Verbindungen untereinander vorgestellt. 
 
 Die einzelnen Komponenten lassen sich in drei große Funktionsbereiche klassifizieren:\\
-Der erste Bereich beinhaltet die Distanzbestimmung. Diese wird durch den \ac{LIDAR}-Sensor realisiert.\\
+Der erste Bereich beinhaltet die Distanzbestimmung. Diese wird durch den \ac{LIDAR} Sensor realisiert.\\
 Der zweite Funktionsbereich beschäftigt sich mit dem Ausrichten des Sensors in zwei Achsen. Die Komponenten sind zwei Schrittmotoren und die damit verbundene Ansteuerung durch Motortreiber. \\
 Die automatisierte Kalibrierung stellt den dritten Funktionsbereich dar. Dabei wird über eine Lichtschranke die horizontale Ausrichtung des Sensors bei jedem Start der Anwendung auf eine vordefinierte Ausgangsposition gesetzt. Dasselbe wird durch einen Gyrosensor für die vertikale Ausrichtung ermöglicht.
 
@@ -13,7 +13,7 @@ Als Rechen- und Steuereinheit für das gesamte System wird ein Raspberry Pi verw
 
 \section{Funktionseinheit Distanzbestimmung}
 
-Bei der Auswahl des \ac{LIDAR}-Sensors spielen Preis, Verfügbarkeit, Messfrequenz, Auflösung, Genauigkeit und messbare Entfernung eine Rolle. Im Folgenden werden zwei ausgewählte Sensoren vorgestellt. 
+Bei der Auswahl des \ac{LIDAR} Sensors spielen Preis, Verfügbarkeit, Messfrequenz, Auflösung, Genauigkeit und messbare Entfernung eine Rolle. Im Folgenden werden zwei ausgewählte Sensoren vorgestellt. 
 
 
 \subsection{TF Mini \ac{LIDAR}}\label{tf_mini}
@@ -28,7 +28,7 @@ Bei der Auswahl des \ac{LIDAR}-Sensors spielen Preis, Verfügbarkeit, Messfreque
 	
 \end{wrapfigure}
 
-Als Hauptsensor wird ein „TF Mini \ac{LIDAR}“ von dem Hersteller „Seeedstudio“ verwendet. Dieser misst Entfernungen mit auf dem Prinzip der Phasendifferenz wie in Kapitel \ref{sec:phasenverschiebung} beschrieben.\\
+Als Hauptsensor wird ein „TF Mini \ac{LIDAR}“ von dem Hersteller „Seeedstudio“ verwendet. Dieser misst Entfernungen mit dem Prinzip der Phasendifferenz wie in Kapitel \ref{sec:phasenverschiebung} beschrieben.\\
 Der Arbeitsbereich ist zwischen 30 cm und 1200 cm mit einer Auflösung von 1 cm. Bei Entfernungen kleiner als 600 cm beträgt die Messungenauigkeit 1\%. Zwischen 600 cm und 1200 cm 2\%. Die Messfrequenz beträgt maximale 100 Hz.\\
 Der Sensor arbeitet mit einer Versorgungsspannung von 4,5 V – 6 V bei einem durchschnittlichen Stromverbrauch von 120 mA. Das Kommunikation läuft über eine \ac{UART} Schnittstelle mit einer Logikspannung von 3,3 V. \cite{TFMINI}
 
@@ -38,8 +38,8 @@ Der Sensor ist 42 x 15 x 16 mm groß, wodurch er sehr gut auf der dafür vorgese
 
 \subsection{VL53L1X} \label{sec:VL53L1X}
 
-Als alternativer, kostengünstigerer Sensor wird der \ac{ToF}-Sensor VL53L1X verwendet. Der Sensor nutzt das Prinzip der Lichtlaufzeitmessung. Es können Distanzen von bis zu 400 cm mit einer maximalen Frequenz von 50 Hz gemessen werden. Die Kommunikation erfolgt über \ac{I$^{2}$C}. \\
-Die Versorgungsspannung beträgt zwischen 2,6 und 3,5 V. Sowohl der Erfassungswinkel als auch der interessante Entfernungsbereich kann softwaretechnisch eingestellt werden. \cite{VL53L1X}
+Als alternativer, kostengünstigerer Sensor wird der \ac{ToF} Sensor VL53L1X verwendet. Der Sensor nutzt das Prinzip der Lichtlaufzeitmessung. Es können Distanzen von bis zu 400 cm mit einer maximalen Frequenz von 50 Hz gemessen werden. Die Kommunikation erfolgt über \ac{I$^{2}$C}. \\
+Die Versorgungsspannung liegt zwischen 2,6 und 3,5 V. Sowohl der Erfassungswinkel als auch der interessante Entfernungsbereich kann softwaretechnisch eingestellt werden. \cite{VL53L1X}
 
 Der Arbeitsbereich ist von dem eingestellten Distanzmodus abhängig. Man kann wie in Tabelle \ref{distanzmodi} dargestellt zwischen drei Modi auswählen. Die Tabelle zeigt zudem die maximal messbare Distanz für den jeweiligen Modus in Abhängigkeit von dem Umgebungslicht. Der Modus für kurze Distanzen ist  Umgebungslicht unempfindlich. Bei den Modi für mittlere bis hohe Distanzen reagiert der Sensor sehr stark auf Umgebungslicht. Die maximal zu messende Distanz beträgt bei hohem Umgebungslicht nur noch ca. 75 cm. 
 
@@ -73,17 +73,13 @@ Die Genauigkeit der Messung hängt wie in Abbildung \ref{VL53L1X} zu sehen von d
 	\label{VL53L1X}
 \end{figure}
 
-Das obere Diagramm zeigt das Verhalten des Sensors bei einer Messfrequenz von 30,3 Hz. Bei dieser Frequenz kann unter perfekten äußeren Bedingungen nur eine maximale Distanz von 310 cm erreicht werden. Zudem ist die Genauigkeit des Sensors am schlechtesten. Mit kleiner werdender Messfrequenz nimmt die Genauigkeit zu und der maximal Messbare Distanz beträgt bei entsprechenden Messverhältnissen 400 cm. Gute Messverhältnisse sind möglichst wenig Umgebungslicht und gut reflektierende Gegenstände. \cite{VL53L1X_manual}
+Das obere Diagramm in Abbildung \ref{VL53L1X} zeigt das Verhalten des Sensors bei einer Messfrequenz von 30,3 Hz. Bei dieser Frequenz kann unter perfekten äußeren Bedingungen nur eine maximale Distanz von 310 cm erreicht werden. Zudem ist die Genauigkeit des Sensors am schlechtesten. Mit kleiner werdender Messfrequenz nimmt die Genauigkeit zu und die maximal messbare Distanz beträgt bei entsprechenden Messverhältnissen 400 cm. Gute Messverhältnisse sind möglichst wenig Umgebungslicht und gut reflektierende Gegenstände. \cite{VL53L1X_manual}
 
 
-Der Sensor ist mit 4,9 x 2.5 x 1.56 mm sehr klein. Zudem müssen 12 Pins auf der Unterseite verlötet werden. Aufgrund mangelnder Ausrüstung zum Löten solchen Chips wird ein bereits verbauter Sensor auf einer Platine verwendet. Auf der Platine sind zudem benötigte Widerstände und Kondensatoren verbaut. Werden die 12 herausgeführten Pins der Platine verwendet, ist der Sensor um 90 Grad vertikal verdreht und kann nicht auf der dafür vorgesehenen Adapterplatte der Mechanik montiert werden. Deshalb wird eine weiter Adapterplatine entworfen, auf welche die Platine mit dem Sensor aufgesteckt werden kann und somit um 90 Grad gedreht wird.
+Der Sensor ist mit 4,9 x 2.5 x 1.56 mm sehr klein. Zudem müssen 12 Pins auf der Unterseite verlötet werden. Aufgrund mangelnder Ausrüstung zum Löten solcher Chips wird ein bereits verbauter Sensor auf einer Platine verwendet. Auf der Platine sind zudem benötigte Widerstände und Kondensatoren verbaut. Werden die 12 herausgeführten Pins der Platine verwendet, ist der Sensor um 90 Grad vertikal verdreht und kann nicht auf der dafür vorgesehenen Adapterplatte der Mechanik montiert werden. Deshalb wird eine weiter Adapterplatine entworfen, auf welche die Platine mit dem Sensor aufgesteckt werden kann und somit um 90 Grad gedreht wird.
 
 
-
-\todo{BILD, Schaltplan, Board... oder schon in anderem Kapitel?} 
-
-
-Im Vergleich zum ''TF Mini LIDAR'' Sensor muss beim ''VL53L1X'' auf äußere Einflüsse wie Umgebungslicht oder Reflexionsverhalten der Oberflächen geachtet werden. Zudem ist die maximal messbare Entfernung laut Spezifikation zu gering. Da jedoch ein möglichst Kostengünstiges System entwickelt werden soll, wird der Sensor trotzdem für Tests verwendet, da es der kostengünstigste Sensor auf dem Markt ist, welcher den Anforderungen annähern entspricht.
+Im Vergleich zum ''TF Mini LIDAR'' Sensor muss beim ''VL53L1X'' auf äußere Einflüsse wie Umgebungslicht oder Reflexionsverhalten der Oberflächen geachtet werden. Zudem ist die maximal messbare Entfernung laut Spezifikation zu gering. Da jedoch ein möglichst kostengünstiges System entwickelt werden soll, wird der Sensor trotzdem für Tests verwendet, da es der kostengünstigste Sensor auf dem Markt ist, welcher den Anforderungen annähernd entspricht.
 
 
 
@@ -108,7 +104,7 @@ Eine tabellarischer Auflistung der relevanten Daten der beiden ausgewählten Sen
 \end{table}
 
 
-Es gilt zu beachten, dass sich beim Sensor VL53L1X einige Werte gegenseitig ausschließen. So ist bei einer Messfrequenz von 50 Hz beispielsweise keine Entfernung von 400 cm messbar. Diese gegenseitigen Einschränkungen sind in Kapitel \ref{sec:VL53L1X} aufgeführt und erklärt
+Es gilt zu beachten, dass sich beim Sensor VL53L1X einige Werte gegenseitig ausschließen. So ist bei einer Messfrequenz von 50 Hz beispielsweise keine Entfernung von 400 cm messbar. Diese gegenseitigen Einschränkungen sind in Kapitel \ref{sec:VL53L1X} aufgeführt und erklärt.
 
  
 
@@ -123,7 +119,7 @@ Dieser Motor wurde gewählt, da er genug Drehmoment aufbringt, um die gesamte Ba
 
 
 Zum Kippen des Lidar-Sensors wird ebenfalls ein bipolarer Hybrid-Schrittmotor verwendet. Dieser Motor befindet sich auf der sich drehenden Basis. Der Schwerpunkt des Motors befindet sich dabei unumgänglich einige Zentimeter neben der Drehachse. Deswegen sollte der Motor möglichst wenig Gewicht aufweisen, um die bei Drehung entstehende Unwucht so klein wie möglich zu halten.
-Zum vertikalen Kippen des Sensor wird nicht so viel Kraft benötigt, als für das Drehen der gesamten Basis. Auf Grund dessen reicht die Bauform Nema 11. Diese Bauform ist deutlich kleiner und dadurch leichter.
+Zum vertikalen Kippen des Sensor wird nicht so viel Kraft benötigt, als für das Drehen der gesamten Basis. Auf Grund dessen reicht die Bauform \ac{NEMA} 11. Diese Bauform ist deutlich kleiner und dadurch leichter.
 Das Haltemoment reicht aus, um ungewolltes vertikales Verdrehen zu vermeiden.
 
 
@@ -144,14 +140,14 @@ Mit dem Motortreiber sind Mikroschritte realisierbar. Dabei sind halb, viertel, 
 Der Motor wird spulenweise an den Motortreiber angeschlossen. Dabei wird Pin 1A und 1B sowie 2A und 2B über jeweils eine Spule des Schrittmotors verbunden.
 Die Versorgungsspannung wird über ein 12 V Tischnetzteil bereitgestellt. Die Versorgungsspannung wird zusätzlich mit einem Stützkondensatoren geglättet. Der Kondensator hat eine Kapazität von 150 $\mu$F.
 Als Kontrolleinheit für den Motortreiber dient ein Raspberry Pi. Die Logikspannungsversorgung des Treibers wird mit 5 V gespeist.\\ 
-Die Anschlüsse ''STEP'', ''DIR'', sowie ''MS1-MS3'' werden mit \ac{GPIO}’s verbunden. Der Logikpegel an dem DIR-Pin legt die Bewegungsrichtung des Motors fest. Ein toggelndes Signal am STEP-Pin führt zur Rotation des Motors. Pro steigende Flanke dreht sich der Motor um die mit MS1-MS3 eingestellte Schrittweite weiter. \\  
+Die Anschlüsse ''STEP'', ''DIR'', sowie ''MS1-MS3'' werden mit \ac{GPIO}’s verbunden. Der Logikpegel an dem DIR-Pin legt die Bewegungsrichtung des Motors fest. Ein alternierendes Digitalsignal am STEP-Pin führt zur Rotation des Motors. Pro steigende Flanke dreht sich der Motor um die mit MS1-MS3 eingestellte Schrittweite weiter. \\  
 MS1-MS3 dienen zum Einstellen der Schrittweite. Die Kombination der Logiklevel entscheidet dabei über die Schrittweite. Theoretisch wären somit $2^{3}$ Kombinationen möglich. Es werden jedoch nur fünf Einstellungen benötigt. Die verfügbaren Kombinationen sind in Tabelle \ref{Mikrostepping} aufgelistet. In der Tabelle ist der Zusammenhang von Schrittweite und Logiklevel an MS1-MS3 dargestellt. 
 
 
-\begin{table}
+\begin{table}[H]
 	\centering
 	\caption{Schrittweite}
-	\begin{tabular} [H] {|c|c|c|c|}
+	\begin{tabular}{|c|c|c|c|}
 		\hline
 		\textbf{MS1} & \textbf{MS2}	& \textbf{MS3} 		& \textbf{Auflösung} \\ \hline
 		Low & Low	& Low		& Vollschritt\\ \hline
@@ -166,7 +162,7 @@ MS1-MS3 dienen zum Einstellen der Schrittweite. Die Kombination der Logiklevel e
 
 
 
-Um Beschädigungen an den Schrittmotoren zu vermeiden, muss der maximale Strom durch die Spulen begrenzt werden. Dies kann man über einen Potentiometer auf der Oberseite der Trägerplatine machen. Dafür wird die Referenzspannung zwischen dem Potentiometer und Masse gemessen. Mit der Formel: 
+Um Beschädigungen an den Schrittmotoren zu vermeiden, muss der maximale Strom durch die Spulen begrenzt werden. Diesen kann man über einen Potentiometer auf der Oberseite der Trägerplatine einstellen. Dafür wird die Referenzspannung zwischen dem Potentiometer und Masse gemessen. Mit der Formel: 
 
 \begin{equation}\formelentry{Berechnung maximaler Strom für Schrittmotoren \cite{A4988}} 
 I_{max} = U_{Ref} \cdot 2 
@@ -189,16 +185,10 @@ Sowohl die horizontale als auch vertikale Ausgangsposition soll beim Starten ein
 
 \subsection{Lichtschranke}
 Zum automatischen Positionieren der Basis wird eine Infrarot Lichtschranke verwendet. Diese befindet sich unter der Zahnriemenscheibe und detektiert das Durchlaufen des daran befestigten Kalibrierzapfens. Lichtschranke und Zapfen sind so zueinander ausgerichtet, dass beim Detektieren des Zapfens der Sensor parallel zum Rahmen steht.\\ 
-
-Auf dem Lichtschrankenmodul ist LM393 Komparator \ac{IC} verbaut. Das Modul benötigt eine Versorgungsspannung von 5 V. Der Ausgangspin wird mit einem \ac{GPIO}-Pin des Raspberry Pis verbunden. An diesem Ausgang liegt ein digitales Signal an, welches den Status der Lichtschranke darstellt. Liegt ein High-Signal an, befindet sich etwas zwischen der Lichtschranke und sie ist unterbrochen. Wechselt dieser Wert auf einen Low-Pegel, so ist sie nicht mehr unterbrochen \cite{LM393}. 
-
-\todo{BILD?}  
-
-\subsection{Gyroensor}
-
-
+Auf dem Lichtschrankenmodul ist ein LM393 Komparator \ac{IC} verbaut. Das Modul benötigt eine Versorgungsspannung von 5 V. Der Ausgangspin wird mit einem \ac{GPIO}-Pin des Raspberry Pis verbunden. An diesem Ausgang liegt ein digitales Signal an, welches den Status der Lichtschranke darstellt. Liegt ein High-Signal an, befindet sich etwas zwischen der Lichtschranke und sie ist unterbrochen. Wechselt dieser Wert auf einen Low-Pegel, so ist sie nicht mehr unterbrochen \cite{LM393}. 
+\subsection{Gyrosensor}
 Die Kalibrierung in vertikaler Richtung soll über eine Gyroskop realisiert werden. Dieses muss die absolute Ausrichtung in der vertikalen Richtung detektieren können. \\ 
-Als Sensor wird der Beschleunigungssensor MPU 6050 verwendet. Dieser benötigt eine Versorgungsspannung von 3,3 V. Die Messwerte werden über \ac{I$^{2}$C} ausgegeben \cite{MPU-6050}. Sowohl Spannungsversorgung als auch Takt- und Datenleitung werden direkt mit dem Raspberry Pi verbunden. \\ 
+Als Sensor wird der Beschleunigungssensor MPU 6050 verwendet. Dieser benötigt eine Versorgungsspannung von 3,3 V. Die Messwerte werden über \ac{I$^{2}$C} ausgegeben.\cite{MPU-6050} Sowohl Spannungsversorgung als auch Takt- und Datenleitung werden direkt mit dem Raspberry Pi verbunden. \\ 
 Der Sensor wird vor dem Befestigen an der Unterseite der Adapterplatte auf seine Funktion überprüft. Dabei wird festgestellt, dass der Sensor nicht die benötigte Genauigkeit liefert, um die genaue Positionierung des Sensors in vertikaler Richtung zu gewährleisten. \\
 Die vertikale Ausrichtung erfolgt während der Tests manuell.
 
@@ -235,7 +225,7 @@ Abbildung \ref{driver} zeigt die Beschaltung der Motortreiber wie in Kapitel \re
 
 Abbildung \ref{schnittstellen} zeigt die Verbindung zum Raspberry Pi und die verschiedenen Schnittstellen. An den 40 Pins (links) kann ein Raspberry Pi über ein Flachbandkabel verbunden werden. \\
 Die benötigten Schnittstellen werden über Stiftleisten zugänglich gemacht. Es werden eine \ac{UART}-, eine \ac{SPI}- und drei \ac{I$^{2}$C}- Schnittstelle verbunden. Es werden mehr Schnittstellen zugänglich gemacht, als benötigt. Dies garantiert Flexibilität für Weiterentwicklungen. \\
-Ein Weiterer Anschluss ist mit den verschiedenen Spannungen der Platine verbunden. 
+Ein weiterer Anschluss ist mit den verschiedenen Spannungen der Platine verbunden. 
 
 \begin{figure}[H]
 	\centering
@@ -244,7 +234,7 @@ Ein Weiterer Anschluss ist mit den verschiedenen Spannungen der Platine verbunde
 	\label{schnittstellen}
 \end{figure}
 
-Abbildung \ref{leds} zeigt die Schaltungen für den optionalen Anschluss von Status Led's und einem Luftkühler über Pins. Eine Statusled kann über einen strombegrenzenden Widerstand mit 5 V verbunden werden. Steht das System unter Spannung, leuchtet die Led. Eine weitere Led kann mit dem Raspberry Pi über einen Transistor angesteuert werden. Die Funktion der Led kann im Code direkt definiert werden.\\
+Abbildung \ref{leds} zeigt die Schaltungen für den optionalen Anschluss von Status \acp{LED} und einem Luftkühler über Pins. Eine Status-\ac{LED} kann über einen strombegrenzenden Widerstand mit 5 V verbunden werden. Steht das System unter Spannung, leuchtet die \ac{LED}. Eine weitere \ac{LED} kann mit dem Raspberry Pi über einen Transistor angesteuert werden. Die Funktion der \ac{LED} kann im Code direkt definiert werden.\\
 An zwei weiteren Pins kann ein Luftkühler an 12 V angeschlossen werden. Die Steuerung des Kühlers ist über einen Transistor mit dem Raspberry Pi möglich.
   
 \begin{figure}[H]
@@ -259,7 +249,7 @@ An zwei weiteren Pins kann ein Luftkühler an 12 V angeschlossen werden. Die Ste
 \subsection{Layout}
 
 Die in Kapitel \ref{sec:Schaltplan} gezeigten Schaltpläne werden in ''EAGLE'' zu einem Layout verarbeitet. Dabei wird vor allem auf eine praktische Anordnung der Komponenten und sinnvolle Leiterbahnführung geachtet.\\
-Die Leiterbahnen für die 12 V Spannungsversorgung haben eine Breite von 1,78 mm. Die 5 V Leiterbahnen eine Breite von 1,27 mm. Für restlichen Leiterbahnen reicht eine Breite von 0,82 mm. \\
+Die Leiterbahnen für die 12 V Spannungsversorgung haben eine Breite von 1,78 mm. Die 5 V Leiterbahnen eine Breite von 1,27 mm. Für die restlichen Leiterbahnen reicht eine Breite von 0,82 mm. \\
 Die roten Verbindungen in Abbildung \ref{layout} sind Verbindungen, die nach der Fertigung der Platine mit Drahtbrücken hergestellt werden müssen. \\
 Die Platine hat eine Größe von 7,5 mm auf 10 mm und wird gefräst. Um die Übersichtlichkeit über die vielen Anschlussmöglichkeiten zu behalten, werden die jeweiligen Anschlüsse beschriftet. 
 
