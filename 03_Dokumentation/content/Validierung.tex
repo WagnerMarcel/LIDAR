@@ -8,8 +8,15 @@ Nachdem das Aufnehmen und Darstellen von Räumen funktioniert, wird die Genauigk
 
 \section{Genauigkeit des Systems}
 
-Um die Genauigkeit des Systems zu überprüfen, wird ein Raum mit dem Lidar-System vermessen. Zudem wird der Raum händisch vermessen und der Grundriss mit der Software ''Sweet Home 3D'' erstellt. Anschließend wird die 3D-Darstellung mit dem Grundriss des Raumes und weiterer markanter Gegenstände verglichen.
-Bei dem Raum handelt es sich um einen Flur mit vielen Ecken, Türen und Gegenständen. Dadurch erhält man viele verschiedene Maße, die überprüft werden können. Der Grundriss des Raumes ist in Abbildung \ref{grundriss} dargestellt. Alle weiteren Maße des Raumes können direkt in der Software abgerufen werden.
+Um die Genauigkeit des Systems zu überprüfen, wird ein Testraum mit dem Lidar-System vermessen. Im ersten Schritt wird das entstandene Modell grafisch mit einem manuell erstellten Modell verglichen.
+Im Anschluss daran werden absolute Messwerte wie beispielsweise Raumhöhe, Länge und Breite verglichen.
+
+	
+\subsection{Grafischer Vergleich}
+
+Beim grafischen Vergleich wird das von dem Lidar-System erstellte Modell mit einem manuell erstellten Modell grafisch verglichen.
+Dazu wird der Testraum händisch vermessen und der Grundriss mit der Software ''Sweet Home 3D'' erstellt. \\
+Bei dem Raum handelt es sich um einen Flur mit vielen Ecken, Türen und Gegenständen. Dadurch erhält man viele verschiedene Maße, die überprüft werden können. Der Grundriss des Raumes ist in Abbildung \ref{grundriss} dargestellt. 
 
 \begin{figure}[H]
 	\centering
@@ -49,17 +56,28 @@ Zum grafischen Vergleich werden manuell erstellter Grundriss und die Vogelperspe
 \end{figure}
 
 
-Es ist zu erkennen, dass die beiden Grundrisse fast überall Übereinstimmen. Auffällig sind die vielen Messwerte, die auf der linken Seite außerhalb des Raums liegen. An dieser Stelle befindet sich eine Glastüre. Diese wird von einem Lidar-Sensor nicht detektiert, weswegen an dieser Stelle die Punkte abweichen. Zudem sind die Türrahmen auf der linken Seite nicht perfekt eckig, was auf weitere Schatten des Lasers schließen lässt.
+Es ist zu erkennen, dass die beiden Grundrisse fast überall übereinstimmen. Auffällig sind die vielen Messwerte, die auf der linken Seite außerhalb des Raums liegen. An dieser Stelle befindet sich eine Glastüre. Diese wird von einem Lidar-Sensor nicht detektiert, weswegen an dieser Stelle die Punkte abweichen. Zudem sind die Türrahmen auf der linken Seite nicht perfekt eckig, was auf weitere Schatten des Lasers schließen lässt.
 
 Im 3D-Modell sind im Gegensatz zu dem Grundriss noch Möbel (links und rechts oben) zu erkenne. Zudem führen Lampen zu Unregelmäßigkeiten an der Decke.
 
 
+\subsection{Vergleich absoluter Werte}
+
+Es besteht die Möglichkeit, sich Koordinaten direkt in dem 3D-Modell mit sogenannten ''Data Cursors'' anzeigen zu lassen. Dadurch können absolute Distanzen abgelesen und mit dem Realwert verglichen werden.\\
+In Abbildung \ref{messwerte} sind alle bis auf zwei Punkteebenen ausgeblendet. Es handelt sich um eine Draufsicht in z-Richtung. Mit Hilfe der eingetragenen Messpunkte können Distanzen im Raum bestimmt werden. Wie schon bei dem optischen Vergleich von realem Grundriss mit dem Modell kann so die Genauigkeit überprüft werden. Sowohl Länge als auch Breite des Modellraums stimmen bis auf geringe Abweichungen im Zentimeterbereich mit den realen Werten überein. Die Länge des Raumes ist im Modell 3,8 cm länger als in der Realität. Die Breite ist 1,8 cm geringer. Diese Abweichungen können sowohl auf Messabweichungen als auch auf die falsche Auswahl der Messpunkte zurückzuführen sein. \\
+In Abbildung \ref{messwerte} ist zu erkennen, dass die Linien der Wände nicht an allen Stellen genau übereinander liegen. Vor allem auf der rechten Seite oberhalb des Messwertes ist dies zu sehen. An diesen Stellen liegen Messfehler des Systems vor. Die Streuung der Messwerte an einer geraden Wand wird in Abbildung \ref{wandbreite_alles} und \ref{wandbreite_label} detaillierter betrachtet.
+
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.7\textwidth]{images/Validierung/Genauigkeit/Messwerte.png}
+	\includegraphics[width=0.6\textwidth]{images/Validierung/Genauigkeit/Messwerte.png}
 	\caption{Messwerte über Data Coursor}
-	\label{uebereinanawsdfder}
+	\label{messwerte}
 \end{figure}
+
+Abbildung \ref{wandbreite_label} zeigt die Streuung der Messwerte an einer geraden Wand. Es handelt sich um eine Ansicht in z-Richtung. Dadurch betrachtet man die Wand von oben. Die verwendeten Messpunkte sind in Abbildung \ref{wandbreite_alles} in der Gesamtansicht des Modells eingezeichnet.  \\
+Hätte das System keine Messabweichung, würden sich alle Punkte in Abbildung \ref{wandbreite_label} auf einer vertikalen Linie befinden. \\
+Zur Bestimmung der Messabweichung werden zwei Messpunkte verwendet. Diese sind in x-Richtung möglichst weit voneinander entfernt. Die Distanz in x-Richtung entspricht der Streuung. Es kommt an dieser Stelle zu einer Streuung von 2,4 Zentimetern. Auffällig ist, dass je größer die Distanz der Messwerte in z-Richtung ist, desto größer wird die Distanz der Messpunkte in x-Richtung.\\
+Das lässt darauf schließen, dass nicht der Sensor diese Messungenauigkeit hervorruft. Es ist möglich, dass Ungenauigkeiten bei der Kalibrierung des Sensors oder die Mechanik selbst diese Abweichungen hervorrufen. 
 
 
 \begin{figure}[htb]
@@ -67,31 +85,34 @@ Im 3D-Modell sind im Gegensatz zu dem Grundriss noch Möbel (links und rechts ob
 	\begin{minipage}[t]{0.45\linewidth}
 		\centering
 		\includegraphics[width=1.2\linewidth]{images/Validierung/Genauigkeit/wandbreite_alles.png}
-		\caption{Vogelperspektive niedrige Auflösung}
+		\caption{Streuung der Messwerte an einer Ebene - Übersicht der Messpunkte}
 		\label{wandbreite_alles}
 	\end{minipage}
 	\hfill
 	\begin{minipage}[t]{0.45\linewidth}
 		\centering
 		\includegraphics[width=1.2\linewidth]{images/Validierung/Genauigkeit/wandbreite.png}
-		\caption{Vogelperspektive hohe Auflösung}
+		\caption{Streuung der Messwerte an einer Ebene}
 		\label{wandbreite_label}
 	\end{minipage}
 \end{figure}
 
 
-\begin{figure}[H]
+Eine weitere Größe, die zur Bestimmung der Genauigkeit des Systems überprüft wird, ist die Höhe des Raumes. Dazu wird von der Punktewolke wie in Abbildung \ref{Hoehe} zu sehen ist nur die xz-Ebene betrachtet. Zudem wird ein Messpunkt am oberen Rand, der die Decke des Testraums darstellt, eingefügt. Der z-Wert entspricht nun der Höhe des Raumes abzüglich der Höhe des Lidar-Systems. Dieser Wert entspricht in der Realität 175 cm. Das 3D Modell des Raumes zeigt einen z-Wert von 177,4 cm. Dies bedeutet, dass gemessener und realer Wert um 2,4 cm abweichen.
+Diese Abweichung kann zum Einen durch die Auswahl des Messpunktes kommen, da die Werte im Z-Wert um wenige Zentimeter schwanken. Zum Anderen ist eine Messungenauigkeit des Systems nicht auszuschließen.
+ 
+
+\begin{figure} [H]
 	\centering
-	\includegraphics[width=0.7\textwidth]{images/Validierung/Genauigkeit/Hoehe}
-	\caption{Grafischer Vergleich der Grundrisse}
-	\label{uebereinaasdasfnder}
+	\includegraphics[width=0.7\textwidth]{images/Validierung/Genauigkeit/Hoehe1}
+	\caption{Überprüfung der Höhe des Testraums}
+	\label{Hoehe}
 \end{figure}
 
 
 
-\todo{Auswertung beschreiben, was kann man sehen?}
-\todo{Linien an Seite raus weil Glas}
-\todo{Höhe wird überprüft, Schrank, Bild usw, Messen mit Cursor}
+\todo{Überarbeiten, Fazit?}
+
 
 
 
@@ -104,7 +125,7 @@ Bei den verschiedenen Auflösungen werden vor allem das Ergebnis und die benöti
 Als Sensor wird der ''TF Mini Lidar'' verwendet.
 
 
-\subsection{Übersicht über die Dauer, Auflösung und Anzahl an Messpunkten}
+\subsection{Übersicht über die Dauer, Auflösung und Anzahl an Messpunkten} \label{sec:auflösung}
 
 Die horizontale Auflösung wird im Code in achtel Schritten des Schrittmotors angegeben. Der Motor läuft im Achtelschrittbetrieb. Für eine gesamte Umdrehung des Motors werden 200 Vollschritte benötigt. Zudem entspricht die Übersetzung von Schrittmotor zur drehbaren Basis des Lidar-Systems 1:6. Es werden also 9600 Achtelschritte benötigt, um die Basis einmal um 360 Grad zu drehen. Die Auflösung in Grad bezogen auf die Angabe im Code kann mit Formel \ref{horizontialeAuflösung} berechnet werden. 
 
@@ -200,49 +221,9 @@ Das Ergebnis ist eine 3D-Aufnahme, bei der sowohl horizontale als auch vertikale
 \end{figure}
 
 
-
-% Bilder von abständen +auflösung, kann das stimmen?
-%näher dran
-\begin{figure}[htb]
-	\centering
-	\begin{minipage}[t]{0.45\linewidth}
-		\centering
-		\includegraphics[width=1.2\linewidth]{images/Validierung/Aufloesungen/3Messwerte_Ansicht.png}
-		\caption{Vogelperspektive niedrige Auflösung}
-		\label{vogasdasdel niedrigeAuflösung}
-	\end{minipage}
-	\hfill
-	\begin{minipage}[t]{0.45\linewidth}
-		\centering
-		\includegraphics[width=1.2\linewidth]{images/Validierung/Aufloesungen/3Label.png}
-		\caption{Vogelperspektive hohe Auflösung}
-		\label{vogel hoheAsadasduflösung}
-	\end{minipage}
-\end{figure}
-
-%weiter weg
-
-\begin{figure}[htb]
-	\centering
-	\begin{minipage}[t]{0.45\linewidth}
-		\centering
-		\includegraphics[width=1.2\linewidth]{images/Validierung/Aufloesungen/3Messwerte_Wand.png}
-		\caption{Vogelperspektive niedrige Auflösung}
-		\label{vogel niedriasdasgeAuflösung}
-	\end{minipage}
-	\hfill
-	\begin{minipage}[t]{0.45\linewidth}
-		\centering
-		\includegraphics[width=1.2\linewidth]{images/Validierung/Aufloesungen/Wand_3Messungen.png}
-		\caption{Vogelperspektive hohe Auflösung}
-		\label{vogel hohasdeAuflösung}
-	\end{minipage}
-\end{figure}
-
-
 Weiter werden die erstellten Grundrisse mit niedriger, mittlere und hoher Auflösung mit dem tatsächlichen Grundriss verglichen.
 
-Der Vergleich zeigt, dass die Maße immer bis auch geringe Abweichungen mit dem tatsächlichen Grundriss übereinstimmten. Dabei macht die Auflösung keinen Unterschied. 
+Der Vergleich zeigt, dass die Maße immer bis auf geringe Abweichungen mit dem tatsächlichen Grundriss übereinstimmten. Dabei macht die Auflösung keinen Unterschied. 
 
 Deutlich erkennbar ist jedoch, wie in Abbildung \ref{vogel niedrigeAuflösung} zu sehen ist, dass bei niedriger Auflösung Details wie Türrahmen verschwimmen. Zudem sind die einzelnen Linienebenen leicht zueinander verschoben und nicht eindeutig zuordenbar.
 Im Vergleich dazu sind bei der hohen Auslösung (Abbildung \ref{vogel hoheAuflösung}) klare Grundrisslinien erkennbar.
@@ -268,6 +249,65 @@ Im Vergleich dazu sind bei der hohen Auslösung (Abbildung \ref{vogel hoheAuflö
 Im Großen und Ganzen lässt sich sagen, dass je nach Anforderung an das System die Parameter dementsprechend eingestellt werden müssen. Möchte man nur einen groben Überblick über den Raum, reicht ein schneller Scan mit niedriger Auflösung vollkommen aus. Möchte man hingegen eine detailreiche Darstellung, bei der man auch Details virtuell vermessen kann, wird eine hohe Auflösung benötigt. Dafür dauert solch eine Messung im Vergleich zur schnellen Messung recht lange.
 Man sollte somit immer einen Kompromiss zwischen benötigter Auflösung und der Zeit für die Messung finden.
 
+\section{Reale Auflösung im Testraum}
+
+Im vorhergehenden Kapitel wurde die Auflösung über Winkelschritte direkt am Sensor bestimmt. In diesem Kapitel wird die reale Auflösung im Testraum überprüft. Dafür wird der absolute Abstand einzelner Messpunkte zueinander bestimmt. Um den Maximalwert der realen Auflösung in dem Testraum zu erhalten, wird das Modell aus Kapitel \ref{sec:auflösung} mit hoher Auflösung verwendet. Die horizontale Auflösung am Sensor beträgt 0,15 Grad. Die vertikale Schrittweite 3,6 Grad.\\
+Als erster Messbereich wird die Wand mit der geringsten Distanz zum Sensor verwendet. In Abbildung \ref{realeAuslösung1_Übersicht} ist das gesamte Modell mit den in Abbildung \ref{realeAuslösung1} verwendeten Messpunkten zu sehen. Die horizontale Distanz der beider ausgewählter Messpunkte beträgt 0,442 cm. Die vertikale Distanz beträgt 3,61 cm. 
+
+Rechnertisch beträgt die horizontale Distanz mit Formel \ref{realeAuflösung_formel} berechnet 0,4419 cm.
+
+\begin{equation}\formelentry{Berechnung horizontale reale Auflösung}
+d = tan(0,15) \cdot 168,8 cm 
+\label{realeAuflösung_formel}
+\end{equation}
+\begin{flalign*}
+&x = \text{Reale Distanz zweier Punkte in [cm] )}&
+\end{flalign*}
+
+Dieser Wert ist allerdings nur eine Annäherung, da man mit der Formel davon ausgeht, dass die beiden Messpunkte mit dem Sensor ein rechtwinkliges Dreieck bilde. Zudem geht man davon aus, dass sich die beiden Messpunkte auf der gleichen z-Höhe wie der Sensor befinden.\\
+Trotz dessen stimmen gerechneter und gemessener Wert sehr gut überein.   
+\begin{figure}[H]
+	\centering
+	\begin{minipage}[t]{0.45\linewidth}
+		\centering
+		\includegraphics[width=1.2\linewidth]{images/Validierung/Aufloesungen/3Messwerte_Ansicht.png}
+		\caption{Reale Auflösung im Testraum - geringe Entfernung - Übersicht}
+		\label{realeAuslösung1_Übersicht}
+	\end{minipage}
+	\hfill
+	\begin{minipage}[t]{0.45\linewidth}
+		\centering
+		\includegraphics[width=1.2\linewidth]{images/Validierung/Aufloesungen/3Label.png}
+		\caption{Reale Auflösung im Testraum - geringe Entfernung}
+		\label{realeAuslösung1}
+	\end{minipage}
+\end{figure}
+
+
+
+
+Der zweite Testbereich befindet sich weiter entfernt vom Sensor. Dadurch wird die absolute Auflösung geringer.
+Die horizontale Distanz der beider ausgewählter Messpunkte beträgt 0,79 cm. Die vertikale Distanz beträgt 5,12 cm.  
+
+\begin{figure}[htb]
+	\centering
+	\begin{minipage}[t]{0.45\linewidth}
+		\centering
+		\includegraphics[width=1.2\linewidth]{images/Validierung/Aufloesungen/3Messwerte_Wand.png}
+		\caption{Reale Auflösung im Testraum - große Entfernung - Übersicht}
+		\label{realeAuslösung2_Übersicht}
+	\end{minipage}
+	\hfill
+	\begin{minipage}[t]{0.45\linewidth}
+		\centering
+		\includegraphics[width=1.2\linewidth]{images/Validierung/Aufloesungen/Wand_3Messungen.png}
+		\caption{Reale Auflösung im Testraum - große Entfernung}
+		\label{realeAuslösung2}
+	\end{minipage}
+\end{figure}
+
+
+Zudem kann man in Abbildung \ref{realeAuslösung2} sehen, dass die Messpunkte sehr gleichmäßig und symmetrisch über den Messbereich verteilt sind. 
 
 
 \section{Vergleich der Sensoren}

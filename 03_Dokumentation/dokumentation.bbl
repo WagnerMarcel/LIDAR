@@ -157,6 +157,18 @@
       \field{title}{Tabellenbuch Metall}
       \field{year}{2011}
     \endentry
+    \entry{Schrittmotor}{online}{}
+      \field{sortinit}{F}
+      \field{sortinithash}{669c706c6f1fbf3b5a83d26f1d9e9e72}
+      \field{labeltitlesource}{title}
+      \field{title}{FUNKTIONSWEISE EINES SCHRITTMOTORS}
+      \verb{urlraw}
+      \verb https://de.nanotec.com/knowledge-base/knowledge-base-pages/funktionsweise-eines-schrittmotors/
+      \endverb
+      \verb{url}
+      \verb https://de.nanotec.com/knowledge-base/knowledge-base-pages/funktionsweise-eines-schrittmotors/
+      \endverb
+    \endentry
     \entry{phasenverschiebung}{online}{}
       \name{author}{1}{}{%
         {{hash=8f9d9be2813a160d6685a338c17dd319}{%
@@ -331,6 +343,18 @@
       \verb http://neutron.physics.ucsb.edu/docs/Avalanche_photodiodes_info.pdf
       \endverb
     \endentry
+    \entry{MPU-6050}{online}{}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{labeltitlesource}{title}
+      \field{title}{MPU-6000and MPU-6050Product SpecificationRevision 3.4}
+      \verb{urlraw}
+      \verb https://store.invensense.com/datasheets/invensense/MPU-6050_DataSheet_V3%204.pdf
+      \endverb
+      \verb{url}
+      \verb https://store.invensense.com/datasheets/invensense/MPU-6050_DataSheet_V3%204.pdf
+      \endverb
+    \endentry
     \entry{inferometrie}{online}{}
       \name{author}{1}{}{%
         {{hash=95d4a8b2d689e8de342d5bb1e0b16466}{%
@@ -438,6 +462,18 @@
       \field{year}{2014}
       \field{pages}{33\bibrangedash 34}
       \range{pages}{2}
+    \endentry
+    \entry{Schrittmotor_Bauformen}{online}{}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{labeltitlesource}{title}
+      \field{title}{Schrittmotor kurz erklärt - Deltron AG}
+      \verb{urlraw}
+      \verb https://wiki.ntb.ch/infoportal/_media/hardware/sysp/bauteile/schrittmotor_kurz_erklaert_d.pdf
+      \endverb
+      \verb{url}
+      \verb https://wiki.ntb.ch/infoportal/_media/hardware/sysp/bauteile/schrittmotor_kurz_erklaert_d.pdf
+      \endverb
     \endentry
     \entry{TFMINI}{online}{}
       \field{sortinit}{S}

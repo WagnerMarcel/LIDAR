@@ -47,9 +47,11 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {formel}{\numberline {11.1} Berechnung horizontiale Aufl\IeC {\"o}sung}{65}{equation.11.2.1}% 
+\contentsline {formel}{\numberline {11.1} Berechnung horizontiale Aufl\IeC {\"o}sung}{66}{equation.11.2.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {formel}{\numberline {11.2} Berechnung vertikale Aufl\IeC {\"o}sung}{65}{equation.11.2.2}% 
+\contentsline {formel}{\numberline {11.2} Berechnung vertikale Aufl\IeC {\"o}sung}{67}{equation.11.2.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {formel}{\numberline {11.3} Berechnung horizontale reale Aufl\IeC {\"o}sung}{71}{equation.11.3.3}% 
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 

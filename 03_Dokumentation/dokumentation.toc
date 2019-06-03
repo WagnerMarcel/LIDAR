@@ -170,48 +170,54 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {11.1}Genauigkeit des Systems}{60}{section.11.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {11.2}Vergleich verschiedener Aufl\IeC {\"o}sungen}{64}{section.11.2}% 
+\contentsline {subsection}{\numberline {11.1.1}Grafischer Vergleich}{60}{subsection.11.1.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {11.2.1}\IeC {\"U}bersicht \IeC {\"u}ber die Dauer, Aufl\IeC {\"o}sung und Anzahl an Messpunkten}{65}{subsection.11.2.1}% 
+\contentsline {subsection}{\numberline {11.1.2}Vergleich absoluter Werte}{63}{subsection.11.1.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {11.2.2}Vergleich der unterschiedlichen Aufl\IeC {\"o}sungen}{66}{subsection.11.2.2}% 
+\contentsline {section}{\numberline {11.2}Vergleich verschiedener Aufl\IeC {\"o}sungen}{66}{section.11.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {11.3}Vergleich der Sensoren}{70}{section.11.3}% 
+\contentsline {subsection}{\numberline {11.2.1}\IeC {\"U}bersicht \IeC {\"u}ber die Dauer, Aufl\IeC {\"o}sung und Anzahl an Messpunkten}{66}{subsection.11.2.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {12}Fazit/Zusammenfassung}{73}{chapter.12}% 
+\contentsline {subsection}{\numberline {11.2.2}Vergleich der unterschiedlichen Aufl\IeC {\"o}sungen}{67}{subsection.11.2.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {13}Ausblick}{75}{chapter.13}% 
+\contentsline {section}{\numberline {11.3}Reale Aufl\IeC {\"o}sung im Testraum}{71}{section.11.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {13.1}Hardware}{75}{section.13.1}% 
+\contentsline {section}{\numberline {11.4}Vergleich der Sensoren}{73}{section.11.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {13.1.1}Platine}{75}{subsection.13.1.1}% 
+\contentsline {chapter}{\numberline {12}Fazit/Zusammenfassung}{76}{chapter.12}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {13.1.2}Gyrosensor}{76}{subsection.13.1.2}% 
+\contentsline {chapter}{\numberline {13}Ausblick}{78}{chapter.13}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {13.1.3}Schleifring}{76}{subsection.13.1.3}% 
+\contentsline {section}{\numberline {13.1}Hardware}{78}{section.13.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {13.1.4}Motortreiber}{76}{subsection.13.1.4}% 
+\contentsline {subsection}{\numberline {13.1.1}Platine}{78}{subsection.13.1.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {13.1.5}Bedienfeld}{76}{subsection.13.1.5}% 
+\contentsline {subsection}{\numberline {13.1.2}Gyrosensor}{79}{subsection.13.1.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {13.2}Software}{77}{section.13.2}% 
+\contentsline {subsection}{\numberline {13.1.3}Schleifring}{79}{subsection.13.1.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {13.2.1}Steuerung mit \IeC {\"U}bergabeparameter}{77}{subsection.13.2.1}% 
+\contentsline {subsection}{\numberline {13.1.4}Motortreiber}{79}{subsection.13.1.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {13.2.2}Bedienfeld Statusausgabe und Steuerung}{79}{subsection.13.2.2}% 
+\contentsline {subsection}{\numberline {13.1.5}Bedienfeld}{79}{subsection.13.1.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {13.2.3}Webinterface}{79}{subsection.13.2.3}% 
+\contentsline {section}{\numberline {13.2}Software}{80}{section.13.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline \ac {WLAN} auf dem Raspberry Pi einrichten}{80}{section*.83}% 
+\contentsline {subsection}{\numberline {13.2.1}Steuerung mit \IeC {\"U}bergabeparameter}{80}{subsection.13.2.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline NodeJS Server auf dem Raspberry Pi einrichten}{83}{section*.86}% 
+\contentsline {subsection}{\numberline {13.2.2}Bedienfeld Statusausgabe und Steuerung}{82}{subsection.13.2.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Flask in Javascript und Python verwenden}{84}{section*.87}% 
+\contentsline {subsection}{\numberline {13.2.3}Webinterface}{82}{subsection.13.2.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\nonumberline \ac {WLAN} auf dem Raspberry Pi einrichten}{83}{section*.83}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\nonumberline NodeJS Server auf dem Raspberry Pi einrichten}{86}{section*.86}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\nonumberline Flask in Javascript und Python verwenden}{87}{section*.87}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\nonumberline Anhang}{A}{chapter*.88}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\nonumberline Literatur}{A}{section*.89}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\nonumberline Aufteilung der Kapitel}{C}{section*.90}% 
+\contentsline {section}{\nonumberline Aufteilung der Kapitel}{D}{section*.90}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\nonumberline Github Repository}{D}{section*.92}% 
+\contentsline {section}{\nonumberline Github Repository}{E}{section*.92}% 

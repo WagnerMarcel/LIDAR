@@ -80,7 +80,7 @@ Der Sensor ist mit 4,9 x 2.5 x 1.56 mm sehr klein. Zudem müssen 12 Pins auf der
 
 
 
--- BILD, Schaltplan, Board...
+\todo{BILD, Schaltplan, Board... oder schon in anderem Kapitel?} 
 
 
 Im Vergleich zum ''TF Mini LIDAR'' Sensor muss beim ''VL53L1X'' auf äußere Einflüsse wie Umgebungslicht oder Reflexionsverhalten der Oberflächen geachtet werden. Zudem ist die maximal messbare Entfernung laut Spezifikation zu gering. Da jedoch ein möglichst Kostengünstiges System entwickelt werden soll, wird der Sensor trotzdem für Tests verwendet, da es der kostengünstigste Sensor auf dem Markt ist, welcher den Anforderungen annähern entspricht.
@@ -105,7 +105,8 @@ Eine tabellarischer Auflistung der relevanten Daten der beiden ausgewählten Sen
  		
 	\end {tabular}
 	\label{vergleich}
-\end{table}
+\end{table}
+
 
 Es gilt zu beachten, dass sich beim Sensor VL53L1X einige Werte gegenseitig ausschließen. So ist bei einer Messfrequenz von 50 Hz beispielsweise keine Entfernung von 400 cm messbar. Diese gegenseitigen Einschränkungen sind in Kapitel \ref{sec:VL53L1X} aufgeführt und erklärt
 
@@ -191,7 +192,7 @@ Zum automatischen Positionieren der Basis wird eine Infrarot Lichtschranke verwe
 
 Auf dem Lichtschrankenmodul ist LM393 Komparator \ac{IC} verbaut. Das Modul benötigt eine Versorgungsspannung von 5 V. Der Ausgangspin wird mit einem \ac{GPIO}-Pin des Raspberry Pis verbunden. An diesem Ausgang liegt ein digitales Signal an, welches den Status der Lichtschranke darstellt. Liegt ein High-Signal an, befindet sich etwas zwischen der Lichtschranke und sie ist unterbrochen. Wechselt dieser Wert auf einen Low-Pegel, so ist sie nicht mehr unterbrochen \cite{LM393}. 
 
---Bild--? 
+\todo{BILD?}  
 
 \subsection{Gyroensor}
 
