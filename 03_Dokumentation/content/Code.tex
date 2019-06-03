@@ -1,6 +1,6 @@
 %!TEX root = ../dokumentation.tex
 
-\chapter{Code}\label{chap:code}
+\chapter{Python Code zur Steuerung des Systems}\label{chap:code}
 Die gewählte Sprache in welcher die Steuerung realisiert ist, ist Python. Python wurde gewählt, da mittels dieser die \acp{GPIO} des Raspberry Pi sehr einfach mittels einer Bibliothek ansteuerbar sind. Zudem ist Python eine sehr schnelle und weit verbreitete hochentwickelte Programmiersprache.\\
 Bei der Erstellung des Codes, welcher das System steuert wurde von Anfang an eine Objektorientierte Vorgehensweiße gewählt, um eine möglichst reibungslose und fortschrittliche Umsetzung zu realisieren.\\
 Der gesamte Code wurde auf drei Dateien aufgeteilt. Dies dient zum Einen zur besseren Übersichtlichkeit, zum Anderen erhielt jede Klasse eine eigene Datei.
@@ -143,7 +143,7 @@ M2 = Motor.MOTOR(18,16,36,38,40)
 lidar = Lidar.LIDAR('/dev/ttyAMA0', none)
 #lidar = Lidar.LIDAR(None, 0x29)
 \end{lstlisting}
-Zunächst werden die Pins für die verschiedenen auf der Platine vorgesehenen Funktionen definiert (Listing \ref{main_classes}). Eine Anmerkung hierzu ist, dass auf der Platine versäumt wurde einen Pin für die Lichtschranke zur Positionierung bereitzustellen, daher wurde hier der Pin verwendet, welcher eigentlich für den Seriellen Takt des \ac{SPI} zuständig ist. Außerdem wurden Pins für eine Status LED und einen Lüfter bereitgestellt. \\
+Zunächst werden die Pins für die verschiedenen auf der Platine vorgesehenen Funktionen definiert (Listing \ref{main_classes}). Eine Anmerkung hierzu ist, dass auf der Platine versäumt wurde einen Pin für die Lichtschranke zur Positionierung bereitzustellen, daher wurde hier der Pin verwendet, welcher eigentlich für den Seriellen Takt des \ac{SPI} zuständig ist. Außerdem wurden Pins für eine Status \ac{LED} und einen Lüfter bereitgestellt. \\
 Nach den normalen Pin Deklarationen werden die beiden Motoren durch die Klassen initialisiert. Dazu werden wie im Kapitel der Motorklasse beschrieben die Verschiedenen Pins zur Ansteuerung des Motortreibers dem Konstruktor der Klasse übergeben. Anschließend kann der Motor mittels den in der Klasse definierten Funktionen gesteuert werden.\\
 Zuletzt muss nur noch der \ac{LIDAR} Sensor initialisiert werden, dazu kann wie in Zeile 13 \& 14 zu sehen ist eine der beiden Initialisierungsmöglichkeiten gewählt werden, um entweder einen Sensor mittels \ac{UART} oder \ac{I$^{2}$C} zu verwenden.\\
 \subsection{Zusätzliche Funktionen}

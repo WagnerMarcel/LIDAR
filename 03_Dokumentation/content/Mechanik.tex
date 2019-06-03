@@ -1,5 +1,5 @@
 %!TEX root = ../dokumentation.tex
-\chapter{Mechanik}\label{chap:mechanik}
+\chapter{Entwicklung und Realisierung der Mechanik}\label{chap:mechanik}
 
 \section{Anforderungen}
 Damit ein \acs{3D} Abbild eines Raumes erstellt werden kann, ist es erforderlich, dass ein \ac{LIDAR} Sensor möglichst leicht in mindestens zwei Achsen beweget werden kann. Deshalb muss im Rahmen dieses Projekts eine geeignete Mechanik entworfen werden, welche es ermöglicht, den Sensor auf zwei getrennt voneinander steuerbaren Achsen beliebig positionieren zu können. Damit eine solche Mechanik entworfen werden kann, müssen zuerst einige Rahmenbedingungen geklärt werden. Beispielsweise sollten die Motoren welche die Mechanik später antreiben vorher spezifiziert sein und die maximale Größe des Sensors bekannt sein. Natürlich sollte die Mechanik auch so entworfen werden, dass diese dann auch in der Praxis gefertigt werden kann.\\
@@ -17,7 +17,8 @@ Für den oberen Aufbau der Mechanik gibt es mehrere Vorraussetzungen. Zuerst sol
 \end{figure}
 Der Motor welcher in Abbildung \ref{obereraufbau} zu sehen ist, ist von der \ac{NEMA} genormt und hat den Namen \ac{NEMA} 11, die 11 verweist hierbei auf die Baugröße in diesem Fall $1,1"$ was ca. $28mm$ entspricht \cite{NEMA}. Außerdem ist in der Abbildung der Schleifring zu sehen, welcher später dazu dienen wird, dass alle Kabel des oberen Aufbaus um 360° drehbar sind. \\
 Die Halterung in L-Form besteht aus zwei Teilen, welche aneinander geschraubt werden. Ein horizontales Teil, die Grundplatte, welche den Schleifring und die Verbindung zu den weiteren Teilen sicherstellt. Und ein vertikales Teil, welches den \ac{NEMA} 11 Motor in einer Vertiefung hält.\\
-In Abbildung \ref{obereraufbau} fehlt allerdings ein weiteres Bauteil. Auf der Welle des Motors wird eine weitere Platte montiert, worauf später der \ac{LIDAR} Sensor montiert wird. Zur besseren Übersicht wurde in der gezeigten Ansicht auf diese Platte verzichtet.
+In Abbildung \ref{obereraufbau} fehlt allerdings ein weiteres Bauteil. Auf der Welle des Motors wird eine weitere Platte montiert, worauf später der \ac{LIDAR} Sensor montiert wird. Zur besseren Übersicht wurde in der gezeigten Ansicht auf diese Platte verzichtet.\\
+Da der Schleifring lange Lieferzeiten hat, kann dieser noch nicht eingebaut werden. Jedoch ist eine Nachrüstung mit geringem Aufwand stets möglich. In der derzeitigen Lösung sind die Kabel einfach durch die vorgesehenen Öffnungen geführt. Mittels Software wird sichergestellt, dass die Kabel nicht beschädigt werden. 
 \subsection{Basis}
 Die Basis stellt die Verbindung zwischen dem oberen Aufbau und dem Rahmen dar. Die Basis ist die komplexeste Baugruppe der gesamten Mechanik, da sie den Antrieb und die Lagerung des oberen Aufbaus übernimmt. 
 \begin{figure}[H]

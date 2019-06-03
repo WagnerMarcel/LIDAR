@@ -45,68 +45,68 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {lstlisting}{\numberline {9.1}Importieren und Zuordnen von .csv Dateien}{56}{lstlisting.9.1}
+\contentsline {lstlisting}{\numberline {9.1}Importieren und Zuordnen von .csv Dateien}{57}{lstlisting.9.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {lstlisting}{\numberline {9.2}Umwandlung von Kugelkoordinaten zu kartesischen Koordinaten}{58}{lstlisting.9.2}
+\contentsline {lstlisting}{\numberline {9.2}Umwandlung von Kugelkoordinaten zu kartesischen Koordinaten}{59}{lstlisting.9.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {lstlisting}{\numberline {9.3}Darstellung der Messwerte}{58}{lstlisting.9.3}
+\contentsline {lstlisting}{\numberline {9.3}Darstellung der Messwerte}{59}{lstlisting.9.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {lstlisting}{\numberline {9.4}Skalieren der Achsen}{61}{lstlisting.9.4}
-\defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
+\contentsline {lstlisting}{\numberline {9.4}Skalieren der Achsen}{62}{lstlisting.9.4}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {lstlisting}{\numberline {12.1}Beispiel Aufruf einer Python Funktion mit \IeC {\"U}bergabeparametern}{82}{lstlisting.12.1}
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {lstlisting}{\numberline {12.1}Beispiel Aufruf einer Python Funktion mit \IeC {\"U}bergabeparametern}{83}{lstlisting.12.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {lstlisting}{\numberline {12.2}Python Beispiel Funktion welche \IeC {\"U}bergabeparamenter akzeptiert und ausf\IeC {\"u}hrt}{83}{lstlisting.12.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {lstlisting}{\numberline {12.3}Installation dnsmasq hostapd}{85}{lstlisting.12.3}
+\contentsline {lstlisting}{\numberline {12.3}Installation dnsmasq hostapd}{86}{lstlisting.12.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {lstlisting}{\numberline {12.4}Konfiguration DHCP Server}{85}{lstlisting.12.4}
+\contentsline {lstlisting}{\numberline {12.4}Konfiguration DHCP Server}{86}{lstlisting.12.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {lstlisting}{\numberline {12.5}Konfiguration DHCP Server}{85}{lstlisting.12.5}
+\contentsline {lstlisting}{\numberline {12.5}Konfiguration DHCP Server}{86}{lstlisting.12.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {lstlisting}{\numberline {12.6}Konfiguration Interfaces}{85}{lstlisting.12.6}
+\contentsline {lstlisting}{\numberline {12.6}Konfiguration Interfaces}{86}{lstlisting.12.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {lstlisting}{\numberline {12.7}Konfiguration Interfaces}{85}{lstlisting.12.7}
+\contentsline {lstlisting}{\numberline {12.7}Konfiguration Interfaces}{86}{lstlisting.12.7}
 \defcounter {refsection}{0}\relax 
 \contentsline {lstlisting}{\numberline {12.8}Konfiguration Interfaces}{86}{lstlisting.12.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {lstlisting}{\numberline {12.9}Konfiguration Hostapd}{86}{lstlisting.12.9}
+\contentsline {lstlisting}{\numberline {12.9}Konfiguration Hostapd}{87}{lstlisting.12.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {lstlisting}{\numberline {12.10}Konfiguration Hostapd}{86}{lstlisting.12.10}
+\contentsline {lstlisting}{\numberline {12.10}Konfiguration Hostapd}{87}{lstlisting.12.10}
 \defcounter {refsection}{0}\relax 
-\contentsline {lstlisting}{\numberline {12.11}Konfiguration Hostapd}{86}{lstlisting.12.11}
+\contentsline {lstlisting}{\numberline {12.11}Konfiguration Hostapd}{87}{lstlisting.12.11}
 \defcounter {refsection}{0}\relax 
 \contentsline {lstlisting}{\numberline {12.12}Konfiguration Hostapd}{87}{lstlisting.12.12}
 \defcounter {refsection}{0}\relax 
-\contentsline {lstlisting}{\numberline {12.13}Konfiguration dnsmasq}{87}{lstlisting.12.13}
+\contentsline {lstlisting}{\numberline {12.13}Konfiguration dnsmasq}{88}{lstlisting.12.13}
 \defcounter {refsection}{0}\relax 
-\contentsline {lstlisting}{\numberline {12.14}Konfiguration dnsmasq}{87}{lstlisting.12.14}
+\contentsline {lstlisting}{\numberline {12.14}Konfiguration dnsmasq}{88}{lstlisting.12.14}
 \defcounter {refsection}{0}\relax 
-\contentsline {lstlisting}{\numberline {12.15}Konfiguration IPV4}{87}{lstlisting.12.15}
+\contentsline {lstlisting}{\numberline {12.15}Konfiguration IPV4}{88}{lstlisting.12.15}
 \defcounter {refsection}{0}\relax 
-\contentsline {lstlisting}{\numberline {12.16}Konfiguration IPV4}{87}{lstlisting.12.16}
+\contentsline {lstlisting}{\numberline {12.16}Konfiguration IPV4}{88}{lstlisting.12.16}
 \defcounter {refsection}{0}\relax 
 \contentsline {lstlisting}{\numberline {12.17}Konfiguration IPV4}{88}{lstlisting.12.17}
 \defcounter {refsection}{0}\relax 
-\contentsline {lstlisting}{\numberline {12.18}Konfiguration IPV4}{88}{lstlisting.12.18}
+\contentsline {lstlisting}{\numberline {12.18}Konfiguration IPV4}{89}{lstlisting.12.18}
 \defcounter {refsection}{0}\relax 
-\contentsline {lstlisting}{\numberline {12.19}Konfiguration IPV4}{88}{lstlisting.12.19}
+\contentsline {lstlisting}{\numberline {12.19}Konfiguration IPV4}{89}{lstlisting.12.19}
 \defcounter {refsection}{0}\relax 
-\contentsline {lstlisting}{\numberline {12.20}Starten der neu installierten Packages}{88}{lstlisting.12.20}
+\contentsline {lstlisting}{\numberline {12.20}Starten der neu installierten Packages}{89}{lstlisting.12.20}
 \defcounter {refsection}{0}\relax 
-\contentsline {lstlisting}{\numberline {12.21}Installation NodeJS}{88}{lstlisting.12.21}
+\contentsline {lstlisting}{\numberline {12.21}Installation NodeJS}{89}{lstlisting.12.21}
 \defcounter {refsection}{0}\relax 
 \contentsline {lstlisting}{\numberline {12.22}Installation NodeJS}{89}{lstlisting.12.22}
 \defcounter {refsection}{0}\relax 
-\contentsline {lstlisting}{\numberline {12.23}Installation Flask}{89}{lstlisting.12.23}
+\contentsline {lstlisting}{\numberline {12.23}Installation Flask}{90}{lstlisting.12.23}
 \defcounter {refsection}{0}\relax 
-\contentsline {lstlisting}{\numberline {12.24}Installation Flask}{89}{lstlisting.12.24}
+\contentsline {lstlisting}{\numberline {12.24}Installation Flask}{90}{lstlisting.12.24}
 \defcounter {refsection}{0}\relax 
-\contentsline {lstlisting}{\numberline {12.25}Flask Beispielprogram}{89}{lstlisting.12.25}
+\contentsline {lstlisting}{\numberline {12.25}Flask Beispielprogram}{90}{lstlisting.12.25}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }

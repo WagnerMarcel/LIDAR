@@ -41,15 +41,15 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {formel}{\numberline {9.1} Umrechnung Kugelkoordinaten in kartesische Koordinaten}{57}{equation.9.2.1}
+\contentsline {formel}{\numberline {9.1} Umrechnung Kugelkoordinaten in kartesische Koordinaten}{58}{equation.9.2.1}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {formel}{\numberline {10.1} Berechnung horizontiale Aufl\IeC {\"o}sung}{68}{equation.10.2.1}
+\contentsline {formel}{\numberline {10.1} Berechnung horizontiale Aufl\IeC {\"o}sung}{69}{equation.10.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {formel}{\numberline {10.2} Berechnung vertikale Aufl\IeC {\"o}sung}{69}{equation.10.2.2}
+\contentsline {formel}{\numberline {10.2} Berechnung vertikale Aufl\IeC {\"o}sung}{70}{equation.10.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {formel}{\numberline {10.3} Berechnung horizontale reale Aufl\IeC {\"o}sung}{73}{equation.10.3.3}
+\contentsline {formel}{\numberline {10.3} Berechnung horizontale reale Aufl\IeC {\"o}sung}{74}{equation.10.3.3}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
