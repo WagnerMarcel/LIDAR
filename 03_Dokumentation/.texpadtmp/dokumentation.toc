@@ -3,15 +3,11 @@
 \defcounter {refsection}{0}\relax 
 \select@language {ngerman}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Abk\"urzungsverzeichnis}{VII}{chapter*.5}
+\contentsline {chapter}{\nonumberline Abk\"urzungsverzeichnis}{VII}{chapter*.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Abbildungsverzeichnis}{VIII}{chapter*.6}
+\contentsline {chapter}{\nonumberline Formelverzeichnis}{XI}{chapter*.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Tabellenverzeichnis}{X}{chapter*.9}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Formelverzeichnis}{XI}{chapter*.11}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Listings}{XII}{chapter*.12}
+\contentsline {chapter}{\nonumberline Listings}{XII}{chapter*.9}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {1}Einleitung}{1}{chapter.1}
 \defcounter {refsection}{0}\relax 
@@ -57,13 +53,13 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {5.1.1}Versuchsaufbau}{20}{subsection.5.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Verwendete Bauteile}{20}{section*.24}
+\contentsline {subsubsection}{\nonumberline Verwendete Bauteile}{20}{section*.21}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Verwendete Messger\IeC {\"a}te}{21}{section*.26}
+\contentsline {subsubsection}{\nonumberline Verwendete Messger\IeC {\"a}te}{21}{section*.23}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Aufbau}{21}{section*.28}
+\contentsline {subsubsection}{\nonumberline Aufbau}{21}{section*.25}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Messungen}{21}{section*.30}
+\contentsline {subsubsection}{\nonumberline Messungen}{21}{section*.27}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {5.1.2}Beobachtung}{22}{subsection.5.1.2}
 \defcounter {refsection}{0}\relax 
@@ -73,13 +69,13 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {5.2.1}Versuchsaufbau}{23}{subsection.5.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Verwendete Bauteile}{23}{section*.31}
+\contentsline {subsubsection}{\nonumberline Verwendete Bauteile}{23}{section*.28}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Verwendete Messger\IeC {\"a}te}{23}{section*.33}
+\contentsline {subsubsection}{\nonumberline Verwendete Messger\IeC {\"a}te}{23}{section*.30}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Aufbau}{24}{section*.35}
+\contentsline {subsubsection}{\nonumberline Aufbau}{24}{section*.32}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Messungen}{24}{section*.36}
+\contentsline {subsubsection}{\nonumberline Messungen}{24}{section*.33}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {5.2.2}Beobachtung}{24}{subsection.5.2.2}
 \defcounter {refsection}{0}\relax 
@@ -95,130 +91,132 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {6.2}Entwurf}{26}{section.6.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.2.1}Oberer Aufbau}{26}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.1}Oberer Aufbau}{27}{subsection.6.2.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {6.2.2}Basis}{28}{subsection.6.2.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {6.2.3}Rahmen}{29}{subsection.6.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.3}Umsetzung}{30}{section.6.3}
+\contentsline {section}{\numberline {6.3}Umsetzung}{31}{section.6.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Elektronische Hardwarekomponenten}{32}{chapter.7}
+\contentsline {chapter}{\numberline {7}Elektronische Hardwarekomponenten}{33}{chapter.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.1}Funktionseinheit Distanzbestimmung}{32}{section.7.1}
+\contentsline {section}{\numberline {7.1}Funktionseinheit Distanzbestimmung}{33}{section.7.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.1.1}TF Mini \ac {LIDAR}}{32}{subsection.7.1.1}
+\contentsline {subsection}{\numberline {7.1.1}TF Mini \ac {LIDAR}}{33}{subsection.7.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.1.2}VL53L1X}{33}{subsection.7.1.2}
+\contentsline {subsection}{\numberline {7.1.2}VL53L1X}{34}{subsection.7.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.1.3}Tabellarischer Vergleich der Sensoren}{35}{subsection.7.1.3}
+\contentsline {subsection}{\numberline {7.1.3}Tabellarischer Vergleich der Sensoren}{36}{subsection.7.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.2}Funktionseinheit Ausrichtung des Sensors}{36}{section.7.2}
+\contentsline {section}{\numberline {7.2}Funktionseinheit Ausrichtung des Sensors}{37}{section.7.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.2.1}Schrittmotoren}{36}{subsection.7.2.1}
+\contentsline {subsection}{\numberline {7.2.1}Schrittmotoren}{37}{subsection.7.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.2.2}Schrittmotortreiber}{37}{subsection.7.2.2}
+\contentsline {subsection}{\numberline {7.2.2}Schrittmotortreiber}{38}{subsection.7.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.3}Funktionseinheit Kalibrierung}{39}{section.7.3}
+\contentsline {section}{\numberline {7.3}Funktionseinheit Kalibrierung}{40}{section.7.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.3.1}Lichtschranke}{39}{subsection.7.3.1}
+\contentsline {subsection}{\numberline {7.3.1}Lichtschranke}{40}{subsection.7.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.3.2}Gyrosensor}{39}{subsection.7.3.2}
+\contentsline {subsection}{\numberline {7.3.2}Gyrosensor}{40}{subsection.7.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.4}Platinen}{40}{section.7.4}
+\contentsline {section}{\numberline {7.4}Platinen}{41}{section.7.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.4.1}Abw\IeC {\"a}rtswandler}{40}{subsection.7.4.1}
+\contentsline {subsection}{\numberline {7.4.1}Abw\IeC {\"a}rtswandler}{41}{subsection.7.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.4.2}Schaltplan}{40}{subsection.7.4.2}
+\contentsline {subsection}{\numberline {7.4.2}Schaltplan}{41}{subsection.7.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.4.3}Layout}{42}{subsection.7.4.3}
+\contentsline {subsection}{\numberline {7.4.3}Layout}{43}{subsection.7.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {8}Python Code zur Steuerung des Systems}{44}{chapter.8}
+\contentsline {chapter}{\numberline {8}Python Code zur Steuerung des Systems}{45}{chapter.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.1}Motor}{44}{section.8.1}
+\contentsline {section}{\numberline {8.1}Motor}{45}{section.8.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.1.1}Konstruktor}{45}{subsection.8.1.1}
+\contentsline {subsection}{\numberline {8.1.1}Konstruktor}{46}{subsection.8.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.1.2}Bewegen des Motors}{45}{subsection.8.1.2}
+\contentsline {subsection}{\numberline {8.1.2}Bewegen des Motors}{46}{subsection.8.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.2}Lidar}{46}{section.8.2}
+\contentsline {section}{\numberline {8.2}Lidar}{47}{section.8.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.2.1}Konstruktor und Variablen}{47}{subsection.8.2.1}
+\contentsline {subsection}{\numberline {8.2.1}Konstruktor und Variablen}{48}{subsection.8.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.2.2}Aufnehmen von Messdaten}{47}{subsection.8.2.2}
+\contentsline {subsection}{\numberline {8.2.2}Aufnehmen von Messdaten}{48}{subsection.8.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.3}Steuerung}{48}{section.8.3}
+\contentsline {section}{\numberline {8.3}Steuerung}{49}{section.8.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.3.1}Pin Definitionen und Initialisieren der Klassen}{49}{subsection.8.3.1}
+\contentsline {subsection}{\numberline {8.3.1}Pin Definitionen und Initialisieren der Klassen}{50}{subsection.8.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.3.2}Zus\IeC {\"a}tzliche Funktionen}{50}{subsection.8.3.2}
+\contentsline {subsection}{\numberline {8.3.2}Zus\IeC {\"a}tzliche Funktionen}{51}{subsection.8.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.3.3}Variablendeklaration und aufrufen von Funktionen}{51}{subsection.8.3.3}
+\contentsline {subsection}{\numberline {8.3.3}Variablendeklaration und aufrufen von Funktionen}{52}{subsection.8.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.3.4}Erstellen der Datei zum Speichern der Daten}{52}{subsection.8.3.4}
+\contentsline {subsection}{\numberline {8.3.4}Erstellen der Datei zum Speichern der Daten}{53}{subsection.8.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.3.5}Schleifen der Steuerung}{53}{subsection.8.3.5}
+\contentsline {subsection}{\numberline {8.3.5}Schleifen der Steuerung}{54}{subsection.8.3.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {9}Auswertung und Darstellung mit Matlab}{56}{chapter.9}
+\contentsline {chapter}{\numberline {9}Auswertung und Darstellung mit Matlab}{57}{chapter.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.1}Importieren und Zuordnung der Messwerte}{56}{section.9.1}
+\contentsline {section}{\numberline {9.1}Importieren und Zuordnung der Messwerte}{57}{section.9.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.2}Umwandlung von Kugelkoordinaten zu kartesischen Koordinaten}{57}{section.9.2}
+\contentsline {section}{\numberline {9.2}Umwandlung von Kugelkoordinaten zu kartesischen Koordinaten}{58}{section.9.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.3}Darstellung der Messwerte}{59}{section.9.3}
+\contentsline {section}{\numberline {9.3}Darstellung der Messwerte}{60}{section.9.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {10}Validierung des Systems}{63}{chapter.10}
+\contentsline {chapter}{\numberline {10}Validierung des Systems}{64}{chapter.10}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {10.1}Genauigkeit des Systems}{63}{section.10.1}
+\contentsline {section}{\numberline {10.1}Genauigkeit des Systems}{64}{section.10.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {10.1.1}Grafischer Vergleich}{63}{subsection.10.1.1}
+\contentsline {subsection}{\numberline {10.1.1}Grafischer Vergleich}{64}{subsection.10.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {10.1.2}Vergleich absoluter Werte}{66}{subsection.10.1.2}
+\contentsline {subsection}{\numberline {10.1.2}Vergleich absoluter Werte}{67}{subsection.10.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {10.2}Vergleich verschiedener Aufl\IeC {\"o}sungen}{69}{section.10.2}
+\contentsline {section}{\numberline {10.2}Vergleich verschiedener Aufl\IeC {\"o}sungen}{70}{section.10.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {10.2.1}\IeC {\"U}bersicht \IeC {\"u}ber die Dauer, Aufl\IeC {\"o}sung und Anzahl an Messpunkten}{69}{subsection.10.2.1}
+\contentsline {subsection}{\numberline {10.2.1}\IeC {\"U}bersicht \IeC {\"u}ber die Dauer, Aufl\IeC {\"o}sung und Anzahl an Messpunkten}{70}{subsection.10.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {10.2.2}Vergleich der unterschiedlichen Aufl\IeC {\"o}sungen}{70}{subsection.10.2.2}
+\contentsline {subsection}{\numberline {10.2.2}Vergleich der unterschiedlichen Aufl\IeC {\"o}sungen}{71}{subsection.10.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {10.3}Reale Aufl\IeC {\"o}sung im Testraum}{74}{section.10.3}
+\contentsline {section}{\numberline {10.3}Reale Aufl\IeC {\"o}sung im Testraum}{75}{section.10.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {10.4}Vergleich der Sensoren}{76}{section.10.4}
+\contentsline {section}{\numberline {10.4}Vergleich der Sensoren}{77}{section.10.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {11}Fazit}{79}{chapter.11}
+\contentsline {chapter}{\numberline {11}Fazit}{80}{chapter.11}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {12}Ausblick}{81}{chapter.12}
+\contentsline {chapter}{\numberline {12}Ausblick}{82}{chapter.12}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {12.1}Hardware}{81}{section.12.1}
+\contentsline {section}{\numberline {12.1}Hardware}{82}{section.12.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {12.1.1}Platine}{81}{subsection.12.1.1}
+\contentsline {subsection}{\numberline {12.1.1}Platine}{82}{subsection.12.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {12.1.2}Gyrosensor}{82}{subsection.12.1.2}
+\contentsline {subsection}{\numberline {12.1.2}Gyrosensor}{83}{subsection.12.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {12.1.3}Schleifring}{82}{subsection.12.1.3}
+\contentsline {subsection}{\numberline {12.1.3}Schleifring}{83}{subsection.12.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {12.1.4}Motortreiber}{82}{subsection.12.1.4}
+\contentsline {subsection}{\numberline {12.1.4}Motortreiber}{83}{subsection.12.1.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {12.1.5}Bedienfeld}{82}{subsection.12.1.5}
+\contentsline {subsection}{\numberline {12.1.5}Bedienfeld}{83}{subsection.12.1.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {12.2}Software}{83}{section.12.2}
+\contentsline {section}{\numberline {12.2}Software}{84}{section.12.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {12.2.1}Steuerung mit \IeC {\"U}bergabeparameter}{83}{subsection.12.2.1}
+\contentsline {subsection}{\numberline {12.2.1}Steuerung mit \IeC {\"U}bergabeparameter}{84}{subsection.12.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {12.2.2}Bedienfeld Statusausgabe und Steuerung}{85}{subsection.12.2.2}
+\contentsline {subsection}{\numberline {12.2.2}Bedienfeld Statusausgabe und Steuerung}{86}{subsection.12.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {12.2.3}Webinterface}{85}{subsection.12.2.3}
+\contentsline {subsection}{\numberline {12.2.3}Webinterface}{86}{subsection.12.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline \ac {WLAN} auf dem Raspberry Pi einrichten}{85}{section*.84}
+\contentsline {subsubsection}{\nonumberline \ac {WLAN} auf dem Raspberry Pi einrichten}{86}{section*.81}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline NodeJS Server auf dem Raspberry Pi einrichten}{89}{section*.87}
+\contentsline {subsubsection}{\nonumberline NodeJS Server auf dem Raspberry Pi einrichten}{90}{section*.84}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Flask in Javascript und Python verwenden}{90}{section*.88}
+\contentsline {subsubsection}{\nonumberline Flask in Javascript und Python verwenden}{91}{section*.85}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Anhang}{A}{chapter*.89}
+\contentsline {chapter}{\nonumberline Anhang}{A}{chapter*.86}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\nonumberline Literatur}{A}{section*.90}
+\contentsline {section}{\nonumberline Literatur}{A}{section*.87}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\nonumberline Aufteilung der Kapitel}{D}{section*.91}
+\contentsline {section}{\nonumberline Aufteilung der Kapitel}{D}{section*.88}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\nonumberline Github Repository}{E}{section*.93}
+\contentsline {section}{\nonumberline Github Repository}{E}{section*.90}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\nonumberline Technische Zeichnungen}{F}{section*.92}

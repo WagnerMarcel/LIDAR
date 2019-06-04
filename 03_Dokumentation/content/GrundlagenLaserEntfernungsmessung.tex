@@ -27,16 +27,16 @@ Das erste Problem welches Auftritt ist, dass nie das gesamte ausgesandte Licht z
 Eine Lösung dafür könnte sein, eine stärkere Lichtquelle zu verwenden, dies birgt allerdings große Sicherheitsrisiken und ist daher nur begrenzt möglich. Eine zweite Lösung ist, die maximale Messentfernung zu limitieren, allerdings birgt dies ein anderes Problem. Dieses und ein weiteres Problem, welches im Zusammenhang mit der minimalen Messentfernung steht, wird anhand eines Beispiels erläutert.\\
 Man nehme an, es existiert ein fiktiver \ac{LIDAR} Sensor mit folgenden Werten:
 \begin{itemize}
-	\item Minimale Messentfernung $d_{min}=1 cm$
-	\item Maximale Messentfernung $d_{max}=1000 m$
-	\item Maximale Messfrequenz $f_{max}=150 kHz$ 
+	\item Minimale Messentfernung $d_{min}=1\:cm$
+	\item Maximale Messentfernung $d_{max}=1000\: m$
+	\item Maximale Messfrequenz $f_{max}=150\: kHz$ 
 \end{itemize}
 Formel \ref{lichtlaufzeit} kann umgestellt werden, um die Zeiten zu errechnen, welche das Licht für die minimale und maximale Messentfernung benötigt. 
 \begin{equation}\formelentry{Berechnung der minimalen und maximalen Zeit}
 	\begin{split}
 		t = \frac{r \cdot 2}{c}\\
-		t_{min} = \frac{0.01 m \cdot 2}{299,79 \cdot 10^6 \frac{m}{s}} = 667,13 \cdot 10^{-9}s\\
-		t_{max} = \frac{1000 m \cdot 2}{299,79 \cdot 10^6 \frac{m}{s}} = 6,6713 \cdot 10^{-6}s\\
+		t_{min} = \frac{0.01 m \cdot 2}{299,79 \cdot 10^6\: \frac{m}{s}} = 667,13 \cdot 10^{-9}\:s\\
+		t_{max} = \frac{1000 m \cdot 2}{299,79 \cdot 10^6\: \frac{m}{s}} = 6,6713 \cdot 10^{-6}\:s\\
 	\end{split}
 \end{equation} 
 \begin{flalign*}
@@ -44,7 +44,7 @@ Formel \ref{lichtlaufzeit} kann umgestellt werden, um die Zeiten zu errechnen, w
 	&t = \text{Zeitdifferenz zwischen aussenden und detektieren des Lichtpulses}\left[s \right]&\\
 	&c = \text{Lichtgeschwindigkeit in Luft}\left[\frac{m}{s} \right]&
 \end{flalign*}
-Anhand des Beispiels kann man bereits erkennen, dass um die gewünschte minimale Messentfernung zu realisieren eine extrem schnelle Schaltung nötig ist, um das Aussenden und Empfangen innerhalb von $667,13 ns$ zu detektieren. Die maximale Messentfernung bringt in diesem Fall ein anderes Problem mit sich, welches noch nicht erwähnt wurde. Zwar ist dies nur ein fiktives Beispiel, allerdings muss das Problem trotzdem betrachtet werden. Der Sensor ist mit einer Maximalen Frequenz von $150kHz \rightarrow 6,6667\mu s$ angegeben, allerdings kann mit dieser Frequenz die maximale Messentfernung nicht erreicht werden, da das Licht länger benötigt um reflektiert zu werden, als die Taktzeit des Sensors ist. \\
+Anhand des Beispiels kann man bereits erkennen, dass um die gewünschte minimale Messentfernung zu realisieren eine extrem schnelle Schaltung nötig ist, um das Aussenden und Empfangen innerhalb von $667,13\:ns$ zu detektieren. Die maximale Messentfernung bringt in diesem Fall ein anderes Problem mit sich, welches noch nicht erwähnt wurde. Zwar ist dies nur ein fiktives Beispiel, allerdings muss das Problem trotzdem betrachtet werden. Der Sensor ist mit einer Maximalen Frequenz von $150\:kHz \rightarrow 6,6667\:\mu s$ angegeben, allerdings kann mit dieser Frequenz die maximale Messentfernung nicht erreicht werden, da das Licht länger benötigt um reflektiert zu werden, als die Taktzeit des Sensors ist. \\
 Durch dieses Beispiel wurde veranschaulicht, dass verschiedene Faktoren die Grenzen des Sensors festlegen. Die minimale Messentfernung wird dadurch definiert, wie schnell die Schaltung Aussenden und Empfangen detektieren kann. Die maximale Messentfernung wird von der Leistung der Lichtquelle sowie Genauigkeit des Sensors definiert. Die maximale Messfrequenz hängt zusätzlich noch davon ab, wie schnell der Sensor die Daten zur Weiterverarbeitung z.B. an einer \ac{UART} Schnittstelle bereitstellen  kann.
 
 \section{Phasenverschiebung / Phasenmodulation}  \label{sec:phasenverschiebung}
@@ -94,14 +94,14 @@ Das Problem der Uneindeutigkeit kann gelöst werden, indem der Lichtstrahl konti
 Einige der Vorteile, welche beim Phasenverschiebungsverfahren bestehen sind, dass die Bauteile um ein Vielfaches langsamer sein können, als beim \ac{ToF} Verfahren. Dies ist darauf zurückzuführen, dass es prinzipiell egal ist bei welchem Nulldurchgang einer Welle die Phase bestimmt wird, da sich nur ein Vielfaches von $360^{\circ}$ zur Phase addiert wird. Durch Verwendung mehrerer Modulationsfrequenzen kann trotzdem eine Eindeutigkeit gewährleistet werden.\\
 Dazu kommt auch, dass mit Modulationsfrequenzen im Megahertz Bereich sehr hohe Messgenauigkeiten möglich sind, da diese von der hochsten Modulationsfrequenz abhängt.
 \begin{equation}\formelentry{Beispielrechnung Messgenauigkeit}\label{streckephase}
-	\lambda = \frac{c}{f_{m}} = \frac{c}{150\cdot 10^{6} Hz} \approx 2m
+	\lambda = \frac{c}{f_{m}} = \frac{c}{150\cdot 10^{6} Hz} \approx 2\:m
 \end{equation} 
 \begin{flalign*}
 	&\lambda = \text{Wellenlänge}\left[m \right]&\\
 	&f_{m} = \text{Modulationsfrequenz} \left[\frac{1}{s} \right]&\\
 	&c = \text{Lichtgeschwindigkeit} \left[\frac{m}{s} \right]&
 \end{flalign*}
-Bei einer Wellenlänge von $2nm$ liegt der eindeutige Bereich zwar nur noch bei einem Meter, jedoch lässt sich die Phasendifferenz sehr genau bestimmen und somit ist eine höhere Genauigkeit möglich als besipielsweise bei einer Wellenlänge von $150 m$.
+Bei einer Wellenlänge von $2\:nm$ liegt der eindeutige Bereich zwar nur noch bei einem Meter, jedoch lässt sich die Phasendifferenz sehr genau bestimmen und somit ist eine höhere Genauigkeit möglich als besipielsweise bei einer Wellenlänge von $150\: m$.
 \subsection{Herausforderungen}
 Eine der größten Herausforderungen des Phasenverschiebungsverfahrens sind Störeinflüsse aus der Umwelt. Regen beispielsweise kann sich sehr störend auf die Messergebnisse auswirken. Ebenfalls kann keine zusätzliche Information aus der Reflexion erlangt werden, wie dies beispielsweise beim \ac{ToF} Verfahren möglich ist.\\
 Die zum \ac{ToF} Verfahren vergleichsweise wenigen Herausforderungen sind Grund dafür, dass das Phasenverschiebungsverfahren sehr weit verbreitet ist und viele Anwendungen findet.

@@ -35,21 +35,21 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {formel}{\numberline {7.1} Berechnung maximaler Strom f\IeC {\"u}r Schrittmotoren \cite {A4988}}{38}{equation.7.2.1}
+\contentsline {formel}{\numberline {7.1} Berechnung maximaler Strom f\IeC {\"u}r Schrittmotoren \cite {A4988}}{39}{equation.7.2.1}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {formel}{\numberline {9.1} Umrechnung Kugelkoordinaten in kartesische Koordinaten}{58}{equation.9.2.1}
+\contentsline {formel}{\numberline {9.1} Umrechnung Kugelkoordinaten in kartesische Koordinaten}{59}{equation.9.2.1}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {formel}{\numberline {10.1} Berechnung horizontiale Aufl\IeC {\"o}sung}{69}{equation.10.2.1}
+\contentsline {formel}{\numberline {10.1} Berechnung horizontiale Aufl\IeC {\"o}sung}{70}{equation.10.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {formel}{\numberline {10.2} Berechnung vertikale Aufl\IeC {\"o}sung}{70}{equation.10.2.2}
+\contentsline {formel}{\numberline {10.2} Berechnung vertikale Aufl\IeC {\"o}sung}{71}{equation.10.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {formel}{\numberline {10.3} Berechnung horizontale reale Aufl\IeC {\"o}sung}{74}{equation.10.3.3}
+\contentsline {formel}{\numberline {10.3} Berechnung horizontale reale Aufl\IeC {\"o}sung}{75}{equation.10.3.3}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 

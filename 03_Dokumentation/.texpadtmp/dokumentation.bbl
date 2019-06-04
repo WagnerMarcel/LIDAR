@@ -162,6 +162,27 @@
       \field{title}{Tabellenbuch Metall}
       \field{year}{2011}
     \endentry
+    \entry{flask}{online}{}
+      \name{author}{1}{}{%
+        {{hash=9784e91c7b2657917226bc82afdd6789}{%
+           family={Flask},
+           familyi={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{9784e91c7b2657917226bc82afdd6789}
+      \strng{fullhash}{9784e91c7b2657917226bc82afdd6789}
+      \strng{authornamehash}{9784e91c7b2657917226bc82afdd6789}
+      \strng{authorfullhash}{9784e91c7b2657917226bc82afdd6789}
+      \field{sortinit}{F}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{5}
+      \field{title}{Flask Microframework}
+      \field{year}{2019}
+      \verb{url}
+      \verb http://flask.pocoo.org
+      \endverb
+    \endentry
     \entry{Schrittmotor}{online}{}
       \field{sortinit}{F}
       \field{sortinithash}{276475738cc058478c1677046f857703}
@@ -238,6 +259,29 @@
       \field{year}{2918}
       \verb{url}
       \verb https://www.ipm.fraunhofer.de/de/gf/objekterfassung-laserscanning/komp/abstandsmessung.html
+      \endverb
+    \endentry
+    \entry{raspi1}{online}{}
+      \name{author}{1}{}{%
+        {{hash=1a39fc8186880cc3124ca80ffb07dfbd}{%
+           family={Kompendium},
+           familyi={K\bibinitperiod},
+           given={Elektronik},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{1a39fc8186880cc3124ca80ffb07dfbd}
+      \strng{fullhash}{1a39fc8186880cc3124ca80ffb07dfbd}
+      \strng{authornamehash}{1a39fc8186880cc3124ca80ffb07dfbd}
+      \strng{authorfullhash}{1a39fc8186880cc3124ca80ffb07dfbd}
+      \field{sortinit}{K}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{6}
+      \field{title}{Raspberry Pi}
+      \field{year}{2019}
+      \verb{url}
+      \verb https://www.elektronik-kompendium.de/sites/raspberry-pi/2002171.htm
       \endverb
     \endentry
     \entry{ToF_TUBerlin}{online}{}
@@ -415,6 +459,27 @@
       \verb https://eckstein-shop.de/Pololu-Stepper-Motor-NEMA-17-Unipolar-Bipolar-200-Steps-Rev-4248mm-4V-12-A-Phase
       \endverb
     \endentry
+    \entry{raspi2}{online}{}
+      \name{author}{1}{}{%
+        {{hash=5d409a9854d820967059e2fce153f0f2}{%
+           family={Randombrick},
+           familyi={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{5d409a9854d820967059e2fce153f0f2}
+      \strng{fullhash}{5d409a9854d820967059e2fce153f0f2}
+      \strng{authornamehash}{5d409a9854d820967059e2fce153f0f2}
+      \strng{authorfullhash}{5d409a9854d820967059e2fce153f0f2}
+      \field{sortinit}{R}
+      \field{sortinithash}{c15bc8eb6936bc6b3c8baa9e8575af53}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{6}
+      \field{title}{Raspberry pi als WLAN access point nutzen}
+      \field{year}{2019}
+      \verb{url}
+      \verb https://www.randombrick.de/raspberry-pi-als-wlan-access-point-nutzen/
+      \endverb
+    \endentry
     \entry{ocular}{online}{}
       \name{author}{1}{}{%
         {{hash=ae0f8d1799792d4d944f38bd433adcec}{%
@@ -526,6 +591,27 @@
       \field{title}{VL53L1X}
       \verb{url}
       \verb https://www.st.com/resource/en/datasheet/vl53l1x.pdf
+      \endverb
+    \endentry
+    \entry{nodejs}{online}{}
+      \name{author}{1}{}{%
+        {{hash=bd21525362368ddbd79358cdcf66005d}{%
+           family={W3Schools},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{bd21525362368ddbd79358cdcf66005d}
+      \strng{fullhash}{bd21525362368ddbd79358cdcf66005d}
+      \strng{authornamehash}{bd21525362368ddbd79358cdcf66005d}
+      \strng{authorfullhash}{bd21525362368ddbd79358cdcf66005d}
+      \field{sortinit}{W}
+      \field{sortinithash}{6d25b3eefe5aa2147d1f339686808918}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{6}
+      \field{title}{NodeJS with Raspberry Pi}
+      \field{year}{2019}
+      \verb{url}
+      \verb https://www.w3schools.com/nodejs/nodejs_raspberrypi.asp
       \endverb
     \endentry
     \entry{lichtabstandsmessung}{online}{}
