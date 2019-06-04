@@ -31,6 +31,34 @@
       \verb https://eckstein-shop.de/10mm-Lichtschranke-Photoelectric-Infrarot-Zaehler-Counter-Sensor-Modul
       \endverb
     \endentry
+    \entry{artec}{online}{}
+      \name{author}{1}{}{%
+        {{hash=7376e3b151f73a068e6dc00cb3faf896}{%
+           family={3D},
+           familyi={3\bibinitperiod},
+           given={Artec},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{7376e3b151f73a068e6dc00cb3faf896}
+      \strng{fullhash}{7376e3b151f73a068e6dc00cb3faf896}
+      \strng{bibnamehash}{7376e3b151f73a068e6dc00cb3faf896}
+      \strng{authorbibnamehash}{7376e3b151f73a068e6dc00cb3faf896}
+      \strng{authornamehash}{7376e3b151f73a068e6dc00cb3faf896}
+      \strng{authorfullhash}{7376e3b151f73a068e6dc00cb3faf896}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{5}
+      \field{title}{Artec Ray}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb https://www.artec3d.com/de/portable-3d-scanners/laser-ray#specifications
+      \endverb
+      \verb{url}
+      \verb https://www.artec3d.com/de/portable-3d-scanners/laser-ray#specifications
+      \endverb
+    \endentry
     \entry{A4988}{online}{}
       \field{sortinit}{D}
       \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
@@ -157,6 +185,32 @@
       \field{title}{Tabellenbuch Metall}
       \field{year}{2011}
     \endentry
+    \entry{flask}{online}{}
+      \name{author}{1}{}{%
+        {{hash=9784e91c7b2657917226bc82afdd6789}{%
+           family={Flask},
+           familyi={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{9784e91c7b2657917226bc82afdd6789}
+      \strng{fullhash}{9784e91c7b2657917226bc82afdd6789}
+      \strng{bibnamehash}{9784e91c7b2657917226bc82afdd6789}
+      \strng{authorbibnamehash}{9784e91c7b2657917226bc82afdd6789}
+      \strng{authornamehash}{9784e91c7b2657917226bc82afdd6789}
+      \strng{authorfullhash}{9784e91c7b2657917226bc82afdd6789}
+      \field{sortinit}{F}
+      \field{sortinithash}{669c706c6f1fbf3b5a83d26f1d9e9e72}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{5}
+      \field{title}{Flask Microframework}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb http://flask.pocoo.org
+      \endverb
+      \verb{url}
+      \verb http://flask.pocoo.org
+      \endverb
+    \endentry
     \entry{Schrittmotor}{online}{}
       \field{sortinit}{F}
       \field{sortinithash}{669c706c6f1fbf3b5a83d26f1d9e9e72}
@@ -167,6 +221,34 @@
       \endverb
       \verb{url}
       \verb https://de.nanotec.com/knowledge-base/knowledge-base-pages/funktionsweise-eines-schrittmotors/
+      \endverb
+    \endentry
+    \entry{leica}{online}{}
+      \name{author}{1}{}{%
+        {{hash=544cc5bc20c519f14f9611a2316cb2cd}{%
+           family={Geosystems},
+           familyi={G\bibinitperiod},
+           given={Leica},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{544cc5bc20c519f14f9611a2316cb2cd}
+      \strng{fullhash}{544cc5bc20c519f14f9611a2316cb2cd}
+      \strng{bibnamehash}{544cc5bc20c519f14f9611a2316cb2cd}
+      \strng{authorbibnamehash}{544cc5bc20c519f14f9611a2316cb2cd}
+      \strng{authornamehash}{544cc5bc20c519f14f9611a2316cb2cd}
+      \strng{authorfullhash}{544cc5bc20c519f14f9611a2316cb2cd}
+      \field{sortinit}{G}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{5}
+      \field{title}{P50}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb https://leica-geosystems.com/-/media/files/leicageosystems/products/datasheets/scan/leica%20scanstation%20p50%20ds%20869145%200119%20en%20lr.ashx?la=de-de\&hash=5F74F22ADBCFF8A78904CC452F709DFD
+      \endverb
+      \verb{url}
+      \verb https://leica-geosystems.com/-/media/files/leicageosystems/products/datasheets/scan/leica%20scanstation%20p50%20ds%20869145%200119%20en%20lr.ashx?la=de-de%5C&hash=5F74F22ADBCFF8A78904CC452F709DFD
       \endverb
     \endentry
     \entry{phasenverschiebung}{online}{}
@@ -223,6 +305,34 @@
       \endverb
       \verb{url}
       \verb https://www.ipm.fraunhofer.de/de/gf/objekterfassung-laserscanning/komp/abstandsmessung.html
+      \endverb
+    \endentry
+    \entry{raspi1}{online}{}
+      \name{author}{1}{}{%
+        {{hash=1a39fc8186880cc3124ca80ffb07dfbd}{%
+           family={Kompendium},
+           familyi={K\bibinitperiod},
+           given={Elektronik},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{1a39fc8186880cc3124ca80ffb07dfbd}
+      \strng{fullhash}{1a39fc8186880cc3124ca80ffb07dfbd}
+      \strng{bibnamehash}{1a39fc8186880cc3124ca80ffb07dfbd}
+      \strng{authorbibnamehash}{1a39fc8186880cc3124ca80ffb07dfbd}
+      \strng{authornamehash}{1a39fc8186880cc3124ca80ffb07dfbd}
+      \strng{authorfullhash}{1a39fc8186880cc3124ca80ffb07dfbd}
+      \field{sortinit}{K}
+      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{6}
+      \field{title}{Raspberry Pi}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb https://www.elektronik-kompendium.de/sites/raspberry-pi/2002171.htm
+      \endverb
+      \verb{url}
+      \verb https://www.elektronik-kompendium.de/sites/raspberry-pi/2002171.htm
       \endverb
     \endentry
     \entry{ToF_TUBerlin}{online}{}
@@ -439,6 +549,60 @@
       \verb https://eckstein-shop.de/Pololu-Stepper-Motor-NEMA-17-Unipolar-Bipolar-200-Steps-Rev-4248mm-4V-12-A-Phase
       \endverb
     \endentry
+    \entry{raspi2}{online}{}
+      \name{author}{1}{}{%
+        {{hash=5d409a9854d820967059e2fce153f0f2}{%
+           family={Randombrick},
+           familyi={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{5d409a9854d820967059e2fce153f0f2}
+      \strng{fullhash}{5d409a9854d820967059e2fce153f0f2}
+      \strng{bibnamehash}{5d409a9854d820967059e2fce153f0f2}
+      \strng{authorbibnamehash}{5d409a9854d820967059e2fce153f0f2}
+      \strng{authornamehash}{5d409a9854d820967059e2fce153f0f2}
+      \strng{authorfullhash}{5d409a9854d820967059e2fce153f0f2}
+      \field{sortinit}{R}
+      \field{sortinithash}{da6b42bd3ab22fee61abed031ee405f7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{6}
+      \field{title}{Raspberry pi als WLAN access point nutzen}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb https://www.randombrick.de/raspberry-pi-als-wlan-access-point-nutzen/
+      \endverb
+      \verb{url}
+      \verb https://www.randombrick.de/raspberry-pi-als-wlan-access-point-nutzen/
+      \endverb
+    \endentry
+    \entry{ocular}{online}{}
+      \name{author}{1}{}{%
+        {{hash=ae0f8d1799792d4d944f38bd433adcec}{%
+           family={Robotics},
+           familyi={R\bibinitperiod},
+           given={Ocular},
+           giveni={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{ae0f8d1799792d4d944f38bd433adcec}
+      \strng{fullhash}{ae0f8d1799792d4d944f38bd433adcec}
+      \strng{bibnamehash}{ae0f8d1799792d4d944f38bd433adcec}
+      \strng{authorbibnamehash}{ae0f8d1799792d4d944f38bd433adcec}
+      \strng{authornamehash}{ae0f8d1799792d4d944f38bd433adcec}
+      \strng{authorfullhash}{ae0f8d1799792d4d944f38bd433adcec}
+      \field{sortinit}{R}
+      \field{sortinithash}{da6b42bd3ab22fee61abed031ee405f7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{5}
+      \field{title}{RE05}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb http://www.ocularrobotics.com/wp/wp-content/uploads/2015/12/RobotEye-RE05-3D-LIDAR-Datasheet.pdf
+      \endverb
+      \verb{url}
+      \verb http://www.ocularrobotics.com/wp/wp-content/uploads/2015/12/RobotEye-RE05-3D-LIDAR-Datasheet.pdf
+      \endverb
+    \endentry
     \entry{frauenhofer}{article}{}
       \name{author}{1}{}{%
         {{hash=9392ebbfbfd4f158e0641bc3bbe25cb5}{%
@@ -487,6 +651,32 @@
       \verb https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&ved=2ahUKEwiu1ef2_MLgAhUCbFAKHRp7DaQQFjABegQIAxAC&url=http%3A%2F%2Fstatics3.seeedstudio.com%2Fassets%2Ffile%2Fbazaar%2Fproduct%2FLiDAR_TF_mini_Datasheet.docx&usg=AOvVaw2Td3zuc0AlicOQ23PnxB2-
       \endverb
     \endentry
+    \entry{sick}{online}{}
+      \name{author}{1}{}{%
+        {{hash=cdc7145d2df7912ad942e1de2f0f8132}{%
+           family={Sick},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{cdc7145d2df7912ad942e1de2f0f8132}
+      \strng{fullhash}{cdc7145d2df7912ad942e1de2f0f8132}
+      \strng{bibnamehash}{cdc7145d2df7912ad942e1de2f0f8132}
+      \strng{authorbibnamehash}{cdc7145d2df7912ad942e1de2f0f8132}
+      \strng{authornamehash}{cdc7145d2df7912ad942e1de2f0f8132}
+      \strng{authorfullhash}{cdc7145d2df7912ad942e1de2f0f8132}
+      \field{sortinit}{S}
+      \field{sortinithash}{322b1d5276f2f6c1bccdcd15920dbee6}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{5}
+      \field{title}{MRS6000}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb https://cdn.sick.com/media/docs/9/39/539/Operating_instructions_MRS6000_de_IM0076539.PDF
+      \endverb
+      \verb{url}
+      \verb https://cdn.sick.com/media/docs/9/39/539/Operating_instructions_MRS6000_de_IM0076539.PDF
+      \endverb
+    \endentry
     \entry{Photodiode_spektrum}{online}{}
       \name{author}{1}{}{%
         {{hash=2d44349af1a57cb92ea97ac880ad86a7}{%
@@ -522,6 +712,32 @@
       \endverb
       \verb{url}
       \verb https://www.st.com/resource/en/datasheet/vl53l1x.pdf
+      \endverb
+    \endentry
+    \entry{nodejs}{online}{}
+      \name{author}{1}{}{%
+        {{hash=bd21525362368ddbd79358cdcf66005d}{%
+           family={W3Schools},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{bd21525362368ddbd79358cdcf66005d}
+      \strng{fullhash}{bd21525362368ddbd79358cdcf66005d}
+      \strng{bibnamehash}{bd21525362368ddbd79358cdcf66005d}
+      \strng{authorbibnamehash}{bd21525362368ddbd79358cdcf66005d}
+      \strng{authornamehash}{bd21525362368ddbd79358cdcf66005d}
+      \strng{authorfullhash}{bd21525362368ddbd79358cdcf66005d}
+      \field{sortinit}{W}
+      \field{sortinithash}{ecb89ff85896a47dc313960773ac311d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{6}
+      \field{title}{NodeJS with Raspberry Pi}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb https://www.w3schools.com/nodejs/nodejs_raspberrypi.asp
+      \endverb
+      \verb{url}
+      \verb https://www.w3schools.com/nodejs/nodejs_raspberrypi.asp
       \endverb
     \endentry
     \entry{lichtabstandsmessung}{online}{}

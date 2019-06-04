@@ -1,24 +1,32 @@
-[0] Config.pm:304> INFO - This is Biber 2.12
-[0] Config.pm:307> INFO - Logfile is 'dokumentation.blg'
-[80] biber-MSWIN64:315> INFO - === 
-[153] Biber.pm:371> INFO - Reading 'dokumentation.bcf'
-[387] Biber.pm:889> INFO - Found 25 citekeys in bib section 0
-[411] Biber.pm:4093> INFO - Processing section 0
-[433] Biber.pm:4254> INFO - Looking for bibtex format file 'bibliographie.bib' for section 0
-[439] bibtex.pm:1523> INFO - LaTeX decoding ...
-[472] bibtex.pm:1340> INFO - Found BibTeX data source 'bibliographie.bib'
-[504] Utils.pm:193> WARN - month field 'may' in entry 'SPAD_mamamatsu' is not an integer - this will probably not sort properly.
-[514] Utils.pm:193> WARN - month field 'jan' in entry 'psd' is not an integer - this will probably not sort properly.
-[528] Utils.pm:193> WARN - month field 'sep' in entry 'phasenverschiebung' is not an integer - this will probably not sort properly.
-[534] Utils.pm:193> WARN - month field 'feb' in entry 'inferometrie' is not an integer - this will probably not sort properly.
-[538] Utils.pm:193> WARN - month field 'dec' in entry 'lichtabstandsmessung' is not an integer - this will probably not sort properly.
-[542] Utils.pm:193> WARN - month field 'feb' in entry 'frauenhoferipm' is not an integer - this will probably not sort properly.
-[554] Utils.pm:193> WARN - month field 'oct' in entry 'triangulation' is not an integer - this will probably not sort properly.
-[562] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\alexk\AppData\Local\Temp\3QeO8q_Aax\bibliographie.bib_11868.utf8, line 3, warning: 62 characters of junk seen at toplevel
-[611] UCollate.pm:68> INFO - Overriding locale 'de_DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[611] UCollate.pm:68> INFO - Overriding locale 'de_DE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[611] Biber.pm:3921> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'de_DE'
-[611] Biber.pm:3927> INFO - No sort tailoring available for locale 'de_DE'
-[660] bbl.pm:636> INFO - Writing 'dokumentation.bbl' with encoding 'UTF-8'
-[671] bbl.pm:739> INFO - Output to dokumentation.bbl
-[681] Biber.pm:110> INFO - WARNINGS: 8
+[1] Config.pm:304> INFO - This is Biber 2.12
+[2] Config.pm:307> INFO - Logfile is 'dokumentation.blg'
+[104] biber-MSWIN64:315> INFO - === 
+[268] Biber.pm:371> INFO - Reading 'dokumentation.bcf'
+[482] Biber.pm:889> INFO - Found 33 citekeys in bib section 0
+[505] Biber.pm:4093> INFO - Processing section 0
+[551] Biber.pm:4254> INFO - Looking for bibtex format file 'bibliographie.bib' for section 0
+[561] bibtex.pm:1523> INFO - LaTeX decoding ...
+[601] bibtex.pm:1340> INFO - Found BibTeX data source 'bibliographie.bib'
+[631] Utils.pm:193> WARN - month field 'may' in entry 'SPAD_mamamatsu' is not an integer - this will probably not sort properly.
+[638] Utils.pm:193> WARN - month field 'jan' in entry 'psd' is not an integer - this will probably not sort properly.
+[658] Utils.pm:193> WARN - month field 'sep' in entry 'phasenverschiebung' is not an integer - this will probably not sort properly.
+[672] Utils.pm:193> WARN - month field 'feb' in entry 'inferometrie' is not an integer - this will probably not sort properly.
+[676] Utils.pm:193> WARN - month field 'dec' in entry 'lichtabstandsmessung' is not an integer - this will probably not sort properly.
+[681] Utils.pm:193> WARN - month field 'feb' in entry 'frauenhoferipm' is not an integer - this will probably not sort properly.
+[692] Utils.pm:193> WARN - month field 'oct' in entry 'triangulation' is not an integer - this will probably not sort properly.
+[696] Utils.pm:193> WARN - month field 'may' in entry 'sick' is not an integer - this will probably not sort properly.
+[701] Utils.pm:193> WARN - month field 'may' in entry 'ocular' is not an integer - this will probably not sort properly.
+[704] Utils.pm:193> WARN - month field 'may' in entry 'leica' is not an integer - this will probably not sort properly.
+[708] Utils.pm:193> WARN - month field 'may' in entry 'artec' is not an integer - this will probably not sort properly.
+[716] Utils.pm:193> WARN - month field 'jun' in entry 'raspi1' is not an integer - this will probably not sort properly.
+[720] Utils.pm:193> WARN - month field 'jun' in entry 'raspi2' is not an integer - this will probably not sort properly.
+[723] Utils.pm:193> WARN - month field 'jun' in entry 'nodejs' is not an integer - this will probably not sort properly.
+[727] Utils.pm:193> WARN - month field 'may' in entry 'flask' is not an integer - this will probably not sort properly.
+[729] Utils.pm:193> WARN - BibTeX subsystem: C:\Users\alexk\AppData\Local\Temp\Y_L0xVQrQo\bibliographie.bib_9460.utf8, line 3, warning: 62 characters of junk seen at toplevel
+[802] UCollate.pm:68> INFO - Overriding locale 'de_DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[802] UCollate.pm:68> INFO - Overriding locale 'de_DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[803] Biber.pm:3921> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'de_DE'
+[803] Biber.pm:3927> INFO - No sort tailoring available for locale 'de_DE'
+[881] bbl.pm:636> INFO - Writing 'dokumentation.bbl' with encoding 'UTF-8'
+[895] bbl.pm:739> INFO - Output to dokumentation.bbl
+[917] Biber.pm:110> INFO - WARNINGS: 16

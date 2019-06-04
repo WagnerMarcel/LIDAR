@@ -2024,16 +2024,24 @@
     <bcf:citekey order="33">frauenhofer</bcf:citekey>
     <bcf:citekey order="34">triangulation</bcf:citekey>
     <bcf:citekey order="35">psd</bcf:citekey>
-    <bcf:citekey order="36">NEMA</bcf:citekey>
-    <bcf:citekey order="37">Tabellenbuch</bcf:citekey>
-    <bcf:citekey order="38">Tabellenbuch</bcf:citekey>
-    <bcf:citekey order="39">TFMINI</bcf:citekey>
-    <bcf:citekey order="40">VL53L1X</bcf:citekey>
-    <bcf:citekey order="41">VL53L1X_manual</bcf:citekey>
-    <bcf:citekey order="42">NEMA17</bcf:citekey>
-    <bcf:citekey order="43">A4988</bcf:citekey>
-    <bcf:citekey order="44">LM393</bcf:citekey>
-    <bcf:citekey order="45">MPU-6050</bcf:citekey>
+    <bcf:citekey order="36">sick</bcf:citekey>
+    <bcf:citekey order="37">ocular</bcf:citekey>
+    <bcf:citekey order="38">leica</bcf:citekey>
+    <bcf:citekey order="39">artec</bcf:citekey>
+    <bcf:citekey order="40">NEMA</bcf:citekey>
+    <bcf:citekey order="41">Tabellenbuch</bcf:citekey>
+    <bcf:citekey order="42">Tabellenbuch</bcf:citekey>
+    <bcf:citekey order="43">TFMINI</bcf:citekey>
+    <bcf:citekey order="44">VL53L1X</bcf:citekey>
+    <bcf:citekey order="45">VL53L1X_manual</bcf:citekey>
+    <bcf:citekey order="46">NEMA17</bcf:citekey>
+    <bcf:citekey order="47">A4988</bcf:citekey>
+    <bcf:citekey order="48">LM393</bcf:citekey>
+    <bcf:citekey order="49">MPU-6050</bcf:citekey>
+    <bcf:citekey order="50">raspi1</bcf:citekey>
+    <bcf:citekey order="51">raspi2</bcf:citekey>
+    <bcf:citekey order="52">nodejs</bcf:citekey>
+    <bcf:citekey order="53">flask</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

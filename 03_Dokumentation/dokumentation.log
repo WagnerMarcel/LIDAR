@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.25)  2 JUN 2019 19:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.25)  4 JUN 2019 22:32
 entering extended mode
 **./dokumentation.tex
 (dokumentation.tex
@@ -182,6 +182,90 @@ tex"
 )
 Package: xstring 2018/12/09 v1.81 String manipulations (CT)
 )
+("C:\Users\alexk\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\lscape.st
+y"
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+
+("C:\Users\alexk\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphics.
+sty"
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\alexk\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\trig.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("C:\Users\alexk\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\graph
+ics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+("C:\Users\alexk\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-def\pdfte
+x.def"
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+)))
+
+Class scrreprt Warning: Usage of package `tocloft' together
+(scrreprt)              with a KOMA-Script class is not recommended.
+(scrreprt)              I'd suggest to use options like `listof=entryprefix',
+(scrreprt)              commands like `\listoflofentryname' or
+(scrreprt)              `\listoflotentryname', and `\DeclareTOCStyleEntry' or
+(scrreprt)              `\RedeclareSectionCommand' instead of this package,
+(scrreprt)              because it breaks several KOMA-Script features of
+(scrreprt)              the list of figures, list of tables and table of
+(scrreprt)              contents, i.e., options like `listof=numbered',
+(scrreprt)              `listof=flat or `toc=flat', commands like
+(scrreprt)              `\BeforeTOCHead{...}' and `\AfterTOCHead{...}',
+(scrreprt)              `\BeforeStartingTOC{...}' and \AfterStartingTOC{...}',
+(scrreprt)              all features of `\DeclareTOCStyleEntry',
+(scrreprt)              and the ToC entry features of `\DeclareSecionCommand'
+(scrreprt)              and `\RedeclareSectionCommand' of levels
+(scrreprt)              `part', `section', `subsection',
+(scrreprt)              `subsubsection', `paragraph' and `subparagraph'.
+(scrreprt)              Nevertheless, using requested
+(scrreprt)              package `tocloft' on input line 32.
+
+
+("C:\Users\alexk\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tocloft\tocloft.st
+y"
+Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
+Package tocloft Info: The document has chapter divisions on input line 51.
+\cftparskip=\skip58
+\cftbeforetoctitleskip=\skip59
+\cftaftertoctitleskip=\skip60
+\cftbeforepartskip=\skip61
+\cftpartnumwidth=\skip62
+\cftpartindent=\skip63
+\cftbeforechapskip=\skip64
+\cftchapindent=\skip65
+\cftchapnumwidth=\skip66
+\cftbeforesecskip=\skip67
+\cftsecindent=\skip68
+\cftsecnumwidth=\skip69
+\cftbeforesubsecskip=\skip70
+\cftsubsecindent=\skip71
+\cftsubsecnumwidth=\skip72
+\cftbeforesubsubsecskip=\skip73
+\cftsubsubsecindent=\skip74
+\cftsubsubsecnumwidth=\skip75
+\cftbeforeparaskip=\skip76
+\cftparaindent=\skip77
+\cftparanumwidth=\skip78
+\cftbeforesubparaskip=\skip79
+\cftsubparaindent=\skip80
+\cftsubparanumwidth=\skip81
+\cftbeforeloftitleskip=\skip82
+\cftafterloftitleskip=\skip83
+\cftbeforefigskip=\skip84
+\cftfigindent=\skip85
+\cftfignumwidth=\skip86
+\c@lofdepth=\count94
+\c@lotdepth=\count95
+\cftbeforelottitleskip=\skip87
+\cftafterlottitleskip=\skip88
+\cftbeforetabskip=\skip89
+\cfttabindent=\skip90
+\cfttabnumwidth=\skip91
+)
 ("C:\Users\alexk\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lastpage\lastpage.
 sty"
 Package: lastpage 2015/03/29 v1.2m Refers to last page's name (HMM; JPG)
@@ -198,22 +282,22 @@ Class scrreprt Warning: Usage of package `fancyhdr' together
 (scrreprt)              `\addtokomafont' for the page style elements need
 (scrreprt)              explicite user intervention to work.
 (scrreprt)              Nevertheless, using requested
-(scrreprt)              package `fancyhdr' on input line 31.
+(scrreprt)              package `fancyhdr' on input line 39.
 
 
 ("C:\Users\alexk\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fancyhdr\fancyhdr.
 sty"
 Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footer
 s
-\f@nch@headwidth=\skip58
-\f@nch@O@elh=\skip59
-\f@nch@O@erh=\skip60
-\f@nch@O@olh=\skip61
-\f@nch@O@orh=\skip62
-\f@nch@O@elf=\skip63
-\f@nch@O@erf=\skip64
-\f@nch@O@olf=\skip65
-\f@nch@O@orf=\skip66
+\f@nch@headwidth=\skip92
+\f@nch@O@elh=\skip93
+\f@nch@O@erh=\skip94
+\f@nch@O@olh=\skip95
+\f@nch@O@orh=\skip96
+\f@nch@O@elf=\skip97
+\f@nch@O@erf=\skip98
+\f@nch@O@olf=\skip99
+\f@nch@O@orf=\skip100
 ) (ads/einstellungen_liste.tex) (einstellungen.tex) (lang/strings.tex)
 (lang/de.tex)
 ("C:\Users\alexk\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pdfpages\pdfpages.
@@ -225,16 +309,16 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
 ("C:\Users\alexk\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\calc.sty"
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count94
-\calc@Bcount=\count95
+\calc@Acount=\count96
+\calc@Bcount=\count97
 \calc@Adimen=\dimen103
 \calc@Bdimen=\dimen104
-\calc@Askip=\skip67
-\calc@Bskip=\skip68
+\calc@Askip=\skip101
+\calc@Bskip=\skip102
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count96
-\calc@Cskip=\skip69
+\calc@Ccount=\count98
+\calc@Cskip=\skip103
 )
 ("C:\Users\alexk\AppData\Local\Programs\MiKTeX 2.9\tex/latex/eso-pic\eso-pic.st
 y"
@@ -264,11 +348,6 @@ Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
-
-("C:\Users\alexk\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-def\pdfte
-x.def"
-File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
-)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
 Package xcolor Info: Model `RGB' extended on input line 1364.
@@ -282,20 +361,6 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 ("C:\Users\alexk\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphicx.
 sty"
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
-
-("C:\Users\alexk\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphics.
-sty"
-Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
-
-("C:\Users\alexk\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\trig.sty"
-Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
-)
-("C:\Users\alexk\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\graph
-ics.cfg"
-File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
-)
-Package graphics Info: Driver file: pdftex.def on input line 99.
-)
 \Gin@req@height=\dimen105
 \Gin@req@width=\dimen106
 )
@@ -309,7 +374,7 @@ File: pppdftex.def 2017/10/31 v0.5l Pdfpages driver for pdfTeX (AM)
 \AM@pagebox=\box29
 \AM@global@opts=\toks15
 \AM@toc@title=\toks16
-\c@AM@survey=\count97
+\c@AM@survey=\count99
 \AM@templatesizebox=\box30
 )
 ("C:\Users\alexk\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\babel.sty"
@@ -331,12 +396,12 @@ Language: english 2017/06/06 v3.3r English support from the babel system
 
 ("C:\Users\alexk\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\babel.def"
 File: babel.def 2018/11/13 3.27 Babel common definitions
-\babel@savecnt=\count98
+\babel@savecnt=\count100
 \U@D=\dimen109
 
 ("C:\Users\alexk\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\txtbabel.d
 ef")
-\bbl@dirlevel=\count99
+\bbl@dirlevel=\count101
 )
 \l@canadian = a dialect from \language\l@american 
 \l@australian = a dialect from \language\l@british 
@@ -420,14 +485,14 @@ fkeysfiltered.code.tex"
 \pgf@yc=\dimen119
 \w@pgf@writea=\write3
 \r@pgf@reada=\read1
-\c@pgf@counta=\count100
-\c@pgf@countb=\count101
-\c@pgf@countc=\count102
-\c@pgf@countd=\count103
+\c@pgf@counta=\count102
+\c@pgf@countb=\count103
+\c@pgf@countc=\count104
+\c@pgf@countd=\count105
 \t@pgf@toka=\toks23
 \t@pgf@tokb=\toks24
 \t@pgf@tokc=\toks25
-\pgf@sys@id@count=\count104
+\pgf@sys@id@count=\count106
 
 ("C:\Users\alexk\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlayer\
 pgf.cfg"
@@ -446,8 +511,8 @@ File: pgfsys-common-pdf.def 2019/01/05 v3.1 (3.1)
 ("C:\Users\alexk\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlayer\
 pgfsyssoftpath.code.tex"
 File: pgfsyssoftpath.code.tex 2019/01/05 v3.1 (3.1)
-\pgfsyssoftpath@smallbuffer@items=\count105
-\pgfsyssoftpath@bigbuffer@items=\count106
+\pgfsyssoftpath@smallbuffer@items=\count107
+\pgfsyssoftpath@bigbuffer@items=\count108
 )
 ("C:\Users\alexk\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlayer\
 pgfsysprotocol.code.tex"
@@ -466,7 +531,7 @@ util.code.tex")
 ("C:\Users\alexk\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
 parser.code.tex"
 \pgfmath@dimen=\dimen120
-\pgfmath@count=\count107
+\pgfmath@count=\count109
 \pgfmath@box=\box32
 \pgfmath@toks=\toks26
 \pgfmath@stack@operand=\toks27
@@ -492,7 +557,7 @@ functions.misc.code.tex")
 functions.integerarithmetics.code.tex")))
 ("C:\Users\alexk\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
 float.code.tex"
-\c@pgfmathroundto@lastzeros=\count108
+\c@pgfmathroundto@lastzeros=\count110
 ))
 ("C:\Users\alexk\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
 gfcorepoints.code.tex"
@@ -530,7 +595,7 @@ File: pgfcorescopes.code.tex 2019/01/05 v3.1 (3.1)
 \pgfpic=\box33
 \pgf@hbox=\box34
 \pgf@layerbox@main=\box35
-\pgf@picture@serial@count=\count109
+\pgf@picture@serial@count=\count111
 )
 ("C:\Users\alexk\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
 gfcoregraphicstate.code.tex"
@@ -565,7 +630,7 @@ File: pgfcorearrows.code.tex 2019/01/05 v3.1 (3.1)
 gfcoreshade.code.tex"
 File: pgfcoreshade.code.tex 2019/01/05 v3.1 (3.1)
 \pgf@max=\dimen144
-\pgf@sys@shading@range@num=\count110
+\pgf@sys@shading@range@num=\count112
 )
 ("C:\Users\alexk\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
 gfcoreimage.code.tex"
@@ -639,7 +704,7 @@ Package: tikz 2019/01/05 v3.1 (3.1)
 ("C:\Users\alexk\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/libraries\pg
 flibraryplothandlers.code.tex"
 File: pgflibraryplothandlers.code.tex 2019/01/05 v3.1 (3.1)
-\pgf@plot@mark@count=\count111
+\pgf@plot@mark@count=\count113
 \pgfplotmarksize=\dimen149
 )
 \tikz@lastx=\dimen150
@@ -652,19 +717,19 @@ File: pgflibraryplothandlers.code.tex 2019/01/05 v3.1 (3.1)
 \tikz@figbox@bg=\box39
 \tikz@tempbox=\box40
 \tikz@tempbox@bg=\box41
-\tikztreelevel=\count112
-\tikznumberofchildren=\count113
-\tikznumberofcurrentchild=\count114
-\tikz@fig@count=\count115
+\tikztreelevel=\count114
+\tikznumberofchildren=\count115
+\tikznumberofcurrentchild=\count116
+\tikz@fig@count=\count117
 
 ("C:\Users\alexk\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/modules\pgfm
 odulematrix.code.tex"
 File: pgfmodulematrix.code.tex 2019/01/05 v3.1 (3.1)
-\pgfmatrixcurrentrow=\count116
-\pgfmatrixcurrentcolumn=\count117
-\pgf@matrix@numberofcolumns=\count118
+\pgfmatrixcurrentrow=\count118
+\pgfmatrixcurrentcolumn=\count119
+\pgf@matrix@numberofcolumns=\count120
 )
-\tikz@expandcount=\count119
+\tikz@expandcount=\count121
 
 ("C:\Users\alexk\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendlaye
 r/tikz/libraries\tikzlibrarytopaths.code.tex"
@@ -793,7 +858,7 @@ oduledecorations.code.tex"
 \pgfdecoratedinputsegmentcompleteddistance=\dimen159
 \pgfdecoratedinputsegmentremainingdistance=\dimen160
 \pgf@decorate@distancetomove=\dimen161
-\pgf@decorate@repeatstate=\count120
+\pgf@decorate@repeatstate=\count122
 \pgfdecorationsegmentamplitude=\dimen162
 \pgfdecorationsegmentlength=\dimen163
 )
@@ -801,7 +866,7 @@ oduledecorations.code.tex"
 )
 ("C:\Users\alexk\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/libraries/de
 corations\pgflibrarydecorations.markings.code.tex"))
-\c@tikzumlPackageLayers=\count121
+\c@tikzumlPackageLayers=\count123
 \pgf@layerbox@package0=\box65
 \pgf@layerboxsaved@package0=\box66
 \pgf@layerbox@package1=\box67
@@ -810,7 +875,7 @@ corations\pgflibrarydecorations.markings.code.tex"))
 \pgf@layerboxsaved@package2=\box70
 \pgf@layerbox@package3=\box71
 \pgf@layerboxsaved@package3=\box72
-\c@tikzumlFragmentLayers=\count122
+\c@tikzumlFragmentLayers=\count124
 \pgf@layerbox@fragment0=\box73
 \pgf@layerboxsaved@fragment0=\box74
 \pgf@layerbox@fragment1=\box75
@@ -819,7 +884,7 @@ corations\pgflibrarydecorations.markings.code.tex"))
 \pgf@layerboxsaved@fragment2=\box78
 \pgf@layerbox@fragment3=\box79
 \pgf@layerboxsaved@fragment3=\box80
-\c@tikzumlStateLayers=\count123
+\c@tikzumlStateLayers=\count125
 \pgf@layerbox@state0=\box81
 \pgf@layerboxsaved@state0=\box82
 \pgf@layerbox@state1=\box83
@@ -828,7 +893,7 @@ corations\pgflibrarydecorations.markings.code.tex"))
 \pgf@layerboxsaved@state2=\box86
 \pgf@layerbox@state3=\box87
 \pgf@layerboxsaved@state3=\box88
-\c@tikzumlComponentLayers=\count124
+\c@tikzumlComponentLayers=\count126
 \pgf@layerbox@component0=\box89
 \pgf@layerboxsaved@component0=\box90
 \pgf@layerbox@component1=\box91
@@ -843,67 +908,67 @@ corations\pgflibrarydecorations.markings.code.tex"))
 \pgf@layerboxsaved@activity=\box100
 \pgf@layerbox@connections=\box101
 \pgf@layerboxsaved@connections=\box102
-\c@tikzumlPackageClassNum=\count125
-\c@tikzumlPackageSubPackageNum=\count126
-\c@tikzumlRelationNum=\count127
-\c@tikzumlNoteNum=\count128
-\c@pos=\count129
-\c@posT=\count130
-\c@posStereo=\count131
-\c@tikzumlPackageLevel=\count132
+\c@tikzumlPackageClassNum=\count127
+\c@tikzumlPackageSubPackageNum=\count128
+\c@tikzumlRelationNum=\count129
+\c@tikzumlNoteNum=\count130
+\c@pos=\count131
+\c@posT=\count132
+\c@posStereo=\count133
+\c@tikzumlPackageLevel=\count134
 \tikzumlNestingSymbolSize=\dimen164
-\c@tikzumlSystemUseCaseNum=\count133
-\c@tikzumlSystemLevel=\count134
-\c@tikzumlUseCaseNum=\count135
-\c@tikzumlActorNum=\count136
-\c@tikzumlStateJoinNum=\count137
-\c@tikzumlStateDecisionNum=\count138
-\c@tikzumlStateInitialNum=\count139
-\c@tikzumlStateFinalNum=\count140
-\c@tikzumlStateEnterNum=\count141
-\c@tikzumlStateExitNum=\count142
-\c@tikzumlStateEndNum=\count143
-\c@tikzumlStateHistoryNum=\count144
-\c@tikzumlStateDeepHistoryNum=\count145
-\c@tikzumlStateLevel=\count146
-\c@tikzumlStateSubStateNum=\count147
-\c@tikzumlStateText=\count148
-\c@tikzumlObjectNum=\count149
-\c@tikzumlCallLevel=\count150
-\c@tikzumlCallNum=\count151
-\c@tikzumlFragmentLevel=\count152
-\c@tikzumlFragmentLevelNum=\count153
-\c@tikzumlFragmentNum=\count154
-\c@tikzumlFragmentPartNum=\count155
-\c@tikzumlCallStartFragmentNum=\count156
-\c@tikzumlCallEndFragmentNum=\count157
-\c@tikzumlSDNodeNum=\count158
-\tikzumlCall@xa=\skip70
-\tikzumlCall@xb=\skip71
-\c@tikzumlComponentLevel=\count159
-\c@tikzumlComponentSubComponentNum=\count160
-\c@tikzumlConnectorNum=\count161
-\tikzuml@AC@xa=\skip72
-\tikzuml@AC@ya=\skip73
-\tikzuml@AC@xb=\skip74
-\tikzuml@AC@yb=\skip75
-\tikzuml@AC@xi=\skip76
-\tikzuml@AC@yi=\skip77
-\tikzuml@AC@xic=\skip78
-\tikzuml@AC@yic=\skip79
-\tikzuml@AC@xio=\skip80
-\tikzuml@AC@yio=\skip81
-\tikzuml@AC@AB=\skip82
-\tikzuml@AC@lambda=\skip83
-\tikzuml@AC@xtrc=\skip84
-\tikzuml@AC@ytrc=\skip85
-\tikzuml@AC@xtlc=\skip86
-\tikzuml@AC@ytlc=\skip87
-\tikzuml@AC@xblc=\skip88
-\tikzuml@AC@yblc=\skip89
-\tikzuml@AC@xbrc=\skip90
-\tikzuml@AC@ybrc=\skip91
-\tikzuml@AC@middleArm=\skip92
+\c@tikzumlSystemUseCaseNum=\count135
+\c@tikzumlSystemLevel=\count136
+\c@tikzumlUseCaseNum=\count137
+\c@tikzumlActorNum=\count138
+\c@tikzumlStateJoinNum=\count139
+\c@tikzumlStateDecisionNum=\count140
+\c@tikzumlStateInitialNum=\count141
+\c@tikzumlStateFinalNum=\count142
+\c@tikzumlStateEnterNum=\count143
+\c@tikzumlStateExitNum=\count144
+\c@tikzumlStateEndNum=\count145
+\c@tikzumlStateHistoryNum=\count146
+\c@tikzumlStateDeepHistoryNum=\count147
+\c@tikzumlStateLevel=\count148
+\c@tikzumlStateSubStateNum=\count149
+\c@tikzumlStateText=\count150
+\c@tikzumlObjectNum=\count151
+\c@tikzumlCallLevel=\count152
+\c@tikzumlCallNum=\count153
+\c@tikzumlFragmentLevel=\count154
+\c@tikzumlFragmentLevelNum=\count155
+\c@tikzumlFragmentNum=\count156
+\c@tikzumlFragmentPartNum=\count157
+\c@tikzumlCallStartFragmentNum=\count158
+\c@tikzumlCallEndFragmentNum=\count159
+\c@tikzumlSDNodeNum=\count160
+\tikzumlCall@xa=\skip104
+\tikzumlCall@xb=\skip105
+\c@tikzumlComponentLevel=\count161
+\c@tikzumlComponentSubComponentNum=\count162
+\c@tikzumlConnectorNum=\count163
+\tikzuml@AC@xa=\skip106
+\tikzuml@AC@ya=\skip107
+\tikzuml@AC@xb=\skip108
+\tikzuml@AC@yb=\skip109
+\tikzuml@AC@xi=\skip110
+\tikzuml@AC@yi=\skip111
+\tikzuml@AC@xic=\skip112
+\tikzuml@AC@yic=\skip113
+\tikzuml@AC@xio=\skip114
+\tikzuml@AC@yio=\skip115
+\tikzuml@AC@AB=\skip116
+\tikzuml@AC@lambda=\skip117
+\tikzuml@AC@xtrc=\skip118
+\tikzuml@AC@ytrc=\skip119
+\tikzuml@AC@xtlc=\skip120
+\tikzuml@AC@ytlc=\skip121
+\tikzuml@AC@xblc=\skip122
+\tikzuml@AC@yblc=\skip123
+\tikzuml@AC@xbrc=\skip124
+\tikzuml@AC@ybrc=\skip125
+\tikzuml@AC@middleArm=\skip126
 )
 (additionalPackages/circuitikz.sty
 
@@ -953,9 +1018,9 @@ Package ifvtex Info: VTeX not detected.
 sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-\Gm@cnth=\count162
-\Gm@cntv=\count163
-\c@Gm@tempcnt=\count164
+\Gm@cnth=\count164
+\Gm@cntv=\count165
+\c@Gm@tempcnt=\count166
 \Gm@bindingoffset=\dimen175
 \Gm@wd@mp=\dimen176
 \Gm@odd@mp=\dimen177
@@ -972,11 +1037,11 @@ cfg"))
 e.sty"
 Package: microtype 2018/01/14 v2.7a Micro-typographical refinements (RS)
 \MT@toks=\toks34
-\MT@count=\count165
+\MT@count=\count167
 LaTeX Info: Redefining \textls on input line 793.
 \MT@outer@kern=\dimen183
 LaTeX Info: Redefining \textmicrotypecontext on input line 1339.
-\MT@listname@count=\count166
+\MT@listname@count=\count168
 
 ("C:\Users\alexk\AppData\Local\Programs\MiKTeX 2.9\tex/latex/microtype\microtyp
 e-pdftex.def"
@@ -984,7 +1049,7 @@ File: microtype-pdftex.def 2018/01/14 v2.7a Definitions specific to pdftex (RS)
 
 LaTeX Info: Redefining \lsstyle on input line 913.
 LaTeX Info: Redefining \lslig on input line 913.
-\MT@outer@space=\skip93
+\MT@outer@space=\skip127
 )
 Package microtype Info: Loading configuration file microtype.cfg.
 
@@ -1006,14 +1071,14 @@ Package: csquotes 2018/04/13 v5.2d context-sensitive quotations (JAW)
 ("C:\Users\alexk\AppData\Local\Programs\MiKTeX 2.9\tex/latex/etoolbox\etoolbox.
 sty"
 Package: etoolbox 2018/08/19 v2.5f e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count167
+\etb@tempcnta=\count169
 )
-\csq@reset=\count168
-\csq@gtype=\count169
-\csq@glevel=\count170
-\csq@qlevel=\count171
-\csq@maxlvl=\count172
-\csq@tshold=\count173
+\csq@reset=\count170
+\csq@gtype=\count171
+\csq@glevel=\count172
+\csq@qlevel=\count173
+\csq@maxlvl=\count174
+\csq@tshold=\count175
 \csq@ltx@everypar=\toks35
 
 ("C:\Users\alexk\AppData\Local\Programs\MiKTeX 2.9\tex/latex/csquotes\csquotes.
@@ -1033,37 +1098,37 @@ Package csquotes Info: Redefining alias 'german' -> 'german/quotes'.
 ("C:\Users\alexk\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\longtable.st
 y"
 Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)+ FMi change
-\LTleft=\skip94
-\LTright=\skip95
-\LTpre=\skip96
-\LTpost=\skip97
-\LTchunksize=\count174
+\LTleft=\skip128
+\LTright=\skip129
+\LTpre=\skip130
+\LTpost=\skip131
+\LTchunksize=\count176
 \LTcapwidth=\dimen184
 \LT@head=\box103
 \LT@firsthead=\box104
 \LT@foot=\box105
 \LT@lastfoot=\box106
-\LT@cols=\count175
-\LT@rows=\count176
-\c@LT@tables=\count177
-\c@LT@chunks=\count178
+\LT@cols=\count177
+\LT@rows=\count178
+\c@LT@tables=\count179
+\c@LT@chunks=\count180
 \LT@p@ftn=\toks36
 )
-Class scrreprt Info: longtable captions redefined on input line 272.
+Class scrreprt Info: longtable captions redefined on input line 280.
 
 ("C:\Users\alexk\AppData\Local\Programs\MiKTeX 2.9\tex/latex/enumitem\enumitem.
 sty"
 Package: enumitem 2019/01/14 v3.7 Customized lists
-\labelindent=\skip98
+\labelindent=\skip132
 \enit@outerparindent=\dimen185
 \enit@toks=\toks37
 \enit@inbox=\box107
-\enit@count@id=\count179
-\enitdp@description=\count180
+\enit@count@id=\count181
+\enitdp@description=\count182
 )
 ("C:\Users\alexk\AppData\Local\Programs\MiKTeX 2.9\tex/latex/float\float.sty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count181
+\c@float@type=\count183
 \float@exts=\toks38
 \float@box=\box108
 \@float@everytoks=\toks39
@@ -1075,8 +1140,8 @@ Package: array 2018/12/30 v2.4k Tabular extension package (FMi)
 \ar@mcellbox=\box110
 \extrarowheight=\dimen187
 \NC@list=\toks40
-\extratabsurround=\skip99
-\backup@length=\skip100
+\extratabsurround=\skip133
+\backup@length=\skip134
 \ar@cellbox=\box111
 )
 ("C:\Users\alexk\AppData\Local\Programs\MiKTeX 2.9\tex/latex/eurosym\eurosym.st
@@ -1088,7 +1153,7 @@ Package: eurosym 1998/08/06 v1.1 European currency symbol ``Euro''
 y"
 \wrapoverhang=\dimen188
 \WF@size=\dimen189
-\c@WF@wrappedlines=\count182
+\c@WF@wrappedlines=\count184
 \WF@box=\box113
 \WF@everypar=\toks41
 Package: wrapfig 2003/01/31  v 3.6
@@ -1098,8 +1163,8 @@ sty"
 Package: footmisc 2011/06/06 v5.5b a miscellany of footnote facilities
 \FN@temptoken=\toks42
 \footnotemargin=\dimen190
-\c@pp@next@reset=\count183
-\c@@fnserial=\count184
+\c@pp@next@reset=\count185
+\c@@fnserial=\count186
 Package footmisc Info: Declaring symbol style bringhurst on input line 855.
 Package footmisc Info: Declaring symbol style chicago on input line 863.
 Package footmisc Info: Declaring symbol style wiley on input line 872.
@@ -1131,107 +1196,107 @@ Package: expl3 2019-01-13 L3 programming layer (loader)
 ("C:\Users\alexk\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3kernel\expl3-cod
 e.tex"
 Package: expl3 2019-01-13 L3 programming layer (code)
-\c_max_int=\count185
-\l_tmpa_int=\count186
-\l_tmpb_int=\count187
-\g_tmpa_int=\count188
-\g_tmpb_int=\count189
-\g__kernel_prg_map_int=\count190
-\c_log_iow=\count191
-\l_iow_line_count_int=\count192
-\l__iow_line_target_int=\count193
-\l__iow_one_indent_int=\count194
-\l__iow_indent_int=\count195
+\c_max_int=\count187
+\l_tmpa_int=\count188
+\l_tmpb_int=\count189
+\g_tmpa_int=\count190
+\g_tmpb_int=\count191
+\g__kernel_prg_map_int=\count192
+\c_log_iow=\count193
+\l_iow_line_count_int=\count194
+\l__iow_line_target_int=\count195
+\l__iow_one_indent_int=\count196
+\l__iow_indent_int=\count197
 \c_zero_dim=\dimen191
 \c_max_dim=\dimen192
 \l_tmpa_dim=\dimen193
 \l_tmpb_dim=\dimen194
 \g_tmpa_dim=\dimen195
 \g_tmpb_dim=\dimen196
-\c_zero_skip=\skip101
-\c_max_skip=\skip102
-\l_tmpa_skip=\skip103
-\l_tmpb_skip=\skip104
-\g_tmpa_skip=\skip105
-\g_tmpb_skip=\skip106
+\c_zero_skip=\skip135
+\c_max_skip=\skip136
+\l_tmpa_skip=\skip137
+\l_tmpb_skip=\skip138
+\g_tmpa_skip=\skip139
+\g_tmpb_skip=\skip140
 \c_zero_muskip=\muskip10
 \c_max_muskip=\muskip11
 \l_tmpa_muskip=\muskip12
 \l_tmpb_muskip=\muskip13
 \g_tmpa_muskip=\muskip14
 \g_tmpb_muskip=\muskip15
-\l_keys_choice_int=\count196
-\l__intarray_loop_int=\count197
+\l_keys_choice_int=\count198
+\l__intarray_loop_int=\count199
 \c__intarray_sp_dim=\dimen197
-\g__intarray_font_int=\count198
-\c__fp_leading_shift_int=\count199
-\c__fp_middle_shift_int=\count266
-\c__fp_trailing_shift_int=\count267
-\c__fp_big_leading_shift_int=\count268
-\c__fp_big_middle_shift_int=\count269
-\c__fp_big_trailing_shift_int=\count270
-\c__fp_Bigg_leading_shift_int=\count271
-\c__fp_Bigg_middle_shift_int=\count272
-\c__fp_Bigg_trailing_shift_int=\count273
-\c__kernel_randint_max_int=\count274
-\g__fp_array_int=\count275
-\l__fp_array_loop_int=\count276
-\l__sort_length_int=\count277
-\l__sort_min_int=\count278
-\l__sort_top_int=\count279
-\l__sort_max_int=\count280
-\l__sort_true_max_int=\count281
-\l__sort_block_int=\count282
-\l__sort_begin_int=\count283
-\l__sort_end_int=\count284
-\l__sort_A_int=\count285
-\l__sort_B_int=\count286
-\l__sort_C_int=\count287
-\l__tl_analysis_normal_int=\count288
-\l__tl_analysis_index_int=\count289
-\l__tl_analysis_nesting_int=\count290
-\l__tl_analysis_type_int=\count291
-\l__regex_internal_a_int=\count292
-\l__regex_internal_b_int=\count293
-\l__regex_internal_c_int=\count294
-\l__regex_balance_int=\count295
-\l__regex_group_level_int=\count296
-\l__regex_mode_int=\count297
-\c__regex_cs_in_class_mode_int=\count298
-\c__regex_cs_mode_int=\count299
-\l__regex_catcodes_int=\count300
-\l__regex_default_catcodes_int=\count301
-\c__regex_catcode_D_int=\count302
-\c__regex_catcode_S_int=\count303
-\c__regex_catcode_L_int=\count304
-\c__regex_catcode_O_int=\count305
-\c__regex_catcode_A_int=\count306
-\c__regex_all_catcodes_int=\count307
-\l__regex_show_lines_int=\count308
-\l__regex_min_state_int=\count309
-\l__regex_max_state_int=\count310
-\l__regex_left_state_int=\count311
-\l__regex_right_state_int=\count312
-\l__regex_capturing_group_int=\count313
-\l__regex_min_pos_int=\count314
-\l__regex_max_pos_int=\count315
-\l__regex_curr_pos_int=\count316
-\l__regex_start_pos_int=\count317
-\l__regex_success_pos_int=\count318
-\l__regex_curr_char_int=\count319
-\l__regex_curr_catcode_int=\count320
-\l__regex_last_char_int=\count321
-\l__regex_case_changed_char_int=\count322
-\l__regex_curr_state_int=\count323
-\l__regex_step_int=\count324
-\l__regex_min_active_int=\count325
-\l__regex_max_active_int=\count326
-\l__regex_replacement_csnames_int=\count327
-\l__regex_match_count_int=\count328
-\l__regex_min_submatch_int=\count329
-\l__regex_submatch_int=\count330
-\l__regex_zeroth_submatch_int=\count331
-\g__regex_trace_regex_int=\count332
+\g__intarray_font_int=\count266
+\c__fp_leading_shift_int=\count267
+\c__fp_middle_shift_int=\count268
+\c__fp_trailing_shift_int=\count269
+\c__fp_big_leading_shift_int=\count270
+\c__fp_big_middle_shift_int=\count271
+\c__fp_big_trailing_shift_int=\count272
+\c__fp_Bigg_leading_shift_int=\count273
+\c__fp_Bigg_middle_shift_int=\count274
+\c__fp_Bigg_trailing_shift_int=\count275
+\c__kernel_randint_max_int=\count276
+\g__fp_array_int=\count277
+\l__fp_array_loop_int=\count278
+\l__sort_length_int=\count279
+\l__sort_min_int=\count280
+\l__sort_top_int=\count281
+\l__sort_max_int=\count282
+\l__sort_true_max_int=\count283
+\l__sort_block_int=\count284
+\l__sort_begin_int=\count285
+\l__sort_end_int=\count286
+\l__sort_A_int=\count287
+\l__sort_B_int=\count288
+\l__sort_C_int=\count289
+\l__tl_analysis_normal_int=\count290
+\l__tl_analysis_index_int=\count291
+\l__tl_analysis_nesting_int=\count292
+\l__tl_analysis_type_int=\count293
+\l__regex_internal_a_int=\count294
+\l__regex_internal_b_int=\count295
+\l__regex_internal_c_int=\count296
+\l__regex_balance_int=\count297
+\l__regex_group_level_int=\count298
+\l__regex_mode_int=\count299
+\c__regex_cs_in_class_mode_int=\count300
+\c__regex_cs_mode_int=\count301
+\l__regex_catcodes_int=\count302
+\l__regex_default_catcodes_int=\count303
+\c__regex_catcode_D_int=\count304
+\c__regex_catcode_S_int=\count305
+\c__regex_catcode_L_int=\count306
+\c__regex_catcode_O_int=\count307
+\c__regex_catcode_A_int=\count308
+\c__regex_all_catcodes_int=\count309
+\l__regex_show_lines_int=\count310
+\l__regex_min_state_int=\count311
+\l__regex_max_state_int=\count312
+\l__regex_left_state_int=\count313
+\l__regex_right_state_int=\count314
+\l__regex_capturing_group_int=\count315
+\l__regex_min_pos_int=\count316
+\l__regex_max_pos_int=\count317
+\l__regex_curr_pos_int=\count318
+\l__regex_start_pos_int=\count319
+\l__regex_success_pos_int=\count320
+\l__regex_curr_char_int=\count321
+\l__regex_curr_catcode_int=\count322
+\l__regex_last_char_int=\count323
+\l__regex_case_changed_char_int=\count324
+\l__regex_curr_state_int=\count325
+\l__regex_step_int=\count326
+\l__regex_min_active_int=\count327
+\l__regex_max_active_int=\count328
+\l__regex_replacement_csnames_int=\count329
+\l__regex_match_count_int=\count330
+\l__regex_min_submatch_int=\count331
+\l__regex_submatch_int=\count332
+\l__regex_zeroth_submatch_int=\count333
+\g__regex_trace_regex_int=\count334
 \c_empty_box=\box114
 \l_tmpa_box=\box115
 \l_tmpb_box=\box116
@@ -1273,24 +1338,24 @@ Package: expl3 2019-01-13 L3 programming layer (code)
 \l__coffin_top_corner_dim=\dimen276
 \l__coffin_scaled_total_height_dim=\dimen277
 \l__coffin_scaled_width_dim=\dimen278
-\l__seq_internal_a_int=\count333
-\l__seq_internal_b_int=\count334
+\l__seq_internal_a_int=\count335
+\l__seq_internal_b_int=\count336
 )
 ("C:\Users\alexk\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3kernel\l3pdfmode
 .def"
 File: l3pdfmode.def 2019-01-13 v L3 Experimental driver: PDF mode
-\l__driver_color_stack_int=\count335
+\l__driver_color_stack_int=\count337
 ))
 Package: xpatch 2012/10/02 v0.3 Extending etoolbox patching commands
 
 ("C:\Users\alexk\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3packages/xparse\
 xparse.sty"
 Package: xparse 2018-10-17 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count336
-\g__xparse_grabber_int=\count337
-\l__xparse_m_args_int=\count338
-\l__xparse_mandatory_args_int=\count339
-\l__xparse_v_nesting_int=\count340
+\l__xparse_current_arg_int=\count338
+\g__xparse_grabber_int=\count339
+\l__xparse_m_args_int=\count340
+\l__xparse_mandatory_args_int=\count341
+\l__xparse_v_nesting_int=\count342
 ))
 Package scrhack Info: loading float hack on input line 167.
 
@@ -1307,34 +1372,44 @@ Package scrhack Info: loading setspace hack on input line 195.
 ce.hak"
 File: setspace.hak 2018/12/30 v3.26a KOMA-Script package (hacking package setsp
 ace)
+)
+Package scrhack Info: loading lscape hack on input line 203.
+
+("C:\Users\alexk\AppData\Local\Programs\MiKTeX 2.9\tex/latex/koma-script\lscape
+.hak"
+File: lscape.hak 2018/12/30 v3.26a KOMA-Script package (hacking package lscape)
+
+Package scrhack Info: \landscape patched to make \textheight change optional on
+ input line 90.
+\scrh@LT@textheight=\skip141
 ))
 ("C:\Users\alexk\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\listings.
 sty"
-\lst@mode=\count341
+\lst@mode=\count343
 \lst@gtempboxa=\box129
 \lst@token=\toks44
-\lst@length=\count342
+\lst@length=\count344
 \lst@currlwidth=\dimen279
-\lst@column=\count343
-\lst@pos=\count344
+\lst@column=\count345
+\lst@pos=\count346
 \lst@lostspace=\dimen280
 \lst@width=\dimen281
-\lst@newlines=\count345
-\lst@lineno=\count346
+\lst@newlines=\count347
+\lst@lineno=\count348
 \lst@maxwidth=\dimen282
 
 ("C:\Users\alexk\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\lstmisc.s
 ty"
 File: lstmisc.sty 2018/09/02 1.7 (Carsten Heinz)
-\c@lstnumber=\count347
-\lst@skipnumbers=\count348
+\c@lstnumber=\count349
+\lst@skipnumbers=\count350
 \lst@framebox=\box130
 )
 ("C:\Users\alexk\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\listings.
 cfg"
 File: listings.cfg 2018/09/02 1.7 listings configuration
 ))
-Package scrhack Info: loading listings hack on input line 287.
+Package scrhack Info: loading listings hack on input line 295.
 
 ("C:\Users\alexk\AppData\Local\Programs\MiKTeX 2.9\tex/latex/koma-script\listin
 gs.hak"
@@ -1506,24 +1581,24 @@ Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
 Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
 Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
 )
-\netBracketCount@mlpr=\count349
-\blkLvl@mlpr=\count350
-\blkLvlAtClassdef@mlpr=\count351
-\emHeight@mlpr=\skip107
-\jayDepth@mlpr=\skip108
-\sectionRuleOffset@mlpr=\skip109
+\netBracketCount@mlpr=\count351
+\blkLvl@mlpr=\count352
+\blkLvlAtClassdef@mlpr=\count353
+\emHeight@mlpr=\skip142
+\jayDepth@mlpr=\skip143
+\sectionRuleOffset@mlpr=\skip144
 \toks@mlpr=\toks45
 )
 ("C:\Users\alexk\AppData\Local\Programs\MiKTeX 2.9\tex/latex/colortbl\colortbl.
 sty"
 Package: colortbl 2018/12/12 v1.0d Color table columns (DPC)
 \everycr=\toks46
-\minrowclearance=\skip110
+\minrowclearance=\skip145
 )
 ("C:\Users\alexk\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsmath.st
 y"
 Package: amsmath 2018/12/01 v2.17b AMS math features
-\@mathmargin=\skip111
+\@mathmargin=\skip146
 
 For additional information on amsmath, use the `?' option.
 
@@ -1546,13 +1621,13 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 "
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count352
+\inf@bad=\count354
 LaTeX Info: Redefining \frac on input line 223.
-\uproot@=\count353
-\leftroot@=\count354
+\uproot@=\count355
+\leftroot@=\count356
 LaTeX Info: Redefining \overline on input line 385.
-\classnum@=\count355
-\DOTSCASE@=\count356
+\classnum@=\count357
+\DOTSCASE@=\count358
 LaTeX Info: Redefining \ldots on input line 482.
 LaTeX Info: Redefining \dots on input line 485.
 LaTeX Info: Redefining \cdots on input line 606.
@@ -1561,15 +1636,15 @@ LaTeX Info: Redefining \cdots on input line 606.
 \big@size=\dimen285
 LaTeX Font Info:    Redeclaring font encoding OML on input line 729.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
-\macc@depth=\count357
-\c@MaxMatrixCols=\count358
+\macc@depth=\count359
+\c@MaxMatrixCols=\count360
 \dotsspace@=\muskip16
-\c@parentequation=\count359
-\dspbrk@lvl=\count360
+\c@parentequation=\count361
+\dspbrk@lvl=\count362
 \tag@help=\toks48
-\row@=\count361
-\column@=\count362
-\maxfields@=\count363
+\row@=\count363
+\column@=\count364
+\maxfields@=\count365
 \andhelp@=\toks49
 \eqnshift@=\dimen286
 \alignsep@=\dimen287
@@ -1578,8 +1653,8 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
 \totwidth@=\dimen290
 \lineht@=\dimen291
 \@envbody=\toks50
-\multlinegap=\skip112
-\multlinetaggap=\skip113
+\multlinegap=\skip147
+\multlinetaggap=\skip148
 \mathdisplay@stack=\toks51
 LaTeX Info: Redefining \[ on input line 2844.
 LaTeX Info: Redefining \] on input line 2845.
@@ -1625,7 +1700,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 )
 Package scrhack Info: hyperref hack deactivated because of
 (scrhack)             detection of KOMA-Script class, that doesn't
-(scrhack)             need that hack, on input line 324.
+(scrhack)             need that hack, on input line 332.
 
 ("C:\Users\alexk\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\hyperref.
 sty"
@@ -1680,8 +1755,8 @@ Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
 \@linkdim=\dimen292
-\Hy@linkcounter=\count364
-\Hy@pagecounter=\count365
+\Hy@linkcounter=\count366
+\Hy@pagecounter=\count367
 
 ("C:\Users\alexk\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\pd1enc.de
 f"
@@ -1689,7 +1764,7 @@ File: pd1enc.def 2018/11/30 v6.88e Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-\Hy@SavedSpaceFactor=\count366
+\Hy@SavedSpaceFactor=\count368
 
 ("C:\Users\alexk\AppData\Local\Programs\MiKTeX 2.9\tex/latex/00miktex\hyperref.
 cfg"
@@ -1708,14 +1783,14 @@ Package hyperref Info: Plain pages OFF on input line 4534.
 Package hyperref Info: Backreferencing OFF on input line 4539.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4772.
-\c@Hy@tempcnt=\count367
+\c@Hy@tempcnt=\count369
 ("C:\Users\alexk\AppData\Local\Programs\MiKTeX 2.9\tex/latex/url\url.sty"
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5125.
 \XeTeXLinkMargin=\dimen293
-\Fld@menulength=\count368
+\Fld@menulength=\count370
 \Field@Width=\dimen294
 \Fld@charsize=\dimen295
 Package hyperref Info: Hyper figures OFF on input line 6380.
@@ -1727,17 +1802,17 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6405.
 Package hyperref Info: PDF/A mode OFF on input line 6410.
 LaTeX Info: Redefining \ref on input line 6450.
 LaTeX Info: Redefining \pageref on input line 6454.
-\Hy@abspage=\count369
-\c@Item=\count370
-\c@Hfootnote=\count371
+\Hy@abspage=\count371
+\c@Item=\count372
+\c@Hfootnote=\count373
 )
 Package hyperref Info: Driver: hpdftex.
 
 ("C:\Users\alexk\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\hpdftex.d
 ef"
 File: hpdftex.def 2018/11/30 v6.88e Hyperref driver for pdfTeX
-\Fld@listcount=\count372
-\c@bookmark@seq@number=\count373
+\Fld@listcount=\count374
+\c@bookmark@seq@number=\count375
 
 ("C:\Users\alexk\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\rerunfile
 check.sty"
@@ -1745,10 +1820,10 @@ Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
-\Hy@SectionHShift=\skip114
+\Hy@SectionHShift=\skip149
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 336.
-Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 336.
+Package hyperref Info: Option `colorlinks' set `true' on input line 344.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 344.
 
 
 ("C:\Users\alexk\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\bookmark.
@@ -1758,7 +1833,7 @@ Package: bookmark 2016/05/17 v1.26 PDF bookmarks (HO)
 ("C:\Users\alexk\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\bkm-pdfte
 x.def"
 File: bkm-pdftex.def 2016/05/17 v1.26 bookmark driver for pdfTeX (HO)
-\BKM@id=\count374
+\BKM@id=\count376
 ))
 ("C:\Users\alexk\AppData\Local\Programs\MiKTeX 2.9\tex/latex/subfig\subfig.sty"
 Package: subfig 2005/06/28 ver: 1.3 subfig package
@@ -1780,8 +1855,8 @@ Package caption3 Info: TeX engine: e-TeX on input line 64.
 \caption@hangindent=\dimen302
 )
 Package caption Info: KOMA-Script document class.
-\c@caption@flags=\count375
-\c@ContinuedFloat=\count376
+\c@caption@flags=\count377
+\c@ContinuedFloat=\count378
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
@@ -1793,19 +1868,17 @@ Package: ltcaption 2018/08/26 v1.4-95 longtable captions (AR)
 )
 Package caption Info: wrapfig package is loaded.
 )
-\c@KVtest=\count377
-\sf@farskip=\skip115
+\c@KVtest=\count379
+\sf@farskip=\skip150
 \sf@captopadj=\dimen303
-\sf@capskip=\skip116
-\sf@nearskip=\skip117
-\c@subfigure=\count378
-\c@subfigure@save=\count379
-\c@lofdepth=\count380
-\c@subtable=\count381
-\c@subtable@save=\count382
-\c@lotdepth=\count383
-\sf@top=\skip118
-\sf@bottom=\skip119
+\sf@capskip=\skip151
+\sf@nearskip=\skip152
+\c@subfigure=\count380
+\c@subfigure@save=\count381
+\c@subtable=\count382
+\c@subtable@save=\count383
+\sf@top=\skip153
+\sf@bottom=\skip154
 )
 ("C:\Users\alexk\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\biblatex.
 sty"
@@ -1858,14 +1931,14 @@ File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 \blx@parenlevel@foot=\count423
 \blx@sectionciteorder@0=\count424
 \blx@entrysetcounter=\count425
-\labelnumberwidth=\skip120
-\labelalphawidth=\skip121
-\biblabelsep=\skip122
-\bibitemsep=\skip123
-\bibnamesep=\skip124
-\bibinitsep=\skip125
-\bibparsep=\skip126
-\bibhang=\skip127
+\labelnumberwidth=\skip155
+\labelalphawidth=\skip156
+\biblabelsep=\skip157
+\bibitemsep=\skip158
+\bibnamesep=\skip159
+\bibinitsep=\skip160
+\bibparsep=\skip161
+\bibhang=\skip162
 \blx@bcfin=\read3
 \blx@bcfout=\write5
 \c@mincomprange=\count426
@@ -1950,20 +2023,20 @@ Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 \c@savedoriglanguage=\count494
 \c@pageref=\count495
 \c@savedpageref=\count496
-\shorthandwidth=\skip128
-\shortjournalwidth=\skip129
-\shortserieswidth=\skip130
-\shorttitlewidth=\skip131
-\shortauthorwidth=\skip132
-\shorteditorwidth=\skip133
-\locallabelnumberwidth=\skip134
-\locallabelalphawidth=\skip135
-\localshorthandwidth=\skip136
-\localshortjournalwidth=\skip137
-\localshortserieswidth=\skip138
-\localshorttitlewidth=\skip139
-\localshortauthorwidth=\skip140
-\localshorteditorwidth=\skip141
+\shorthandwidth=\skip163
+\shortjournalwidth=\skip164
+\shortserieswidth=\skip165
+\shorttitlewidth=\skip166
+\shortauthorwidth=\skip167
+\shorteditorwidth=\skip168
+\locallabelnumberwidth=\skip169
+\locallabelalphawidth=\skip170
+\localshorthandwidth=\skip171
+\localshortjournalwidth=\skip172
+\localshortserieswidth=\skip173
+\localshorttitlewidth=\skip174
+\localshortauthorwidth=\skip175
+\localshorteditorwidth=\skip176
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
 
@@ -2119,7 +2192,7 @@ Package: fp-eval 1995/04/03
 )))
 \@dtl@toks=\toks56
 \@dtl@tmpcount=\count521
-\dtl@tmplength=\skip142
+\dtl@tmplength=\skip177
 \dtl@sortresult=\count522
 \@dtl@numgrpsepcount=\count523
 \@dtl@datatype=\count524
@@ -2151,7 +2224,7 @@ File: glossaries-english.ldf 2014/11/23 v1.0
 )
 \gls@level=\count528
 \@gls@tmpb=\toks57
-\gls@tmplen=\skip143
+\gls@tmplen=\skip178
 \glskeylisttok=\toks58
 \glslabeltok=\toks59
 \glsshorttok=\toks60
@@ -2164,13 +2237,13 @@ Package: glossary-hypernav 2019/01/06 v4.42 (NLCT)
 ("C:\Users\alexk\AppData\Local\Programs\MiKTeX 2.9\tex/latex/glossaries/styles\
 glossary-list.sty"
 Package: glossary-list 2019/01/06 v4.42 (NLCT)
-\glslistdottedwidth=\skip144
+\glslistdottedwidth=\skip179
 )
 ("C:\Users\alexk\AppData\Local\Programs\MiKTeX 2.9\tex/latex/glossaries/styles\
 glossary-long.sty"
 Package: glossary-long 2019/01/06 v4.42 (NLCT)
-\glsdescwidth=\skip145
-\glspagelistwidth=\skip146
+\glsdescwidth=\skip180
+\glspagelistwidth=\skip181
 )
 ("C:\Users\alexk\AppData\Local\Programs\MiKTeX 2.9\tex/latex/glossaries/styles\
 glossary-super.sty"
@@ -2181,9 +2254,9 @@ tabular.sty"
 Package: supertabular 2004/02/20 v4.1e the supertabular environment
 \c@tracingst=\count529
 \ST@wd=\dimen304
-\ST@rightskip=\skip147
-\ST@leftskip=\skip148
-\ST@parfillskip=\skip149
+\ST@rightskip=\skip182
+\ST@leftskip=\skip183
+\ST@parfillskip=\skip184
 \ST@pageleft=\dimen305
 \ST@headht=\dimen306
 \ST@tailht=\dimen307
@@ -2199,7 +2272,7 @@ Package: supertabular 2004/02/20 v4.1e the supertabular environment
 ("C:\Users\alexk\AppData\Local\Programs\MiKTeX 2.9\tex/latex/glossaries/styles\
 glossary-tree.sty"
 Package: glossary-tree 2019/01/06 v4.42 (NLCT)
-\glstreeindent=\skip150
+\glstreeindent=\skip185
 ))
 ("C:\Users\alexk\AppData\Local\Programs\MiKTeX 2.9\tex/latex/blindtext\blindtex
 t.sty"
@@ -2260,36 +2333,39 @@ Package: censor 2018/11/15 3.22Provides capability for redaction of sensitive i
 nformation
 ("C:\Users\alexk\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pbox\pbox.sty"
 Package: pbox 2011/12/07 v1.2 Dynamic parboxes
-\pb@xlen=\skip151
+\pb@xlen=\skip186
 )
 ("C:\Users\alexk\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ifnextok\ifnextok.
 sty"
 Package: ifnextok 2011/06/27 v0.3 test next token (UL)
 )
-\censorruledepth=\skip152
-\censorruleheight=\skip153
-\periodrlap=\skip154
-\afterperiodlap=\skip155
-\lletterlap=\skip156
-\rletterlap=\skip157
-\afterspacelap=\skip158
+\censorruledepth=\skip187
+\censorruleheight=\skip188
+\periodrlap=\skip189
+\afterperiodlap=\skip190
+\lletterlap=\skip191
+\rletterlap=\skip192
+\afterspacelap=\skip193
 )
 ("C:\Users\alexk\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\amssymb.s
 ty"
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
-))
-("C:\Users\alexk\AppData\Local\Programs\MiKTeX 2.9\tex/latex/was\icomma.sty"
+) ("C:\Users\alexk\AppData\Local\Programs\MiKTeX 2.9\tex/latex/was\icomma.sty"
 Package: icomma 2002/03/10 v2.0 (WaS)
-)
-Package tocbasic Info: setting babel extension for `for' on input line 7.
-\scr@dte@formel@maxnumwidth=\skip159
+))
+Package tocbasic Info: setting babel extension for `for' on input line 8.
+\scr@dte@formel@maxnumwidth=\skip194
+
+
+Package tocbasic Warning: you should use `tocentrynumwidth' instead
+(tocbasic)                of `tocnumwidth' on input line 8.
+
 \glswrite=\write6
 \glo@main@file=\write7
 \openout7 = `dokumentation.glo'.
 
 Package glossaries Info: Writing glossary file dokumentation.glo on input line 
-20.
-
+21.
 (ads/glossary.tex)
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
@@ -2338,54 +2414,50 @@ LaTeX Warning: Label `hoch' multiply defined.
 )
 \openout1 = `dokumentation.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 22.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 22.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 23.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 23.
  ("C:\Users\alexk\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 22.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 23.
 ("C:\Users\alexk\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\t1lmr.fd"
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 Package nag Info: Attempting subfig hack.
 Package nag Info: OK, equivalent to subfig 1.3, redefining \sf@@@subfloat.
-Package nag Info: pgf.sty is broken: disabling dollar check on input line 22.
+Package nag Info: pgf.sty is broken: disabling dollar check on input line 23.
 Package nag Info: Command \frontmatter not defined, skipping amendment on input
- line 22.
+ line 23.
 Package nag Info: Command \mainmatter not defined, skipping amendment on input 
-line 22.
+line 23.
 Package nag Info: Command \backmatter not defined, skipping amendment on input 
-line 22.
+line 23.
 Package nag Info: Command \RaggedLeft not defined, skipping amendment on input 
-line 22.
+line 23.
 Package nag Info: Command \RaggedRight not defined, skipping amendment on input
- line 22.
-Package lastpage Info: Please have a look at the pageslts package at
-(lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 22.
-\AtBeginShipoutBox=\box134
+ line 23.
 
 ("C:\Users\alexk\AppData\Local\Programs\MiKTeX 2.9\tex/context/base\supp-pdf.mk
 ii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count548
 \scratchdimen=\dimen315
-\scratchbox=\box135
+\scratchbox=\box134
 \nofMPsegments=\count549
 \nofMParguments=\count550
 \everyMPshowfont=\toks62
@@ -2410,24 +2482,15 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
+Package lastpage Info: Please have a look at the pageslts package at
+(lastpage)             https://www.ctan.org/pkg/pageslts
+(lastpage)             ! on input line 23.
+\AtBeginShipoutBox=\box135
+
 ("C:\Users\alexk\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\pdflscape
 .sty"
 Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
-
-("C:\Users\alexk\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\lscape.st
-y"
-Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
-)
-Package scrhack Info: loading lscape hack on input line 76.
-
-("C:\Users\alexk\AppData\Local\Programs\MiKTeX 2.9\tex/latex/koma-script\lscape
-.hak"
-File: lscape.hak 2018/12/30 v3.26a KOMA-Script package (hacking package lscape)
-
-Package scrhack Info: \landscape patched to make \textheight change optional on
- input line 90.
-\scrh@LT@textheight=\skip160
-)) ABD: EveryShipout initializing macros
+) ABD: EveryShipout initializing macros
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
 * driver: pdftex
@@ -2461,7 +2524,7 @@ Package scrhack Info: \landscape patched to make \textheight change optional on
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \microtypecontext on input line 22.
+LaTeX Info: Redefining \microtypecontext on input line 23.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -2478,8 +2541,8 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 (RS)
 )
 \c@lstlisting=\count554
-Package scrhack Info: undefining \float@addtolists on input line 22.
-Package hyperref Info: Link coloring ON on input line 22.
+Package scrhack Info: undefining \float@addtolists on input line 23.
+Package hyperref Info: Link coloring ON on input line 23.
 
 ("C:\Users\alexk\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\nameref.s
 ty"
@@ -2491,9 +2554,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count555
 )
-LaTeX Info: Redefining \ref on input line 22.
-LaTeX Info: Redefining \pageref on input line 22.
-LaTeX Info: Redefining \nameref on input line 22.
+LaTeX Info: Redefining \ref on input line 23.
+LaTeX Info: Redefining \pageref on input line 23.
+LaTeX Info: Redefining \nameref on input line 23.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: supertabular package is loaded.
@@ -2506,10 +2569,10 @@ Package biblatex Info: Data encoding 'utf8' specified.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'dokumentation.bbl' found.
  (dokumentation.bbl)
-Package biblatex Info: Reference section=0 on input line 22.
-Package biblatex Info: Reference segment=0 on input line 22.
+Package biblatex Info: Reference section=0 on input line 23.
+Package biblatex Info: Reference segment=0 on input line 23.
 Package nag Info: Command \hc@caption not defined, skipping amendment on input 
-line 22.
+line 23.
  (ads/deckblatt.tex
 <images/Bosch_Logo_DE.pdf, id=30, 427.5975pt x 126.4725pt>
 File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
@@ -2549,44 +2612,44 @@ Package microtype Info: Loading generic protrusion settings for font family
 )
 File: images/dhbw_de.pdf Graphic file (type pdf)
 <use images/dhbw_de.pdf>
-Package pdftex.def Info: images/dhbw_de.pdf  used on input line 48.
+Package pdftex.def Info: images/dhbw_de.pdf  used on input line 49.
 (pdftex.def)             Requested size: 57.79497pt x 28.45274pt.
 File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
-Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 48.
+Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 49.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
-LaTeX Font Info:    Try loading font information for TS1+lmr on input line 48.
+LaTeX Font Info:    Try loading font information for TS1+lmr on input line 49.
 
 ("C:\Users\alexk\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\ts1lmr.fd"
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 48.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 49.
 
 ("C:\Users\alexk\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\ot1lmr.fd"
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 48.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 49.
 
 ("C:\Users\alexk\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\omllmm.fd"
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 48.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 49.
 
 
 ("C:\Users\alexk\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\omslmsy.fd"
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 48.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 49.
 
 
 ("C:\Users\alexk\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\omxlmex.fd"
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 48.
+(Font)              <6> on input line 49.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 48.
-LaTeX Font Info:    Try loading font information for U+msa on input line 48.
+(Font)              <5> on input line 49.
+LaTeX Font Info:    Try loading font information for U+msa on input line 49.
 
 ("C:\Users\alexk\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -2595,7 +2658,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 fg"
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 48.
+LaTeX Font Info:    Try loading font information for U+msb on input line 49.
 
 ("C:\Users\alexk\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -2606,11 +2669,11 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 ) [1] (ads/abstract.tex
 File: images/dhbw_de.pdf Graphic file (type pdf)
 <use images/dhbw_de.pdf>
-Package pdftex.def Info: images/dhbw_de.pdf  used on input line 40.
+Package pdftex.def Info: images/dhbw_de.pdf  used on input line 38.
 (pdftex.def)             Requested size: 57.79497pt x 28.45274pt.
 File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
-Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 40.
+Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 38.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
  [2
 
@@ -2618,30 +2681,23 @@ Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 40.
 ]
 File: images/dhbw_de.pdf Graphic file (type pdf)
 <use images/dhbw_de.pdf>
-Package pdftex.def Info: images/dhbw_de.pdf  used on input line 40.
+Package pdftex.def Info: images/dhbw_de.pdf  used on input line 38.
 (pdftex.def)             Requested size: 57.79497pt x 28.45274pt.
 File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
-Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 40.
+Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 38.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
  [3
 
 
 
-])
-Package tocbasic Info: character protrusion at toc deactivated on input line 79
-.
- (dokumentation.toc
-Overfull \hbox (3.22041pt too wide) detected at line 7
- [][][]\T1/lmss/bx/n/12 VIII[][]
- []
-
+]) (dokumentation.toc
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 19.
+(Font)              <12> on input line 5.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 19.
+(Font)              <8> on input line 5.
 Package acronym Info: Label `acro:APD' newly defined as it shall be overridden
-although it is yet undefined on input line 21.
+although it is yet undefined on input line 17.
 File: images/dhbw_de.pdf Graphic file (type pdf)
 <use images/dhbw_de.pdf>
 Package pdftex.def Info: images/dhbw_de.pdf  used on input line 79.
@@ -2650,16 +2706,14 @@ File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
 Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 79.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
-[4
-
-]
+ [4]
 File: images/dhbw_de.pdf Graphic file (type pdf)
 <use images/dhbw_de.pdf>
-Package pdftex.def Info: images/dhbw_de.pdf  used on input line 155.
+Package pdftex.def Info: images/dhbw_de.pdf  used on input line 159.
 (pdftex.def)             Requested size: 57.79497pt x 28.45274pt.
 File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
-Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 155.
+Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 159.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
  [5])
 \tf@toc=\write8
@@ -2667,32 +2721,29 @@ Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 155.
 
 File: images/dhbw_de.pdf Graphic file (type pdf)
 <use images/dhbw_de.pdf>
-Package pdftex.def Info: images/dhbw_de.pdf  used on input line 80.
+Package pdftex.def Info: images/dhbw_de.pdf  used on input line 81.
 (pdftex.def)             Requested size: 57.79497pt x 28.45274pt.
 File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
-Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 80.
+Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 81.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
  [6]
 chapter without number
 (ads/acronyms.tex)
 File: images/dhbw_de.pdf Graphic file (type pdf)
 <use images/dhbw_de.pdf>
-Package pdftex.def Info: images/dhbw_de.pdf  used on input line 98.
+Package pdftex.def Info: images/dhbw_de.pdf  used on input line 99.
 (pdftex.def)             Requested size: 57.79497pt x 28.45274pt.
 File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
-Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 98.
+Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 99.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
  [7
 
 
 
 
-]
-Package tocbasic Info: character protrusion at lof deactivated on input line 99
-.
- (dokumentation.lof
+] (dokumentation.lof
 Package acronym Info: Label `acro:PSD' newly defined as it shall be overridden
 although it is yet undefined on input line 15.
 Package acronym Info: Label `acro:ToF' newly defined as it shall be overridden
@@ -2708,106 +2759,66 @@ Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 79.
  [8
 
 
-
 ])
 \tf@lof=\write9
 \openout9 = `dokumentation.lof'.
 
 File: images/dhbw_de.pdf Graphic file (type pdf)
 <use images/dhbw_de.pdf>
-Package pdftex.def Info: images/dhbw_de.pdf  used on input line 104.
+Package pdftex.def Info: images/dhbw_de.pdf  used on input line 105.
 (pdftex.def)             Requested size: 57.79497pt x 28.45274pt.
 File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
-Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 104.
+Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 105.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
- [9]
-Package tocbasic Info: character protrusion at lot deactivated on input line 10
-5.
- (dokumentation.lot)
+ [9] (dokumentation.lot
+Package acronym Info: Label `acro:3D' newly defined as it shall be overridden
+although it is yet undefined on input line 15.
+)
 \tf@lot=\write10
 \openout10 = `dokumentation.lot'.
 
 File: images/dhbw_de.pdf Graphic file (type pdf)
 <use images/dhbw_de.pdf>
-Package pdftex.def Info: images/dhbw_de.pdf  used on input line 111.
+Package pdftex.def Info: images/dhbw_de.pdf  used on input line 112.
 (pdftex.def)             Requested size: 57.79497pt x 28.45274pt.
 File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
-Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 111.
+Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 112.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
  [10
 
 
-
 ]
 Package tocbasic Info: character protrusion at for deactivated on input line 11
-2.
+3.
 
 (dokumentation.for
-
-Package tocbasic Warning: number width of formel toc entries should be increase
-d!
-(tocbasic)                Currently used number width = 20.88895pt,
-(tocbasic)                Wanted number separation    = 4.69986pt,
-(tocbasic)                Reserved number width       = 17.62474pt on input lin
-e 46.
-
-
-Overfull \hbox (3.2642pt too wide) detected at line 46
-\T1/lmr/m/n/12 10.1 
- []
-
-
-Package tocbasic Warning: number width of formel toc entries should be increase
-d!
-(tocbasic)                Currently used number width = 20.88895pt,
-(tocbasic)                Wanted number separation    = 4.69986pt,
-(tocbasic)                Reserved number width       = 17.62474pt on input lin
-e 50.
-
-
-Overfull \hbox (3.2642pt too wide) detected at line 50
-\T1/lmr/m/n/12 11.1 
- []
-
-
-Package tocbasic Warning: number width of formel toc entries should be increase
-d!
-(tocbasic)                Currently used number width = 20.88895pt,
-(tocbasic)                Wanted number separation    = 4.69986pt,
-(tocbasic)                Reserved number width       = 17.62474pt on input lin
-e 52.
-
-
-Overfull \hbox (3.2642pt too wide) detected at line 52
-\T1/lmr/m/n/12 11.2 
- []
-
-
-Package tocbasic Warning: number width of formel toc entries should be increase
-d!
-(tocbasic)                Currently used number width = 20.88895pt,
-(tocbasic)                Wanted number separation    = 4.69986pt,
-(tocbasic)                Reserved number width       = 17.62474pt on input lin
-e 54.
-
-
-Overfull \hbox (3.2642pt too wide) detected at line 54
-\T1/lmr/m/n/12 11.3 
- []
-
+Package tocbasic Info: Using my definition of `\numberline' on input line 10.
+Package tocbasic Info: Using my definition of `\numberline' on input line 14.
+Package tocbasic Info: Using my definition of `\numberline' on input line 16.
+Package tocbasic Info: Using my definition of `\numberline' on input line 18.
+Package tocbasic Info: Using my definition of `\numberline' on input line 20.
+Package tocbasic Info: Using my definition of `\numberline' on input line 22.
+Package tocbasic Info: Using my definition of `\numberline' on input line 24.
+Package tocbasic Info: Using my definition of `\numberline' on input line 26.
+Package tocbasic Info: Using my definition of `\numberline' on input line 34.
+Package tocbasic Info: Using my definition of `\numberline' on input line 38.
+Package tocbasic Info: Using my definition of `\numberline' on input line 44.
+Package tocbasic Info: Using my definition of `\numberline' on input line 48.
+Package tocbasic Info: Using my definition of `\numberline' on input line 50.
+Package tocbasic Info: Using my definition of `\numberline' on input line 52.
 )
 \tf@for=\write11
 \openout11 = `dokumentation.for'.
 
 File: images/dhbw_de.pdf Graphic file (type pdf)
 <use images/dhbw_de.pdf>
-Package pdftex.def Info: images/dhbw_de.pdf  used on input line 117.
+Package pdftex.def Info: images/dhbw_de.pdf  used on input line 118.
 (pdftex.def)             Requested size: 57.79497pt x 28.45274pt.
 File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
-Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 117.
+Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 118.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
  [11
 
@@ -2815,15 +2826,15 @@ Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 117.
 
 ]
 Package tocbasic Info: character protrusion at lol deactivated on input line 11
-8.
+9.
  (dokumentation.lol
 File: images/dhbw_de.pdf Graphic file (type pdf)
 <use images/dhbw_de.pdf>
-Package pdftex.def Info: images/dhbw_de.pdf  used on input line 90.
+Package pdftex.def Info: images/dhbw_de.pdf  used on input line 88.
 (pdftex.def)             Requested size: 57.79497pt x 28.45274pt.
 File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
-Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 90.
+Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 88.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
  [12
 
@@ -2835,27 +2846,22 @@ Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 90.
 
 File: images/dhbw_de.pdf Graphic file (type pdf)
 <use images/dhbw_de.pdf>
-Package pdftex.def Info: images/dhbw_de.pdf  used on input line 123.
+Package pdftex.def Info: images/dhbw_de.pdf  used on input line 124.
 (pdftex.def)             Requested size: 57.79497pt x 28.45274pt.
 File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
-Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 123.
+Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 124.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
  [13] (content/01kapitel.tex)
 (content/Einleitung.tex
 chapter 1.
-
-Underfull \hbox (badness 10000) in paragraph at lines 16--17
-
- []
-
 File: images/dhbw_de.pdf Graphic file (type pdf)
 <use images/dhbw_de.pdf>
-Package pdftex.def Info: images/dhbw_de.pdf  used on input line 17.
+Package pdftex.def Info: images/dhbw_de.pdf  used on input line 19.
 (pdftex.def)             Requested size: 57.79497pt x 28.45274pt.
 File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
-Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 17.
+Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 19.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
 [1
 
@@ -2872,7 +2878,7 @@ Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 4.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
  [2]
 chapter 2.
-<images/GrundlagenLaserentfernungsmessung/Photodiode.jpg, id=809, 455.7025pt x 
+<images/GrundlagenLaserentfernungsmessung/Photodiode.jpg, id=830, 455.7025pt x 
 380.42125pt>
 File: images/GrundlagenLaserentfernungsmessung/Photodiode.jpg Graphic file (typ
 e jpg)
@@ -2893,7 +2899,7 @@ Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 15.
 [3
 
  <./images/GrundlagenLaserentfernungsmessung/Photodiode.jpg>]
-<images/GrundlagenLaserentfernungsmessung/APD.png, id=822, 278.93684pt x 202.86
+<images/GrundlagenLaserentfernungsmessung/APD.png, id=843, 278.93684pt x 202.86
 316pt>
 File: images/GrundlagenLaserentfernungsmessung/APD.png Graphic file (type png)
 <use images/GrundlagenLaserentfernungsmessung/APD.png>
@@ -2917,7 +2923,7 @@ File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 25.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
 [4 <./images/GrundlagenLaserentfernungsmessung/APD.png>]
-<images/GrundlagenLaserentfernungsmessung/PSD.png, id=844, 497.86pt x 213.79875
+<images/GrundlagenLaserentfernungsmessung/PSD.png, id=865, 497.86pt x 213.79875
 pt>
 File: images/GrundlagenLaserentfernungsmessung/PSD.png Graphic file (type png)
 <use images/GrundlagenLaserentfernungsmessung/PSD.png>
@@ -2944,7 +2950,7 @@ Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 2.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
  [6]
 chapter 3.
-<images/GrundlagenLaserentfernungsmessung/ToF.png, id=874, 1041.8925pt x 407.52
+<images/GrundlagenLaserentfernungsmessung/ToF.png, id=896, 1041.8925pt x 407.52
 25pt>
 File: images/GrundlagenLaserentfernungsmessung/ToF.png Graphic file (type png)
 <use images/GrundlagenLaserentfernungsmessung/ToF.png>
@@ -2958,11 +2964,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--12
 
 File: images/dhbw_de.pdf Graphic file (type pdf)
 <use images/dhbw_de.pdf>
-Package pdftex.def Info: images/dhbw_de.pdf  used on input line 16.
+Package pdftex.def Info: images/dhbw_de.pdf  used on input line 14.
 (pdftex.def)             Requested size: 57.79497pt x 28.45274pt.
 File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
-Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 16.
+Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 14.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
 [7
 
@@ -2978,93 +2984,93 @@ Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 31.
  [8]
 Package acronym Info: Label `acro:UART' newly defined as it shall be overridden
 
-although it is yet undefined on input line 47.
+although it is yet undefined on input line 48.
 
-Underfull \hbox (badness 10000) in paragraph at lines 50--51
+Underfull \hbox (badness 10000) in paragraph at lines 51--52
 
  []
 
 File: images/dhbw_de.pdf Graphic file (type pdf)
 <use images/dhbw_de.pdf>
-Package pdftex.def Info: images/dhbw_de.pdf  used on input line 51.
+Package pdftex.def Info: images/dhbw_de.pdf  used on input line 52.
 (pdftex.def)             Requested size: 57.79497pt x 28.45274pt.
 File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
-Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 51.
+Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 52.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
 [9]
-<images/GrundlagenLaserentfernungsmessung/Phasenverschiebung.png, id=908, 646.4
+<images/GrundlagenLaserentfernungsmessung/Phasenverschiebung.png, id=930, 646.4
 15pt x 357.335pt>
 File: images/GrundlagenLaserentfernungsmessung/Phasenverschiebung.png Graphic f
 ile (type png)
 <use images/GrundlagenLaserentfernungsmessung/Phasenverschiebung.png>
 Package pdftex.def Info: images/GrundlagenLaserentfernungsmessung/Phasenverschi
-ebung.png  used on input line 56.
+ebung.png  used on input line 57.
 (pdftex.def)             Requested size: 341.43312pt x 188.74324pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 52--59
+Underfull \hbox (badness 10000) in paragraph at lines 53--60
 
  []
 
 File: images/dhbw_de.pdf Graphic file (type pdf)
 <use images/dhbw_de.pdf>
-Package pdftex.def Info: images/dhbw_de.pdf  used on input line 69.
+Package pdftex.def Info: images/dhbw_de.pdf  used on input line 65.
 (pdftex.def)             Requested size: 57.79497pt x 28.45274pt.
 File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
-Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 69.
+Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 65.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
 [10 <./images/GrundlagenLaserentfernungsmessung/Phasenverschiebung.png>]
-<images/GrundlagenLaserentfernungsmessung/phase.png, id=919, 1152.305pt x 470.7
+<images/GrundlagenLaserentfernungsmessung/phase.png, id=941, 1152.305pt x 470.7
 5874pt>
 File: images/GrundlagenLaserentfernungsmessung/phase.png Graphic file (type png
 )
 <use images/GrundlagenLaserentfernungsmessung/phase.png>
 Package pdftex.def Info: images/GrundlagenLaserentfernungsmessung/phase.png  us
-ed on input line 73.
+ed on input line 74.
 (pdftex.def)             Requested size: 341.43312pt x 139.49037pt.
 File: images/dhbw_de.pdf Graphic file (type pdf)
 <use images/dhbw_de.pdf>
-Package pdftex.def Info: images/dhbw_de.pdf  used on input line 95.
+Package pdftex.def Info: images/dhbw_de.pdf  used on input line 96.
 (pdftex.def)             Requested size: 57.79497pt x 28.45274pt.
 File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
-Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 95.
+Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 96.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
 
 [11 <./images/GrundlagenLaserentfernungsmessung/phase.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 108--109
-
- []
-
 File: images/dhbw_de.pdf Graphic file (type pdf)
 <use images/dhbw_de.pdf>
-Package pdftex.def Info: images/dhbw_de.pdf  used on input line 110.
+Package pdftex.def Info: images/dhbw_de.pdf  used on input line 108.
 (pdftex.def)             Requested size: 57.79497pt x 28.45274pt.
 File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
-Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 110.
+Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 108.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
-[12]
-<images/GrundlagenLaserentfernungsmessung/Triangulation.png, id=943, 497.86pt x
+ [12]
+Underfull \hbox (badness 10000) in paragraph at lines 109--110
+
+ []
+
+<images/GrundlagenLaserentfernungsmessung/Triangulation.png, id=965, 497.86pt x
  266.9975pt>
 File: images/GrundlagenLaserentfernungsmessung/Triangulation.png Graphic file (
 type png)
 <use images/GrundlagenLaserentfernungsmessung/Triangulation.png>
 Package pdftex.def Info: images/GrundlagenLaserentfernungsmessung/Triangulation
-.png  used on input line 114.
+.png  used on input line 115.
 (pdftex.def)             Requested size: 341.43312pt x 183.11217pt.
 File: images/dhbw_de.pdf Graphic file (type pdf)
 <use images/dhbw_de.pdf>
-Package pdftex.def Info: images/dhbw_de.pdf  used on input line 129.
+Package pdftex.def Info: images/dhbw_de.pdf  used on input line 130.
 (pdftex.def)             Requested size: 57.79497pt x 28.45274pt.
 File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
-Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 129.
+Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 130.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
- [13 <./images/GrundlagenLaserentfernungsmessung/Triangulation.png>]
+[13 <./images/GrundlagenLaserentfernungsmessung/Triangulation.png>]
 Package acronym Info: Label `acro:LED' newly defined as it shall be overridden
-although it is yet undefined on input line 143.
+although it is yet undefined on input line 140.
 )
 (content/StandderTechnik.tex
 File: images/dhbw_de.pdf Graphic file (type pdf)
@@ -3086,7 +3092,46 @@ Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 2.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
  [15]
 chapter 4.
-) (content/Machbarkeitsstudie.tex
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--7
+
+ []
+
+File: images/dhbw_de.pdf Graphic file (type pdf)
+<use images/dhbw_de.pdf>
+Package pdftex.def Info: images/dhbw_de.pdf  used on input line 14.
+(pdftex.def)             Requested size: 57.79497pt x 28.45274pt.
+File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
+<use images/Bosch_Logo_DE.pdf>
+Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 14.
+(pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
+[16
+
+]
+File: images/dhbw_de.pdf Graphic file (type pdf)
+<use images/dhbw_de.pdf>
+Package pdftex.def Info: images/dhbw_de.pdf  used on input line 15.
+(pdftex.def)             Requested size: 57.79497pt x 28.45274pt.
+File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
+<use images/Bosch_Logo_DE.pdf>
+Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 15.
+(pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
+ [17]
+Overfull \hbox (3.49477pt too wide) in paragraph at lines 19--66
+ [][] 
+ []
+
+File: images/dhbw_de.pdf Graphic file (type pdf)
+<use images/dhbw_de.pdf>
+Package pdftex.def Info: images/dhbw_de.pdf  used on input line 67.
+(pdftex.def)             Requested size: 57.79497pt x 28.45274pt.
+File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
+<use images/Bosch_Logo_DE.pdf>
+Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 67.
+(pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
+[18
+
+]) (content/Machbarkeitsstudie.tex
 File: images/dhbw_de.pdf Graphic file (type pdf)
 <use images/dhbw_de.pdf>
 Package pdftex.def Info: images/dhbw_de.pdf  used on input line 2.
@@ -3095,7 +3140,7 @@ File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
 Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 2.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
- [16
+ [19
 
 ]
 chapter 5.
@@ -3107,11 +3152,11 @@ File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
 Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 40.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
-[17
+[20
 
 ]
-<images/Machbarkeitsstudie/Versuch1_Aufbau.png, id=984, 127.1952pt x 169.5936pt
->
+<images/Machbarkeitsstudie/Versuch1_Aufbau.png, id=1036, 127.1952pt x 169.5936p
+t>
 File: images/Machbarkeitsstudie/Versuch1_Aufbau.png Graphic file (type png)
 <use images/Machbarkeitsstudie/Versuch1_Aufbau.png>
 Package pdftex.def Info: images/Machbarkeitsstudie/Versuch1_Aufbau.png  used on
@@ -3125,7 +3170,7 @@ File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
 Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 55.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
- [18 <./images/Machbarkeitsstudie/Versuch1_Aufbau.png>]
+ [21 <./images/Machbarkeitsstudie/Versuch1_Aufbau.png>]
 File: images/dhbw_de.pdf Graphic file (type pdf)
 <use images/dhbw_de.pdf>
 Package pdftex.def Info: images/dhbw_de.pdf  used on input line 76.
@@ -3134,7 +3179,7 @@ File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
 Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 76.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
- [19]
+ [22]
 File: images/dhbw_de.pdf Graphic file (type pdf)
 <use images/dhbw_de.pdf>
 Package pdftex.def Info: images/dhbw_de.pdf  used on input line 114.
@@ -3143,7 +3188,7 @@ File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
 Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 114.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
- [20]
+ [23]
 File: images/dhbw_de.pdf Graphic file (type pdf)
 <use images/dhbw_de.pdf>
 Package pdftex.def Info: images/dhbw_de.pdf  used on input line 127.
@@ -3152,22 +3197,11 @@ File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
 Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 127.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
- [21]
+ [24]
 
-LaTeX Warning: Reference `sec:grund_lidar' on page 22 undefined on input line 1
+LaTeX Warning: Reference `sec:grund_lidar' on page 25 undefined on input line 1
 31.
 
-) (content/MatlabModell.tex
-File: images/dhbw_de.pdf Graphic file (type pdf)
-<use images/dhbw_de.pdf>
-Package pdftex.def Info: images/dhbw_de.pdf  used on input line 4.
-(pdftex.def)             Requested size: 57.79497pt x 28.45274pt.
-File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
-<use images/Bosch_Logo_DE.pdf>
-Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 4.
-(pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
- [22]
-chapter 6.
 ) (content/Mechanik.tex
 File: images/dhbw_de.pdf Graphic file (type pdf)
 <use images/dhbw_de.pdf>
@@ -3177,13 +3211,11 @@ File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
 Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 2.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
- [23
-
-]
-chapter 7.
+ [25]
+chapter 6.
 Package acronym Info: Label `acro:CAD' newly defined as it shall be overridden
 although it is yet undefined on input line 6.
-<images/Mechanik/ObererAufbau.png, id=1043, 645.41125pt x 645.41125pt>
+<images/Mechanik/ObererAufbau.png, id=1092, 645.41125pt x 645.41125pt>
 File: images/Mechanik/ObererAufbau.png Graphic file (type png)
 <use images/Mechanik/ObererAufbau.png>
 Package pdftex.def Info: images/Mechanik/ObererAufbau.png  used on input line 1
@@ -3197,7 +3229,7 @@ File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
 Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 17.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
-[24
+[26
 
 ]
 Package acronym Info: Label `acro:NEMA' newly defined as it shall be overridden
@@ -3205,68 +3237,79 @@ Package acronym Info: Label `acro:NEMA' newly defined as it shall be overridden
 although it is yet undefined on input line 18.
 File: images/dhbw_de.pdf Graphic file (type pdf)
 <use images/dhbw_de.pdf>
-Package pdftex.def Info: images/dhbw_de.pdf  used on input line 21.
+Package pdftex.def Info: images/dhbw_de.pdf  used on input line 22.
 (pdftex.def)             Requested size: 57.79497pt x 28.45274pt.
 File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
-Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 21.
+Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 22.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
- [25 <./images/Mechanik/ObererAufbau.png>]
-<images/Mechanik/Basis.png, id=1063, 964.60374pt x 650.43pt>
+ [27 <./images/Mechanik/ObererAufbau.png>]
+<images/Mechanik/Basis.png, id=1112, 964.60374pt x 650.43pt>
 File: images/Mechanik/Basis.png Graphic file (type png)
 <use images/Mechanik/Basis.png>
-Package pdftex.def Info: images/Mechanik/Basis.png  used on input line 25.
+Package pdftex.def Info: images/Mechanik/Basis.png  used on input line 26.
 (pdftex.def)             Requested size: 341.43312pt x 230.22441pt.
 File: images/dhbw_de.pdf Graphic file (type pdf)
 <use images/dhbw_de.pdf>
-Package pdftex.def Info: images/dhbw_de.pdf  used on input line 30.
+Package pdftex.def Info: images/dhbw_de.pdf  used on input line 31.
 (pdftex.def)             Requested size: 57.79497pt x 28.45274pt.
 File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
-Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 30.
+Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 31.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
- [26 <./images/Mechanik/Basis.png>]
-<images/Mechanik/Rahmen.png, id=1074, 883.3pt x 716.6775pt>
-File: images/Mechanik/Rahmen.png Graphic file (type png)
-<use images/Mechanik/Rahmen.png>
-Package pdftex.def Info: images/Mechanik/Rahmen.png  used on input line 34.
-(pdftex.def)             Requested size: 341.43312pt x 277.02072pt.
+ [28 <./images/Mechanik/Basis.png>]
+
+pdfTeX warning: pdflatex.exe (file ./images/Mechanik/Rahmen.pdf): PDF inclusion
+: found PDF version <1.7>, but at most version <1.5> allowed
+<images/Mechanik/Rahmen.pdf, id=1123, 845.1575pt x 597.23125pt>
+File: images/Mechanik/Rahmen.pdf Graphic file (type pdf)
+<use images/Mechanik/Rahmen.pdf>
+Package pdftex.def Info: images/Mechanik/Rahmen.pdf  used on input line 35.
+(pdftex.def)             Requested size: 341.43312pt x 241.27586pt.
 File: images/dhbw_de.pdf Graphic file (type pdf)
 <use images/dhbw_de.pdf>
-Package pdftex.def Info: images/dhbw_de.pdf  used on input line 41.
+Package pdftex.def Info: images/dhbw_de.pdf  used on input line 39.
 (pdftex.def)             Requested size: 57.79497pt x 28.45274pt.
 File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
-Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 41.
+Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 39.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
- [27 <./images/Mechanik/Rahmen.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 46--49
+[29]
+Underfull \hbox (badness 10000) in paragraph at lines 47--50
 
  []
 
+File: images/dhbw_de.pdf Graphic file (type pdf)
+<use images/dhbw_de.pdf>
+Package pdftex.def Info: images/dhbw_de.pdf  used on input line 51.
+(pdftex.def)             Requested size: 57.79497pt x 28.45274pt.
+File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
+<use images/Bosch_Logo_DE.pdf>
+Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 51.
+(pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
+[30 <./images/Mechanik/Rahmen.pdf>]
 Package acronym Info: Label `acro:CNC' newly defined as it shall be overridden
-although it is yet undefined on input line 54.
-Package acronym Info: Label `acro:3D' newly defined as it shall be overridden
-although it is yet undefined on input line 54.
-<images/Mechanik/Montiert.png, id=1085, 3035.34pt x 2791.42876pt>
+although it is yet undefined on input line 52.
+<images/Mechanik/Montiert.png, id=1155, 3035.34pt x 2791.42876pt>
 File: images/Mechanik/Montiert.png Graphic file (type png)
 <use images/Mechanik/Montiert.png>
-Package pdftex.def Info: images/Mechanik/Montiert.png  used on input line 57.
+Package pdftex.def Info: images/Mechanik/Montiert.png  used on input line 55.
 (pdftex.def)             Requested size: 341.43312pt x 313.9583pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 54--60
+Underfull \hbox (badness 10000) in paragraph at lines 52--58
 
  []
 
+) (content/Hardware.tex
 File: images/dhbw_de.pdf Graphic file (type pdf)
 <use images/dhbw_de.pdf>
-Package pdftex.def Info: images/dhbw_de.pdf  used on input line 61.
+Package pdftex.def Info: images/dhbw_de.pdf  used on input line 2.
 (pdftex.def)             Requested size: 57.79497pt x 28.45274pt.
 File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
-Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 61.
+Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 2.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
-[28]) (content/Hardware.tex
+ [31 <./images/Mechanik/Montiert.png>]
 File: images/dhbw_de.pdf Graphic file (type pdf)
 <use images/dhbw_de.pdf>
 Package pdftex.def Info: images/dhbw_de.pdf  used on input line 3.
@@ -3275,8 +3318,8 @@ File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
 Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 3.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
- [29 <./images/Mechanik/Montiert.png>]
-chapter 8.
+ [32]
+chapter 7.
 Package acronym Info: Label `acro:GPIO' newly defined as it shall be overridden
 
 although it is yet undefined on input line 12.
@@ -3285,7 +3328,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--13
 
  []
 
-<images/Hardware/TFmini.png, id=1106, 903.375pt x 602.25pt>
+<images/Hardware/TFmini.png, id=1174, 903.375pt x 602.25pt>
 File: images/Hardware/TFmini.png Graphic file (type png)
 <use images/Hardware/TFmini.png>
 Package pdftex.def Info: images/Hardware/TFmini.png  used on input line 25.
@@ -3298,7 +3341,7 @@ File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
 Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 31.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
-[30
+[33
 
 ]
 Package acronym Info: Label `acro:I$^{2}$C' newly defined as it shall be overri
@@ -3312,12 +3355,12 @@ File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
 Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 62.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
- [31 <./images/Hardware/TFmini.png>]
+ [34 <./images/Hardware/TFmini.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 65--67
 
  []
 
-<images/Hardware/VL53L1X_Messfrequenz.png, id=1130, 1105.88156pt x 813.79031pt>
+<images/Hardware/VL53L1X_Messfrequenz.png, id=1198, 1105.88156pt x 813.79031pt>
 
 File: images/Hardware/VL53L1X_Messfrequenz.png Graphic file (type png)
 <use images/Hardware/VL53L1X_Messfrequenz.png>
@@ -3332,123 +3375,119 @@ File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
 Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 77.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
-[32 <./images/Hardware/VL53L1X_Messfrequenz.png>]
+[35 <./images/Hardware/VL53L1X_Messfrequenz.png>]
 File: images/dhbw_de.pdf Graphic file (type pdf)
 <use images/dhbw_de.pdf>
-Package pdftex.def Info: images/dhbw_de.pdf  used on input line 109.
+Package pdftex.def Info: images/dhbw_de.pdf  used on input line 105.
 (pdftex.def)             Requested size: 57.79497pt x 28.45274pt.
 File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
-Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 109.
+Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 105.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
- [33]
+ [36]
 File: images/dhbw_de.pdf Graphic file (type pdf)
 <use images/dhbw_de.pdf>
-Package pdftex.def Info: images/dhbw_de.pdf  used on input line 128.
+Package pdftex.def Info: images/dhbw_de.pdf  used on input line 124.
 (pdftex.def)             Requested size: 57.79497pt x 28.45274pt.
 File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
-Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 128.
+Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 124.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
- [34]
-<images/Hardware/A4988.png, id=1154, 584.93532pt x 250.68657pt>
+ [37]
+<images/Hardware/A4988.png, id=1226, 584.93532pt x 250.68657pt>
 File: images/Hardware/A4988.png Graphic file (type png)
 <use images/Hardware/A4988.png>
-Package pdftex.def Info: images/Hardware/A4988.png  used on input line 137.
+Package pdftex.def Info: images/Hardware/A4988.png  used on input line 133.
 (pdftex.def)             Requested size: 318.66953pt x 136.57747pt.
 File: images/dhbw_de.pdf Graphic file (type pdf)
 <use images/dhbw_de.pdf>
-Package pdftex.def Info: images/dhbw_de.pdf  used on input line 149.
+Package pdftex.def Info: images/dhbw_de.pdf  used on input line 145.
 (pdftex.def)             Requested size: 57.79497pt x 28.45274pt.
 File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
-Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 149.
+Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 145.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
- [35 <./images/Hardware/A4988.png>]
+ [38 <./images/Hardware/A4988.png>]
 File: images/dhbw_de.pdf Graphic file (type pdf)
 <use images/dhbw_de.pdf>
-Package pdftex.def Info: images/dhbw_de.pdf  used on input line 186.
+Package pdftex.def Info: images/dhbw_de.pdf  used on input line 179.
 (pdftex.def)             Requested size: 57.79497pt x 28.45274pt.
 File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
-Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 186.
+Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 179.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
- [36]
-Underfull \hbox (badness 10000) in paragraph at lines 191--192
-
- []
-
+ [39]
 Package acronym Info: Label `acro:IC' newly defined as it shall be overridden
-although it is yet undefined on input line 193.
+although it is yet undefined on input line 188.
 File: images/dhbw_de.pdf Graphic file (type pdf)
 <use images/dhbw_de.pdf>
-Package pdftex.def Info: images/dhbw_de.pdf  used on input line 204.
+Package pdftex.def Info: images/dhbw_de.pdf  used on input line 194.
 (pdftex.def)             Requested size: 57.79497pt x 28.45274pt.
 File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
-Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 204.
+Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 194.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
-[37]
-<images/Hardware/Schaltplan/Spannung.png, id=1181, 305.41302pt x 83.5923pt>
+ [40]
+<images/Hardware/Schaltplan/Spannung.png, id=1252, 305.41302pt x 83.5923pt>
 File: images/Hardware/Schaltplan/Spannung.png Graphic file (type png)
 <use images/Hardware/Schaltplan/Spannung.png>
 Package pdftex.def Info: images/Hardware/Schaltplan/Spannung.png  used on input
- line 222.
+ line 212.
 (pdftex.def)             Requested size: 273.14928pt x 74.76295pt.
 File: images/dhbw_de.pdf Graphic file (type pdf)
 <use images/dhbw_de.pdf>
-Package pdftex.def Info: images/dhbw_de.pdf  used on input line 226.
+Package pdftex.def Info: images/dhbw_de.pdf  used on input line 216.
 (pdftex.def)             Requested size: 57.79497pt x 28.45274pt.
 File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
-Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 226.
+Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 216.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
- [38]
-<images/Hardware/Schaltplan/Driver.png, id=1188, 197.97162pt x 183.71034pt>
+ [41]
+<images/Hardware/Schaltplan/Driver.png, id=1260, 197.97162pt x 183.71034pt>
 File: images/Hardware/Schaltplan/Driver.png Graphic file (type png)
 <use images/Hardware/Schaltplan/Driver.png>
 Package pdftex.def Info: images/Hardware/Schaltplan/Driver.png  used on input l
-ine 231.
+ine 221.
 (pdftex.def)             Requested size: 273.14928pt x 253.47285pt.
 Package acronym Info: Label `acro:SPI' newly defined as it shall be overridden
-although it is yet undefined on input line 237.
-<images/Hardware/Schaltplan/Schnittstellen.png, id=1193, 386.78905pt x 168.3891
+although it is yet undefined on input line 227.
+<images/Hardware/Schaltplan/Schnittstellen.png, id=1265, 386.78905pt x 168.3891
 pt>
 File: images/Hardware/Schaltplan/Schnittstellen.png Graphic file (type png)
 <use images/Hardware/Schaltplan/Schnittstellen.png>
 Package pdftex.def Info: images/Hardware/Schaltplan/Schnittstellen.png  used on
- input line 242.
+ input line 232.
 (pdftex.def)             Requested size: 273.14928pt x 118.9173pt.
 File: images/dhbw_de.pdf Graphic file (type pdf)
 <use images/dhbw_de.pdf>
-Package pdftex.def Info: images/dhbw_de.pdf  used on input line 246.
+Package pdftex.def Info: images/dhbw_de.pdf  used on input line 236.
 (pdftex.def)             Requested size: 57.79497pt x 28.45274pt.
 File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
-Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 246.
+Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 236.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
- [39 <./images/Hardware/Schaltplan/Spannung.png> <./images/Hardware/Schaltplan/
+ [42 <./images/Hardware/Schaltplan/Spannung.png> <./images/Hardware/Schaltplan/
 Driver.png>]
-<images/Hardware/Schaltplan/Leds.png, id=1201, 237.81648pt x 151.33337pt>
+<images/Hardware/Schaltplan/Leds.png, id=1278, 237.81648pt x 151.33337pt>
 File: images/Hardware/Schaltplan/Leds.png Graphic file (type png)
 <use images/Hardware/Schaltplan/Leds.png>
 Package pdftex.def Info: images/Hardware/Schaltplan/Leds.png  used on input lin
-e 252.
+e 242.
 (pdftex.def)             Requested size: 273.14928pt x 173.81956pt.
 File: images/dhbw_de.pdf Graphic file (type pdf)
 <use images/dhbw_de.pdf>
-Package pdftex.def Info: images/dhbw_de.pdf  used on input line 265.
+Package pdftex.def Info: images/dhbw_de.pdf  used on input line 255.
 (pdftex.def)             Requested size: 57.79497pt x 28.45274pt.
 File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
-Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 265.
+Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 255.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
- [40 <./images/Hardware/Schaltplan/Schnittstellen.png> <./images/Hardware/Schal
+ [43 <./images/Hardware/Schaltplan/Schnittstellen.png> <./images/Hardware/Schal
 tplan/Leds.png>]
-<images/Hardware/Layout.png, id=1209, 225.19331pt x 290.23631pt>
+<images/Hardware/Layout.png, id=1286, 225.19331pt x 290.23631pt>
 File: images/Hardware/Layout.png Graphic file (type png)
 <use images/Hardware/Layout.png>
-Package pdftex.def Info: images/Hardware/Layout.png  used on input line 269.
+Package pdftex.def Info: images/Hardware/Layout.png  used on input line 259.
 (pdftex.def)             Requested size: 273.14928pt x 352.0506pt.
 ) (content/Code.tex
 File: images/dhbw_de.pdf Graphic file (type pdf)
@@ -3459,8 +3498,9 @@ File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
 Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 3.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
- [41 <./images/Hardware/Layout.png (PNG copy)>]
-chapter 9.
+
+[44 <./images/Hardware/Layout.png (PNG copy)>]
+chapter 8.
 LaTeX Font Info:    Try loading font information for T1+lmtt on input line 10.
 ("C:\Users\alexk\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\t1lmtt.fd"
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -3478,7 +3518,7 @@ File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 21.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
 
-[42
+[45
 
 ]
 File: images/dhbw_de.pdf Graphic file (type pdf)
@@ -3489,7 +3529,7 @@ File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
 Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 42.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
- [43]
+ [46]
 File: images/dhbw_de.pdf Graphic file (type pdf)
 <use images/dhbw_de.pdf>
 Package pdftex.def Info: images/dhbw_de.pdf  used on input line 72.
@@ -3498,29 +3538,30 @@ File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
 Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 72.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
- [44]
+ [47]
 File: images/dhbw_de.pdf Graphic file (type pdf)
 <use images/dhbw_de.pdf>
-Package pdftex.def Info: images/dhbw_de.pdf  used on input line 106.
+Package pdftex.def Info: images/dhbw_de.pdf  used on input line 98.
 (pdftex.def)             Requested size: 57.79497pt x 28.45274pt.
 File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
-Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 106.
+Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 98.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
- [45]
+ [48]
+File: images/dhbw_de.pdf Graphic file (type pdf)
+<use images/dhbw_de.pdf>
+Package pdftex.def Info: images/dhbw_de.pdf  used on input line 123.
+(pdftex.def)             Requested size: 57.79497pt x 28.45274pt.
+File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
+<use images/Bosch_Logo_DE.pdf>
+Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 123.
+(pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
+ [49]
 Underfull \hbox (badness 10000) in paragraph at lines 127--128
 
  []
 
-File: images/dhbw_de.pdf Graphic file (type pdf)
-<use images/dhbw_de.pdf>
-Package pdftex.def Info: images/dhbw_de.pdf  used on input line 128.
-(pdftex.def)             Requested size: 57.79497pt x 28.45274pt.
-File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
-<use images/Bosch_Logo_DE.pdf>
-Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 128.
-(pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
-[46]
+
 Underfull \hbox (badness 10000) in paragraph at lines 146--149
 
  []
@@ -3533,7 +3574,7 @@ File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
 Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 149.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
-[47]
+[50]
 Underfull \hbox (badness 10000) in paragraph at lines 169--171
 
  []
@@ -3546,7 +3587,7 @@ File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
 Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 171.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
-[48]
+[51]
 Underfull \hbox (badness 10000) in paragraph at lines 194--198
 
  []
@@ -3559,7 +3600,7 @@ File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
 Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 198.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
-[49]
+[52]
 Underfull \hbox (badness 10000) in paragraph at lines 199--200
 
  []
@@ -3568,22 +3609,22 @@ Package acronym Info: Label `acro:csv' newly defined as it shall be overridden
 although it is yet undefined on input line 205.
 File: images/dhbw_de.pdf Graphic file (type pdf)
 <use images/dhbw_de.pdf>
-Package pdftex.def Info: images/dhbw_de.pdf  used on input line 218.
+Package pdftex.def Info: images/dhbw_de.pdf  used on input line 217.
 (pdftex.def)             Requested size: 57.79497pt x 28.45274pt.
 File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
-Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 218.
+Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 217.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
-[50]) (content/AuswertungMatlab.tex
+[53]
 File: images/dhbw_de.pdf Graphic file (type pdf)
 <use images/dhbw_de.pdf>
-Package pdftex.def Info: images/dhbw_de.pdf  used on input line 2.
+Package pdftex.def Info: images/dhbw_de.pdf  used on input line 240.
 (pdftex.def)             Requested size: 57.79497pt x 28.45274pt.
 File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
-Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 2.
+Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 240.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
- [51]
+ [54]) (content/AuswertungMatlab.tex
 File: images/dhbw_de.pdf Graphic file (type pdf)
 <use images/dhbw_de.pdf>
 Package pdftex.def Info: images/dhbw_de.pdf  used on input line 4.
@@ -3592,8 +3633,17 @@ File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
 Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 4.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
- [52]
-chapter 10.
+ [55]
+File: images/dhbw_de.pdf Graphic file (type pdf)
+<use images/dhbw_de.pdf>
+Package pdftex.def Info: images/dhbw_de.pdf  used on input line 4.
+(pdftex.def)             Requested size: 57.79497pt x 28.45274pt.
+File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
+<use images/Bosch_Logo_DE.pdf>
+Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 4.
+(pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
+ [56]
+chapter 9.
 File: images/dhbw_de.pdf Graphic file (type pdf)
 <use images/dhbw_de.pdf>
 Package pdftex.def Info: images/dhbw_de.pdf  used on input line 21.
@@ -3602,10 +3652,10 @@ File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
 Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 21.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
-[53
+[57
 
 ]
-<images/Auswertung/Kugelkoordinaten.png, id=1466, 653.44125pt x 597.23125pt>
+<images/Auswertung/Kugelkoordinaten.png, id=1546, 653.44125pt x 597.23125pt>
 File: images/Auswertung/Kugelkoordinaten.png Graphic file (type png)
 <use images/Auswertung/Kugelkoordinaten.png>
 Package pdftex.def Info: images/Auswertung/Kugelkoordinaten.png  used on input 
@@ -3619,7 +3669,7 @@ File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
 Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 53.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
- [54]
+ [58]
 File: images/dhbw_de.pdf Graphic file (type pdf)
 <use images/dhbw_de.pdf>
 Package pdftex.def Info: images/dhbw_de.pdf  used on input line 76.
@@ -3628,7 +3678,7 @@ File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
 Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 76.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
- [55 <./images/Auswertung/Kugelkoordinaten.png>]
+ [59 <./images/Auswertung/Kugelkoordinaten.png>]
 File: images/dhbw_de.pdf Graphic file (type pdf)
 <use images/dhbw_de.pdf>
 Package pdftex.def Info: images/dhbw_de.pdf  used on input line 104.
@@ -3637,13 +3687,13 @@ File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
 Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 104.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
- [56]
-<images/Auswertung/Linien.png, id=1505, 422.32782pt x 301.8778pt>
+ [60]
+<images/Auswertung/Linien.png, id=1586, 422.32782pt x 301.8778pt>
 File: images/Auswertung/Linien.png Graphic file (type png)
 <use images/Auswertung/Linien.png>
 Package pdftex.def Info: images/Auswertung/Linien.png  used on input line 111.
 (pdftex.def)             Requested size: 318.66953pt x 227.78967pt.
-<images/Auswertung/Sternchen.png, id=1506, 460.34485pt x 299.61937pt>
+<images/Auswertung/Sternchen.png, id=1587, 460.34485pt x 299.61937pt>
 File: images/Auswertung/Sternchen.png Graphic file (type png)
 <use images/Auswertung/Sternchen.png>
 Package pdftex.def Info: images/Auswertung/Sternchen.png  used on input line 12
@@ -3657,8 +3707,8 @@ File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
 Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 125.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
- [57 <./images/Auswertung/Linien.png>]
-<images/Auswertung/Punkte.png, id=1512, 449.80547pt x 288.7036pt>
+ [61 <./images/Auswertung/Linien.png>]
+<images/Auswertung/Punkte.png, id=1593, 449.80547pt x 288.7036pt>
 File: images/Auswertung/Punkte.png Graphic file (type png)
 <use images/Auswertung/Punkte.png>
 Package pdftex.def Info: images/Auswertung/Punkte.png  used on input line 132.
@@ -3671,7 +3721,7 @@ File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
 Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 141.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
- [58 <./images/Auswertung/Sternchen.png> <./images/Auswertung/Punkte.png>]) (co
+ [62 <./images/Auswertung/Sternchen.png> <./images/Auswertung/Punkte.png>]) (co
 ntent/Validierung.tex
 File: images/dhbw_de.pdf Graphic file (type pdf)
 <use images/dhbw_de.pdf>
@@ -3681,9 +3731,9 @@ File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
 Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 4.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
- [59]
-chapter 11.
-<images/Validierung/Grundriss.png, id=1527, 593.96906pt x 487.8225pt>
+ [63]
+chapter 10.
+<images/Validierung/Grundriss.png, id=1607, 593.96906pt x 487.8225pt>
 File: images/Validierung/Grundriss.png Graphic file (type png)
 <use images/Validierung/Grundriss.png>
 Package pdftex.def Info: images/Validierung/Grundriss.png  used on input line 2
@@ -3697,16 +3747,16 @@ File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
 Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 27.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
-[60
+[64
 
 ]
-<images/Validierung/MitSchatten.png, id=1533, 672.26157pt x 539.76656pt>
+<images/Validierung/MitSchatten.png, id=1613, 672.26157pt x 539.76656pt>
 File: images/Validierung/MitSchatten.png Graphic file (type png)
 <use images/Validierung/MitSchatten.png>
 Package pdftex.def Info: images/Validierung/MitSchatten.png  used on input line
  33.
 (pdftex.def)             Requested size: 318.66953pt x 255.86467pt.
-<images/Validierung/Vogelperspektive.png, id=1534, 697.10437pt x 513.41812pt>
+<images/Validierung/Vogelperspektive.png, id=1614, 697.10437pt x 513.41812pt>
 File: images/Validierung/Vogelperspektive.png Graphic file (type png)
 <use images/Validierung/Vogelperspektive.png>
 Package pdftex.def Info: images/Validierung/Vogelperspektive.png  used on input
@@ -3720,9 +3770,9 @@ File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
 Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 46.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
- [61 <./images/Validierung/Grundriss.png> <./images/Validierung/MitSchatten.png
+ [65 <./images/Validierung/Grundriss.png> <./images/Validierung/MitSchatten.png
 >]
-<images/Validierung/uebereinander.png, id=1541, 713.66624pt x 607.51968pt>
+<images/Validierung/uebereinander.png, id=1622, 713.66624pt x 607.51968pt>
 File: images/Validierung/uebereinander.png Graphic file (type png)
 <use images/Validierung/uebereinander.png>
 Package pdftex.def Info: images/Validierung/uebereinander.png  used on input li
@@ -3736,7 +3786,7 @@ File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
 Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 57.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
- [62 <./images/Validierung/Vogelperspektive.png>]
+ [66 <./images/Validierung/Vogelperspektive.png>]
 File: images/dhbw_de.pdf Graphic file (type pdf)
 <use images/dhbw_de.pdf>
 Package pdftex.def Info: images/dhbw_de.pdf  used on input line 69.
@@ -3745,15 +3795,15 @@ File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
 Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 69.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
- [63 <./images/Validierung/uebereinander.png>]
-<images/Validierung/Genauigkeit/Messwerte.png, id=1556, 852.93657pt x 819.8128p
+ [67 <./images/Validierung/uebereinander.png>]
+<images/Validierung/Genauigkeit/Messwerte.png, id=1638, 852.93657pt x 819.8128p
 t>
 File: images/Validierung/Genauigkeit/Messwerte.png Graphic file (type png)
 <use images/Validierung/Genauigkeit/Messwerte.png>
 Package pdftex.def Info: images/Validierung/Genauigkeit/Messwerte.png  used on 
 input line 72.
 (pdftex.def)             Requested size: 273.14928pt x 262.5456pt.
-<images/Validierung/Genauigkeit/wandbreite_alles.png, id=1560, 1290.32062pt x 6
+<images/Validierung/Genauigkeit/wandbreite_alles.png, id=1642, 1290.32062pt x 6
 66.23906pt>
 File: images/Validierung/Genauigkeit/wandbreite_alles.png Graphic file (type pn
 g)
@@ -3766,7 +3816,7 @@ Overfull \hbox (40.97107pt too wide) in paragraph at lines 87--88
  [][] 
  []
 
-<images/Validierung/Genauigkeit/wandbreite.png, id=1561, 365.11406pt x 219.0684
+<images/Validierung/Genauigkeit/wandbreite.png, id=1643, 365.11406pt x 219.0684
 4pt>
 File: images/Validierung/Genauigkeit/wandbreite.png Graphic file (type png)
 <use images/Validierung/Genauigkeit/wandbreite.png>
@@ -3786,8 +3836,8 @@ File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
 Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 103.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
-[64 <./images/Validierung/Genauigkeit/Messwerte.png>]
-<images/Validierung/Genauigkeit/Hoehe1.png, id=1567, 937.25156pt x 553.31718pt>
+[68 <./images/Validierung/Genauigkeit/Messwerte.png>]
+<images/Validierung/Genauigkeit/Hoehe1.png, id=1649, 937.25156pt x 553.31718pt>
 
 File: images/Validierung/Genauigkeit/Hoehe1.png Graphic file (type png)
 <use images/Validierung/Genauigkeit/Hoehe1.png>
@@ -3796,243 +3846,243 @@ ut line 107.
 (pdftex.def)             Requested size: 318.66953pt x 188.13379pt.
 File: images/dhbw_de.pdf Graphic file (type pdf)
 <use images/dhbw_de.pdf>
-Package pdftex.def Info: images/dhbw_de.pdf  used on input line 122.
+Package pdftex.def Info: images/dhbw_de.pdf  used on input line 116.
 (pdftex.def)             Requested size: 57.79497pt x 28.45274pt.
 File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
-Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 122.
+Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 116.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
- [65 <./images/Validierung/Genauigkeit/wandbreite_alles.png> <./images/Validier
+ [69 <./images/Validierung/Genauigkeit/wandbreite_alles.png> <./images/Validier
 ung/Genauigkeit/wandbreite.png> <./images/Validierung/Genauigkeit/Hoehe1.png>]
 File: images/dhbw_de.pdf Graphic file (type pdf)
 <use images/dhbw_de.pdf>
-Package pdftex.def Info: images/dhbw_de.pdf  used on input line 146.
+Package pdftex.def Info: images/dhbw_de.pdf  used on input line 140.
 (pdftex.def)             Requested size: 57.79497pt x 28.45274pt.
 File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
-Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 146.
+Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 140.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
- [66]
-<images/Validierung/Aufloesungen/niedrig.png, id=1580, 1273.75874pt x 653.44125
+ [70]
+<images/Validierung/Aufloesungen/niedrig.png, id=1662, 1273.75874pt x 653.44125
 pt>
 File: images/Validierung/Aufloesungen/niedrig.png Graphic file (type png)
 <use images/Validierung/Aufloesungen/niedrig.png>
 Package pdftex.def Info: images/Validierung/Aufloesungen/niedrig.png  used on i
-nput line 194.
+nput line 188.
 (pdftex.def)             Requested size: 409.71696pt x 210.1823pt.
 File: images/dhbw_de.pdf Graphic file (type pdf)
 <use images/dhbw_de.pdf>
-Package pdftex.def Info: images/dhbw_de.pdf  used on input line 197.
+Package pdftex.def Info: images/dhbw_de.pdf  used on input line 191.
 (pdftex.def)             Requested size: 57.79497pt x 28.45274pt.
 File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
-Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 197.
+Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 191.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
- [67]
-<images/Validierung/Aufloesungen/mittel.png, id=1585, 1291.82625pt x 668.4975pt
+ [71]
+<images/Validierung/Aufloesungen/mittel.png, id=1668, 1291.82625pt x 668.4975pt
 >
 File: images/Validierung/Aufloesungen/mittel.png Graphic file (type png)
 <use images/Validierung/Aufloesungen/mittel.png>
 Package pdftex.def Info: images/Validierung/Aufloesungen/mittel.png  used on in
-put line 207.
+put line 201.
 (pdftex.def)             Requested size: 409.71696pt x 212.01608pt.
 File: images/dhbw_de.pdf Graphic file (type pdf)
 <use images/dhbw_de.pdf>
-Package pdftex.def Info: images/dhbw_de.pdf  used on input line 211.
+Package pdftex.def Info: images/dhbw_de.pdf  used on input line 205.
 (pdftex.def)             Requested size: 57.79497pt x 28.45274pt.
 File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
-Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 211.
+Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 205.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
- [68 <./images/Validierung/Aufloesungen/niedrig.png>]
-<images/Validierung/Aufloesungen/hoch.png, id=1590, 1266.23062pt x 654.94687pt>
+ [72 <./images/Validierung/Aufloesungen/niedrig.png>]
+<images/Validierung/Aufloesungen/hoch.png, id=1673, 1266.23062pt x 654.94687pt>
 
 File: images/Validierung/Aufloesungen/hoch.png Graphic file (type png)
 <use images/Validierung/Aufloesungen/hoch.png>
 Package pdftex.def Info: images/Validierung/Aufloesungen/hoch.png  used on inpu
-t line 218.
+t line 212.
 (pdftex.def)             Requested size: 409.71696pt x 211.9158pt.
 File: images/dhbw_de.pdf Graphic file (type pdf)
 <use images/dhbw_de.pdf>
-Package pdftex.def Info: images/dhbw_de.pdf  used on input line 226.
+Package pdftex.def Info: images/dhbw_de.pdf  used on input line 220.
 (pdftex.def)             Requested size: 57.79497pt x 28.45274pt.
 File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
-Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 226.
+Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 220.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
- [69 <./images/Validierung/Aufloesungen/mittel.png> <./images/Validierung/Auflo
+ [73 <./images/Validierung/Aufloesungen/mittel.png> <./images/Validierung/Auflo
 esungen/hoch.png>]
-<images/Validierung/Aufloesungen/niedrig_vogel.png, id=1597, 883.80188pt x 882.
+<images/Validierung/Aufloesungen/niedrig_vogel.png, id=1680, 883.80188pt x 882.
 29625pt>
 File: images/Validierung/Aufloesungen/niedrig_vogel.png Graphic file (type png)
 
 <use images/Validierung/Aufloesungen/niedrig_vogel.png>
 Package pdftex.def Info: images/Validierung/Aufloesungen/niedrig_vogel.png  use
-d on input line 235.
+d on input line 229.
 (pdftex.def)             Requested size: 245.82954pt x 245.3988pt.
 
-Overfull \hbox (40.97107pt too wide) in paragraph at lines 235--236
+Overfull \hbox (40.97107pt too wide) in paragraph at lines 229--230
  [][] 
  []
 
-<images/Validierung/Aufloesungen/hoch_vogel.png, id=1598, 861.9703pt x 854.4421
+<images/Validierung/Aufloesungen/hoch_vogel.png, id=1681, 861.9703pt x 854.4421
 8pt>
 File: images/Validierung/Aufloesungen/hoch_vogel.png Graphic file (type png)
 <use images/Validierung/Aufloesungen/hoch_vogel.png>
 Package pdftex.def Info: images/Validierung/Aufloesungen/hoch_vogel.png  used o
-n input line 242.
+n input line 236.
 (pdftex.def)             Requested size: 245.82954pt x 243.675pt.
 
-Overfull \hbox (40.97107pt too wide) in paragraph at lines 242--243
+Overfull \hbox (40.97107pt too wide) in paragraph at lines 236--237
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 243--243
+Underfull \hbox (badness 10000) in paragraph at lines 237--237
 [][][]|\T1/lmr/m/n/10.95 (+20) Vo-gel-per-spek-ti-ve ho-he
  []
 
 File: images/dhbw_de.pdf Graphic file (type pdf)
 <use images/dhbw_de.pdf>
-Package pdftex.def Info: images/dhbw_de.pdf  used on input line 256.
+Package pdftex.def Info: images/dhbw_de.pdf  used on input line 250.
 (pdftex.def)             Requested size: 57.79497pt x 28.45274pt.
 File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
-Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 256.
+Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 250.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
-[70 <./images/Validierung/Aufloesungen/niedrig_vogel.png> <./images/Validierung
+[74 <./images/Validierung/Aufloesungen/niedrig_vogel.png> <./images/Validierung
 /Aufloesungen/hoch_vogel.png>]
-<images/Validierung/Aufloesungen/3Messwerte_Ansicht.png, id=1607, 1332.47812pt 
+<images/Validierung/Aufloesungen/3Messwerte_Ansicht.png, id=1690, 1332.47812pt 
 x 609.02531pt>
 File: images/Validierung/Aufloesungen/3Messwerte_Ansicht.png Graphic file (type
  png)
 <use images/Validierung/Aufloesungen/3Messwerte_Ansicht.png>
 Package pdftex.def Info: images/Validierung/Aufloesungen/3Messwerte_Ansicht.png
-  used on input line 273.
+  used on input line 267.
 (pdftex.def)             Requested size: 245.82954pt x 112.35194pt.
 
-Overfull \hbox (40.97107pt too wide) in paragraph at lines 273--274
+Overfull \hbox (40.97107pt too wide) in paragraph at lines 267--268
  [][] 
  []
 
-<images/Validierung/Aufloesungen/3Label.png, id=1608, 429.10312pt x 333.49594pt
+<images/Validierung/Aufloesungen/3Label.png, id=1691, 429.10312pt x 333.49594pt
 >
 File: images/Validierung/Aufloesungen/3Label.png Graphic file (type png)
 <use images/Validierung/Aufloesungen/3Label.png>
 Package pdftex.def Info: images/Validierung/Aufloesungen/3Label.png  used on in
-put line 280.
+put line 274.
 (pdftex.def)             Requested size: 245.82954pt x 191.05643pt.
 
-Overfull \hbox (40.97107pt too wide) in paragraph at lines 280--281
+Overfull \hbox (40.97107pt too wide) in paragraph at lines 274--275
  [][] 
  []
 
 File: images/dhbw_de.pdf Graphic file (type pdf)
 <use images/dhbw_de.pdf>
-Package pdftex.def Info: images/dhbw_de.pdf  used on input line 285.
+Package pdftex.def Info: images/dhbw_de.pdf  used on input line 279.
 (pdftex.def)             Requested size: 57.79497pt x 28.45274pt.
 File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
-Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 285.
+Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 279.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
-[71]
-<images/Validierung/Aufloesungen/3Messwerte_Wand.png, id=1614, 1285.05093pt x 6
+[75]
+<images/Validierung/Aufloesungen/3Messwerte_Wand.png, id=1696, 1285.05093pt x 6
 66.99188pt>
 File: images/Validierung/Aufloesungen/3Messwerte_Wand.png Graphic file (type pn
 g)
 <use images/Validierung/Aufloesungen/3Messwerte_Wand.png>
 Package pdftex.def Info: images/Validierung/Aufloesungen/3Messwerte_Wand.png  u
-sed on input line 296.
+sed on input line 290.
 (pdftex.def)             Requested size: 245.82954pt x 127.59485pt.
 
-Overfull \hbox (40.97107pt too wide) in paragraph at lines 296--297
+Overfull \hbox (40.97107pt too wide) in paragraph at lines 290--291
  [][] 
  []
 
-<images/Validierung/Aufloesungen/Wand_3Messungen.png, id=1615, 579.66562pt x 34
+<images/Validierung/Aufloesungen/Wand_3Messungen.png, id=1697, 579.66562pt x 34
 3.2825pt>
 File: images/Validierung/Aufloesungen/Wand_3Messungen.png Graphic file (type pn
 g)
 <use images/Validierung/Aufloesungen/Wand_3Messungen.png>
 Package pdftex.def Info: images/Validierung/Aufloesungen/Wand_3Messungen.png  u
-sed on input line 303.
+sed on input line 297.
 (pdftex.def)             Requested size: 245.82954pt x 145.58145pt.
 
-Overfull \hbox (40.97107pt too wide) in paragraph at lines 303--304
+Overfull \hbox (40.97107pt too wide) in paragraph at lines 297--298
  [][] 
  []
 
 File: images/dhbw_de.pdf Graphic file (type pdf)
 <use images/dhbw_de.pdf>
-Package pdftex.def Info: images/dhbw_de.pdf  used on input line 316.
+Package pdftex.def Info: images/dhbw_de.pdf  used on input line 310.
 (pdftex.def)             Requested size: 57.79497pt x 28.45274pt.
 File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
-Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 316.
+Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 310.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
-[72 <./images/Validierung/Aufloesungen/3Messwerte_Ansicht.png> <./images/Validi
+[76 <./images/Validierung/Aufloesungen/3Messwerte_Ansicht.png> <./images/Validi
 erung/Aufloesungen/3Label.png> <./images/Validierung/Aufloesungen/3Messwerte_Wa
 nd.png> <./images/Validierung/Aufloesungen/Wand_3Messungen.png>]
 File: images/Validierung/Aufloesungen/mittel.png Graphic file (type png)
 <use images/Validierung/Aufloesungen/mittel.png>
 Package pdftex.def Info: images/Validierung/Aufloesungen/mittel.png  used on in
-put line 321.
+put line 315.
 (pdftex.def)             Requested size: 409.71696pt x 212.01608pt.
-<images/Validierung/VL53.png, id=1623, 1297.84875pt x 653.44125pt>
+<images/Validierung/VL53.png, id=1705, 1297.84875pt x 653.44125pt>
 File: images/Validierung/VL53.png Graphic file (type png)
 <use images/Validierung/VL53.png>
-Package pdftex.def Info: images/Validierung/VL53.png  used on input line 330.
+Package pdftex.def Info: images/Validierung/VL53.png  used on input line 324.
 (pdftex.def)             Requested size: 409.71696pt x 206.28375pt.
 File: images/dhbw_de.pdf Graphic file (type pdf)
 <use images/dhbw_de.pdf>
-Package pdftex.def Info: images/dhbw_de.pdf  used on input line 336.
+Package pdftex.def Info: images/dhbw_de.pdf  used on input line 330.
 (pdftex.def)             Requested size: 57.79497pt x 28.45274pt.
 File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
-Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 336.
+Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 330.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
- [73 <./images/Validierung/VL53.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 337--338
+ [77 <./images/Validierung/VL53.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 331--332
 
  []
 
-<images/Validierung/Aufloesungen/mittel_vogel.png, id=1629, 863.47594pt x 859.7
+<images/Validierung/Aufloesungen/mittel_vogel.png, id=1712, 863.47594pt x 859.7
 1187pt>
 File: images/Validierung/Aufloesungen/mittel_vogel.png Graphic file (type png)
 <use images/Validierung/Aufloesungen/mittel_vogel.png>
 Package pdftex.def Info: images/Validierung/Aufloesungen/mittel_vogel.png  used
- on input line 345.
+ on input line 339.
 (pdftex.def)             Requested size: 245.82954pt x 244.75806pt.
+
+Overfull \hbox (40.97107pt too wide) in paragraph at lines 339--340
+ [][] 
+ []
+
+<images/Validierung/VL53_vogel.png, id=1713, 870.25125pt x 859.71187pt>
+File: images/Validierung/VL53_vogel.png Graphic file (type png)
+<use images/Validierung/VL53_vogel.png>
+Package pdftex.def Info: images/Validierung/VL53_vogel.png  used on input line 
+345.
+(pdftex.def)             Requested size: 245.82954pt x 242.85593pt.
 
 Overfull \hbox (40.97107pt too wide) in paragraph at lines 345--346
  [][] 
  []
 
-<images/Validierung/VL53_vogel.png, id=1630, 870.25125pt x 859.71187pt>
-File: images/Validierung/VL53_vogel.png Graphic file (type png)
-<use images/Validierung/VL53_vogel.png>
-Package pdftex.def Info: images/Validierung/VL53_vogel.png  used on input line 
-351.
-(pdftex.def)             Requested size: 245.82954pt x 242.85593pt.
 
-Overfull \hbox (40.97107pt too wide) in paragraph at lines 351--352
- [][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 359--360
+Underfull \hbox (badness 10000) in paragraph at lines 353--354
 
  []
 
 File: images/dhbw_de.pdf Graphic file (type pdf)
 <use images/dhbw_de.pdf>
-Package pdftex.def Info: images/dhbw_de.pdf  used on input line 360.
+Package pdftex.def Info: images/dhbw_de.pdf  used on input line 354.
 (pdftex.def)             Requested size: 57.79497pt x 28.45274pt.
 File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
-Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 360.
+Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 354.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
-[74 <./images/Validierung/Aufloesungen/mittel_vogel.png> <./images/Validierung/
+[78 <./images/Validierung/Aufloesungen/mittel_vogel.png> <./images/Validierung/
 VL53_vogel.png>]) (content/Fazit.tex
 File: images/dhbw_de.pdf Graphic file (type pdf)
 <use images/dhbw_de.pdf>
@@ -4042,17 +4092,22 @@ File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
 Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 2.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
- [75]
-chapter 12.
+ [79]
+chapter 11.
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--12
+
+ []
+
 File: images/dhbw_de.pdf Graphic file (type pdf)
 <use images/dhbw_de.pdf>
-Package pdftex.def Info: images/dhbw_de.pdf  used on input line 20.
+Package pdftex.def Info: images/dhbw_de.pdf  used on input line 15.
 (pdftex.def)             Requested size: 57.79497pt x 28.45274pt.
 File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
-Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 20.
+Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 15.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
-[76
+[80
 
 ]) (content/Ausblick.tex
 File: images/dhbw_de.pdf Graphic file (type pdf)
@@ -4063,8 +4118,8 @@ File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
 Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 2.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
- [77]
-chapter 13.
+ [81]
+chapter 12.
 File: images/dhbw_de.pdf Graphic file (type pdf)
 <use images/dhbw_de.pdf>
 Package pdftex.def Info: images/dhbw_de.pdf  used on input line 12.
@@ -4073,31 +4128,31 @@ File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
 Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 12.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
-[78
+[82
 
 ]
 File: images/dhbw_de.pdf Graphic file (type pdf)
 <use images/dhbw_de.pdf>
-Package pdftex.def Info: images/dhbw_de.pdf  used on input line 21.
+Package pdftex.def Info: images/dhbw_de.pdf  used on input line 24.
 (pdftex.def)             Requested size: 57.79497pt x 28.45274pt.
 File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
-Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 21.
+Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 24.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
- [79]
+ [83]
 ("C:\Users\alexk\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\lstlang1.
 sty"
 File: lstlang1.sty 2018/09/02 1.7 listings language file
 )
 File: images/dhbw_de.pdf Graphic file (type pdf)
 <use images/dhbw_de.pdf>
-Package pdftex.def Info: images/dhbw_de.pdf  used on input line 40.
+Package pdftex.def Info: images/dhbw_de.pdf  used on input line 47.
 (pdftex.def)             Requested size: 57.79497pt x 28.45274pt.
 File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
-Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 40.
+Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 47.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
- [80]
+ [84]
 File: images/dhbw_de.pdf Graphic file (type pdf)
 <use images/dhbw_de.pdf>
 Package pdftex.def Info: images/dhbw_de.pdf  used on input line 81.
@@ -4106,103 +4161,79 @@ File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
 Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 81.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
- [81]
+ [85]
 Package acronym Info: Label `acro:GUI' newly defined as it shall be overridden
-although it is yet undefined on input line 88.
+although it is yet undefined on input line 87.
 Package acronym Info: Label `acro:WLAN' newly defined as it shall be overridden
 
-although it is yet undefined on input line 88.
+although it is yet undefined on input line 87.
 File: images/dhbw_de.pdf Graphic file (type pdf)
 <use images/dhbw_de.pdf>
-Package pdftex.def Info: images/dhbw_de.pdf  used on input line 93.
+Package pdftex.def Info: images/dhbw_de.pdf  used on input line 94.
 (pdftex.def)             Requested size: 57.79497pt x 28.45274pt.
 File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
-Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 93.
+Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 94.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
- [82]
+ [86]
 Package acronym Info: Label `acro:IP' newly defined as it shall be overridden
-although it is yet undefined on input line 104.
-
-
-Package acronym Warning: Acronym `IP' is not defined on input line 104.
-
-
-Package acronym Warning: Acronym `IP' is not defined on input line 104.
-
-
-Package acronym Warning: Acronym `IP' is not defined on input line 108.
-
+although it is yet undefined on input line 103.
 File: images/dhbw_de.pdf Graphic file (type pdf)
 <use images/dhbw_de.pdf>
-Package pdftex.def Info: images/dhbw_de.pdf  used on input line 116.
+Package pdftex.def Info: images/dhbw_de.pdf  used on input line 122.
 (pdftex.def)             Requested size: 57.79497pt x 28.45274pt.
 File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
-Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 116.
+Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 122.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
-[83]
+ [87]
 File: images/dhbw_de.pdf Graphic file (type pdf)
 <use images/dhbw_de.pdf>
-Package pdftex.def Info: images/dhbw_de.pdf  used on input line 151.
+Package pdftex.def Info: images/dhbw_de.pdf  used on input line 155.
 (pdftex.def)             Requested size: 57.79497pt x 28.45274pt.
 File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
-Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 151.
+Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 155.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
- [84]
-
-Package acronym Warning: Acronym `IP' is not defined on input line 154.
-
+ [88]
 Package acronym Info: Label `acro:LAN' newly defined as it shall be overridden
-although it is yet undefined on input line 169.
-
-Package acronym Warning: Acronym `LAN' is not defined on input line 169.
-
-
-Package acronym Warning: Acronym `LAN' is not defined on input line 169.
-
+although it is yet undefined on input line 168.
 File: images/dhbw_de.pdf Graphic file (type pdf)
 <use images/dhbw_de.pdf>
-Package pdftex.def Info: images/dhbw_de.pdf  used on input line 179.
+Package pdftex.def Info: images/dhbw_de.pdf  used on input line 185.
 (pdftex.def)             Requested size: 57.79497pt x 28.45274pt.
 File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
-Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 179.
+Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 185.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
-[85]
-Overfull \hbox (2.25644pt too wide) in paragraph at lines 199--200
-\T1/lmr/m/n/12 (-20) pi/2002171.htm https://www.randombrick.de/raspberry-pi-als
--wlan-access-point-nutzen/ 
- []
-
+ [89]
 File: images/dhbw_de.pdf Graphic file (type pdf)
 <use images/dhbw_de.pdf>
-Package pdftex.def Info: images/dhbw_de.pdf  used on input line 209.
+Package pdftex.def Info: images/dhbw_de.pdf  used on input line 216.
 (pdftex.def)             Requested size: 57.79497pt x 28.45274pt.
 File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
-Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 209.
+Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 216.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
-[86]
+ [90])
 File: images/dhbw_de.pdf Graphic file (type pdf)
 <use images/dhbw_de.pdf>
-Package pdftex.def Info: images/dhbw_de.pdf  used on input line 241.
+Package pdftex.def Info: images/dhbw_de.pdf  used on input line 149.
 (pdftex.def)             Requested size: 57.79497pt x 28.45274pt.
 File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
-Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 241.
+Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 149.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
- [87])
+ [91]
 File: images/dhbw_de.pdf Graphic file (type pdf)
 <use images/dhbw_de.pdf>
-Package pdftex.def Info: images/dhbw_de.pdf  used on input line 148.
+Package pdftex.def Info: images/dhbw_de.pdf  used on input line 149.
 (pdftex.def)             Requested size: 57.79497pt x 28.45274pt.
 File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
-Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 148.
+Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 149.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
- [88] (ads/appendix.tex
+ [92] (ads/appendix.tex
 chapter without number
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/lmr/m/sc/12'.
@@ -4250,23 +4281,145 @@ File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
 Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 52.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
- [4]) 
-AED: lastpage setting LastPage
+ [4]
 File: images/dhbw_de.pdf Graphic file (type pdf)
 <use images/dhbw_de.pdf>
-Package pdftex.def Info: images/dhbw_de.pdf  used on input line 153.
+Package pdftex.def Info: images/dhbw_de.pdf  used on input line 78.
 (pdftex.def)             Requested size: 57.79497pt x 28.45274pt.
 File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
-Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 153.
+Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 78.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
-[5]
+ [5]
+
+pdfTeX warning: pdflatex.exe (file ./images/Mechanik/Grundflaeche.pdf): PDF inc
+lusion: found PDF version <1.7>, but at most version <1.5> allowed
+<images/Mechanik/Grundflaeche.pdf, id=2052, 597.23125pt x 845.1575pt>
+File: images/Mechanik/Grundflaeche.pdf Graphic file (type pdf)
+<use images/Mechanik/Grundflaeche.pdf>
+Package pdftex.def Info: images/Mechanik/Grundflaeche.pdf  used on input line 8
+2.
+(pdftex.def)             Requested size: 455.24417pt x 644.235pt.
+
+
+pdfTeX warning: pdflatex.exe (file ./images/Mechanik/Seitenwand.pdf): PDF inclu
+sion: found PDF version <1.7>, but at most version <1.5> allowed
+<images/Mechanik/Seitenwand.pdf, id=2053, 597.23125pt x 845.1575pt>
+File: images/Mechanik/Seitenwand.pdf Graphic file (type pdf)
+<use images/Mechanik/Seitenwand.pdf>
+Package pdftex.def Info: images/Mechanik/Seitenwand.pdf  used on input line 86.
+
+(pdftex.def)             Requested size: 455.24417pt x 644.235pt.
+
+
+pdfTeX warning: pdflatex.exe (file ./images/Mechanik/Adapterplatte.pdf): PDF in
+clusion: found PDF version <1.7>, but at most version <1.5> allowed
+<images/Mechanik/Adapterplatte.pdf, id=2054, 845.1575pt x 597.23125pt>
+File: images/Mechanik/Adapterplatte.pdf Graphic file (type pdf)
+<use images/Mechanik/Adapterplatte.pdf>
+Package pdftex.def Info: images/Mechanik/Adapterplatte.pdf  used on input line 
+91.
+(pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
+
+
+pdfTeX warning: pdflatex.exe (file ./images/Mechanik/Basisplatte.pdf): PDF incl
+usion: found PDF version <1.7>, but at most version <1.5> allowed
+<images/Mechanik/Basisplatte.pdf, id=2055, 1195.46625pt x 845.1575pt>
+File: images/Mechanik/Basisplatte.pdf Graphic file (type pdf)
+<use images/Mechanik/Basisplatte.pdf>
+Package pdftex.def Info: images/Mechanik/Basisplatte.pdf  used on input line 95
+.
+(pdftex.def)             Requested size: 1195.46333pt x 845.15544pt.
+
+
+pdfTeX warning: pdflatex.exe (file ./images/Mechanik/Motoraufnahme.pdf): PDF in
+clusion: found PDF version <1.7>, but at most version <1.5> allowed
+<images/Mechanik/Motoraufnahme.pdf, id=2056, 597.23125pt x 845.1575pt>
+File: images/Mechanik/Motoraufnahme.pdf Graphic file (type pdf)
+<use images/Mechanik/Motoraufnahme.pdf>
+Package pdftex.def Info: images/Mechanik/Motoraufnahme.pdf  used on input line 
+102.
+(pdftex.def)             Requested size: 455.24417pt x 644.235pt.
+File: images/Mechanik/Rahmen.pdf Graphic file (type pdf)
+<use images/Mechanik/Rahmen.pdf>
+Package pdftex.def Info: images/Mechanik/Rahmen.pdf  used on input line 106.
+(pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
+) 
+AED: lastpage setting LastPage
+File: images/dhbw_de.pdf Graphic file (type pdf)
+<use images/dhbw_de.pdf>
+Package pdftex.def Info: images/dhbw_de.pdf  used on input line 154.
+(pdftex.def)             Requested size: 57.79497pt x 28.45274pt.
+File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
+<use images/Bosch_Logo_DE.pdf>
+Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 154.
+(pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
+[6]
+File: images/dhbw_de.pdf Graphic file (type pdf)
+<use images/dhbw_de.pdf>
+Package pdftex.def Info: images/dhbw_de.pdf  used on input line 154.
+(pdftex.def)             Requested size: 57.79497pt x 28.45274pt.
+File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
+<use images/Bosch_Logo_DE.pdf>
+Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 154.
+(pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
+ [7 <./images/Mechanik/Grundflaeche.pdf>]
+File: images/dhbw_de.pdf Graphic file (type pdf)
+<use images/dhbw_de.pdf>
+Package pdftex.def Info: images/dhbw_de.pdf  used on input line 154.
+(pdftex.def)             Requested size: 57.79497pt x 28.45274pt.
+File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
+<use images/Bosch_Logo_DE.pdf>
+Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 154.
+(pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
+ [8 <./images/Mechanik/Seitenwand.pdf>]
+File: images/dhbw_de.pdf Graphic file (type pdf)
+<use images/dhbw_de.pdf>
+Package pdftex.def Info: images/dhbw_de.pdf  used on input line 154.
+(pdftex.def)             Requested size: 57.79497pt x 28.45274pt.
+File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
+<use images/Bosch_Logo_DE.pdf>
+Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 154.
+(pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
+pdfTeX warning (ext4): destination with the same identifier (name{page.I}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.154 \end{document}
+                     [9 <./images/Mechanik/Adapterplatte.pdf>]
+File: images/dhbw_de.pdf Graphic file (type pdf)
+<use images/dhbw_de.pdf>
+Package pdftex.def Info: images/dhbw_de.pdf  used on input line 154.
+(pdftex.def)             Requested size: 57.79497pt x 28.45274pt.
+File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
+<use images/Bosch_Logo_DE.pdf>
+Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 154.
+(pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
+ [10 <./images/Mechanik/Basisplatte.pdf>]
+File: images/dhbw_de.pdf Graphic file (type pdf)
+<use images/dhbw_de.pdf>
+Package pdftex.def Info: images/dhbw_de.pdf  used on input line 154.
+(pdftex.def)             Requested size: 57.79497pt x 28.45274pt.
+File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
+<use images/Bosch_Logo_DE.pdf>
+Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 154.
+(pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
+ [11 <./images/Mechanik/Motoraufnahme.pdf>]
+File: images/dhbw_de.pdf Graphic file (type pdf)
+<use images/dhbw_de.pdf>
+Package pdftex.def Info: images/dhbw_de.pdf  used on input line 154.
+(pdftex.def)             Requested size: 57.79497pt x 28.45274pt.
+File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
+<use images/Bosch_Logo_DE.pdf>
+Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 154.
+(pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
+ [12]
 No complaints by nag.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 153.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 153.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 154.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 154.
 (dokumentation.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 153.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 153.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 154.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 154.
 
 
 LaTeX Warning: There were undefined references.
@@ -4279,11 +4432,11 @@ Package logreq Info: Writing requests to 'dokumentation.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 63330 strings out of 492946
- 1295126 string characters out of 3126266
- 2240070 words of memory out of 3000000
- 65249 multiletter control sequences out of 15000+200000
- 614904 words of font info for 164 fonts, out of 3000000 for 9000
+ 63633 strings out of 492946
+ 1300311 string characters out of 3126266
+ 2224510 words of memory out of 3000000
+ 65507 multiletter control sequences out of 15000+200000
+ 621499 words of font info for 173 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
  66i,21n,93p,9113b,3184s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/alexk/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.en
@@ -4309,9 +4462,9 @@ ata/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Users/alexk/
 AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb><C:/Users/ale
 xk/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb><C:/Users
 /alexk/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmtt12.pfb>
-Output written on dokumentation.pdf (107 pages, 18319522 bytes).
+Output written on dokumentation.pdf (118 pages, 18668170 bytes).
 PDF statistics:
- 2447 PDF objects out of 2487 (max. 8388607)
- 694 named destinations out of 1000 (max. 500000)
- 28275 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 2680 PDF objects out of 2984 (max. 8388607)
+ 718 named destinations out of 1000 (max. 500000)
+ 29316 words of extra memory for PDF output out of 29859 (max. 10000000)
 
