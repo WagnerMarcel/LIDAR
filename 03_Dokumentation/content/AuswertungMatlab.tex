@@ -5,7 +5,7 @@
 
 Die Daten werden nach Beendigung eines Scans exportiert und auf einem seperaten PC ausgewertet. Die Auswertung und Darstellung erfolgt mit Matlab. Matlab bietet sich an, da große Datenmengen schnell ausgewertet und dargestellt werden können. Zudem sind bereits Kenntnisse zum Importieren und Darstellen von .csv Dateien vorhanden. 
 
-Die .csv Datei enthält die Rohdaten. Die Rohdaten bestehen pro Datenwert aus der Entfernung vom Messpunkt bis zum Hindernis in Zentimetern. Zudem ist jedem Entfernungswert der Azimuth und die Elevation im Bezug zum jeweils gesetzten Nullpunkt zugeordnet. Die Messwerte sind fortlaufend nummeriert. 
+Die .csv Datei enthält die Rohdaten. Die Rohdaten bestehen pro Datenwert aus der Entfernung vom Messpunkt bis zum Hindernis in Zentimetern. Zudem ist jedem Entfernungswert der Azimut und der Polarwinkel (Elevation) im Bezug zum jeweils gesetzten Nullpunkt zugeordnet. Die Messwerte sind fortlaufend nummeriert. 
 Diese Werte müssen zuerst aus der .csv Datei in Matlab importiert werden. Anschließend erfolgt die Aufteilung des Datensatzen in die Vektoren Entfernung, Azimut und Elevation.
 Die beiden Winkelwerte zusammen mit dem Entfernungswert stellen Kugelkoordinaten dar. Diese müssen zur Darstellung in Matlab in kartesische Korrdinaten umgewandelt werden. 
 
@@ -13,11 +13,11 @@ Die beiden Winkelwerte zusammen mit dem Entfernungswert stellen Kugelkoordinaten
 
 \section{Importieren und Zuordnung der Messwerte}
 
-Im ersten Teil des Auswertungs- und Darstellungsprogramms wird die .csv-Datei als gesamtes in Matlab importiert. Anschließend werden die einzelnen Spalten dementsprechenden Variablen zugeordnet, um die spätere Auswerung zu erleichtern.
+Im ersten Teil des Auswertungs- und Darstellungsprogramms wird die .csv-Datei als Gesamtes in Matlab importiert. Anschließend werden die einzelnen Spalten dementsprechenden Variablen zugeordnet, um die spätere Auswerung zu erleichtern.
 
-Das Importieren der Daten erfolgt über die ''importdata'' Funktion von Matlab, die es ermöglicht, Datensätze aus einer seperaten Datei zu lesen. Das erste Argument der Funktion ist der relative Dateipfad zu der einzulesenden Datei. Dieser wird in Zeile 5 festgelegt. Das zweite Argument steht für das Trennzeichen, mit dem einzelne Elemente in Daten abgetrennt werden. Bei .csv-Dateien ist dies ein Semikolon. Der letzte Übergabeparameter gibt an, wie viele Kopfzeilen importiert werden sollen.
+Das Importieren der Daten erfolgt über die ''importdata'' Funktion von Matlab. Diese ermöglicht es, Datensätze aus einer seperaten Datei zu lesen. Das erste Argument der Funktion ist der relative Dateipfad zu der einzulesenden Datei. Dieser wird in Zeile 5 festgelegt. Das zweite Argument steht für das Trennzeichen, mit dem einzelne Elemente in Daten abgetrennt werden. Bei .csv-Dateien ist dies ein Semikolon. Der letzte Übergabeparameter gibt an, wie viele Kopfzeilen importiert werden sollen.
 
-Die Importierte Daten liegen anschließend als Struct in der Variable "data" vor. Diese Struct enthält zum einen die Kopfzeile als Feld und zum andern die Messwerte ohne Kopfzeile. Für die weitere Verwendung der Daten, werden nur die Messwerte benötigt. Diese werden mit Zeile 8 extrahiert. 
+Die importierten Daten liegen anschließend als Struct in der Variable "data" vor. Dieses Struct enthält zum einen die Kopfzeile als Feld und zum anderen die Messwerte ohne Kopfzeile. Für die weitere Verwendung der Daten, werden nur die Messwerte benötigt. Diese werden mit Zeile 8 extrahiert. 
 
 Anschließend werden in Zeile 10 bis 12 die einzelnen Spalten separiert und einer passenden Variablen zugeordnet. 
 
@@ -39,7 +39,7 @@ elevation = data(:,4)
 
 \section{Umwandlung von Kugelkoordinaten zu kartesischen Koordinaten}
 
-Die Messpunkte liegen hardwarebedingt als Kugelkoordinaten vor. Dies bedeutet, dass jeder Punkt aus dem Abstand r zum Zentrum O, dem Polarwinkel $\theta$ und dem Azimutwinkel $\phi$ definiert wird.
+Die Messpunkte liegen hardwarebedingt als Kugelkoordinaten vor. Dies bedeutet, dass jeder Punkt aus dem Abstand r zum Zentrum O, dem Polarwinkel $\theta$ und dem Azimutwinkel $\varphi$ definiert wird.
 
 Der Abstand r wird durch die Distanz des Punktes P von 0 bestimmt. Der Polarwinkel $\theta$ ist der Winkel zwischen Flächennormalen und dem Vektor OP. Das Gegenstück dazu ist die Höhe.  Der Polarwinkel reicht von 0 bis $\pi$. \\
 Der Azimutwinkel ist der Winkel zwischen der x-Achse und der Projektion der Strecke OP auf die xy Ebene. Dieser Winkel reicht je nach Definition von  -$\pi$ bis $\pi$ oder von 0 bis 2$\pi$. Für das Lidar System wird die zweite Definition verwendet.
@@ -58,16 +58,16 @@ Die Umrechnung erfolgt mit Formel \ref{umrechnung}:
 
 \begin{equation}\formelentry{Umrechnung Kugelkoordinaten in kartesische Koordinaten}
 \begin{split}
-&x = r \cdot \cos(\theta) \cdot \cos(\phi) \\
-&y = r \cdot \cos(\theta) \cdot \sin(\phi) \\
+&x = r \cdot \cos(\theta) \cdot \cos(\varphi) \\
+&y = r \cdot \cos(\theta) \cdot \sin(\varphi) \\
 &z = r \cdot \sin(\theta)
 \end{split}
 \label{umrechnung}
 \end{equation} 
 \begin{flalign*}
 &r = \text{Abstand des Punktes zum Zentrum} \left[m \right]&\\
-&\theta = \text{Polarwinkel}\left[^{\circ} \right]&\\
-&\phi = \text{Azimutwinkel}\left[^{\circ} \right]&
+&\theta = \text{Polarwinkel (Elevation)}\left[^{\circ} \right]&\\
+&\varphi = \text{Azimutwinkel}\left[^{\circ} \right]&
 \end{flalign*}
 
 In Matlab wird jeder einzelne Punkt innerhalb eine For-Schleife mit der oben genannten Formel umgewandelt und die drei Koordinaten x,y und z für kartesische Koordinaten gespeichert. Als Endwert der Schleife wird die Zeilenanzahl des Datensatzes verwendet. Somit ist dieser Wert variabel und muss nicht für jeden Datensatz spezifisch angepasst werden.\\
@@ -100,7 +100,7 @@ plot3(x,y,z, '.')		%Darstellung mit kleinen Punkten
 \end{lstlisting}
 
 Die Darstellung der kartesischen Koordinaten erfolgt über die ''plot3()'' Funktion. Diese Funktion ermöglicht es, rotierbare, dreidimensionale Darstellungen anzufertigen. Die ersten drei Argumente der Funktion sind die Vektoren mit den jeweiligen Koordinaten.\\
-Mit dem vierten Argument kann man die Darstellungsart der einzelnen Punkte festlegen. Anhand eines Datensatzes werden drei verschiedene Möglichkeiten auf Vor- und Nachteile überprüft.
+Mit dem vierten Argument kann man die Darstellungsart der einzelnen Punkte festlegen. Anhand eines Datensatzes werden die drei verschiedene Möglichkeiten auf Vor- und Nachteile überprüft.
 
 Übergibt man der Funktion keinen Parameter, werden die Punkte durch schmale Linien verbunden. Dadurch entsteht ein dreidimensionaler Raum, mit sehr feiner Darstellung. Konturen sind dabei sehr gut zu erkennen. Zudem kann man den Verlauf der Messwertaufnahme erkennen. \\
 Nachteil dieser Darstellungsart ist, dass auch Messfehler verbunden werden, wodurch es zu fehlerhaften Darstellungen kommt. Dies ist beispielsweise in Abbildung \ref{linien} zu erkennen.

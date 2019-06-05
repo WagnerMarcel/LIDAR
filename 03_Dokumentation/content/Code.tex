@@ -166,9 +166,9 @@ def homeAxis():
         count += 1
     M2.moveMotor(1,36,0.001)
 \end{lstlisting}
-Die erste Funktion (Zeile 2 - 7) dient dazu, die übrigen \acp{GPIO} zu initialisieren und diesen einen Startwert zu geben. Hier werden die \acp{GPIO} welche für die LED und den Lüfter vorgesehen sind als Ausgang deklariert und als 'LOW' initialisiert. Der \ac{GPIO} Pin, welcher für die Lichtschranke vorgesehen ist, wird als Eingang deklariert.\\
-Die zweite Funktion wird benötigt, um das System in horizontaler Richtung in die Ausgangslage zu bringen. Dazu wird der Motor 2, welcher für den Polarwinkel zuständig ist, so lange gedreht, bis dieser die Lichtschranke erreicht und diese wieder verlässt. Da die Lichtschranke nicht zu 100\% am Kreisscheitelpunkt positioniert ist, wird nach verlassen der Lichtschranke mit einem manuellen Kalibrationswert (Zeile 16) der Polarwinkel in Nulllage gebracht.\\
-\subsection{Variablendeklaration und aufrufen von Funktionen}
+Die erste Funktion (Zeile 2 - 7) dient dazu, die übrigen \acp{GPIO} zu initialisieren und diesen einen Startwert zu geben. Hier werden die \acp{GPIO}, welche für die LED und den Lüfter vorgesehen sind als Ausgang deklariert und als 'LOW' initialisiert. Der \ac{GPIO} Pin, welcher für die Lichtschranke vorgesehen ist, wird als Eingang deklariert.\\
+Die zweite Funktion wird benötigt, um das System in horizontaler Richtung in die Ausgangslage zu bringen. Dazu wird der Motor 2, welcher für den Azimutwinkel zuständig ist, so lange gedreht, bis dieser die Lichtschranke erreicht und diese wieder verlässt. Da die Lichtschranke nicht zu 100\% am Kreisscheitelpunkt positioniert ist, wird nach verlassen der Lichtschranke mit einem manuellen Kalibrationswert (Zeile 16) der Azimutwinkel in Nulllage gebracht.\\
+\subsection{Variablendeklaration und Aufrufen von Funktionen}
 Bevor mit dem eigentlichen Messen begonnen werden kann, müssen noch einige Variablen definiert und Funktionen aufgerufen werden.
 \begin{lstlisting}[caption={Aufrufen von Funktionen und Variablen deklaration}, language={Python}, label={main_setup}, numbers=left]
 initGPIO()
@@ -188,33 +188,33 @@ print(lidar.dist)
 lidar.recievedData = False
 
 data = open("data_"+datetime.datetime.fromtimestamp(time.time()).strftime('%Y-%m-%d_%H-%M-%S')+".csv", "w")
-data.write("Nr;Distance;Azimuth;Elevation\n")
+data.write("Nr;Distance;Azimut;Elevation\n")
 valueNr = 1
 \end{lstlisting}
-In Zeile 1 (Listing \ref{main_setup}) werden zuerst die \acp{GPIO} initialisiert. Anschließend wird ein Wert vom \ac{LIDAR} ausgelesen  und die Flag des \acp{LIDAR} wieder auf 'False' gesetzt, damit dieser anschließend wieder Messwerte aufnehmen kann. Dies dient zum Funktionstest, bevor das System bewegt wurde. Wenn der Sensor beispielsweise nicht korrekt verbunden wurde würde das System abbrechen bevor etwas Bewegt wurde. Danach wird das System in die Ausgangslage positioniert und eine kurze Zeit gewartet, bevor es mit dem eigentlichen Messvorgang losgeht.\\
-Wie in Zeile 7 \& 8 zu sehen werden anschließend noch die Anzahl der benötigten Schritte für eine ganze Umdrehung und eine Viertelumdrehung berechnet. Diese Werte werden benötigt, um die grenzen für die Schleifen der Messung festzulegen. Ein Schrittmotor macht pro Umdrehung 200 ganze Schritte, da eine möglichst hohe Auflösung gewünscht ist, wird die größtmögliche Mikroschritt Zahl der Motortreiber verwendet. Im Fall der verwendeten Motortreiber wurden Achtelschritte gewählt, allerdings hat der Motortreiber 1, welcher für die Vertikale Achse zuständig ist einen Fehler, wodurch nur viertel Schritte möglich sind.\\
+In Zeile 1 (Listing \ref{main_setup}) werden zuerst die \acp{GPIO} initialisiert. Anschließend wird ein Wert vom \ac{LIDAR} ausgelesen  und die Flag des \acp{LIDAR} wieder auf 'False' gesetzt, damit dieser anschließend wieder Messwerte aufnehmen kann. Dies dient zum Funktionstest, bevor das System bewegt wird. Wenn der Sensor beispielsweise nicht korrekt verbunden wird, würde das System abbrechen, bevor etwas bewegt wird. Danach wird das System in die Ausgangslage positioniert und eine kurze Zeit gewartet, bevor es mit dem eigentlichen Messvorgang losgeht.\\
+Wie in Zeile 7 \& 8 zu sehen, werden anschließend noch die Anzahl der benötigten Schritte für eine ganze Umdrehung und eine Viertelumdrehung berechnet. Diese Werte werden benötigt, um die Grenzen für die Schleifen der Messung festzulegen. Ein Schrittmotor macht pro Umdrehung 200 ganze Schritte. Da eine hohe Auflösung gewünscht ist, wird die Mikroschrittfunktion der Motortreiber verwendet. Im Fall der verwendeten Motortreiber werden Achtelschritte gewählt. Allerdings hat der Motortreiber 1, welcher für die vertikale Achse zuständig ist einen Fehler, wodurch nur viertel Schritte möglich sind.\\
 In Zeile 10 \& 11 werden die Startrichtungen für die Motoren festgelegt.\\
-Anschließend wird ein Messwert in die Konsole ausgegeben, um dem Bediener eine Rückmeldung zu geben, dass das System Ordnungsgemäß funktioniert.\\
+Anschließend wird ein Messwert in die Konsole ausgegeben, um dem Bediener eine Rückmeldung zu geben, dass das System ordnungsgemäß funktioniert.\\
 \subsection{Erstellen der Datei zum Speichern der Daten}
-Ein letzter Schritt ist noch nötig, bevor mit der Messung begonnen werden kann (Listing \ref{main_data}). Dabei wird die Datei in welcher die Messwerte abgespeichert werden erstellt. Die Datei wird dabei immer mit 'data' und dem aktuellen Datum sowie Timestamp versehen. Als letzte Aktion vor der Messung wird der Index des ersten Messwertes gleich 1 gesetzt.\\
+Ein letzter Schritt ist noch notwendig bevor mit der Messung begonnen werden kann (Listing \ref{main_data}). Dabei wird die Datei, in welcher die Messwerte abgespeichert werden, erstellt. Die Datei wird dabei immer mit 'data' und dem aktuellen Datum sowie Timestamp versehen. Als letzte Aktion vor der Messung wird der Index des ersten Messwertes gleich 1 gesetzt.\\
 \begin{lstlisting}[caption={Erstellen der Datei zum Speichern der Daten}, language={Python}, label={main_data}, numbers=left]
 data = open("data_"+datetime.datetime.fromtimestamp(time.time()).strftime('%Y-%m-%d_%H-%M-%S')+".csv", "w")
-data.write("Nr;Distance;Azimuth;Elevation\n")
+data.write("Nr;Distance;Azimut;Elevation\n")
 valueNr = 1
 \end{lstlisting}
-Die \ac{csv} Datei in welcher die Daten gespeichert werden ist nach folgendem Schema aufgebaut:
+Die \ac{csv} Datei, in welcher die Daten gespeichert werden, ist nach folgendem Schema aufgebaut:
 \begin{table}[H]
 	\centering
 	\caption{Beispieldatei}
 	\begin{tabular}{|l|l|l|l|}
 		\hline
-		\textbf{Nr} & \textbf{Distance} & \textbf{Azimuth} & \textbf{Elevation} \\\hline
+		\textbf{Nr} & \textbf{Distance} & \textbf{Azimut} & \textbf{Elevation} \\\hline
 		1  & 105      & 0       & 0         \\\hline
-		2  & 105      & 0       & 0.18      \\\hline
-		3  & 106      & 0       & 0.36      \\\hline
+		2  & 105      & 0.18       & 0      \\\hline
+		3  & 106      & 0.36       & 0      \\\hline
 	\end{tabular}
 \end{table}
-Jeder Wert welcher in die Datei gespeichert wird bekommt einen Index, somit kann man einen Überblick behalten, wie viele Messwerte aufgezeichnet wurden. Die zweite Spalte, welche in der Datei steht, ist für die Distanz vorgesehen, welche vom \ac{LIDAR} Sensor ermittelt wird. Die beiden letzten Spalten der dienen der Speicherung des Winkels welcher aus der Position der Schrittmotoren ermittelt wird. Die Distanz wird in $cm$ gespeichert und die beiden Winkel in Grad.
+Jeder Wert, welcher in die Datei gespeichert wird, bekommt einen Index. Somit kann man einen Überblick behalten, wie viele Messwerte aufgezeichnet wurden. Die zweite Spalte, welche in der Datei steht, ist für die Distanz vorgesehen, welche vom \ac{LIDAR} Sensor ermittelt wird. Die beiden letzten Spalten dienen der Speicherung des Winkels, welcher aus der Position der Schrittmotoren ermittelt wird. Die Distanz wird in $cm$ gespeichert und die beiden Winkel in Grad.
 
 \subsection{Schleifen der Steuerung}
 \begin{lstlisting}[caption={Messen und Aufzeichnen der Entfernungen}, language={Python}, label={main_loop}, numbers=left]
@@ -244,8 +244,8 @@ while(countM1 < stepsQuartRotM1):
 data.stop()
 lidar.tof.stop_ranging()
 \end{lstlisting}
-Da in Python keine konventionellen 'for' Schleifen möglich sind, müssen 'while' Schleifen verwendet werden. Dazu wird eine extra Variable benötigt (Zeile 1 \& 2 Listing \ref{main_loop}), um zu Überwachen wie oft die Schleife schon durchlaufen wurde. Da in diesem Fall zwei 'while' Schleifen ineinander Verschachtelt wurden, werden auch zwei Variablen benötigt um die Anzahl der Durchläufe zu überwachen. \\
-Die äußere Schleife wird nur so oft durchlaufen, bis der Motor 1, welcher für die Neigung des Polarwinkles zuständig ist, 90° erreicht. Im inneren dieser Schleife gibt es eine Besonderheit. Da sich die Kabel des oberen Aufbaus nur endlich oft Drehen können bis diese Verschleißen, muss das System nach jeden 360° die Richtung umkehren. Dafür werden 2 verschiedene Schleifen benötigt, da später der Winkel anhand des Counters der Schleifendurchläufe berechnet wird. Prinzipiell passiert in den Schleifen in Zeile 5 - 11 und Zeile 13 - 19 aber exakt das selbe. Zuerst werden neue Daten vom \ac{LIDAR} Sensor angefragt, und die Flag des Sensors gesetzt. Anschließend wird der ermittelte Wert zusammen mit den aktuellen Winkeln und einem Index in die '.csv' Datei gespeichert. Die Winkel werden dabei in Grad angegeben (Zeile 8 \& 16).\\
-Nachdem die Werte gespeichert wurden, wird der Motor bewegt, in diesem Fall um vier Schritte, was auch zeigt, dass das System in diesem Codebeispiel nur mit einem viertel der Auflösung in horizontaler Richtung arbeitet. Anschließend wird der Index sowie der Schleifenzähler erhöht. Beim Schleifenzähler besteht der große Unterschied zwischen den beiden 'while' Schleifen, da einmal die Schleife von 'vorne' und einmal von 'hinten' durchlaufen wird. Die Schrittweite vier ergibt sich aus der Anzahl der Schritte welche auch dem Motor übergeben wurden.\\
-Wenn die innere Schleife eine volle 360° Drehung also eine komplette Rotation durchlaufen hat, wird der Motor 1, welcher für den Polarwinkel zuständig ist ebenfalls bewegt, in diesem Fall auch um vier Schritte was ein Viertel der vertikalen Auflösung bedeutet. Ebenfalls der zweite Schleifenzähler wird um vier erhöht, und die Richtung des Motors für die Horizontale Drehung wird umgekehrt, bevor die innere Schleife aufs neue durchlaufen wird.\\
-Wenn die gesamte Messung abgeschlossen ist wird die Datei welche die Daten enthält geschlossen und die Messung gestoppt. Die Datei kann nun weiterverwendet und ausgewertet werden.
+Da in Python keine konventionellen 'for' Schleifen möglich sind, müssen 'while' Schleifen verwendet werden. Dazu wird eine extra Variable benötigt (Zeile 1 \& 2 Listing \ref{main_loop}) um zu überwachen, wie oft die Schleife schon durchlaufen wurde. Da in diesem Fall zwei 'while' Schleifen ineinander verschachtelt wurden, werden auch zwei Variablen benötigt um die Anzahl der Durchläufe zu überwachen. \\
+Die äußere Schleife wird nur so oft durchlaufen, bis der Motor 1, welcher für die Neigung des Polarwinkles (Elevation) zuständig ist, 90° erreicht. Im inneren dieser Schleife gibt es eine Besonderheit. Da sich die Kabel des oberen Aufbaus nur endlich oft drehen können bis diese verschleißen, muss das System nach jeden 360° die Richtung umkehren. Dafür werden 2 verschiedene Schleifen benötigt, da später der Winkel anhand des Counters der Schleifendurchläufe berechnet wird. Prinzipiell passiert in den Schleifen in Zeile 5 - 11 und Zeile 13 - 19 aber exakt das selbe. Zuerst werden neue Daten vom \ac{LIDAR} Sensor angefragt, und die Flag des Sensors gesetzt. Anschließend wird der ermittelte Wert zusammen mit den aktuellen Winkeln und einem Index in die '.csv' Datei gespeichert. Die Winkel werden dabei in Grad angegeben (Zeile 8 \& 16).\\
+Nachdem die Werte gespeichert wurden, wird der Motor bewegt. In diesem Fall um vier Schritte. Dies zeigt, dass das System in diesem Codebeispiel nur mit einem Viertel der Auflösung in horizontaler Richtung arbeitet. Anschließend wird der Index sowie der Schleifenzähler erhöht. Beim Schleifenzähler besteht der große Unterschied zwischen den beiden 'while' Schleifen, da einmal die Schleife von 'vorne' und einmal von 'hinten' durchlaufen wird. Die Schrittweite Vier ergibt sich aus der Anzahl der Schritte welche auch dem Motor übergeben wurden.\\
+Wenn die innere Schleife eine volle 360° Drehung, also eine komplette Rotation durchlaufen hat, wird der Motor 1, welcher für den Polarwinkel zuständig ist ebenfalls bewegt. In diesem Fall auch um vier Schritte was ein Viertel der vertikalen Auflösung bedeutet. Der zweite Schleifenzähler wird ebenfalls um Vier erhöht, und die Richtung des Motors für die horizontale Drehung wird umgekehrt, bevor die innere Schleife aufs neue durchlaufen wird.\\
+Wenn die gesamte Messung abgeschlossen ist, wird die Datei, welche die Daten enthält geschlossen und die Messung gestoppt. Die Datei kann nun weiterverwendet und ausgewertet werden.

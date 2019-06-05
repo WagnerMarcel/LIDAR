@@ -148,7 +148,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {8.3.2}Zus\IeC {\"a}tzliche Funktionen}{51}{subsection.8.3.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.3.3}Variablendeklaration und aufrufen von Funktionen}{52}{subsection.8.3.3}% 
+\contentsline {subsection}{\numberline {8.3.3}Variablendeklaration und Aufrufen von Funktionen}{52}{subsection.8.3.3}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {8.3.4}Erstellen der Datei zum Speichern der Daten}{53}{subsection.8.3.4}% 
 \defcounter {refsection}{0}\relax 
