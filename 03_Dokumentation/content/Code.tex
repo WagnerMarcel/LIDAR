@@ -1,9 +1,9 @@
 %!TEX root = ../dokumentation.tex
 
 \chapter{Python Code zur Steuerung des Systems}\label{chap:code}
-Die gewählte Sprache in welcher die Steuerung realisiert ist, ist Python. Python wurde gewählt, da mittels dieser die \acp{GPIO} des Raspberry Pi sehr einfach mittels einer Bibliothek ansteuerbar sind. Zudem ist Python eine sehr schnelle und weit verbreitete hochentwickelte Programmiersprache.\\
-Bei der Erstellung des Codes, welcher das System steuert wurde von Anfang an eine Objektorientierte Vorgehensweiße gewählt, um eine möglichst reibungslose und fortschrittliche Umsetzung zu realisieren.\\
-Der gesamte Code wurde auf drei Dateien aufgeteilt. Dies dient zum Einen zur besseren Übersichtlichkeit, zum Anderen erhielt jede Klasse eine eigene Datei.
+Die gewählte Sprache, in welcher die Steuerung realisiert ist, ist Python. Python wurde gewählt, da mittels dieser die \acp{GPIO} des Raspberry Pi sehr einfach mittels einer Bibliothek ansteuerbar sind. Zudem ist Python eine sehr schnelle und weit verbreitete, hochentwickelte Programmiersprache.\\
+Bei der Erstellung des Codes, welcher das System steuert, wurde von Anfang an eine objektorientierte Vorgehensweise gewählt. Dadurch wird eine möglichst reibungslose und fortschrittliche Umsetzung realisiert.\\
+Der gesamte Code wird auf drei Dateien aufgeteilt. Dies dient zum Einen zur besseren Übersichtlichkeit, zum Anderen erhält jede Klasse eine eigene Datei.
 \section{Motor}
 Die erste Datei und Klasse beschäftigt sich mit der Ansteuerung der Schrittmotoren.\\
 Sie benötigt zwei extra Bibliotheken (Listing \ref{motor_bib}). Die 'time' Bibliothek wird benötigt, um zwischen verschiedenen Befehlen 'schlafen' zu können, sprich das Programm pausieren zu können. Die 'RPI.GPIO' Bibliothek wird benötigt, um die \acp{GPIO} des Raspberry PI ansteuern zu können. 
@@ -16,8 +16,8 @@ import RPi.GPIO as GPIO
 Der Konstruktor der Klasse beschäftigt sich mit der Deklaration von Variablen und dem Zuweisen der dem Konstruktor übergebenen Parameter.\\
 Im Falle der Motor Klasse bekommt der Konstruktor sechs Übergabeparameter, wovon allerdings ein Parameter ('self') eine Referenz auf das eigene Objekt ist.\\
 Die restlichen übergebenen Parameter sind die \acp{GPIO}, welche für die Ansteuerung des Motortreibers benötigt werden.\\
-Bei einem Blick auf den Code des Konstruktors (Listing \ref{motor_contructor}) sieht man die Übernahme der Übergabeparameter in klasseneigene Variablen (Zeile 2-6). Anschließend wird die Kommunikationsrichtung der \acp{GPIO} festgelegt (Zeile 7 - 11). In diesem Fall werden alle Pins als Ausgang benötigt.\\
-Außerdem wird den \acp{GPIO} direkt ein Zustand zugewiesen (Zeile 12 - 16), in diesem Fall ist die Konfiguration so, dass der Motor Treiber mit Achtelschritten arbeitet und den Motor gegen den  Uhrzeigersinn drehen lässt.
+Bei einem Blick auf den Code des Konstruktors (Listing \ref{motor_contructor}), sieht man die Übernahme der Übergabeparameter in klasseneigene Variablen (Zeile 2-6). Anschließend wird die Kommunikationsrichtung der \acp{GPIO} festgelegt (Zeile 7 - 11). In diesem Fall werden alle Pins als Ausgang benötigt.\\
+Außerdem wird den \acp{GPIO} direkt ein Zustand zugewiesen (Zeile 12 - 16), in diesem Fall ist die Konfiguration so, dass der Motortreiber mit Achtelschritten arbeitet und den Motor gegen den Uhrzeigersinn drehen lässt.
 \begin{lstlisting}[caption={Konstruktor der Motor Klasse}, language={Python}, label={motor_contructor}, numbers=left]
 def __init__(self, Step, Dir, MS1, MS2, MS3):
     self.step = Step
@@ -38,7 +38,7 @@ def __init__(self, Step, Dir, MS1, MS2, MS3):
 \end{lstlisting}
 
 \subsection{Bewegen des Motors}
-Die Motor Klasse besitzt zudem noch eine Funktion, mittels welcher sich der jeweilige Motor bewegen lässt (Listing \ref{motor_move}). In der Funktion wird zunächst die Drehrichtung je nach Übergabeparameter gesetzt (Zeile 2 - 5), und anschließend ein bzw. je nachdem wie viele Schritte gefordert werden ausführt. Um einen kompletten Schritt zu vollenden, wird der dafür vorgesehene Pin des Motortreibers Ein und wieder Aus geschaltet. Die Zeit zwischen diesen beiden Vorgängen kann über einen Übergabeparameter der Funktion eingestellt werden (Zeile 8 - 13). Dies bestimmt direkt die Drehgeschwindigkeit des Motors. Wobei allerdings eine kleinere übergebene Zeit eine schnellere Drehung des Motors produziert. 
+Die Motor Klasse besitzt zudem noch eine Funktion, mittels welcher sich der jeweilige Motor bewegen lässt (Listing \ref{motor_move}). In der Funktion wird zunächst die Drehrichtung je nach Übergabeparameter gesetzt (Zeile 2 - 5). Anschließend wird ein bzw. je nachdem wie viele Schritte gefordert werden, ausführt. Um einen kompletten Schritt zu vollenden, wird der dafür vorgesehene Pin des Motortreibers Ein und wieder Aus geschaltet. Die Zeit zwischen diesen beiden Vorgängen kann über einen Übergabeparameter der Funktion eingestellt werden (Zeile 8 - 13). Dies bestimmt direkt die Drehgeschwindigkeit des Motors. Wird eine geringe Zeit übergeben, wird eine schnellere Drehung des Motors erreicht. 
 \begin{lstlisting}[caption={Funktion zum Bewegen des Motors}, language={Python}, label={motor_move}, numbers=left]
 def moveMotor(self, dir, step, speed):
     if(dir):
@@ -57,18 +57,18 @@ def moveMotor(self, dir, step, speed):
 
 
 \section{Lidar}
-Auch der \ac{LIDAR} Sensor hat eine eigene Datei sowie Klasse bekommen, dies soll dazu dienen, um mehrere verschiedene Sensoren konfigurieren zu können und diese dann schell und einfach mit denselben Funktionen auswählen zu können.\\
+Auch der \ac{LIDAR} Sensor hat eine eigene Datei sowie Klasse. Dies soll dazu dienen, mehrere verschiedene Sensoren konfigurieren zu können und diese dann schnell und einfach mit denselben Funktionen auswählen zu können.\\
 Die Klasse ist in ihrer jetzigen Form bereits in der Lage zwei verschiedene \ac{LIDAR} Sensoren zu bedienen.
-Die Lidar Klasse benötigt zwei Bibliotheken (Listing \ref{lidar_bib}), mit der ersten kann eine Serielle Verbindung erstellt werden. Die Zweite Bibliothek wird benötigt, um einen der zwei Möglichen \ac{LIDAR} Sensoren anzusteuern. 
+Die Lidar Klasse benötigt zwei Bibliotheken (Listing \ref{lidar_bib}). Mit der ersten kann eine serielle Verbindung erstellt werden. Die zweite Bibliothek wird benötigt, um einen der zwei Möglichen \ac{LIDAR} Sensoren anzusteuern. 
 \begin{lstlisting}[caption={Bibliotheken der Lidar Klasse}, language={Python}, label={lidar_bib}, numbers=left]
 import serial
 import VL53L1X
 \end{lstlisting}
 
 \subsection{Konstruktor und Variablen}
-Die Lidar Klasse besitzt zwei Variablen. Die Variable 'dist' wird verwendet, um die gemessene Entfernung zu speichern und auf diese Zugreifen zu können.\\
+Die Lidar Klasse besitzt zwei Variablen. Die Variable 'dist' wird verwendet, um die gemessene Entfernung zu speichern und auf diese zugreifen zu können.\\
 Die zweite Variable wird als Flag bei Verwendung des \ac{LIDAR} Sensors 'TFMini' (Kapitel \ref{tf_mini}) benötigt (Listing \ref{lidar_constructor}).\\
-Der Konstruktor der Klasse ist zudem in der Lage je nachdem, welche Parameter angegeben werden, die korrekte Verbindung herzustellen. Je nachdem welche Werte angegeben und welche als "None"  definiert werden, stellt der Konstruktor entweder eine Verbindung über \ac{UART} (Zeile 9) oder \ac{I$^{2}$C} (Zeile 11 - 13) her. 
+Der Konstruktor der Klasse ist zudem in der Lage, je nachdem welche Parameter angegeben werden, die korrekte Verbindung herzustellen. Je nachdem welche Werte angegeben und welche als "None"  definiert werden, stellt der Konstruktor entweder eine Verbindung über \ac{UART} (Zeile 9) oder \ac{I$^{2}$C} (Zeile 11 - 13) her. 
 \begin{lstlisting}[caption={Kostruktor der Lidar Klasse}, language={Python}, label={lidar_constructor}, numbers=left]
 class LIDAR():
     dist = 0
@@ -85,7 +85,7 @@ class LIDAR():
             self.tof.start_ranging(3)
 \end{lstlisting}
 \subsection{Aufnehmen von Messdaten}
-Die Funktion um anschließend Daten vom \ac{LIDAR} Sensor zu bekommen ist auch in der Klasse definiert, somit kann für egal welchen Sensortyp über die selben Funktionsaufrufe die Distanz ermittelt werden. 
+Die Funktion um Daten vom \ac{LIDAR} Sensor zu bekommen ist auch in der Klasse definiert. Somit kann für egal welchen Sensortyp über die selben Funktionsaufrufe die Distanz ermittelt werden. 
 \begin{lstlisting}[caption={Funktion um Distanz vom \ac{LIDAR} Sensor zu erhalten}, language={Python}, label={lidar_getData}, numbers=left]
 	def getData(self):
         if(self.uart != None and self.i2c == None):
@@ -104,8 +104,8 @@ Die Funktion um anschließend Daten vom \ac{LIDAR} Sensor zu bekommen ist auch 
             self.dist = self.tof.get_distance() # Entfernung in mm
             self.dist = self.dist/10.0
 \end{lstlisting}
-In Listing \ref{lidar_getData} kann man sehen, dass ähnlich wie im Konstruktor je nachdem welcher Sensor 'ausgewählt' wurde unterschiedliche Methoden verwendet werden um Daten zu bekommen. Der erste Abschnitt in Zeile 3 - 13 ist für die Verwendung eines Sensors mittels \ac{UART} gedacht. Da \ac{UART} ein Serieller Bus ist, auf welchen vom Slave konstant Daten geschickt werden, wartet diese Funktion so lange, bis neue Daten ankommen. Die neuen Daten werden durch zwei aufeinander folgende 'Y' gekennzeichnet. Anschließend werden die zwei byte für die Entfernung gespeichert (Zeile 7 \& 8) und zur Gesamtdistanz zusammengefügt (Zeile 9). Anschließend wird die bereits erwähnte Flag der Klasse gesetzt, damit nur ein einzelner Wert aufgenommen wird.\\
-Die Zweite Methode in Zeile 15 - 16 ist deutlich einfacher, da hierbei eine Bibliothek verwendet werden kann und die Distanz lediglich in die richtige Größe konvertiert werden muss (Zeile 15 - 16).
+In Listing \ref{lidar_getData} kann man sehen, dass ähnlich wie im Konstruktor je nachdem welcher Sensor 'ausgewählt' wurde, unterschiedliche Methoden verwendet werden um Daten zu bekommen. Der erste Abschnitt in Zeile 3 - 13 ist für die Verwendung eines Sensors mittels \ac{UART} gedacht. Da \ac{UART} ein serieller Bus ist, auf welchen vom Slave konstant Daten geschickt werden, wartet diese Funktion so lange, bis neue Daten ankommen. Die neuen Daten werden durch zwei aufeinanderfolgende 'Y' gekennzeichnet. Anschließend werden die zwei Byte für die Entfernung gespeichert (Zeile 7 \& 8) und zur Gesamtdistanz zusammengefügt (Zeile 9). Anschließend wird die bereits erwähnte Flag der Klasse gesetzt, damit nur ein einzelner Wert aufgenommen wird.\\
+Die zweite Methode in Zeile 15 - 16 ist deutlich einfacher, da hierbei eine Bibliothek verwendet werden kann. Dabei muss die Distanz lediglich in die richtige Größe konvertiert werden (Zeile 15 - 16).
 \section{Steuerung}
 Die dritte und letzte Datei beschäftigt sich mit der generellen Steuerung des Systems und dem Initialisieren und Aufrufen der Klassen und derer Funktionen.\\
 Für die Steuerung des Systems werden einige Bibliotheken mehr benötigt.
@@ -124,9 +124,9 @@ import Motor
 GPIO.setmode(GPIO.BOARD)
 GPIO.setwarnings(False)
 \end{lstlisting}
-Die Bibliotheken in Zeile 2 \& 3 (Listing \ref{main_bibliotheken})werden für die Benennung der Dateien, welche Produziert werden benötigt. Die 'math' Bibliothek wird für einige Berechnungen benötigt und die 'RPi.GPIO' wird wie bereits erwähnt benötigt und die \acp{GPIO} des Raspberry Pi möglichst einfach anzusteuern. Anschließend werden dann noch die zwei Klassen importiert welche in den vorangegangenen Abschnitten erklärt wurden. Zudem wird noch der Modus der \ac{GPIO} Nummerierung festgelegt. In diesem Fall ist der Modus gleich der Nummerierung der Pins auf dem Board. \todo{Bild GPIO pinout}\\
+Die Bibliotheken in Zeile 2 \& 3 (Listing \ref{main_bibliotheken})werden für die Benennung der Dateien, welche produziert werden, benötigt. Die 'math' Bibliothek wird für einige Berechnungen verwendet und die 'RPi.GPIO' wird wie bereits erwähnt benötigt, um die \acp{GPIO} des Raspberry Pi möglichst einfach anzusteuern. Anschließend werden dann noch die zwei Klassen importiert, welche in den vorangegangenen Abschnitten erklärt werden. Zudem wird noch der Modus der \ac{GPIO} Nummerierung festgelegt. In diesem Fall ist der Modus gleich der Nummerierung der Pins auf dem Board. \todo{Bild GPIO pinout}\\
 \subsection{Pin Definitionen und Initialisieren der Klassen}
-Da wie in den vorangegangenen Kapiteln erläutert wurden Klassen für Motor und Lidar erstellt wurden müssen diese nun auch aufgerufen und initialisiert werden. Zudem sind weitere \acp{GPIO} nötig um das gesamte System zu Steuern.
+Da wie in den vorangegangenen Kapiteln erläutert Klassen für Motor und Lidar erstellt wurden, müssen diese nun aufgerufen und initialisiert werden. Zudem sind weitere \acp{GPIO} nötig um das gesamte System zu Steuern.
 \begin{lstlisting}[caption={Initialisieren von Variablen und Klassen}, language={Python}, label={main_classes}, numbers=left]
 # Pins & Definitionen
 workingLED = 11
@@ -143,11 +143,11 @@ M2 = Motor.MOTOR(18,16,36,38,40)
 lidar = Lidar.LIDAR('/dev/ttyAMA0', none)
 #lidar = Lidar.LIDAR(None, 0x29)
 \end{lstlisting}
-Zunächst werden die Pins für die verschiedenen auf der Platine vorgesehenen Funktionen definiert (Listing \ref{main_classes}). Eine Anmerkung hierzu ist, dass auf der Platine versäumt wurde einen Pin für die Lichtschranke zur Positionierung bereitzustellen, daher wurde hier der Pin verwendet, welcher eigentlich für den Seriellen Takt des \ac{SPI} zuständig ist. Außerdem wurden Pins für eine Status \ac{LED} und einen Lüfter bereitgestellt. \\
-Nach den normalen Pin Deklarationen werden die beiden Motoren durch die Klassen initialisiert. Dazu werden wie im Kapitel der Motorklasse beschrieben die Verschiedenen Pins zur Ansteuerung des Motortreibers dem Konstruktor der Klasse übergeben. Anschließend kann der Motor mittels den in der Klasse definierten Funktionen gesteuert werden.\\
-Zuletzt muss nur noch der \ac{LIDAR} Sensor initialisiert werden, dazu kann wie in Zeile 13 \& 14 zu sehen ist eine der beiden Initialisierungsmöglichkeiten gewählt werden, um entweder einen Sensor mittels \ac{UART} oder \ac{I$^{2}$C} zu verwenden.\\
+Zunächst werden die Pins für die verschiedenen, auf der Platine vorgesehenen, Funktionen definiert (Listing \ref{main_classes}). Eine Anmerkung hierzu ist, dass auf der Platine versäumt wurde einen Pin für die Lichtschranke zur Positionierung bereitzustellen. Daher wird hier der Pin verwendet, welcher eigentlich für den seriellen Takt des \ac{SPI} zuständig ist. Außerdem werden Pins für eine Status \ac{LED} und einen Lüfter bereitgestellt. \\
+Nach den normalen Pin Deklarationen werden die beiden Motoren durch die Klassen initialisiert. Dazu werden, wie im Kapitel der Motorklasse beschrieben, die verschiedenen Pins zur Ansteuerung des Motortreibers dem Konstruktor der Klasse übergeben. Anschließend kann der Motor mittels den in der Klasse definierten Funktionen gesteuert werden.\\
+Zuletzt muss nur noch der \ac{LIDAR} Sensor initialisiert werden. Dazu kann wie in Zeile 13 \& 14 zu sehen ist, eine der beiden Initialisierungsmöglichkeiten gewählt werden, um entweder einen Sensor mittels \ac{UART} oder \ac{I$^{2}$C} zu verwenden.\\
 \subsection{Zusätzliche Funktionen}
-Nachdem alle benötigten Variablen für die \acp{GPIO} definiert sind, werden noch einige Funktionen benötigt um einen schöneren und übersichtlicheren Code zu erzeugen (Listing \ref{main_functions}). 
+Nachdem alle benötigten Variablen für die \acp{GPIO} definiert sind, werden noch einige Funktionen benötigt, um einen schöneren und übersichtlicheren Code zu erzeugen (Listing \ref{main_functions}). 
 \begin{lstlisting}[caption={Funktionen für die Übersichtlichkeit des Codes}, language={Python}, label={main_functions}, numbers=left]
 # Funktion um GPIO's zu Initalisieren
 def initGPIO():
@@ -166,10 +166,10 @@ def homeAxis():
         count += 1
     M2.moveMotor(1,36,0.001)
 \end{lstlisting}
-Die erste Funktion (Zeile 2 - 7) dient dazu, um die übrigen \acp{GPIO} zu initialisieren und diesen einen Startwert zu geben. Hier werden die \acp{GPIO} welche für die LED und den Lüfter vorgesehen sind als Ausgang deklariert und als 'LOW' initialisiert. Der \ac{GPIO} Pin welcher für die Lichtschranke vorgesehen ist wird als Eingang deklariert.\\
-Die zweite Funktion wird benötigt, um das System in horizontaler Richtung in die Ausgangslage zu bringen. Dazu wird der Motor 2, welcher für den Polarwinkel zuständig ist, so lange gedreht, bis dieser die Lichtschranke erreicht, und diese wieder verlässt. Da die Lichtschranke nicht zu 100\% am Kreisscheitelpunkt positioniert ist, wird nach verlassen der Lichtschranke mit einem Manuellen Kalibrationswert (Zeile 16) der Polarwinkel in Nulllage gebracht.\\
+Die erste Funktion (Zeile 2 - 7) dient dazu, die übrigen \acp{GPIO} zu initialisieren und diesen einen Startwert zu geben. Hier werden die \acp{GPIO} welche für die LED und den Lüfter vorgesehen sind als Ausgang deklariert und als 'LOW' initialisiert. Der \ac{GPIO} Pin, welcher für die Lichtschranke vorgesehen ist, wird als Eingang deklariert.\\
+Die zweite Funktion wird benötigt, um das System in horizontaler Richtung in die Ausgangslage zu bringen. Dazu wird der Motor 2, welcher für den Polarwinkel zuständig ist, so lange gedreht, bis dieser die Lichtschranke erreicht und diese wieder verlässt. Da die Lichtschranke nicht zu 100\% am Kreisscheitelpunkt positioniert ist, wird nach verlassen der Lichtschranke mit einem manuellen Kalibrationswert (Zeile 16) der Polarwinkel in Nulllage gebracht.\\
 \subsection{Variablendeklaration und aufrufen von Funktionen}
-Bevor mit dem eigentlichen Messen begonnen werden kann müssen noch einige Variablen definiert und Funktionen aufgerufen werden.
+Bevor mit dem eigentlichen Messen begonnen werden kann, müssen noch einige Variablen definiert und Funktionen aufgerufen werden.
 \begin{lstlisting}[caption={Aufrufen von Funktionen und Variablen deklaration}, language={Python}, label={main_setup}, numbers=left]
 initGPIO()
 lidar.getData()

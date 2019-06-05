@@ -3,7 +3,7 @@
 Ziel der Machbarkeitsstudie ist es, Informationen über die Schwierigkeit des Entwurfs und der Herstellung eines \ac{LIDAR} Sensors mittels einer Photodiode zu erlangen. 
 
 \section{Versuch 1: Test handelsüblicher Photodioden}
-In einem ersten sehr einfachen Aufbau wurde der Photostrom in einer handelsüblichen Photodiode gemessen.
+In einem ersten sehr einfachen Aufbau wird der Photostrom in einer handelsüblichen Photodiode gemessen.
 \subsection{Versuchsaufbau}
 \subsubsection{Verwendete Bauteile}
 
@@ -38,7 +38,7 @@ In einem ersten sehr einfachen Aufbau wurde der Photostrom in einer handelsübli
 	\end{tabular}
 \end{table}
 \subsubsection{Aufbau}
-Wie in Kapitel \ref{sec:photodioden} beschrieben, müssen Photodioden mit einer Sperrspannung betrieben werden, um einen möglichst großen Photostrom messen zu können. Daher wird die Photodiode mit einer Sperrspannung von $5\:V$ betrieben. Das Digitalmultimeter wird in Reihe zur Photodiode geschlossen um den entstehenden Photostrom messen zu können.\\
+Wie in Kapitel \ref{sec:photodioden} beschrieben, müssen Photodioden mit einer Sperrspannung betrieben werden, um einen möglichst großen Photostrom messen zu können. Daher wird die Photodiode mit einer Sperrspannung von $5\:V$ betrieben. Das Digitalmultimeter wird in Reihe zur Photodiode geschlossen, um den entstehenden Photostrom messen zu können.\\
 Um direkt einen möglichst guten Eindruck der späteren Anwendung zu bekommen, wird direkt ein Testaufbau verwendet, in welchem das Licht vom Laserpointer reflektiert und danach von der Photodiode detektiert wird. Dazu wird die Photodiode direkt neben dem Laserpointer positioniert (Abbildung: \ref{versuch1_versuchsaufbau}). 
 \begin{figure}[H]
 	\centering
@@ -55,9 +55,9 @@ Insgesamt wurden fünf Messungen durchgeführt.
 	\item Photostrom bei direktem Beleuchten mit einem Laserpointer
 	\item Photostrom bei Reflexion von einem Laserpointer
 \end{enumerate}
-Diese ersten vier Messungen sollen einen ersten Überblick über die Stärke des Photostroms geben und die Störeinflüsse des Umgebungslicht näher betrachten. Zudem kann über die fünfte Messung und die Variation des Abstandes der Reflexionsfläche Information darüber erlangt werden, wie groß die relative Änderungen des Photostroms bei relativer Änderung des Abstandes ist.
+Diese ersten vier Messungen sollen einen ersten Überblick über die Stärke des Photostroms geben und die Störeinflüsse des Umgebungslichts näher betrachten. Zudem kann über die fünfte Messung und die Variation des Abstandes der Reflexionsfläche Information darüber erlangt werden, wie groß die relative Änderungen des Photostroms bei relativer Änderung des Abstandes ist.
 \subsection{Beobachtung}
-Die größte Beobachtung, welche bei den Messungen gesehen werden kann, ist, dass der Photostrom nur im Bereich von wenigen $\mu A$ liegt.
+Die größte Beobachtung, welche bei den Messungen gesehen werden kann ist, dass der Photostrom nur im Bereich von wenigen $\mu A$ liegt.
 \begin{enumerate}
 	\item Nicht abgedunkelter Raum: $15\:\mu A$ 
 	\item Abgedunkelter Raum: $3-5\:\mu A$  (sogenannter Dunkelstrom)
@@ -122,10 +122,10 @@ In die Seite des Kartons wird je ein Loch für Laserpointer und Photodiode gesch
 	\item Bei Platzierung der Lupe vor der Photodiode ist ein stärkerer Stromanstieg bei Betätigung des Laserpointers zu beobachten. Allerdings ist dieser Aufbau sehr schwer einstellbar. Hauptgrund dafür ist, dass der Laserpointer nun nichtmehr orthogonal zur Kartonwand aufgestellt werden kann, sondern in einem Winkel positioniert werden muss, damit die Reflexion möglichst exakt im Brennpunkt der Lupe positioniert ist. Dann kann auch der größtmögliche Stromanstieg beobachtet werden. 
 \end{enumerate}
 \subsection{Erkenntnis}
-Die Erkenntnis aus dem zweiten Versuch ist, dass eine Optik vor der Photodiode eine größere Empfindlichkeit ermöglicht. Allerdings ist diese Optik auch sehr schwer einzustellen, da sich Einfallswinkel des Lichts mit steigender Entfernung kontinuierlich ändern. Zudem wurde beobachtet, dass ein dunkler Raum lediglich den Gesamtstrom reduziert, der Anstieg des Stroms bei Betätigung des Laserpointers bleibt gleich.\\
-Die bisherigen Versuche beruhen auf dem \ac{ToF} Prinzip, da ständig versucht wird eine Flanke des Photostroms zu erkennen. Ein Problem welches dabei bisher noch nicht betrachtet wurde, ist wie im Kapitel \ref{subsec:tof_herausvorderungen} beschrieben, dass bei geringer Distanz die Lichtlaufzeit im Bereich weniger $ns$ liegt und daher eine sehr schnelle Auswerteelektronik nötig ist. Daher wird für weitere Test eine wie in Kapitel \ref{subsec:apd} \ac{APD} benötigt um wenige reflektierte Photonen besser detektieren zu können.
+Die Erkenntnis aus dem zweiten Versuch ist, dass eine Optik vor der Photodiode eine größere Empfindlichkeit ermöglicht. Allerdings ist diese Optik auch sehr schwer einzustellen, da sich Einfallswinkel des Lichts mit steigender Entfernung kontinuierlich ändern. Zudem wurde beobachtet, dass ein dunkler Raum lediglich den Gesamtstrom reduziert. Der Anstieg des Stroms bei Betätigung des Laserpointers bleibt gleich.\\
+Die bisherigen Versuche beruhen auf dem \ac{ToF} Prinzip, da ständig versucht wird eine Flanke des Photostroms zu erkennen. Ein Problem, welches dabei bisher noch nicht betrachtet wurde, ist wie im Kapitel \ref{subsec:tof_herausvorderungen} beschrieben. Bei geringer Distanz liegt die Lichtlaufzeit im Bereich weniger $ns$ und daher ist eine sehr schnelle Auswerteelektronik nötig. Daher wird für weitere Test eine wie in Kapitel \ref{subsec:apd} \ac{APD} benötigt um wenige reflektierte Photonen besser detektieren zu können.
 \section{Weiteres Vorgehen}
 Wie bereits beschrieben, sind weitere Versuche nur mit einer \ac{APD} sinnvoll. Da diese allerdings meist in Preisspektren > 100€ liegen wurden die Versuche eingestellt.
 \subsection{Recherche}
-Da es in unserem Unternehmen einige Abteilungen aus verschiedensten Bereichen gibt, welche sich mit Laserenfernungsmessung beschäftigen, war der nächste Schritt Kontakt mit diesen Abteilungen aufzunehmen und die Pläne einen eigenen \ac{LIDAR} Sensor zu entwickeln zu diskutieren. \\ 
-Die Erkenntnis welche aus diesen Gesprächen gewonnen werden konnte ist, dass ohne \ac{APD} keines der drei in Kapitel \ref{sec:grund_lidar} \todo{Referenz} vorgestellten Messverfahren realisierbar ist. Zudem wurden Hinweise und Kritikpunkte an dem geplanten Vorgehen geäußert und wichtige Hinweise zur generellen Realisierung des Gesamtsystems angebracht. So zum Beispiel, dass bei einem \ac{LIDAR} Sensor nicht nur wichtig ist, was die minimale und maximale Messdistanz ist, sondern auch mit welcher Frequenz der Sensor diese Messergebnisse reproduzieren kann. Dies hat großen Einfluss auf Messgenauigkeit und Messdauer und ist daher ein weiterer Punkt welcher bei der Auswahl eines geeigneten Sensors betrachtet werden muss.
+Da es bei der Robert Bosch GmbH einige Abteilungen aus verschiedensten Bereichen gibt, welche sich mit Laserenfernungsmessung beschäftigen, war der nächste Schritt Kontakt mit diesen Abteilungen aufzunehmen und die Pläne einen eigenen \ac{LIDAR} Sensor zu entwickeln zu diskutieren. \\ 
+Die Erkenntnis, welche aus diesen Gesprächen gewonnen werden konnte ist, dass ohne \ac{APD} keines der drei in Kapitel \ref{sec:grund_lidar} \todo{Referenz} vorgestellten Messverfahren realisierbar ist. Zudem wurden Hinweise und Kritikpunkte an dem geplanten Vorgehen geäußert und wichtige Hinweise zur generellen Realisierung des Gesamtsystems angebracht. So zum Beispiel, dass bei einem \ac{LIDAR} Sensor nicht nur wichtig ist, was die minimale und maximale Messdistanz ist, sondern auch mit welcher Frequenz der Sensor diese Messergebnisse reproduzieren kann. Dies hat großen Einfluss auf Messgenauigkeit und Messdauer und ist daher ein weiterer Punkt welcher bei der Auswahl eines geeigneten Sensors betrachtet werden muss.
