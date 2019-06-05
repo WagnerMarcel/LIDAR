@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.25)  5 JUN 2019 18:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.25)  5 JUN 2019 23:50
 entering extended mode
 **./dokumentation.tex
 (dokumentation.tex
@@ -4094,18 +4094,13 @@ Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 2.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
  [79]
 chapter 11.
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--12
-
- []
-
 File: images/dhbw_de.pdf Graphic file (type pdf)
 <use images/dhbw_de.pdf>
-Package pdftex.def Info: images/dhbw_de.pdf  used on input line 15.
+Package pdftex.def Info: images/dhbw_de.pdf  used on input line 17.
 (pdftex.def)             Requested size: 57.79497pt x 28.45274pt.
 File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
-Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 15.
+Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 17.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
 [80
 
@@ -4133,11 +4128,11 @@ Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 12.
 ]
 File: images/dhbw_de.pdf Graphic file (type pdf)
 <use images/dhbw_de.pdf>
-Package pdftex.def Info: images/dhbw_de.pdf  used on input line 24.
+Package pdftex.def Info: images/dhbw_de.pdf  used on input line 23.
 (pdftex.def)             Requested size: 57.79497pt x 28.45274pt.
 File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
-Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 24.
+Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 23.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
  [83]
 ("C:\Users\alexk\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\lstlang1.
@@ -4146,11 +4141,11 @@ File: lstlang1.sty 2018/09/02 1.7 listings language file
 )
 File: images/dhbw_de.pdf Graphic file (type pdf)
 <use images/dhbw_de.pdf>
-Package pdftex.def Info: images/dhbw_de.pdf  used on input line 47.
+Package pdftex.def Info: images/dhbw_de.pdf  used on input line 44.
 (pdftex.def)             Requested size: 57.79497pt x 28.45274pt.
 File: images/Bosch_Logo_DE.pdf Graphic file (type pdf)
 <use images/Bosch_Logo_DE.pdf>
-Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 47.
+Package pdftex.def Info: images/Bosch_Logo_DE.pdf  used on input line 44.
 (pdftex.def)             Requested size: 96.19223pt x 28.45274pt.
  [84]
 File: images/dhbw_de.pdf Graphic file (type pdf)
@@ -4434,7 +4429,7 @@ Package logreq Info: Writing requests to 'dokumentation.run.xml'.
 Here is how much of TeX's memory you used:
  63633 strings out of 492946
  1300311 string characters out of 3126266
- 2224533 words of memory out of 3000000
+ 2227595 words of memory out of 3000000
  65507 multiletter control sequences out of 15000+200000
  621499 words of font info for 173 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
@@ -4462,7 +4457,7 @@ ata/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Users/alexk/
 AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb><C:/Users/ale
 xk/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb><C:/Users
 /alexk/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmtt12.pfb>
-Output written on dokumentation.pdf (118 pages, 18667967 bytes).
+Output written on dokumentation.pdf (118 pages, 18668173 bytes).
 PDF statistics:
  2680 PDF objects out of 2984 (max. 8388607)
  718 named destinations out of 1000 (max. 500000)

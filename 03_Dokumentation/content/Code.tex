@@ -3,7 +3,7 @@
 \chapter{Python Code zur Steuerung des Systems}\label{chap:code}
 Die gewählte Sprache, in welcher die Steuerung realisiert ist, ist Python. Python wurde gewählt, da mittels dieser die \acp{GPIO} des Raspberry Pi sehr einfach mittels einer Bibliothek ansteuerbar sind. Zudem ist Python eine sehr schnelle und weit verbreitete, hochentwickelte Programmiersprache.\\
 Bei der Erstellung des Codes, welcher das System steuert, wurde von Anfang an eine objektorientierte Vorgehensweise gewählt. Dadurch wird eine möglichst reibungslose und fortschrittliche Umsetzung realisiert.\\
-Der gesamte Code wird auf drei Dateien aufgeteilt. Dies dient zum Einen zur besseren Übersichtlichkeit, zum Anderen erhält jede Klasse eine eigene Datei.
+Der gesamte Code wird auf drei Dateien aufgeteilt. Dies dient zum einen zur besseren Übersichtlichkeit, zum anderen erhält jede Klasse eine eigene Datei.
 \section{Motor}
 Die erste Datei und Klasse beschäftigt sich mit der Ansteuerung der Schrittmotoren.\\
 Sie benötigt zwei extra Bibliotheken (Listing \ref{motor_bib}). Die 'time' Bibliothek wird benötigt, um zwischen verschiedenen Befehlen 'schlafen' zu können, sprich das Programm pausieren zu können. Die 'RPI.GPIO' Bibliothek wird benötigt, um die \acp{GPIO} des Raspberry PI ansteuern zu können. 

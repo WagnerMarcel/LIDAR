@@ -59,9 +59,9 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {lstlisting}{\numberline {12.1}Beispiel Aufruf einer Python Funktion mit \IeC {\"U}bergabeparametern}{84}{lstlisting.12.1}% 
+\contentsline {lstlisting}{\numberline {12.1}Beispiel Aufruf einer Pythonfunktion mit \IeC {\"U}bergabeparametern}{84}{lstlisting.12.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {lstlisting}{\numberline {12.2}Python Beispiel Funktion welche \IeC {\"U}bergabeparamenter akzeptiert und ausf\IeC {\"u}hrt}{84}{lstlisting.12.2}% 
+\contentsline {lstlisting}{\numberline {12.2}Python Beispielfunktion, welche \IeC {\"U}bergabeparamenter akzeptiert und ausf\IeC {\"u}hrt}{84}{lstlisting.12.2}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {lstlisting}{\numberline {12.3}Installation dnsmasq hostapd}{87}{lstlisting.12.3}% 
 \defcounter {refsection}{0}\relax 

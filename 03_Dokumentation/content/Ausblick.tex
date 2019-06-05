@@ -1,40 +1,40 @@
 %!TEX root = ../dokumentation.tex
 \chapter{Ausblick}\label{chap:ausblick}
-Im folgenden sollen Aspekte aufgeführt und erläutert werden, welche am \ac{LIDAR} System noch verbessert oder erweitert werden können. Teilweise sind für die Aspekte bereits Materialien vorhanden oder es wurden Verschiedene Methoden recherchiert. Alle unterlagen, welche mit dem Projekt verknüpft sind, sind im Github zu finden.\\
-Die Verbesserungen werden in zwei Verschiedene Bereiche geteilt. Im Hardware Teil wird darauf eingegangen, welche Punkte an der Mechanik und/oder den Elektrischen Komponenten verbessert werden kann. Im zweiten Teil, der Software wird dann darauf eingegangen, wie man das System nutzerfreundlicher gestalten könnte.  
+Im Folgenden sollen Aspekte aufgeführt und erläutert werden, welche am \ac{LIDAR} System noch verbessert oder erweitert werden können. Teilweise sind für die Aspekte bereits Materialien vorhanden oder es wurden verschiedene Methoden recherchiert. Alle Unterlagen, welche mit dem Projekt verknüpft sind, sind im Github zu finden.\\
+Die Verbesserungen werden in zwei verschiedene Bereiche geteilt. Im Hardwareteil wird darauf eingegangen, welche Punkte an der Mechanik und/oder den elektrischen Komponenten verbessert werden können. Im zweiten Teil, der Software, wird dann darauf eingegangen, wie man das System nutzerfreundlicher gestalten könnte.  
 \section{Hardware}
 \subsection{Platine}
-Da beim Entwurf der Platine einige Fehler passiert sind, diese sind bereits im Layout behoben und die Platine muss neu gefräst werden. Bevor dies allerdings geschieht sollte diese auch neu gelayoutet werden, da es verschiedene Optimierungsmöglichkeiten gibt. \\
-Die erste Optimierungsmöglichkeit für das neue Platinenlayout ist, dass ein Zusätzlicher Pin für die Lichtschranke heraus geführt wird, damit ist die Platine wieder so flexibel einsetzbar wie gedacht. Da dann auch ein Sensor welcher mittels \ac{SPI} angesteuert wird wieder einsetzbar ist.\\
-Ein größerer Aspekt welcher im neuen Platinenlayout beachtet werden sollte ist, dass der Flachbandkabelstecker zum Raspberry Pi an den Rand zum Raspberry Pi hin umpositioniert wird. Dies erleichtert die Montage / Demontage der Platine oder des Raspberry Pi's. Zudem hat der Motortreiber des Motors 1 dann ausreichend Platz nach oben um entstehende Hitze abzuführen. Außerdem sind die gesamten Pins, welche vom Flachbandkabel verdeckt werden dann einfacher zu erreichen, dies bedeutet eine einfachere Wartung des \ac{LIDAR} Systems.
+Beim Entwurf der Platine sind Fehler unterlaufen. Diese sind bereits im Layout behoben und die Platine muss neu gefräst werden. Bevor dies allerdings geschieht, sollte diese auch neu gelayoutet werden, da es verschiedene Optimierungsmöglichkeiten gibt. \\
+Die erste Optimierungsmöglichkeit für das neue Platinenlayout ist, dass ein zusätzlicher Pin für die Lichtschranke heraus geführt wird. Damit ist die Platine wieder so flexibel einsetzbar wie geplant, da dann auch ein Sensor, welcher mittels \ac{SPI} angesteuert wird wieder einsetzbar ist.\\
+Ein wichtigerer Aspekt, welcher im neuen Platinenlayout beachtet werden sollte ist, dass der Flachbandkabelstecker zum Raspberry Pi an den Rand der Platine hin umpositioniert wird. Dies erleichtert die Montage / Demontage der Platine oder des Raspberry Pi's. Zudem hat der Motortreiber des Motors 1 dann ausreichend Platz nach oben, um entstehende Hitze abzuführen. Außerdem sind die gesamten Pins, welche vom Flachbandkabel verdeckt werden dann einfacher zu erreichen. Dies bedeutet eine einfachere Wartung des \ac{LIDAR} Systems.
 \subsection{Gyrosensor}
-Im ursprünglichen Konzept des \ac{LIDAR} Systems war vorgesehen, dass sich sowohl die Horizontal- als auch die Vertikalachse selbstständig Kalibrieren können. Für die Horizontalachse hat dies durch die Verwendung einer Lichtschranke reibungslos geklappt, die Vertikalachse sollte sich mittels eines Gyrosensors in Nulllage, oder jede beliebige andere Lage, bringen können. Allerdings konnte dies im Rahmen der Studienarbeit nichtmehr implementiert werden, da der Sensor in ersten Tests zu ungenau war und weitere Tests nichtmehr möglich waren.. Der Sensor \todo{Name Sensor} ist bereits vorhanden und muss lediglich getestet und implementiert werden.
+Im ursprünglichen Konzept des \ac{LIDAR} Systems war vorgesehen, dass sich sowohl die Horizontal- als auch die Vertikalachse selbstständig kalibrieren können. Für die Horizontalachse hat dies durch die Verwendung einer Lichtschranke reibungslos funktioniert. Die Vertikalachse sollte sich mittels eines Gyrosensors in Nulllage, oder jede beliebige andere Lage, bringen können. Allerdings konnte dies im Rahmen der Studienarbeit nicht mehr implementiert werden, da der Sensor in ersten Tests zu ungenau war und weitere Tests nicht mehr möglich waren. Der Sensor \todo{Name Sensor} ist bereits vorhanden und muss lediglich getestet und implementiert werden.
 \subsection{Schleifring}
-Ebenfalls war im Konzept und der \ac{CAD} Zeichnung des \ac{LIDAR} Systems die Verwendung eines Schleifrings geplant, da bei Verwendung kein umdrehen nach 360° nötig ist, sondern sich das System kontinuierlich in eine Richtung drehen kann.\\
-Da es bei dem Schleifring allerdings zu Lieferschwierigkeiten kam, konnte dieser im Rahmen der Studienarbeit nicht verbaut werden. Die Bauteile sind allerdings so konstruiert, dass der vorgesehene Schleifring lediglich eingebaut werden müsste. 
+Ebenfalls war im Konzept und der \ac{CAD} Zeichnung des \ac{LIDAR} Systems die Verwendung eines Schleifrings geplant. Bei Verwendung eines Schleifrings kann sich das System kontinuierlich in eine Richtung drehen und muss nicht softwaretechnisch alle 360° die Richtung ändern.\\
+Da es bei dem Schleifring allerdings zu Lieferschwierigkeiten kam, konnte dieser im Rahmen der Studienarbeit nicht verbaut werden. Die Bauteile sind allerdings so konstruiert, dass der vorgesehene Schleifring lediglich eingebaut werden muss. 
 \subsection{Motortreiber}
-Der Motortreiber des Motors 1 also der vertikalen Achse sollte kontrolliert werden, da wie bereits erwähnt dieser bei korrekter Ansteuerung lediglich viertel Schritte tätigt. 
+Der Motortreiber des Motors 1 (vertikalen Achse) sollte kontrolliert werden, da wie bereits erwähnt, dieser bei korrekter Ansteuerung lediglich Viertelschritte tätigt. 
 \subsection{Bedienfeld}
-Ein weiterer Aspekt welcher bereits teilweise vorbereitet ist, ist die anbringung eines Bedienfelds an der front des \ac{LIDAR} Systems. Die bringt den Vorteil, dass die Messung nichtmehr über einen Computer gestartet werden muss, sondern das \ac{LIDAR} System alleinstehend verwendbar ist.\\
+Ein weiterer Aspekt, welcher bereits teilweise vorbereitet ist, ist die Anbringung eines Bedienfelds an der Front des \ac{LIDAR} Systems. Dieses bringt den Vorteil, dass die Messung nicht mehr über einen Computer gestartet werden muss, sondern das \ac{LIDAR} System alleinstehend verwendbar ist.\\
 Mögliche Elemente, welche sowohl in Hard- als auch in Software erstellt werden müssen sind:
 \begin{itemize}
 	\item LCD Panel zur Ausgabe der Menüoptionen und des Fortschritts
-	\item Drehencoder zur navigation im Menü
+	\item Drehencoder zur Navigation im Menü
 	\item Anbringen der Status \acp{LED}
 	\item Anbringen des Ein- \& Ausschalters des \ac{LIDAR} Systems
 \end{itemize}
-Zum anbringen des Bedienfelds wurden bereits Nutensteine im vorderen Teil des Rahmens eingebracht, so dass man das Bedienfeld einfach anbringen kann.
+Zum Anbringen des Bedienfelds wurden bereits Nutensteine im vorderen Teil des Rahmens eingebracht, sodass man das Bedienfeld einfach anbringen kann.
 
 \section{Software}
-Damit einige der erwähnten Hardware Implementationen möglich sind müssen auch Anpassungen an der Software vorgenommen werden.
+Damit einige der erwähnten Hardwareimplementationen möglich sind, müssen auch Anpassungen an der Software vorgenommen werden.
 \subsection{Steuerung mit Übergabeparameter}
-Um eine noch einfachere Steuerung des Systems zu ermöglichen können in Zukunft die Klassen so umgeschrieben werden, dass die Übergabe von Parametern möglich ist.\\
-Eine möglicher aufruf eines Programms könnte dann wie folgt aussehen (Listing \ref{variables_calling}). Diese Funktion soll den Motor, welcher durch den ersten Übergabeparameter festgelegt wird um die Anzahl Schritte welche vom zweiten Übergabeparameter festgelegt werden drehen. Die Richtung soll dabei durch das Vorzeichen des zweiten Übergabeparameters bestimmt werden. Dabei soll ein positives Vorzeichen eine Drehung mit dem Uhrzeigersinn und ein negatives Vorzeichen eine Drehung gegen den Uhrzeigersinn bewirken.
-\begin{lstlisting}[caption={Beispiel Aufruf einer Python Funktion mit Übergabeparametern}, language={bash}, label={variables_calling}, numbers=left]
+Um eine noch einfachere Steuerung des Systems zu ermöglichen, können in Zukunft die Klassen so umgeschrieben werden, dass die Übergabe von Parametern möglich ist.\\
+Eine möglicher Aufruf eines Programms könnte dann wie folgt aussehen (Listing \ref{variables_calling}). Diese Funktion soll den Motor, welcher durch den ersten Übergabeparameter festgelegt wird um die Anzahl Schritte, welche vom zweiten Übergabeparameter festgelegt werden, drehen. Die Richtung soll dabei durch das Vorzeichen des zweiten Übergabeparameters bestimmt werden. Dabei soll ein positives Vorzeichen eine Drehung mit dem Uhrzeigersinn und ein negatives Vorzeichen eine Drehung gegen den Uhrzeigersinn bewirken.
+\begin{lstlisting}[caption={Beispiel Aufruf einer Pythonfunktion mit Übergabeparametern}, language={bash}, label={variables_calling}, numbers=left]
 python LIDAR_Bewegen.py 1 -400
 \end{lstlisting}
-Um diese Funktion zu implementieren müssen allerdings die Bestehenden Funktionen überarbeitet werden. In Listing \ref{variables_function} ist ein Code Beispiel für ein Programm welches über Übergabeparameter die Motoren steuern kann. Dieses Beispiel ist allerdings noch nicht am System selbst getestet worden. 
-\begin{lstlisting}[caption={Python Beispiel Funktion welche Übergabeparamenter akzeptiert und ausführt}, language={python}, label={variables_function}, numbers=left]
+Um diese Funktion zu implementieren müssen allerdings die bestehenden Funktionen überarbeitet werden. In Listing \ref{variables_function} ist ein Codebeispiel für ein Programm, welches über Übergabeparameter die Motoren steuern kann. Dieses Beispiel ist allerdings noch nicht am System selbst getestet worden. 
+\begin{lstlisting}[caption={Python Beispielfunktion, welche Übergabeparamenter akzeptiert und ausführt}, language={python}, label={variables_function}, numbers=left]
 ## Programm zum Bewegen eines Motors
 
 #Bibliotheken
@@ -76,35 +76,35 @@ else:
         print("Bitte Motor angeben")
 
 \end{lstlisting}
-Um die gewünschte Funktion zu implementieren ist die Bibliothek 'sys' sehr wichtig, denn diese Stellt die übergebenen Werte in einem Array zur Verfügung. Danach ist das Programm recht einfach aufgebaut, da in Zeile 7 - 14 die Motorklasse importiert und die beiden Motoren Initialisiert werden. Bevor mit dem eigentlichen ausführen des Programms, bzw. der Bewegung des Motors begonnen wird, wird überprüft ob mindestens 2 Werte übergeben wurden. Falls nicht wird eine Ausgabe darauf hinweißen und die Verwendung erläutern. \\
-Anschließend wird ab Zeile 23 damit begonnen die übergebenen Werte in lokale Variablen zu übernehmen und die angegebene Richtung, welche beim Aufrufen durch das Vorzeichen des zweiten Parameters festgelegt wird, zu prüfen. Danach wird nur noch die Bekannte Funktion der Motor Klasse zum bewegen des Motors aufgerufen.
+Um die gewünschte Funktion zu implementieren ist die Bibliothek 'sys' sehr wichtig, denn diese stellt die übergebenen Werte in einem Array zur Verfügung. Danach ist das Programm recht einfach aufgebaut. In Zeile 7 - 14  wird die Motorklasse importiert und die beiden Motoren  werden initialisiert. Bevor mit dem eigentlichen Ausführen des Programms, bzw. der Bewegung des Motors begonnen wird, wird überprüft, ob mindestens 2 Werte übergeben wurden. Falls nicht, wird eine Ausgabe darauf hinweisen und die Verwendung erläutern. \\
+Anschließend wird ab Zeile 23 damit begonnen, die übergebenen Werte in lokale Variablen zu übernehmen und die angegebene Richtung, welche beim Aufrufen durch das Vorzeichen des zweiten Parameters festgelegt wird, zu prüfen. Danach wird nur noch die bekannte Funktion der Motorklasse zum Bewegen des Motors aufgerufen.
 
 \subsection{Bedienfeld Statusausgabe und Steuerung}
-Um ein Bedienfeld zu realisieren muss gegebenenfalls ein Komplettes Menü erstellt werden, durch welches die verschiedenen Funktionen aufrufbar sind. Bei der Implementierung gilt es darauf zu achten, dass die Objektorientierte Programmierung beibehalten wird und die Möglichkeit weitere Funktionen zu implementieren erhalten bleibt.\\
-Um heraus zu finden wie weit eine Messung fortgeschritten ist, muss lediglich im Programmablauf beobachtet werden, wie viele der Festgelegten Messpunkte bereits aufgenommen wurden. Dies Kann relativ einfach über die beiden Zähler Variablen der while Schleifen realisiert werden. 
+Um ein Bedienfeld zu realisieren, muss gegebenenfalls ein komplettes Menü erstellt werden, durch welches die verschiedenen Funktionen aufrufbar sind. Bei der Implementierung gilt es darauf zu achten, dass die objektorientierte Programmierung beibehalten wird und die Möglichkeit weitere Funktionen zu implementieren erhalten bleibt.\\
+Um herauszufinden, wie weit eine Messung fortgeschritten ist, muss lediglich im Programmablauf beobachtet werden, wie viele der festgelegten Messpunkte bereits aufgenommen wurden. Dies Kann relativ einfach über die beiden Zählervariablen der While-Schleifen realisiert werden. 
 
 \subsection{Webinterface}
-Die selbe Steuerung welche über das Bedienfeld direkt am System möglich ist, kann auch am PC in einem ansprechenden \ac{GUI} möglich sein. Dazu ist die Idee, dies mittels einem Webinterface zu realisieren. Der Raspberry Pi könnte dazu ein eigenständiges \ac{WLAN} verwalten. Für die Darstellung der Website kann beispielsweiße ein NodeJS Server auf dem Raspberry Pi aufgesetzt werden. Um von javascript anfragen an den Server, bzw. Python zu senden kann die Bibliothek Flask verwendet werden. Im folgenden wird auf die Ideen zu den einzelnen Komponenten näher eingegangen. 
+Die selbe Steuerung, welche über das Bedienfeld direkt am System möglich ist, kann auch am PC in einem ansprechenden \ac{GUI} möglich sein. Dazu ist die Idee, dies mittels einem Webinterface zu realisieren. Der Raspberry Pi könnte dazu ein eigenständiges \ac{WLAN} verwalten. Für die Darstellung der Website kann beispielsweise ein NodeJS Server auf dem Raspberry Pi aufgesetzt werden. Um von Javascript Anfragen an den Server, bzw. Python zu senden, kann die Bibliothek 'Flask' verwendet werden. Im Folgenden wird auf die Ideen zu den einzelnen Komponenten näher eingegangen. 
 \subsubsection{\ac{WLAN} auf dem Raspberry Pi einrichten}
-Da im Projekt ein Raspberry Pi der dritten Generation verwendet wurde, besitzt dieser durch den verbauten \ac{WLAN}-Chip die Möglichkeit ein eigenes \ac{WLAN}-Netzwerk zu erstellen und verwalten. https://www.raspberrypi.org/products/raspberry-pi-3-model-b/ 
+Da im Projekt ein Raspberry Pi der dritten Generation verwendet wird, besitzt dieser durch den verbauten \ac{WLAN}-Chip die Möglichkeit ein eigenes \ac{WLAN}-Netzwerk zu erstellen und verwalten. https://www.raspberrypi.org/products/raspberry-pi-3-model-b/ 
 Durch einige Änderungen in den Netzwerkeinstellungen lässt sich diese Funktion nutzen.
-Zunächst müssen dafür die Packages zur Verwaltung der Zugriffe auf das Netzwerk installiert werden.
+Zunächst müssen dafür die Pakete zur Verwaltung der Zugriffe auf das Netzwerk installiert werden.
 \begin{lstlisting}[caption={Installation dnsmasq hostapd}, language={bash}, numbers=left]
 sudo apt-get install dnsmasq hostapd
 \end{lstlisting}
-Diese neu installierten Packages müssen anschließend auch konfiguriert werden. Dazu wird folgende Datei aufgerufen und durch eine Zeile ergänzt.
+Diese neu installierten Packages müssen anschließend konfiguriert werden. Dazu wird folgende Datei aufgerufen und durch eine Zeile ergänzt.
 \begin{lstlisting}[caption={Konfiguration DHCP Server Schritt 1}, language={bash}, numbers=left]
 Sudo nano /etc/dhcpcd.conf
 \end{lstlisting}
-Wird ergänzt durch
+wird ergänzt durch
 \begin{lstlisting}[caption={Konfiguration DHCP Server Schritt 2}, language={bash}, numbers=left]
 Denyinterfaces wlan0
 \end{lstlisting}
-Damit der Raspberry Pi dann auch als Bereitsteller eines Netzwerks erkannt werden kann und immer wieder wird bekommt der Raspberry Pi eine Statische \ac{IP}-Adresse. 
+Damit der Raspberry Pi dann auch als Bereitsteller eines Netzwerks erkannt werden kann und immer wieder wird, bekommt der Raspberry Pi eine statische \ac{IP}-Adresse. 
 \begin{lstlisting}[caption={Konfiguration Interfaces Schritt 1}, language={bash}, numbers=left]
 Sudo nano /etc/network/interfaces
 \end{lstlisting}
-Wird dabei um mehrere Zeilen, welche zum Einstellen der Statischen \ac{IP}-Adresse dienen ergänzt.
+Die Textdatei wird dabei um mehrere Zeilen, welche zum Einstellen der Statischen \ac{IP}-Adresse dienen ergänzt.
 \begin{lstlisting}[caption={Konfiguration Interfaces Schritt 2}, language={bash}, numbers=left]
 allow-hotplug wlan0
 iface wlan0 inet static
@@ -118,11 +118,11 @@ Anschließend muss der dhcpcd client und der \ac{WLAN}-Chip neugestartet werden.
 Sudo service dhcpcd restart
 sudo ifdown wlan0; sudo ifup wlan0
 \end{lstlisting}
-Danach kann das Package, hostapt ebenfalls konfiguriert werden. 
+Danach kann das Package 'hostapt' ebenfalls konfiguriert werden. 
 \begin{lstlisting}[caption={Konfiguration Hostapd Schritt 1}, language={bash}, numbers=left]
 Sudo nano /etc/hostapd/hostapd.conf
 \end{lstlisting}
-Dazu müssen folgende Zeilen in diese Datei geschrieben werden.
+Dazu müssen folgende Zeilen in diese Datei geschrieben werden:
 \begin{lstlisting}[caption={Konfiguration Hostapd Schritt 2}, language={bash}, numbers=left]
 # Schnittstelle und Treiber
 interface=wlan0
@@ -146,17 +146,17 @@ Anschließend muss lediglich eine weitere Zeile ergänzt werden, damit die Konfi
 \begin{lstlisting}[caption={Konfiguration Hostapd Schritt 3}, language={bash}, numbers=left]
 Sudo nano /etc/default/hostapd
 \end{lstlisting}
-Dort muss folgende Zeile ergänzt werden
+Dort muss folgende Zeile ergänzt werden:
 \begin{lstlisting}[caption={Konfiguration Hostapd Schritt 4}, language={bash}, numbers=left]
 DAEMON_CONF="/etc/hostapd/hostapd.conf"
 \end{lstlisting}
-Dann kann das letzte Package dnsmasq eingerichtet werden. Dieses Package ist dafür zuständig, die \ac{IP}-Adressen an die Nutzer des \ac{WLAN} zu verteilen.
-Da die Grundkonfiguration von dnsmasq sehr viele Einstellungen beinhaltet sollte diese abgespeichert werden bevor eine neue eigene Konfigurationsdatei erstellt wird.
+Dann kann das letzte Package 'dnsmasq' eingerichtet werden. Dieses Package ist dafür zuständig, die \ac{IP}-Adressen an die Nutzer des \ac{WLAN} zu verteilen.
+Da die Grundkonfiguration von 'dnsmasq' sehr viele Einstellungen beinhaltet, sollte diese abgespeichert werden, bevor eine neue eigene Konfigurationsdatei erstellt wird.
 \begin{lstlisting}[caption={Konfiguration dnsmasq Schritt 1}, language={bash}, numbers=left]
 sudo mv /etc/dnsmasq.conf /etc/dnsmasq.conf_alt
 sudo nano /etc/dnsmasq.conf
 \end{lstlisting}
-Anschließend können folgende Zeilen in die neue Konfigurationsdatei eingetragen werden.
+Anschließend können folgende Zeilen in die neue Konfigurationsdatei eingetragen werden:
 \begin{lstlisting}[caption={Konfiguration dnsmasq Schritt 2}, language={bash}, numbers=left]
 Interface=wlan0
 no-dhcp-interface=eth0
@@ -165,16 +165,16 @@ bind-interfaces
 server=8.8.8.8
 dhcp-range=192.168.0.50,192.168.0.150,240h
 \end{lstlisting}
-Damit wenn der Raspberry Pi über \ac{LAN} an ein Netzwerk angeschlossen ist auch ein Internetzugriff stattfinden kann müssen die Pakete auch weitergeleitet werden, dazu sind weitere Einstellungen notwendig.
+Damit wenn der Raspberry Pi über \ac{LAN} an ein Netzwerk angeschlossen ist auch ein Internetzugriff stattfinden kann, müssen die Pakete auch weitergeleitet werden. Dazu sind weitere Einstellungen notwendig.
 \begin{lstlisting}[caption={Konfiguration IPV4 Schritt 1}, language={bash}, numbers=left]
 Sudo nano /etc/sysctl.conf
 \end{lstlisting}
-Muss dazu mit der zeile
+Folgende Zeile muss hinzugefügt werden:
 \begin{lstlisting}[caption={Konfiguration IPV4 Schritt 2}, language={bash}, numbers=left]
 Net.ipv4.ip_forward=1
 \end{lstlisting}
-Danach muss der Raspberry Pi Neu gestartet werden.
-Anschließend müssen folgende Zeilen für die Weiterleitung Ausgeführt werden.
+Danach muss der Raspberry Pi neugestartet werden.
+Anschließend müssen folgende Zeilen für die Weiterleitung ausgeführt werden:
 \begin{lstlisting}[caption={Konfiguration IPV4 Schritt 3}, language={bash}, numbers=left]
 sudo iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
 sudo iptables -A FORWARD -i eth0 -o wlan0 -m state -state RELATED,ESTABLISHED -j ACCEPT
@@ -185,46 +185,46 @@ Zuletzt muss noch eine Datei geändert werden.
 \begin{lstlisting}[caption={Konfiguration IPV4 Schritt 4}, language={bash}, numbers=left]
 Sudo nano /etc/rc.local
 \end{lstlisting}
-Und folgende Zeile eingefügt werden
+Und folgende Zeile eingefügt werden:
 \begin{lstlisting}[caption={Konfiguration IPV4 Schritt 5}, language={bash}, numbers=left]
 Iptables-restore < /etc/iptables.ipv4.nat
 \end{lstlisting}
-Dann kann final der Hostapd und die dnsmasq gestartet werden.
+Dann kann final der 'Hostapd' und die 'dnsmasq' gestartet werden.
 \begin{lstlisting}[caption={Starten der neu installierten Packages}, language={bash}, numbers=left]
 Sudo service hostapd start
 sudo service dnsmasq start
 Suod reboot
 \end{lstlisting}
-Nach dem Neustart des Raspberry Pi sollte ein \ac{WLAN} sichtbar sein um man sollte sich mit diesem Verbinden können.\cite{raspi1}\cite{raspi2}
+Nach dem Neustart des Raspberry Pi sollte ein \ac{WLAN} sichtbar sein um man sollte sich mit diesem verbinden können.\cite{raspi1}\cite{raspi2}
 
 
 \subsubsection{NodeJS Server auf dem Raspberry Pi einrichten}
-Um einen Webserver auf dem Raspberry Pi einrichten zu können wird NodeJS verwendet. Auch dies muss erst installiert und eingerichtet werden.\cite{nodejs}
+Um einen Webserver auf dem Raspberry Pi einrichten zu können, wird 'NodeJS' verwendet. Auch dies muss erst installiert und eingerichtet werden.\cite{nodejs}
 \begin{lstlisting}[caption={Installation NodeJS Schritt 1}, language={bash}, numbers=left]
 curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
 sudo apt-get install -y nodejs
 \end{lstlisting}
-Ob die Installation erfolgreich war lässt sich mit folgendem Befehl überprüfen.
+Ob die Installation erfolgreich war, lässt sich mit folgendem Befehl überprüfen:
 \begin{lstlisting}[caption={Installation NodeJS Schritt 2}, language={bash}, numbers=left]
 node -v
 \end{lstlisting}
 
 
 \subsubsection{Flask in Javascript und Python verwenden}
-Flask ist ein Python Microframework, welches es ermöglicht verschiedene Routen direkt in Python über einen Webserver anzusprechen. Dies gibt in diesem Fall die Möglichkeit aus dem NodeJS Server heraus Python Programme zu starten. 
-Um Flask zu verwenden muss dieses Natürlich zunächst Installiert werden. Dazu muss ein Ordner angelegt sein und in diesem Ordner eine Virtuelle Umgebung erstellt werden. 
+Flask ist ein Python Microframework, welches es ermöglicht, verschiedene Routen direkt in Python über einen Webserver anzusprechen. Dies gibt in diesem Fall die Möglichkeit aus dem NodeJS Server heraus Python Programme zu starten. 
+Um Flask zu verwenden, muss dieses natürlich zunächst installiert werden. Dazu muss ein Ordner angelegt sein und in diesem Ordner eine virtuelle Umgebung erstellt werden. 
 \begin{lstlisting}[caption={Installation Flask Schritt 1}, language={bash}, numbers=left]
 mkdir LIDAR
 cd LIDAR
 python3 -m venv venv
 . venv/bin/activate
 \end{lstlisting}
-Anschließend kann Flask Installiert werden.
+Anschließend kann Flask installiert werden.
 \begin{lstlisting}[caption={Installation Flask Schritt 2}, language={bash}, numbers=left]
 Sudo pip install Flask
 \end{lstlisting}
-Nun kann eine Rote hinzugefügt werden, welche man dann, wenn der Flask Server gestartet ist über eine Route aufrufen kann. 
-Im Fall dieses Projektes eignet sich Flask dazu die bereits vorhandenen Dateien aufrufen zu lassen. Die zugehörige Datei dazu könnte wie Folgt aussehen.
+Nun kann eine Route hinzugefügt werden, welche man dann, wenn der Flask Server gestartet ist über eine Route aufrufen kann. 
+Im Fall dieses Projektes eignet sich Flask dazu, die bereits vorhandenen Dateien aufrufen zu lassen. Die zugehörige Datei dazu könnte wie folgt aussehen:
 \begin{lstlisting}[caption={Flask Beispielprogram}, language={python}, numbers=left]
 From flask import Flask
 import subprocess
