@@ -46,6 +46,7 @@ Um direkt einen möglichst guten Eindruck der späteren Anwendung zu bekommen, w
 	\caption{Versuchsaufbau}
 	\label{versuch1_versuchsaufbau}
 \end{figure}
+\newpage
 \subsubsection{Messungen}
 Insgesamt wurden fünf Messungen durchgeführt.
 \begin{enumerate}
@@ -116,6 +117,7 @@ In die Seite des Kartons wird je ein Loch für Laserpointer und Photodiode gesch
 	\item In der ersten Messung wird die Photodiode zusammen mit dem Laserpointer im Dunkeln getestet und der Photostrom im Dunkeln sowie bei Betätigung des Laserpointers gemessen.
 	\item In einer zweiten Messung wird vor der Photodiode eine Lupe positioniert, sodass das Licht auf die Photodiode gebündelt wird. Es wird erwartet, dass durch die Lupe ein größerer Photostrom entsteht.
 \end{enumerate}
+\newpage
 \subsection{Beobachtung}
 \begin{enumerate}
 	\item Zunächst ist zu beobachten, dass im Dunkeln ein Photostrom von $0,3\:\mu A$ durch die Photodiode fließt. Bei Betätigung des Laserpointers steigt der Photostrom um $0,2\:\mu A$ an. Wenn der Abstand Reflexionsfläche zu Laserpointer und Diode vergrößert wird, sinkt der Stromanstieg bei Betätigung des Laserpointers noch weiter ab. Diese Beobachtungen sind analog zu den Beobachtungen aus Versuch 1.
@@ -124,8 +126,9 @@ In die Seite des Kartons wird je ein Loch für Laserpointer und Photodiode gesch
 \subsection{Erkenntnis}
 Die Erkenntnis aus dem zweiten Versuch ist, dass eine Optik vor der Photodiode eine größere Empfindlichkeit ermöglicht. Allerdings ist diese Optik auch sehr schwer einzustellen, da sich Einfallswinkel des Lichts mit steigender Entfernung kontinuierlich ändern. Zudem wurde beobachtet, dass ein dunkler Raum lediglich den Gesamtstrom reduziert. Der Anstieg des Stroms bei Betätigung des Laserpointers bleibt gleich.\\
 Die bisherigen Versuche beruhen auf dem \ac{ToF} Prinzip, da ständig versucht wird eine Flanke des Photostroms zu erkennen. Ein Problem, welches dabei bisher noch nicht betrachtet wurde, ist wie im Kapitel \ref{subsec:tof_herausvorderungen} beschrieben. Bei geringer Distanz liegt die Lichtlaufzeit im Bereich weniger $ns$ und daher ist eine sehr schnelle Auswerteelektronik nötig. Daher wird für weitere Test eine wie in Kapitel \ref{subsec:apd} \ac{APD} benötigt um wenige reflektierte Photonen besser detektieren zu können.
+\newpage
 \section{Weiteres Vorgehen}
 Wie bereits beschrieben, sind weitere Versuche nur mit einer \ac{APD} sinnvoll. Da diese allerdings meist in Preisspektren > 100€ liegen wurden die Versuche eingestellt.
 \subsection{Recherche}
 Da es bei der Robert Bosch GmbH einige Abteilungen aus verschiedensten Bereichen gibt, welche sich mit Laserenfernungsmessung beschäftigen, war der nächste Schritt Kontakt mit diesen Abteilungen aufzunehmen und die Pläne einen eigenen \ac{LIDAR} Sensor zu entwickeln zu diskutieren. \\ 
-Die Erkenntnis, welche aus diesen Gesprächen gewonnen werden konnte ist, dass ohne \ac{APD} keines der drei in Kapitel \ref{sec:grund_lidar} \todo{Referenz} vorgestellten Messverfahren realisierbar ist. Zudem wurden Hinweise und Kritikpunkte an dem geplanten Vorgehen geäußert und wichtige Hinweise zur generellen Realisierung des Gesamtsystems angebracht. So zum Beispiel, dass bei einem \ac{LIDAR} Sensor nicht nur wichtig ist, was die minimale und maximale Messdistanz ist, sondern auch mit welcher Frequenz der Sensor diese Messergebnisse reproduzieren kann. Dies hat großen Einfluss auf Messgenauigkeit und Messdauer und ist daher ein weiterer Punkt welcher bei der Auswahl eines geeigneten Sensors betrachtet werden muss.
+Die Erkenntnis, welche aus diesen Gesprächen gewonnen werden konnte ist, dass ohne \ac{APD} keines der drei in Kapitel \ref{chap:grund_lidar} vorgestellten Messverfahren realisierbar ist. Zudem wurden Hinweise und Kritikpunkte an dem geplanten Vorgehen geäußert und wichtige Hinweise zur generellen Realisierung des Gesamtsystems angebracht. So zum Beispiel, dass bei einem \ac{LIDAR} Sensor nicht nur wichtig ist, was die minimale und maximale Messdistanz ist, sondern auch mit welcher Frequenz der Sensor diese Messergebnisse reproduzieren kann. Dies hat großen Einfluss auf Messgenauigkeit und Messdauer und ist daher ein weiterer Punkt welcher bei der Auswahl eines geeigneten Sensors betrachtet werden muss.

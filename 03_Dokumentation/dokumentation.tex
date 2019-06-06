@@ -113,6 +113,11 @@
         \listofformels
     \fi
 
+
+	\makeatletter
+		\def\l@lstlisting#1#2{\@dottedtocline{1}{0em}{3em}{#1}{#2}}
+	\makeatother
+	
     % Listingsverzeichnis
     \iflistverz
         \cleardoublepage

@@ -8,7 +8,7 @@ Beim Entwurf der Platine sind Fehler unterlaufen. Diese sind bereits im Layout b
 Die erste Optimierungsmöglichkeit für das neue Platinenlayout ist, dass ein zusätzlicher Pin für die Lichtschranke heraus geführt wird. Damit ist die Platine wieder so flexibel einsetzbar wie geplant, da dann auch ein Sensor, welcher mittels \ac{SPI} angesteuert wird wieder einsetzbar ist.\\
 Ein wichtigerer Aspekt, welcher im neuen Platinenlayout beachtet werden sollte ist, dass der Flachbandkabelstecker zum Raspberry Pi an den Rand der Platine hin umpositioniert wird. Dies erleichtert die Montage / Demontage der Platine oder des Raspberry Pi's. Zudem hat der Motortreiber des Motors 1 dann ausreichend Platz nach oben, um entstehende Hitze abzuführen. Außerdem sind die gesamten Pins, welche vom Flachbandkabel verdeckt werden dann einfacher zu erreichen. Dies bedeutet eine einfachere Wartung des \ac{LIDAR} Systems.
 \subsection{Gyrosensor}
-Im ursprünglichen Konzept des \ac{LIDAR} Systems war vorgesehen, dass sich sowohl die Horizontal- als auch die Vertikalachse selbstständig kalibrieren können. Für die Horizontalachse hat dies durch die Verwendung einer Lichtschranke reibungslos funktioniert. Die Vertikalachse sollte sich mittels eines Gyrosensors in Nulllage, oder jede beliebige andere Lage, bringen können. Allerdings konnte dies im Rahmen der Studienarbeit nicht mehr implementiert werden, da der Sensor in ersten Tests zu ungenau war und weitere Tests nicht mehr möglich waren. Der Sensor \todo{Name Sensor} ist bereits vorhanden und muss lediglich getestet und implementiert werden.
+Im ursprünglichen Konzept des \ac{LIDAR} Systems war vorgesehen, dass sich sowohl die Horizontal- als auch die Vertikalachse selbstständig kalibrieren können. Für die Horizontalachse hat dies durch die Verwendung einer Lichtschranke reibungslos funktioniert. Die Vertikalachse sollte sich mittels eines Gyrosensors in Nulllage, oder jede beliebige andere Lage, bringen können. Allerdings konnte dies im Rahmen der Studienarbeit nicht mehr implementiert werden, da der Sensor in ersten Tests zu ungenau war und weitere Tests nicht mehr möglich waren. Der Sensor MPU 6050 ist bereits vorhanden und muss lediglich getestet und implementiert werden.
 \subsection{Schleifring}
 Ebenfalls war im Konzept und der \ac{CAD} Zeichnung des \ac{LIDAR} Systems die Verwendung eines Schleifrings geplant. Bei Verwendung eines Schleifrings kann sich das System kontinuierlich in eine Richtung drehen und muss nicht softwaretechnisch alle 360° die Richtung ändern.\\
 Da es bei dem Schleifring allerdings zu Lieferschwierigkeiten kam, konnte dieser im Rahmen der Studienarbeit nicht verbaut werden. Die Bauteile sind allerdings so konstruiert, dass der vorgesehene Schleifring lediglich eingebaut werden muss. 
@@ -17,6 +17,7 @@ Der Motortreiber des Motors 1 (vertikalen Achse) sollte kontrolliert werden, da 
 \subsection{Bedienfeld}
 Ein weiterer Aspekt, welcher bereits teilweise vorbereitet ist, ist die Anbringung eines Bedienfelds an der Front des \ac{LIDAR} Systems. Dieses bringt den Vorteil, dass die Messung nicht mehr über einen Computer gestartet werden muss, sondern das \ac{LIDAR} System alleinstehend verwendbar ist.\\
 Mögliche Elemente, welche sowohl in Hard- als auch in Software erstellt werden müssen sind:
+\newpage
 \begin{itemize}
 	\item LCD Panel zur Ausgabe der Menüoptionen und des Fortschritts
 	\item Drehencoder zur Navigation im Menü
@@ -33,7 +34,8 @@ Eine möglicher Aufruf eines Programms könnte dann wie folgt aussehen (Listing 
 \begin{lstlisting}[caption={Beispiel Aufruf einer Pythonfunktion mit Übergabeparametern}, language={bash}, label={variables_calling}, numbers=left]
 python LIDAR_Bewegen.py 1 -400
 \end{lstlisting}
-Um diese Funktion zu implementieren müssen allerdings die bestehenden Funktionen überarbeitet werden. In Listing \ref{variables_function} ist ein Codebeispiel für ein Programm, welches über Übergabeparameter die Motoren steuern kann. Dieses Beispiel ist allerdings noch nicht am System selbst getestet worden. 
+Um diese Funktion zu implementieren müssen allerdings die bestehenden Funktionen überarbeitet werden. In Listing \ref{variables_function} ist ein Codebeispiel für ein Programm, welches über Übergabeparameter die Motoren steuern kann. Dieses Beispiel ist allerdings noch nicht am System selbst getestet worden.
+\newpage  
 \begin{lstlisting}[caption={Python Beispielfunktion, welche Übergabeparamenter akzeptiert und ausführt}, language={python}, label={variables_function}, numbers=left]
 ## Programm zum Bewegen eines Motors
 
@@ -86,7 +88,7 @@ Um herauszufinden, wie weit eine Messung fortgeschritten ist, muss lediglich im 
 \subsection{Webinterface}
 Die selbe Steuerung, welche über das Bedienfeld direkt am System möglich ist, kann auch am PC in einem ansprechenden \ac{GUI} möglich sein. Dazu ist die Idee, dies mittels einem Webinterface zu realisieren. Der Raspberry Pi könnte dazu ein eigenständiges \ac{WLAN} verwalten. Für die Darstellung der Website kann beispielsweise ein NodeJS Server auf dem Raspberry Pi aufgesetzt werden. Um von Javascript Anfragen an den Server, bzw. Python zu senden, kann die Bibliothek 'Flask' verwendet werden. Im Folgenden wird auf die Ideen zu den einzelnen Komponenten näher eingegangen. 
 \subsubsection{\ac{WLAN} auf dem Raspberry Pi einrichten}
-Da im Projekt ein Raspberry Pi der dritten Generation verwendet wird, besitzt dieser durch den verbauten \ac{WLAN}-Chip die Möglichkeit ein eigenes \ac{WLAN}-Netzwerk zu erstellen und verwalten. https://www.raspberrypi.org/products/raspberry-pi-3-model-b/ 
+Da im Projekt ein Raspberry Pi der dritten Generation verwendet wird, besitzt dieser durch den verbauten \ac{WLAN}-Chip die Möglichkeit ein eigenes \ac{WLAN}-Netzwerk zu erstellen und verwalten.\cite{raspi}
 Durch einige Änderungen in den Netzwerkeinstellungen lässt sich diese Funktion nutzen.
 Zunächst müssen dafür die Pakete zur Verwaltung der Zugriffe auf das Netzwerk installiert werden.
 \begin{lstlisting}[caption={Installation dnsmasq hostapd}, language={bash}, numbers=left]
@@ -105,6 +107,7 @@ Damit der Raspberry Pi dann auch als Bereitsteller eines Netzwerks erkannt werde
 Sudo nano /etc/network/interfaces
 \end{lstlisting}
 Die Textdatei wird dabei um mehrere Zeilen, welche zum Einstellen der Statischen \ac{IP}-Adresse dienen ergänzt.
+\newpage
 \begin{lstlisting}[caption={Konfiguration Interfaces Schritt 2}, language={bash}, numbers=left]
 allow-hotplug wlan0
 iface wlan0 inet static
@@ -196,8 +199,7 @@ sudo service dnsmasq start
 Suod reboot
 \end{lstlisting}
 Nach dem Neustart des Raspberry Pi sollte ein \ac{WLAN} sichtbar sein um man sollte sich mit diesem verbinden können.\cite{raspi1}\cite{raspi2}
-
-
+\newpage
 \subsubsection{NodeJS Server auf dem Raspberry Pi einrichten}
 Um einen Webserver auf dem Raspberry Pi einrichten zu können, wird 'NodeJS' verwendet. Auch dies muss erst installiert und eingerichtet werden.\cite{nodejs}
 \begin{lstlisting}[caption={Installation NodeJS Schritt 1}, language={bash}, numbers=left]

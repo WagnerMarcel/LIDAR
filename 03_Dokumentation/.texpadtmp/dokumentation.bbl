@@ -18,93 +18,7 @@
 
 
 \refsection{0}
-  \sortlist[entry]{nty/global/}
-    \entry{LM393}{online}{}
-      \field{sortinit}{1}
-      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
-      \field{labeltitlesource}{title}
-      \field{title}{10mm Lichtschranke Photoelectric Infrarot Zähler Counter Sensor Modul, lalaal}
-      \verb{url}
-      \verb https://eckstein-shop.de/10mm-Lichtschranke-Photoelectric-Infrarot-Zaehler-Counter-Sensor-Modul
-      \endverb
-    \endentry
-    \entry{artec}{online}{}
-      \name{author}{1}{}{%
-        {{hash=7376e3b151f73a068e6dc00cb3faf896}{%
-           family={3D},
-           familyi={3\bibinitperiod},
-           given={Artec},
-           giveni={A\bibinitperiod}}}%
-      }
-      \strng{namehash}{7376e3b151f73a068e6dc00cb3faf896}
-      \strng{fullhash}{7376e3b151f73a068e6dc00cb3faf896}
-      \strng{authornamehash}{7376e3b151f73a068e6dc00cb3faf896}
-      \strng{authorfullhash}{7376e3b151f73a068e6dc00cb3faf896}
-      \field{sortinit}{3}
-      \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{month}{5}
-      \field{title}{Artec Ray}
-      \field{year}{2019}
-      \verb{url}
-      \verb https://www.artec3d.com/de/portable-3d-scanners/laser-ray#specifications
-      \endverb
-    \endentry
-    \entry{A4988}{online}{}
-      \field{sortinit}{D}
-      \field{sortinithash}{d10b5413de1f3d197b20897dd0d565bb}
-      \field{labeltitlesource}{title}
-      \field{title}{DMOS Microstepping Driver with Translator And Overcurrent Protection}
-      \verb{url}
-      \verb https://www.pololu.com/file/0J450/A4988.pdf
-      \endverb
-    \endentry
-    \entry{triangulation}{online}{}
-      \name{author}{1}{}{%
-        {{hash=f532eb3e4041a85113de93118b9d627d}{%
-           family={Dresden},
-           familyi={D\bibinitperiod},
-           given={TU},
-           giveni={T\bibinitperiod}}}%
-      }
-      \strng{namehash}{f532eb3e4041a85113de93118b9d627d}
-      \strng{fullhash}{f532eb3e4041a85113de93118b9d627d}
-      \strng{authornamehash}{f532eb3e4041a85113de93118b9d627d}
-      \strng{authorfullhash}{f532eb3e4041a85113de93118b9d627d}
-      \field{sortinit}{D}
-      \field{sortinithash}{d10b5413de1f3d197b20897dd0d565bb}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{month}{10}
-      \field{title}{Optische Triangulation zur Distanzmessung}
-      \field{year}{2014}
-      \verb{url}
-      \verb https://tu-dresden.de/ing/elektrotechnik/ressourcen/dateien/iee/old2_pmp/studium/lehre/MST/dl/Pr/triangulation?lang=en
-      \endverb
-    \endentry
-    \entry{APD_Scematic}{online}{}
-      \name{author}{1}{}{%
-        {{hash=95e258bf6b5cf21e81b3be2d8f835ace}{%
-           family={E.},
-           familyi={E\bibinitperiod},
-           given={Mikhantiev},
-           giveni={M\bibinitperiod}}}%
-      }
-      \strng{namehash}{95e258bf6b5cf21e81b3be2d8f835ace}
-      \strng{fullhash}{95e258bf6b5cf21e81b3be2d8f835ace}
-      \strng{authornamehash}{95e258bf6b5cf21e81b3be2d8f835ace}
-      \strng{authorfullhash}{95e258bf6b5cf21e81b3be2d8f835ace}
-      \field{sortinit}{E}
-      \field{sortinithash}{07bbd5a529b5beaa311df5be05b874bc}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{The Structure of the silicon APD}
-      \field{year}{2009}
-      \verb{url}
-      \verb https://de.wikipedia.org/wiki/Datei:APD.png
-      \endverb
-    \endentry
+  \sortlist[entry]{none/global/}
     \entry{Tabellenbuch}{book}{}
       \name{author}{8}{}{%
         {{hash=0202ff266931ad74f670acc5a8d3a171}{%
@@ -155,133 +69,140 @@
       \strng{fullhash}{046fd498851e1197cf546649e6ab03df}
       \strng{authornamehash}{effc051c97ef736c295a9ce837d235e9}
       \strng{authorfullhash}{046fd498851e1197cf546649e6ab03df}
-      \field{sortinit}{F}
-      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{sortinit}{8}
+      \field{sortinithash}{2f1b0e69e7617f99664f1cd00bb9603c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Tabellenbuch Metall}
       \field{year}{2011}
     \endentry
-    \entry{flask}{online}{}
+    \entry{A4988}{online}{}
+      \field{sortinit}{9}
+      \field{sortinithash}{2999ebab86052e6d71b434385f8b4ed2}
+      \field{labeltitlesource}{title}
+      \field{title}{DMOS Microstepping Driver with Translator And Overcurrent Protection}
+      \verb{url}
+      \verb https://www.pololu.com/file/0J450/A4988.pdf
+      \endverb
+    \endentry
+    \entry{Photodiode_spektrum}{online}{}
       \name{author}{1}{}{%
-        {{hash=9784e91c7b2657917226bc82afdd6789}{%
-           family={Flask},
-           familyi={F\bibinitperiod}}}%
+        {{hash=2d44349af1a57cb92ea97ac880ad86a7}{%
+           family={Spektrum},
+           familyi={S\bibinitperiod}}}%
       }
-      \strng{namehash}{9784e91c7b2657917226bc82afdd6789}
-      \strng{fullhash}{9784e91c7b2657917226bc82afdd6789}
-      \strng{authornamehash}{9784e91c7b2657917226bc82afdd6789}
-      \strng{authorfullhash}{9784e91c7b2657917226bc82afdd6789}
-      \field{sortinit}{F}
-      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \strng{namehash}{2d44349af1a57cb92ea97ac880ad86a7}
+      \strng{fullhash}{2d44349af1a57cb92ea97ac880ad86a7}
+      \strng{authornamehash}{2d44349af1a57cb92ea97ac880ad86a7}
+      \strng{authorfullhash}{2d44349af1a57cb92ea97ac880ad86a7}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Photodiode}
+      \field{year}{1998}
+      \verb{url}
+      \verb https://www.spektrum.de/lexikon/physik/photodiode/11179
+      \endverb
+    \endentry
+    \entry{APD_Scematic}{online}{}
+      \name{author}{1}{}{%
+        {{hash=95e258bf6b5cf21e81b3be2d8f835ace}{%
+           family={E.},
+           familyi={E\bibinitperiod},
+           given={Mikhantiev},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{95e258bf6b5cf21e81b3be2d8f835ace}
+      \strng{fullhash}{95e258bf6b5cf21e81b3be2d8f835ace}
+      \strng{authornamehash}{95e258bf6b5cf21e81b3be2d8f835ace}
+      \strng{authorfullhash}{95e258bf6b5cf21e81b3be2d8f835ace}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Structure of the silicon APD}
+      \field{year}{2009}
+      \verb{url}
+      \verb https://de.wikipedia.org/wiki/Datei:APD.png
+      \endverb
+    \endentry
+    \entry{SPAD_mamamatsu}{online}{}
+      \name{author}{1}{}{%
+        {{hash=f88ebac9a21ad0751b3bc8a5b4ade9b3}{%
+           family={Mamamatsu},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{f88ebac9a21ad0751b3bc8a5b4ade9b3}
+      \strng{fullhash}{f88ebac9a21ad0751b3bc8a5b4ade9b3}
+      \strng{authornamehash}{f88ebac9a21ad0751b3bc8a5b4ade9b3}
+      \strng{authorfullhash}{f88ebac9a21ad0751b3bc8a5b4ade9b3}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{5}
-      \field{title}{Flask Microframework}
-      \field{year}{2019}
+      \field{title}{Characteristics and use of Si APD}
+      \field{year}{2004}
       \verb{url}
-      \verb http://flask.pocoo.org
+      \verb http://neutron.physics.ucsb.edu/docs/Avalanche_photodiodes_info.pdf
       \endverb
     \endentry
+    \entry{SPAD_elmer}{online}{}
+      \name{author}{1}{}{%
+        {{hash=8911c868a715912fcb573bdcefc0b0dd}{%
+           family={PerkinElmer},
+           familyi={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{8911c868a715912fcb573bdcefc0b0dd}
+      \strng{fullhash}{8911c868a715912fcb573bdcefc0b0dd}
+      \strng{authornamehash}{8911c868a715912fcb573bdcefc0b0dd}
+      \strng{authorfullhash}{8911c868a715912fcb573bdcefc0b0dd}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Avalanche photodiode - a user guide}
+      \field{year}{2010}
+      \verb{url}
+      \verb http://www.perkinelmer.com/CMSResources/Images/44-6538APP_AvalanchePhotodiodesUsersGuide.pdf
+      \endverb
+    \endentry
+    \entry{psd}{article}{}
+      \name{author}{1}{}{%
+        {{hash=f2e81a24c3917588bca6bb758db34561}{%
+           family={Lasercomponents},
+           familyi={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{f2e81a24c3917588bca6bb758db34561}
+      \strng{fullhash}{f2e81a24c3917588bca6bb758db34561}
+      \strng{authornamehash}{f2e81a24c3917588bca6bb758db34561}
+      \strng{authorfullhash}{f2e81a24c3917588bca6bb758db34561}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Applicationsreport}
+      \field{month}{1}
+      \field{title}{Positionsmessung PSD oder CCD}
+      \field{year}{2012}
+    \endentry
     \entry{Schrittmotor}{online}{}
-      \field{sortinit}{F}
-      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labeltitlesource}{title}
       \field{title}{FUNKTIONSWEISE EINES SCHRITTMOTORS}
       \verb{url}
       \verb https://de.nanotec.com/knowledge-base/knowledge-base-pages/funktionsweise-eines-schrittmotors/
       \endverb
     \endentry
-    \entry{leica}{online}{}
-      \name{author}{1}{}{%
-        {{hash=544cc5bc20c519f14f9611a2316cb2cd}{%
-           family={Geosystems},
-           familyi={G\bibinitperiod},
-           given={Leica},
-           giveni={L\bibinitperiod}}}%
-      }
-      \strng{namehash}{544cc5bc20c519f14f9611a2316cb2cd}
-      \strng{fullhash}{544cc5bc20c519f14f9611a2316cb2cd}
-      \strng{authornamehash}{544cc5bc20c519f14f9611a2316cb2cd}
-      \strng{authorfullhash}{544cc5bc20c519f14f9611a2316cb2cd}
-      \field{sortinit}{G}
-      \field{sortinithash}{618d986594b7198ba52cf8b00d348f3f}
-      \field{labelnamesource}{author}
+    \entry{Schrittmotor_Bauformen}{online}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labeltitlesource}{title}
-      \field{month}{5}
-      \field{title}{P50}
-      \field{year}{2019}
+      \field{title}{Schrittmotor kurz erklärt - Deltron AG}
       \verb{url}
-      \verb https://leica-geosystems.com/-/media/files/leicageosystems/products/datasheets/scan/leica%20scanstation%20p50%20ds%20869145%200119%20en%20lr.ashx?la=de-de%5C&hash=5F74F22ADBCFF8A78904CC452F709DFD
-      \endverb
-    \endentry
-    \entry{phasenverschiebung}{online}{}
-      \name{author}{1}{}{%
-        {{hash=8f9d9be2813a160d6685a338c17dd319}{%
-           family={Ilmenau},
-           familyi={I\bibinitperiod},
-           given={TU},
-           giveni={T\bibinitperiod}}}%
-      }
-      \strng{namehash}{8f9d9be2813a160d6685a338c17dd319}
-      \strng{fullhash}{8f9d9be2813a160d6685a338c17dd319}
-      \strng{authornamehash}{8f9d9be2813a160d6685a338c17dd319}
-      \strng{authorfullhash}{8f9d9be2813a160d6685a338c17dd319}
-      \field{sortinit}{I}
-      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{month}{9}
-      \field{title}{Lichtgeschwindigkeit}
-      \field{year}{2018}
-      \verb{url}
-      \verb https://www.tu-ilmenau.de/fileadmin/media/exphys1/Physikpraktikum/Anleitungen/O7.pdf
-      \endverb
-    \endentry
-    \entry{frauenhoferipm}{online}{}
-      \name{author}{1}{}{%
-        {{hash=c0e79b14d2a4f3a730c0046123efc1de}{%
-           family={IPM},
-           familyi={I\bibinitperiod},
-           given={Frauenhofer},
-           giveni={F\bibinitperiod}}}%
-      }
-      \strng{namehash}{c0e79b14d2a4f3a730c0046123efc1de}
-      \strng{fullhash}{c0e79b14d2a4f3a730c0046123efc1de}
-      \strng{authornamehash}{c0e79b14d2a4f3a730c0046123efc1de}
-      \strng{authorfullhash}{c0e79b14d2a4f3a730c0046123efc1de}
-      \field{sortinit}{I}
-      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{month}{2}
-      \field{title}{Optische Entfernungsmessung}
-      \field{year}{2918}
-      \verb{url}
-      \verb https://www.ipm.fraunhofer.de/de/gf/objekterfassung-laserscanning/komp/abstandsmessung.html
-      \endverb
-    \endentry
-    \entry{raspi1}{online}{}
-      \name{author}{1}{}{%
-        {{hash=1a39fc8186880cc3124ca80ffb07dfbd}{%
-           family={Kompendium},
-           familyi={K\bibinitperiod},
-           given={Elektronik},
-           giveni={E\bibinitperiod}}}%
-      }
-      \strng{namehash}{1a39fc8186880cc3124ca80ffb07dfbd}
-      \strng{fullhash}{1a39fc8186880cc3124ca80ffb07dfbd}
-      \strng{authornamehash}{1a39fc8186880cc3124ca80ffb07dfbd}
-      \strng{authorfullhash}{1a39fc8186880cc3124ca80ffb07dfbd}
-      \field{sortinit}{K}
-      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{month}{6}
-      \field{title}{Raspberry Pi}
-      \field{year}{2019}
-      \verb{url}
-      \verb https://www.elektronik-kompendium.de/sites/raspberry-pi/2002171.htm
+      \verb https://wiki.ntb.ch/infoportal/_media/hardware/sysp/bauteile/schrittmotor_kurz_erklaert_d.pdf
       \endverb
     \endentry
     \entry{ToF_TUBerlin}{online}{}
@@ -301,8 +222,8 @@
       \strng{fullhash}{3f6197fd0e361ee2d7999a08ec1a7332}
       \strng{authornamehash}{3f6197fd0e361ee2d7999a08ec1a7332}
       \strng{authorfullhash}{3f6197fd0e361ee2d7999a08ec1a7332}
-      \field{sortinit}{K}
-      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{3D Kameras – basierend auf Lichtlaufzeitmessung}
@@ -323,8 +244,8 @@
       \strng{fullhash}{9edae755af5532e9204a798a23b5be70}
       \strng{authornamehash}{9edae755af5532e9204a798a23b5be70}
       \strng{authorfullhash}{9edae755af5532e9204a798a23b5be70}
-      \field{sortinit}{K}
-      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Time of Flight: Principles, Challenges and Performance}
@@ -333,62 +254,27 @@
       \verb https://www.st.com/content/dam/technology-tour-2017/session-1_track-4_time-of-flight-technology.pdf
       \endverb
     \endentry
-    \entry{psd}{article}{}
+    \entry{phasenverschiebung}{online}{}
       \name{author}{1}{}{%
-        {{hash=f2e81a24c3917588bca6bb758db34561}{%
-           family={Lasercomponents},
-           familyi={L\bibinitperiod}}}%
+        {{hash=8f9d9be2813a160d6685a338c17dd319}{%
+           family={Ilmenau},
+           familyi={I\bibinitperiod},
+           given={TU},
+           giveni={T\bibinitperiod}}}%
       }
-      \strng{namehash}{f2e81a24c3917588bca6bb758db34561}
-      \strng{fullhash}{f2e81a24c3917588bca6bb758db34561}
-      \strng{authornamehash}{f2e81a24c3917588bca6bb758db34561}
-      \strng{authorfullhash}{f2e81a24c3917588bca6bb758db34561}
-      \field{sortinit}{L}
-      \field{sortinithash}{7bba64db83423e3c29ad597f3b682cf3}
+      \strng{namehash}{8f9d9be2813a160d6685a338c17dd319}
+      \strng{fullhash}{8f9d9be2813a160d6685a338c17dd319}
+      \strng{authornamehash}{8f9d9be2813a160d6685a338c17dd319}
+      \strng{authorfullhash}{8f9d9be2813a160d6685a338c17dd319}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Applicationsreport}
-      \field{month}{1}
-      \field{title}{Positionsmessung PSD oder CCD}
-      \field{year}{2012}
-    \endentry
-    \entry{VL53L1X}{online}{}
-      \field{sortinit}{L}
-      \field{sortinithash}{7bba64db83423e3c29ad597f3b682cf3}
-      \field{labeltitlesource}{title}
-      \field{title}{Long-distance ranging sensor expansion board based on VL53L1X for STM32 Nucleo}
+      \field{month}{9}
+      \field{title}{Lichtgeschwindigkeit}
+      \field{year}{2018}
       \verb{url}
-      \verb https://www.st.com/en/ecosystems/x-nucleo-53l1a1.html
-      \endverb
-    \endentry
-    \entry{SPAD_mamamatsu}{online}{}
-      \name{author}{1}{}{%
-        {{hash=f88ebac9a21ad0751b3bc8a5b4ade9b3}{%
-           family={Mamamatsu},
-           familyi={M\bibinitperiod}}}%
-      }
-      \strng{namehash}{f88ebac9a21ad0751b3bc8a5b4ade9b3}
-      \strng{fullhash}{f88ebac9a21ad0751b3bc8a5b4ade9b3}
-      \strng{authornamehash}{f88ebac9a21ad0751b3bc8a5b4ade9b3}
-      \strng{authorfullhash}{f88ebac9a21ad0751b3bc8a5b4ade9b3}
-      \field{sortinit}{M}
-      \field{sortinithash}{c26a05ef03e4429073ed5c825140fac3}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{month}{5}
-      \field{title}{Characteristics and use of Si APD}
-      \field{year}{2004}
-      \verb{url}
-      \verb http://neutron.physics.ucsb.edu/docs/Avalanche_photodiodes_info.pdf
-      \endverb
-    \endentry
-    \entry{MPU-6050}{online}{}
-      \field{sortinit}{M}
-      \field{sortinithash}{c26a05ef03e4429073ed5c825140fac3}
-      \field{labeltitlesource}{title}
-      \field{title}{MPU-6000and MPU-6050Product SpecificationRevision 3.4}
-      \verb{url}
-      \verb https://store.invensense.com/datasheets/invensense/MPU-6050_DataSheet_V3%204.pdf
+      \verb https://www.tu-ilmenau.de/fileadmin/media/exphys1/Physikpraktikum/Anleitungen/O7.pdf
       \endverb
     \endentry
     \entry{inferometrie}{online}{}
@@ -403,8 +289,8 @@
       \strng{fullhash}{95d4a8b2d689e8de342d5bb1e0b16466}
       \strng{authornamehash}{95d4a8b2d689e8de342d5bb1e0b16466}
       \strng{authorfullhash}{95d4a8b2d689e8de342d5bb1e0b16466}
-      \field{sortinit}{M}
-      \field{sortinithash}{c26a05ef03e4429073ed5c825140fac3}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{2}
@@ -412,206 +298,6 @@
       \field{year}{2019}
       \verb{url}
       \verb https://www.ph.tum.de/academics/org/labs/mw/INT.pdf
-      \endverb
-    \endentry
-    \entry{NEMA}{standard}{}
-      \list{institution}{1}{%
-        {National Electrical Manufacturers Association}%
-      }
-      \list{organization}{1}{%
-        {National Electrical Manufacturers Association}%
-      }
-      \field{sortinit}{N}
-      \field{sortinithash}{1163c28585427c673ad5a010cbf82f52}
-      \field{labeltitlesource}{title}
-      \field{title}{NEMA ICS 16}
-      \field{year}{2001}
-      \verb{url}
-      \verb https://www.nema.org/Standards/Pages/Motion-Position-Control-Motors-Controls-and-Feedback-Devices.aspx
-      \endverb
-    \endentry
-    \entry{SPAD_elmer}{online}{}
-      \name{author}{1}{}{%
-        {{hash=8911c868a715912fcb573bdcefc0b0dd}{%
-           family={PerkinElmer},
-           familyi={P\bibinitperiod}}}%
-      }
-      \strng{namehash}{8911c868a715912fcb573bdcefc0b0dd}
-      \strng{fullhash}{8911c868a715912fcb573bdcefc0b0dd}
-      \strng{authornamehash}{8911c868a715912fcb573bdcefc0b0dd}
-      \strng{authorfullhash}{8911c868a715912fcb573bdcefc0b0dd}
-      \field{sortinit}{P}
-      \field{sortinithash}{24100cef455d7974167575052c29146e}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Avalanche photodiode - a user guide}
-      \field{year}{2010}
-      \verb{url}
-      \verb http://www.perkinelmer.com/CMSResources/Images/44-6538APP_AvalanchePhotodiodesUsersGuide.pdf
-      \endverb
-    \endentry
-    \entry{NEMA17}{online}{}
-      \field{sortinit}{P}
-      \field{sortinithash}{24100cef455d7974167575052c29146e}
-      \field{labeltitlesource}{title}
-      \field{title}{Pololu Stepper Motor NEMA 17}
-      \verb{url}
-      \verb https://eckstein-shop.de/Pololu-Stepper-Motor-NEMA-17-Unipolar-Bipolar-200-Steps-Rev-4248mm-4V-12-A-Phase
-      \endverb
-    \endentry
-    \entry{raspi2}{online}{}
-      \name{author}{1}{}{%
-        {{hash=5d409a9854d820967059e2fce153f0f2}{%
-           family={Randombrick},
-           familyi={R\bibinitperiod}}}%
-      }
-      \strng{namehash}{5d409a9854d820967059e2fce153f0f2}
-      \strng{fullhash}{5d409a9854d820967059e2fce153f0f2}
-      \strng{authornamehash}{5d409a9854d820967059e2fce153f0f2}
-      \strng{authorfullhash}{5d409a9854d820967059e2fce153f0f2}
-      \field{sortinit}{R}
-      \field{sortinithash}{c15bc8eb6936bc6b3c8baa9e8575af53}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{month}{6}
-      \field{title}{Raspberry pi als WLAN access point nutzen}
-      \field{year}{2019}
-      \verb{url}
-      \verb https://www.randombrick.de/raspberry-pi-als-wlan-access-point-nutzen/
-      \endverb
-    \endentry
-    \entry{ocular}{online}{}
-      \name{author}{1}{}{%
-        {{hash=ae0f8d1799792d4d944f38bd433adcec}{%
-           family={Robotics},
-           familyi={R\bibinitperiod},
-           given={Ocular},
-           giveni={O\bibinitperiod}}}%
-      }
-      \strng{namehash}{ae0f8d1799792d4d944f38bd433adcec}
-      \strng{fullhash}{ae0f8d1799792d4d944f38bd433adcec}
-      \strng{authornamehash}{ae0f8d1799792d4d944f38bd433adcec}
-      \strng{authorfullhash}{ae0f8d1799792d4d944f38bd433adcec}
-      \field{sortinit}{R}
-      \field{sortinithash}{c15bc8eb6936bc6b3c8baa9e8575af53}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{month}{5}
-      \field{title}{RE05}
-      \field{year}{2019}
-      \verb{url}
-      \verb http://www.ocularrobotics.com/wp/wp-content/uploads/2015/12/RobotEye-RE05-3D-LIDAR-Datasheet.pdf
-      \endverb
-    \endentry
-    \entry{frauenhofer}{article}{}
-      \name{author}{1}{}{%
-        {{hash=9392ebbfbfd4f158e0641bc3bbe25cb5}{%
-           family={Sackewitz},
-           familyi={S\bibinitperiod},
-           given={Michael},
-           giveni={M\bibinitperiod}}}%
-      }
-      \strng{namehash}{9392ebbfbfd4f158e0641bc3bbe25cb5}
-      \strng{fullhash}{9392ebbfbfd4f158e0641bc3bbe25cb5}
-      \strng{authornamehash}{9392ebbfbfd4f158e0641bc3bbe25cb5}
-      \strng{authorfullhash}{9392ebbfbfd4f158e0641bc3bbe25cb5}
-      \field{sortinit}{S}
-      \field{sortinithash}{3c1547c63380458f8ca90e40ed14b83e}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Frauenhofer Leitfaden 14}
-      \field{title}{Leitfaden zur optischen 3D-Messtechnik}
-      \field{year}{2014}
-      \field{pages}{33\bibrangedash 34}
-      \range{pages}{2}
-    \endentry
-    \entry{Schrittmotor_Bauformen}{online}{}
-      \field{sortinit}{S}
-      \field{sortinithash}{3c1547c63380458f8ca90e40ed14b83e}
-      \field{labeltitlesource}{title}
-      \field{title}{Schrittmotor kurz erklärt - Deltron AG}
-      \verb{url}
-      \verb https://wiki.ntb.ch/infoportal/_media/hardware/sysp/bauteile/schrittmotor_kurz_erklaert_d.pdf
-      \endverb
-    \endentry
-    \entry{TFMINI}{online}{}
-      \field{sortinit}{S}
-      \field{sortinithash}{3c1547c63380458f8ca90e40ed14b83e}
-      \field{labeltitlesource}{title}
-      \field{title}{Seeedstudio Grove - TF Mini LiDAR Datasheet}
-      \verb{url}
-      \verb https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&ved=2ahUKEwiu1ef2_MLgAhUCbFAKHRp7DaQQFjABegQIAxAC&url=http%3A%2F%2Fstatics3.seeedstudio.com%2Fassets%2Ffile%2Fbazaar%2Fproduct%2FLiDAR_TF_mini_Datasheet.docx&usg=AOvVaw2Td3zuc0AlicOQ23PnxB2-
-      \endverb
-    \endentry
-    \entry{sick}{online}{}
-      \name{author}{1}{}{%
-        {{hash=cdc7145d2df7912ad942e1de2f0f8132}{%
-           family={Sick},
-           familyi={S\bibinitperiod}}}%
-      }
-      \strng{namehash}{cdc7145d2df7912ad942e1de2f0f8132}
-      \strng{fullhash}{cdc7145d2df7912ad942e1de2f0f8132}
-      \strng{authornamehash}{cdc7145d2df7912ad942e1de2f0f8132}
-      \strng{authorfullhash}{cdc7145d2df7912ad942e1de2f0f8132}
-      \field{sortinit}{S}
-      \field{sortinithash}{3c1547c63380458f8ca90e40ed14b83e}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{month}{5}
-      \field{title}{MRS6000}
-      \field{year}{2019}
-      \verb{url}
-      \verb https://cdn.sick.com/media/docs/9/39/539/Operating_instructions_MRS6000_de_IM0076539.PDF
-      \endverb
-    \endentry
-    \entry{Photodiode_spektrum}{online}{}
-      \name{author}{1}{}{%
-        {{hash=2d44349af1a57cb92ea97ac880ad86a7}{%
-           family={Spektrum},
-           familyi={S\bibinitperiod}}}%
-      }
-      \strng{namehash}{2d44349af1a57cb92ea97ac880ad86a7}
-      \strng{fullhash}{2d44349af1a57cb92ea97ac880ad86a7}
-      \strng{authornamehash}{2d44349af1a57cb92ea97ac880ad86a7}
-      \strng{authorfullhash}{2d44349af1a57cb92ea97ac880ad86a7}
-      \field{sortinit}{S}
-      \field{sortinithash}{3c1547c63380458f8ca90e40ed14b83e}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Photodiode}
-      \field{year}{1998}
-      \verb{url}
-      \verb https://www.spektrum.de/lexikon/physik/photodiode/11179
-      \endverb
-    \endentry
-    \entry{VL53L1X_manual}{online}{}
-      \field{sortinit}{V}
-      \field{sortinithash}{555737dafdcf1396ebfeae5822e5bde2}
-      \field{labeltitlesource}{title}
-      \field{title}{VL53L1X}
-      \verb{url}
-      \verb https://www.st.com/resource/en/datasheet/vl53l1x.pdf
-      \endverb
-    \endentry
-    \entry{nodejs}{online}{}
-      \name{author}{1}{}{%
-        {{hash=bd21525362368ddbd79358cdcf66005d}{%
-           family={W3Schools},
-           familyi={W\bibinitperiod}}}%
-      }
-      \strng{namehash}{bd21525362368ddbd79358cdcf66005d}
-      \strng{fullhash}{bd21525362368ddbd79358cdcf66005d}
-      \strng{authornamehash}{bd21525362368ddbd79358cdcf66005d}
-      \strng{authorfullhash}{bd21525362368ddbd79358cdcf66005d}
-      \field{sortinit}{W}
-      \field{sortinithash}{6d25b3eefe5aa2147d1f339686808918}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{month}{6}
-      \field{title}{NodeJS with Raspberry Pi}
-      \field{year}{2019}
-      \verb{url}
-      \verb https://www.w3schools.com/nodejs/nodejs_raspberrypi.asp
       \endverb
     \endentry
     \entry{lichtabstandsmessung}{online}{}
@@ -626,8 +312,8 @@
       \strng{fullhash}{c44297fb02a39e5fd0096fb3c1e43e73}
       \strng{authornamehash}{c44297fb02a39e5fd0096fb3c1e43e73}
       \strng{authorfullhash}{c44297fb02a39e5fd0096fb3c1e43e73}
-      \field{sortinit}{Z}
-      \field{sortinithash}{35589aa085e881766b72503e53fd4c97}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{12}
@@ -635,6 +321,29 @@
       \field{year}{2003}
       \verb{url}
       \verb https://tams.informatik.uni-hamburg.de/lehre/2003ws/vorlesung/angewandte_sensorik/vorlesung_06.pdf
+      \endverb
+    \endentry
+    \entry{frauenhoferipm}{online}{}
+      \name{author}{1}{}{%
+        {{hash=c0e79b14d2a4f3a730c0046123efc1de}{%
+           family={IPM},
+           familyi={I\bibinitperiod},
+           given={Frauenhofer},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{c0e79b14d2a4f3a730c0046123efc1de}
+      \strng{fullhash}{c0e79b14d2a4f3a730c0046123efc1de}
+      \strng{authornamehash}{c0e79b14d2a4f3a730c0046123efc1de}
+      \strng{authorfullhash}{c0e79b14d2a4f3a730c0046123efc1de}
+      \field{sortinit}{3}
+      \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{2}
+      \field{title}{Optische Entfernungsmessung}
+      \field{year}{2918}
+      \verb{url}
+      \verb https://www.ipm.fraunhofer.de/de/gf/objekterfassung-laserscanning/komp/abstandsmessung.html
       \endverb
     \endentry
     \entry{phasenmodulation}{online}{}
@@ -649,13 +358,350 @@
       \strng{fullhash}{4f0aa2c9dc1ef5e9bff4751b9e5b0449}
       \strng{authornamehash}{4f0aa2c9dc1ef5e9bff4751b9e5b0449}
       \strng{authorfullhash}{4f0aa2c9dc1ef5e9bff4751b9e5b0449}
-      \field{sortinit}{Z}
-      \field{sortinithash}{35589aa085e881766b72503e53fd4c97}
+      \field{sortinit}{3}
+      \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Elektronische Distanzmessung}
       \verb{url}
       \verb http://webarchiv.ethz.ch/geometh-data/student/sensorik/200506_Vorlesungen/04_EDM.pdf
+      \endverb
+    \endentry
+    \entry{frauenhofer}{article}{}
+      \name{author}{1}{}{%
+        {{hash=9392ebbfbfd4f158e0641bc3bbe25cb5}{%
+           family={Sackewitz},
+           familyi={S\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{9392ebbfbfd4f158e0641bc3bbe25cb5}
+      \strng{fullhash}{9392ebbfbfd4f158e0641bc3bbe25cb5}
+      \strng{authornamehash}{9392ebbfbfd4f158e0641bc3bbe25cb5}
+      \strng{authorfullhash}{9392ebbfbfd4f158e0641bc3bbe25cb5}
+      \field{sortinit}{3}
+      \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Frauenhofer Leitfaden 14}
+      \field{title}{Leitfaden zur optischen 3D-Messtechnik}
+      \field{year}{2014}
+      \field{pages}{33\bibrangedash 34}
+      \range{pages}{2}
+    \endentry
+    \entry{triangulation}{online}{}
+      \name{author}{1}{}{%
+        {{hash=f532eb3e4041a85113de93118b9d627d}{%
+           family={Dresden},
+           familyi={D\bibinitperiod},
+           given={TU},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{f532eb3e4041a85113de93118b9d627d}
+      \strng{fullhash}{f532eb3e4041a85113de93118b9d627d}
+      \strng{authornamehash}{f532eb3e4041a85113de93118b9d627d}
+      \strng{authorfullhash}{f532eb3e4041a85113de93118b9d627d}
+      \field{sortinit}{3}
+      \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{10}
+      \field{title}{Optische Triangulation zur Distanzmessung}
+      \field{year}{2014}
+      \verb{url}
+      \verb https://tu-dresden.de/ing/elektrotechnik/ressourcen/dateien/iee/old2_pmp/studium/lehre/MST/dl/Pr/triangulation?lang=en
+      \endverb
+    \endentry
+    \entry{sick}{online}{}
+      \name{author}{1}{}{%
+        {{hash=cdc7145d2df7912ad942e1de2f0f8132}{%
+           family={Sick},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{cdc7145d2df7912ad942e1de2f0f8132}
+      \strng{fullhash}{cdc7145d2df7912ad942e1de2f0f8132}
+      \strng{authornamehash}{cdc7145d2df7912ad942e1de2f0f8132}
+      \strng{authorfullhash}{cdc7145d2df7912ad942e1de2f0f8132}
+      \field{sortinit}{3}
+      \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{5}
+      \field{title}{MRS6000}
+      \field{year}{2019}
+      \verb{url}
+      \verb https://cdn.sick.com/media/docs/9/39/539/Operating_instructions_MRS6000_de_IM0076539.PDF
+      \endverb
+    \endentry
+    \entry{ocular}{online}{}
+      \name{author}{1}{}{%
+        {{hash=ae0f8d1799792d4d944f38bd433adcec}{%
+           family={Robotics},
+           familyi={R\bibinitperiod},
+           given={Ocular},
+           giveni={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{ae0f8d1799792d4d944f38bd433adcec}
+      \strng{fullhash}{ae0f8d1799792d4d944f38bd433adcec}
+      \strng{authornamehash}{ae0f8d1799792d4d944f38bd433adcec}
+      \strng{authorfullhash}{ae0f8d1799792d4d944f38bd433adcec}
+      \field{sortinit}{3}
+      \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{5}
+      \field{title}{RE05}
+      \field{year}{2019}
+      \verb{url}
+      \verb http://www.ocularrobotics.com/wp/wp-content/uploads/2015/12/RobotEye-RE05-3D-LIDAR-Datasheet.pdf
+      \endverb
+    \endentry
+    \entry{leica}{online}{}
+      \name{author}{1}{}{%
+        {{hash=544cc5bc20c519f14f9611a2316cb2cd}{%
+           family={Geosystems},
+           familyi={G\bibinitperiod},
+           given={Leica},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{544cc5bc20c519f14f9611a2316cb2cd}
+      \strng{fullhash}{544cc5bc20c519f14f9611a2316cb2cd}
+      \strng{authornamehash}{544cc5bc20c519f14f9611a2316cb2cd}
+      \strng{authorfullhash}{544cc5bc20c519f14f9611a2316cb2cd}
+      \field{sortinit}{3}
+      \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{5}
+      \field{title}{P50}
+      \field{year}{2019}
+      \verb{url}
+      \verb https://leica-geosystems.com/-/media/files/leicageosystems/products/datasheets/scan/leica%20scanstation%20p50%20ds%20869145%200119%20en%20lr.ashx?la=de-de%5C&hash=5F74F22ADBCFF8A78904CC452F709DFD
+      \endverb
+    \endentry
+    \entry{artec}{online}{}
+      \name{author}{1}{}{%
+        {{hash=7376e3b151f73a068e6dc00cb3faf896}{%
+           family={3D},
+           familyi={3\bibinitperiod},
+           given={Artec},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{7376e3b151f73a068e6dc00cb3faf896}
+      \strng{fullhash}{7376e3b151f73a068e6dc00cb3faf896}
+      \strng{authornamehash}{7376e3b151f73a068e6dc00cb3faf896}
+      \strng{authorfullhash}{7376e3b151f73a068e6dc00cb3faf896}
+      \field{sortinit}{4}
+      \field{sortinithash}{d221becdd544034cf9082056cd6e6d2d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{5}
+      \field{title}{Artec Ray}
+      \field{year}{2019}
+      \verb{url}
+      \verb https://www.artec3d.com/de/portable-3d-scanners/laser-ray#specifications
+      \endverb
+    \endentry
+    \entry{NEMA}{standard}{}
+      \list{institution}{1}{%
+        {National Electrical Manufacturers Association}%
+      }
+      \list{organization}{1}{%
+        {National Electrical Manufacturers Association}%
+      }
+      \field{sortinit}{4}
+      \field{sortinithash}{d221becdd544034cf9082056cd6e6d2d}
+      \field{labeltitlesource}{title}
+      \field{title}{NEMA ICS 16}
+      \field{year}{2001}
+      \verb{url}
+      \verb https://www.nema.org/Standards/Pages/Motion-Position-Control-Motors-Controls-and-Feedback-Devices.aspx
+      \endverb
+    \endentry
+    \entry{TFMINI}{online}{}
+      \field{sortinit}{4}
+      \field{sortinithash}{d221becdd544034cf9082056cd6e6d2d}
+      \field{labeltitlesource}{title}
+      \field{title}{Seeedstudio Grove - TF Mini LiDAR Datasheet}
+      \verb{url}
+      \verb https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&ved=2ahUKEwiu1ef2_MLgAhUCbFAKHRp7DaQQFjABegQIAxAC&url=http%3A%2F%2Fstatics3.seeedstudio.com%2Fassets%2Ffile%2Fbazaar%2Fproduct%2FLiDAR_TF_mini_Datasheet.docx&usg=AOvVaw2Td3zuc0AlicOQ23PnxB2-
+      \endverb
+    \endentry
+    \entry{VL53L1X}{online}{}
+      \field{sortinit}{4}
+      \field{sortinithash}{d221becdd544034cf9082056cd6e6d2d}
+      \field{labeltitlesource}{title}
+      \field{title}{Long-distance ranging sensor expansion board based on VL53L1X for STM32 Nucleo}
+      \verb{url}
+      \verb https://www.st.com/en/ecosystems/x-nucleo-53l1a1.html
+      \endverb
+    \endentry
+    \entry{VL53L1X_manual}{online}{}
+      \field{sortinit}{4}
+      \field{sortinithash}{d221becdd544034cf9082056cd6e6d2d}
+      \field{labeltitlesource}{title}
+      \field{title}{VL53L1X}
+      \verb{url}
+      \verb https://www.st.com/resource/en/datasheet/vl53l1x.pdf
+      \endverb
+    \endentry
+    \entry{NEMA17}{online}{}
+      \field{sortinit}{4}
+      \field{sortinithash}{d221becdd544034cf9082056cd6e6d2d}
+      \field{labeltitlesource}{title}
+      \field{title}{Pololu Stepper Motor NEMA 17}
+      \verb{url}
+      \verb https://eckstein-shop.de/Pololu-Stepper-Motor-NEMA-17-Unipolar-Bipolar-200-Steps-Rev-4248mm-4V-12-A-Phase
+      \endverb
+    \endentry
+    \entry{LM393}{online}{}
+      \field{sortinit}{4}
+      \field{sortinithash}{d221becdd544034cf9082056cd6e6d2d}
+      \field{labeltitlesource}{title}
+      \field{title}{10mm Lichtschranke Photoelectric Infrarot Zähler Counter Sensor Modul, lalaal}
+      \verb{url}
+      \verb https://eckstein-shop.de/10mm-Lichtschranke-Photoelectric-Infrarot-Zaehler-Counter-Sensor-Modul
+      \endverb
+    \endentry
+    \entry{MPU-6050}{online}{}
+      \field{sortinit}{5}
+      \field{sortinithash}{c9df3c9fb8f555dd9201cedc5e343021}
+      \field{labeltitlesource}{title}
+      \field{title}{MPU-6000and MPU-6050Product SpecificationRevision 3.4}
+      \verb{url}
+      \verb https://store.invensense.com/datasheets/invensense/MPU-6050_DataSheet_V3%204.pdf
+      \endverb
+    \endentry
+    \entry{raspi_pinout}{online}{}
+      \name{author}{1}{}{%
+        {{hash=8604f00b4c0dfc1adf141c994ba5797f}{%
+           family={XYZ},
+           familyi={X\bibinitperiod},
+           given={Pinout},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{8604f00b4c0dfc1adf141c994ba5797f}
+      \strng{fullhash}{8604f00b4c0dfc1adf141c994ba5797f}
+      \strng{authornamehash}{8604f00b4c0dfc1adf141c994ba5797f}
+      \strng{authorfullhash}{8604f00b4c0dfc1adf141c994ba5797f}
+      \field{sortinit}{5}
+      \field{sortinithash}{c9df3c9fb8f555dd9201cedc5e343021}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{6}
+      \field{title}{Raspberry pi pinout}
+      \field{year}{2019}
+      \verb{url}
+      \verb https://pinout.xyz/resources/raspberry-pi-pinout.png
+      \endverb
+    \endentry
+    \entry{raspi}{online}{}
+      \name{author}{1}{}{%
+        {{hash=cfc124424a21c596c14a4cb50ebc8d89}{%
+           family={Foundation},
+           familyi={F\bibinitperiod},
+           given={Raspberry\bibnamedelima Pi},
+           giveni={R\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{cfc124424a21c596c14a4cb50ebc8d89}
+      \strng{fullhash}{cfc124424a21c596c14a4cb50ebc8d89}
+      \strng{authornamehash}{cfc124424a21c596c14a4cb50ebc8d89}
+      \strng{authorfullhash}{cfc124424a21c596c14a4cb50ebc8d89}
+      \field{sortinit}{5}
+      \field{sortinithash}{c9df3c9fb8f555dd9201cedc5e343021}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{6}
+      \field{title}{Raspberry Pi 3 Model B}
+      \field{year}{2019}
+      \verb{url}
+      \verb https://www.raspberrypi.org/products/raspberry-pi-3-model-b/
+      \endverb
+    \endentry
+    \entry{raspi1}{online}{}
+      \name{author}{1}{}{%
+        {{hash=1a39fc8186880cc3124ca80ffb07dfbd}{%
+           family={Kompendium},
+           familyi={K\bibinitperiod},
+           given={Elektronik},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{1a39fc8186880cc3124ca80ffb07dfbd}
+      \strng{fullhash}{1a39fc8186880cc3124ca80ffb07dfbd}
+      \strng{authornamehash}{1a39fc8186880cc3124ca80ffb07dfbd}
+      \strng{authorfullhash}{1a39fc8186880cc3124ca80ffb07dfbd}
+      \field{sortinit}{5}
+      \field{sortinithash}{c9df3c9fb8f555dd9201cedc5e343021}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{6}
+      \field{title}{Raspberry Pi}
+      \field{year}{2019}
+      \verb{url}
+      \verb https://www.elektronik-kompendium.de/sites/raspberry-pi/2002171.htm
+      \endverb
+    \endentry
+    \entry{raspi2}{online}{}
+      \name{author}{1}{}{%
+        {{hash=5d409a9854d820967059e2fce153f0f2}{%
+           family={Randombrick},
+           familyi={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{5d409a9854d820967059e2fce153f0f2}
+      \strng{fullhash}{5d409a9854d820967059e2fce153f0f2}
+      \strng{authornamehash}{5d409a9854d820967059e2fce153f0f2}
+      \strng{authorfullhash}{5d409a9854d820967059e2fce153f0f2}
+      \field{sortinit}{5}
+      \field{sortinithash}{c9df3c9fb8f555dd9201cedc5e343021}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{6}
+      \field{title}{Raspberry pi als WLAN access point nutzen}
+      \field{year}{2019}
+      \verb{url}
+      \verb https://www.randombrick.de/raspberry-pi-als-wlan-access-point-nutzen/
+      \endverb
+    \endentry
+    \entry{nodejs}{online}{}
+      \name{author}{1}{}{%
+        {{hash=bd21525362368ddbd79358cdcf66005d}{%
+           family={W3Schools},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{bd21525362368ddbd79358cdcf66005d}
+      \strng{fullhash}{bd21525362368ddbd79358cdcf66005d}
+      \strng{authornamehash}{bd21525362368ddbd79358cdcf66005d}
+      \strng{authorfullhash}{bd21525362368ddbd79358cdcf66005d}
+      \field{sortinit}{5}
+      \field{sortinithash}{c9df3c9fb8f555dd9201cedc5e343021}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{6}
+      \field{title}{NodeJS with Raspberry Pi}
+      \field{year}{2019}
+      \verb{url}
+      \verb https://www.w3schools.com/nodejs/nodejs_raspberrypi.asp
+      \endverb
+    \endentry
+    \entry{flask}{online}{}
+      \name{author}{1}{}{%
+        {{hash=9784e91c7b2657917226bc82afdd6789}{%
+           family={Flask},
+           familyi={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{9784e91c7b2657917226bc82afdd6789}
+      \strng{fullhash}{9784e91c7b2657917226bc82afdd6789}
+      \strng{authornamehash}{9784e91c7b2657917226bc82afdd6789}
+      \strng{authorfullhash}{9784e91c7b2657917226bc82afdd6789}
+      \field{sortinit}{5}
+      \field{sortinithash}{c9df3c9fb8f555dd9201cedc5e343021}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{5}
+      \field{title}{Flask Microframework}
+      \field{year}{2019}
+      \verb{url}
+      \verb http://flask.pocoo.org
       \endverb
     \endentry
   \endsortlist

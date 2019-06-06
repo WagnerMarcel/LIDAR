@@ -24,7 +24,8 @@ Ein großer Vorteil des \ac{ToF} Verfahrens ist, dass durch die Reflexion von Pa
 Bei dieser Technologie entstehen allerdings einige Probleme, auf welche im Folgenden eingegangen wird. Generell sind alle Probleme welche bei \ac{ToF} auftreten miteinander verknüpft, bzw. bedingen sich gegenseitig. \\
 Das erste Problem welches Auftritt ist, dass nie das gesamte ausgesandte Licht zur Detektion zur Verfügung steht. Durch verschiedene Reflexionsgrade verschiedener Oberflächen und die generelle Streuung des Lichts beim Auftreffen auf eine Oberfläche wir immer nur ein geringer Teil direkt zum Sensor zurückgeworfen. Daher sind hoch empfindliche Sensoren nötig um eine zuverlässige Detektion zu ermöglichen.
 \ac{SPAD} sind für die Anwendung in einem \ac{ToF} \ac{LIDAR} System sehr gut geeignet. Vor allem in einer Anordnung zu einem Array, da eine größere Sensorfläche mit gleichbleibender Genauigkeit realisiert werden kann, und somit eine größere Streuung des reflektierten Lichts abgedeckt werden kann. Allerdings ist das Detektieren des zurückgeworfenen Lichts nicht die einzige Herausforderung welche auftritt, denn mit steigender Distanz nimmt die Dämpfung des Lichtimpulses immer weiter zu und die Signalintensität nimmt ab. 
-Eine Lösung dafür könnte sein, eine stärkere Lichtquelle zu verwenden. Dies birgt allerdings große Sicherheitsrisiken und ist daher nur begrenzt möglich. Eine zweite Lösung ist, die maximale Messentfernung zu limitieren, allerdings birgt dies ein anderes Problem. Dieses und ein weiteres Problem, welches im Zusammenhang mit der minimalen Messentfernung steht, wird anhand eines Beispiels erläutert.\\
+Eine Lösung dafür könnte sein, eine stärkere Lichtquelle zu verwenden. Dies birgt allerdings große Sicherheitsrisiken und ist daher nur begrenzt möglich. Eine zweite Lösung ist, die maximale Messentfernung zu limitieren, allerdings birgt dies ein anderes Problem. Dieses und ein weiteres Problem, welches im Zusammenhang mit der minimalen Messentfernung steht, wird anhand eines Beispiels erläutert.
+\newpage
 Man nehme an, es existiert ein fiktiver \ac{LIDAR} Sensor mit folgenden Werten:
 \begin{itemize}
 	\item Minimale Messentfernung $d_{min}=1\:cm$
@@ -34,7 +35,7 @@ Man nehme an, es existiert ein fiktiver \ac{LIDAR} Sensor mit folgenden Werten:
 Formel \ref{lichtlaufzeit} kann umgestellt werden, um die Zeiten zu errechnen, welche das Licht für die minimale und maximale Messentfernung benötigt. 
 \begin{equation}\formelentry{Berechnung der minimalen und maximalen Zeit}
 	\begin{split}
-		t = \frac{r \cdot 2}{c}\\
+		t = \frac{r \cdot 2}{c} \qquad\qquad\qquad\\
 		t_{min} = \frac{0.01 m \cdot 2}{299,79 \cdot 10^6\: \frac{m}{s}} = 667,13 \cdot 10^{-9}\:s\\
 		t_{max} = \frac{1000 m \cdot 2}{299,79 \cdot 10^6\: \frac{m}{s}} = 6,6713 \cdot 10^{-6}\:s\\
 	\end{split}
@@ -102,6 +103,7 @@ Dazu kommt auch, dass mit Modulationsfrequenzen im Megahertz Bereich sehr hohe M
 	&c = \text{Lichtgeschwindigkeit} \left[\frac{m}{s} \right]&
 \end{flalign*}
 Bei einer Wellenlänge von $2\:m$ liegt der eindeutige Bereich zwar nur noch bei einem Meter, jedoch lässt sich die Phasendifferenz sehr genau bestimmen und somit ist eine höhere Genauigkeit möglich als beispielsweise bei einer Wellenlänge von $150\: m$.
+\newpage
 \subsection{Herausforderungen}
 Eine der größten Herausforderungen des Phasenverschiebungsverfahrens sind Störeinflüsse aus der Umwelt. Regen beispielsweise kann sich sehr störend auf die Messergebnisse auswirken. Ebenfalls kann keine zusätzliche Information aus der Reflexion erlangt werden, wie dies beispielsweise beim \ac{ToF} Verfahren möglich ist.\\
 Die zum \ac{ToF} Verfahren vergleichsweise wenigen Herausforderungen sind Grund dafür, dass das Phasenverschiebungsverfahren sehr weit verbreitet ist und viele Anwendungen findet.
@@ -141,6 +143,7 @@ Der Aufbau wie in Abbildung \ref{triangulation} kann auch mit Sender und Empfän
 Wenn man nun eine bikonvexe Linse vor das \ac{PSD} positioniert, wird das gesamte einfallende Licht gebündelt und als ein Punkt auf dem \ac{PSD} messbar.
 Durch den Abstand des \ac{PSD} zur Linse und die Position des Lichtpunkts auf dem \ac{PSD} lässt sich dann der Winkel des einfallendes Lichts bestimmen.\\
 Dieser Winkel kann dann wie beschrieben zur Bestimmung der Entfernung der reflektierenden Oberfläche verwendet werden. \\
+\newpage
 Ein sehr großer Vorteil des Triangulationsverfahrens ist, dass es mit sehr preiswerten Bauteilen realisiert werden kann, da wie bereits erwähnt für Anwendungen mit sehr niedrigen Anforderungen eine \ac{LED} als Lichtquelle ausreicht. Ebenfalls sind die Photodioden nicht kompliziert oder teuer, anders als beispielsweise \ac{SPAD} Dioden welche für \ac{ToF} oder Phasenverschiebungverfahren verwendet werden.\\
 Zudem kann durch konstantes Einschalten der Lichtquelle sehr gut eine Geschwindigkeit bestimmt werden, da die \ac{PSD} innerhalb von wenigen Nanosekunden ihren Strom ändern und somit eine sehr schnelle Detektion eines sich bewegenden Objekts möglich ist. \cite{triangulation}\cite{psd}
 \subsection{Herausforderungen}

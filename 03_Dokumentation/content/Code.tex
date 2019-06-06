@@ -36,7 +36,6 @@ def __init__(self, Step, Dir, MS1, MS2, MS3):
     GPIO.output(self.MS2, GPIO.HIGH)
     GPIO.output(self.MS3, GPIO.LOW)
 \end{lstlisting}
-
 \subsection{Bewegen des Motors}
 Die Motor Klasse besitzt zudem noch eine Funktion, mittels welcher sich der jeweilige Motor bewegen lässt (Listing \ref{motor_move}). In der Funktion wird zunächst die Drehrichtung je nach Übergabeparameter gesetzt (Zeile 2 - 5). Anschließend wird ein bzw. je nachdem wie viele Schritte gefordert werden, ausführt. Um einen kompletten Schritt zu vollenden, wird der dafür vorgesehene Pin des Motortreibers Ein und wieder Aus geschaltet. Die Zeit zwischen diesen beiden Vorgängen kann über einen Übergabeparameter der Funktion eingestellt werden (Zeile 8 - 13). Dies bestimmt direkt die Drehgeschwindigkeit des Motors. Wird eine geringe Zeit übergeben, wird eine schnellere Drehung des Motors erreicht. 
 \begin{lstlisting}[caption={Funktion zum Bewegen des Motors}, language={Python}, label={motor_move}, numbers=left]
@@ -106,6 +105,7 @@ Die Funktion um Daten vom \ac{LIDAR} Sensor zu bekommen ist auch in der Klasse 
 \end{lstlisting}
 In Listing \ref{lidar_getData} kann man sehen, dass ähnlich wie im Konstruktor je nachdem welcher Sensor 'ausgewählt' wurde, unterschiedliche Methoden verwendet werden um Daten zu bekommen. Der erste Abschnitt in Zeile 3 - 13 ist für die Verwendung eines Sensors mittels \ac{UART} gedacht. Da \ac{UART} ein serieller Bus ist, auf welchen vom Slave konstant Daten geschickt werden, wartet diese Funktion so lange, bis neue Daten ankommen. Die neuen Daten werden durch zwei aufeinanderfolgende 'Y' gekennzeichnet. Anschließend werden die zwei Byte für die Entfernung gespeichert (Zeile 7 \& 8) und zur Gesamtdistanz zusammengefügt (Zeile 9). Anschließend wird die bereits erwähnte Flag der Klasse gesetzt, damit nur ein einzelner Wert aufgenommen wird.\\
 Die zweite Methode in Zeile 15 - 16 ist deutlich einfacher, da hierbei eine Bibliothek verwendet werden kann. Dabei muss die Distanz lediglich in die richtige Größe konvertiert werden (Zeile 15 - 16).
+\newpage
 \section{Steuerung}
 Die dritte und letzte Datei beschäftigt sich mit der generellen Steuerung des Systems und dem Initialisieren und Aufrufen der Klassen und derer Funktionen.\\
 Für die Steuerung des Systems werden einige Bibliotheken mehr benötigt.
@@ -124,7 +124,13 @@ import Motor
 GPIO.setmode(GPIO.BOARD)
 GPIO.setwarnings(False)
 \end{lstlisting}
-Die Bibliotheken in Zeile 2 \& 3 (Listing \ref{main_bibliotheken})werden für die Benennung der Dateien, welche produziert werden, benötigt. Die 'math' Bibliothek wird für einige Berechnungen verwendet und die 'RPi.GPIO' wird wie bereits erwähnt benötigt, um die \acp{GPIO} des Raspberry Pi möglichst einfach anzusteuern. Anschließend werden dann noch die zwei Klassen importiert, welche in den vorangegangenen Abschnitten erklärt werden. Zudem wird noch der Modus der \ac{GPIO} Nummerierung festgelegt. In diesem Fall ist der Modus gleich der Nummerierung der Pins auf dem Board. \todo{Bild GPIO pinout}\\
+Die Bibliotheken in Zeile 2 \& 3 (Listing \ref{main_bibliotheken})werden für die Benennung der Dateien, welche produziert werden, benötigt. Die 'math' Bibliothek wird für einige Berechnungen verwendet und die 'RPi.GPIO' wird wie bereits erwähnt benötigt, um die \acp{GPIO} des Raspberry Pi möglichst einfach anzusteuern. Anschließend werden dann noch die zwei Klassen importiert, welche in den vorangegangenen Abschnitten erklärt werden. Zudem wird noch der Modus der \ac{GPIO} Nummerierung festgelegt. In diesem Fall ist der Modus gleich der Nummerierung der Pins auf dem Board. 
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.75\textwidth]{images/Code/raspberry-pi-pinout}
+	\caption{Raspberry Pi pinout \cite{raspi_pinout}}
+	\label{raspi_pinout}
+\end{figure}
 \subsection{Pin Definitionen und Initialisieren der Klassen}
 Da wie in den vorangegangenen Kapiteln erläutert Klassen für Motor und Lidar erstellt wurden, müssen diese nun aufgerufen und initialisiert werden. Zudem sind weitere \acp{GPIO} nötig um das gesamte System zu Steuern.
 \begin{lstlisting}[caption={Initialisieren von Variablen und Klassen}, language={Python}, label={main_classes}, numbers=left]
