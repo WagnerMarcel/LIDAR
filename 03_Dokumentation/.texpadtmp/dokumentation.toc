@@ -127,7 +127,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {7.4.2}Schaltplan}{42}{subsection.7.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.4.3}Layout}{44}{subsection.7.4.3}
+\contentsline {subsection}{\numberline {7.4.3}Layout}{45}{subsection.7.4.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {8}Python Code zur Steuerung des Systems}{46}{chapter.8}
 \defcounter {refsection}{0}\relax 
